@@ -35,6 +35,56 @@ def _get_api_client():
     return genai.Client(api_key=api_key)
 
 
+
+ELEVENLABS_VOICES = {
+    "brian": "nPczCjzI2devNBz1zQrb",   # Deep, Resonant, Analytical (Cinema X-Ray Video Essay)
+    "adam": "pNInz6obpgDQGcFmaJgB",    # Dominant, Firm, Dramatic
+    "roger": "CwhRBWXzGAHq8TQ4Fs17",   # Resonant, Casual
+    "george": "JBFqnCBsd6RMkjVDRZzb",  # British Storyteller
+}
+
+def _synthesize_elevenlabs_tts(script_text: str, temp_wav_path: str, voice_name: str = "brian") -> None:
+    """Synthesizes audio using ElevenLabs REST API and converts to 24kHz mono PCM WAV."""
+    import requests
+    api_key = os.environ.get("ELEVENLABS_API_KEY", "sk_5bee36c5d62728dc6c787af78d15981d7112dce3882a1d74")
+    voice_id = ELEVENLABS_VOICES.get(voice_name.lower(), voice_name)
+    url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
+    payload = {
+        "text": script_text,
+        "model_id": "eleven_multilingual_v2",
+        "voice_settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.8,
+            "style": 0.0,
+            "use_speaker_boost": True
+        }
+    }
+    headers = {
+        "xi-api-key": api_key,
+        "Content-Type": "application/json"
+    }
+    print(f"[ElevenLabs TTS] Generating audio with voice '{voice_name}'...")
+    res = requests.post(url, json=payload, headers=headers)
+    if res.status_code != 200:
+        raise RuntimeError(f"ElevenLabs API failed ({res.status_code}): {res.text}")
+    
+    os.makedirs(os.path.dirname(temp_wav_path), exist_ok=True)
+    temp_mp3 = temp_wav_path + ".temp.mp3"
+    with open(temp_mp3, "wb") as f:
+        f.write(res.content)
+    
+    # Convert MP3 to 24kHz mono PCM WAV
+    subprocess.run([
+        "ffmpeg", "-y", "-v", "quiet",
+        "-i", temp_mp3,
+        "-ar", "24000",
+        "-ac", "1",
+        "-c:a", "pcm_s16le",
+        temp_wav_path
+    ], check=True)
+    if os.path.exists(temp_mp3):
+        os.remove(temp_mp3)
+
 def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
     """Invokes Gemini TTS for Achird voice and saves raw 24kHz mono PCM WAV."""
     client = _get_api_client()
@@ -140,7 +190,9 @@ def verify_audio_file(audio_path: str, video_format: str = "SHORT_45_SEC") -> fl
 def generate_achird_audio(
     script_input: Union[str, Path, Dict[str, Any]],
     output_path: str,
-    video_format: str = "SHORT_45_SEC"
+    video_format: str = "SHORT_45_SEC",
+    provider: str = None,
+    elevenlabs_voice: str = "brian"
 ) -> float:
     """
     Generates studio-quality Achird voiceover with loudness normalization and smart caching.
@@ -182,7 +234,10 @@ def generate_achird_audio(
             script_text = str(script_input).strip()
 
         raw_unmastered = str(temp_dir / f"raw_{Path(output_path).stem}.wav")
-        _synthesize_raw_tts(script_text, raw_unmastered)
+        if provider == "elevenlabs":
+            _synthesize_elevenlabs_tts(script_text, raw_unmastered, voice_name=elevenlabs_voice)
+        else:
+            _synthesize_raw_tts(script_text, raw_unmastered)
 
         print("[Audio Mastering] Normalizing loudness to broadcast standard (-14 LUFS)...")
         _apply_loudness_normalization(raw_unmastered, output_path)
@@ -215,7 +270,10 @@ def generate_achird_audio(
             # Check chapter cache
             if not ch_wav.exists() or ch_wav.stat().st_size < 5000:
                 print(f"  🎙️ Synthesizing Chapter {ch_idx}/{len(chapter_keys)} ({len(ch_text.split())} words)...")
-                _synthesize_raw_tts(ch_text, str(ch_wav))
+                if provider == "elevenlabs":
+                    _synthesize_elevenlabs_tts(ch_text, str(ch_wav), voice_name=elevenlabs_voice)
+                else:
+                    _synthesize_raw_tts(ch_text, str(ch_wav))
             else:
                 print(f"  ♻️ Reusing cached Chapter {ch_idx}/{len(chapter_keys)}...")
 
@@ -250,3 +308,18 @@ if __name__ == "__main__":
     test_script = "In Age of Ultron, when Steve Rogers barely nudged Thor's hammer, Thor's smile instantly vanished."
     dur = generate_achird_audio(test_script, "/tmp/test_achird_short.wav")
     print(f"Short test duration: {dur:.2f}s")
+
+def generate_elevenlabs_audio(
+    script_input: Union[str, Path, Dict[str, Any]],
+    output_path: str,
+    voice_name: str = "brian",
+    video_format: str = "SHORT_45_SEC"
+) -> float:
+    """Generates broadcast-mastered ElevenLabs audio for Short-Form or Long-Form."""
+    return generate_achird_audio(
+        script_input=script_input,
+        output_path=output_path,
+        video_format=video_format,
+        provider="elevenlabs",
+        elevenlabs_voice=voice_name
+    )
