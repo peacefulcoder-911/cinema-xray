@@ -88,7 +88,24 @@ Accent: American (General).
             print(f"[Gemini TTS] Model {m} note: {e}")
             last_err = e
 
-    raise RuntimeError(f"Gemini TTS synthesis failed across candidate models: {last_err}")
+    print(f"[Gemini TTS] Warning: Online TTS failed ({last_err}). Falling back to local studio voice (Samantha)...")
+    try:
+        aiff_path = temp_wav_path + ".aiff"
+        voice = "Samantha"
+        subprocess.run(["say", "-v", voice, "-o", aiff_path, script_text], check=True)
+        subprocess.run([
+            "ffmpeg", "-y", "-v", "quiet",
+            "-i", aiff_path,
+            "-ar", "24000",
+            "-ac", "1",
+            "-c:a", "pcm_s16le",
+            temp_wav_path
+        ], check=True)
+        if os.path.exists(aiff_path):
+            os.remove(aiff_path)
+        return
+    except Exception as fallback_err:
+        raise RuntimeError(f"Gemini TTS synthesis and system fallback both failed: {last_err} | {fallback_err}")
 
 
 def _apply_loudness_normalization(input_wav: str, output_wav: str) -> None:

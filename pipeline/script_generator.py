@@ -39,7 +39,7 @@ def _get_api_client():
 
 def _generate_with_resilience(client, contents: List[str], response_schema: Any, temperature: float = 0.25) -> str:
     """Generate structured content with model fallback and exponential backoff retry."""
-    models_to_try = ["gemini-flash-latest", "gemini-flash-lite-latest"]
+    models_to_try = ["gemini-flash-lite-latest", "gemini-3.1-flash-lite", "gemini-flash-latest"]
     last_err = None
 
     for model_name in models_to_try:

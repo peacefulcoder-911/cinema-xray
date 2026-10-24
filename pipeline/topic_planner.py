@@ -8,6 +8,7 @@ import os
 import re
 import sqlite3
 import json
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import Literal, List, Dict, Any, Optional
@@ -58,7 +59,7 @@ DEFAULT_CLUSTERS = [
 
 
 def _generate_with_resilience(client, contents, response_schema, temperature=0.2):
-    models = ["gemini-flash-latest", "gemini-flash-lite-latest"]
+    models = ["gemini-flash-lite-latest", "gemini-3.1-flash-lite", "gemini-flash-latest"]
     last_err = None
     for model_name in models:
         for attempt in range(3):
