@@ -1,0 +1,25 @@
+[Script Info]
+Title: Marvel Decoded - Fast Edition
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Black,64,&H00FFFFFF,&H000000FF,&H00000000,&H90000000,-1,0,0,0,100,100,1,0,1,6,3,2,60,60,420,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.25,0:00:02.50,Default,,0,0,0,,IN AGE OF ULTRON...
+Dialogue: 0,0:00:02.50,0:00:04.70,Default,,0,0,0,,CAP MOVES {\c&H0000E5FF&}THOR'S HAMMER{\c&H00FFFFFF&}... THEN STOPS.
+Dialogue: 0,0:00:04.95,0:00:08.20,Default,,0,0,0,,FIVE YEARS LATER, MJOLNIR {\c&H0000E5FF&}FLIES TO HIS HAND{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:08.50,0:00:10.80,Default,,0,0,0,,WHY COULDN'T HE LIFT IT? {\c&H0000E5FF&}HE COULD{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:11.20,0:00:13.30,Default,,0,0,0,,PSYCHOLOGISTS CALL IT {\c&H0000E5FF&}STATUS PRESERVATION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:13.65,0:00:17.10,Default,,0,0,0,,THE SECOND IT BUDGED, STEVE SAW {\c&H0000E5FF&}PANIC IN THOR'S EYES{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:17.35,0:00:21.00,Default,,0,0,0,,LIFTING IT WOULD {\c&H0000E5FF&}HUMILIATE THOR{\c&H00FFFFFF&} IN FRONT OF HIS TEAM.
+Dialogue: 0,0:00:21.40,0:00:22.50,Default,,0,0,0,,SO STEVE {\c&H0000E5FF&}LET GO{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:22.85,0:00:25.20,Default,,0,0,0,,IN ENDGAME, THOR WAS {\c&H0000E5FF&}SECONDS FROM DYING{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:25.55,0:00:27.00,Default,,0,0,0,,EGO DIDN'T MATTER ANYMORE.
+Dialogue: 0,0:00:27.35,0:00:29.80,Default,,0,0,0,,WORTHINESS WAS NEVER ABOUT {\c&H0000E5FF&}FLEXING POWER{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:30.00,0:00:31.96,Default,,0,0,0,,IT WAS KNOWING {\c&H0000E5FF&}WHEN TO HOLD BACK{\c&H00FFFFFF&}.

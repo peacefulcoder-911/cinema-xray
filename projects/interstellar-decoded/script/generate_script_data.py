@@ -1,0 +1,94 @@
+import json
+
+chapters = [
+    {
+        "id": "00_prologue",
+        "title": "THE PHYSICS OF INTERSTELLAR",
+        "subtitle": "When Science Fiction Meets Gravitational Physics",
+        "script": (
+            "Most science fiction treats the laws of physics as mere suggestions. "
+            "But when Christopher Nolan made Interstellar, he partnered with Nobel laureate Kip Thorne to do something unprecedented: "
+            "they didn't just imagine the cosmos—they calculated it. "
+            "The visual effects in this film were driven by actual gravitational equations, resulting in simulations so precise they generated new peer-reviewed scientific discoveries. "
+            "Today, we decode every scientific concept in Interstellar—from warped spacetime to the fifth dimension."
+        ),
+        "director_note": "Authoritative, awe-inspiring, measured cinematic cadence."
+    },
+    {
+        "id": "01_wormhole",
+        "title": "CHAPTER 1: THE SPHERICAL WORMHOLE",
+        "subtitle": "Einstein-Rosen Bridges & Spacetime Curvature",
+        "script": (
+            "Our journey begins near Saturn with an anomaly: a wormhole, formally known in theoretical physics as an Einstein-Rosen bridge. "
+            "In popular culture, wormholes are portrayed as flat swirling holes. But in three-dimensional space, that is physically impossible. "
+            "As physicist Romilly demonstrates, if you punch a hole in a two-dimensional sheet of paper, the hole is a two-dimensional circle. "
+            "Add another spatial dimension, and that circle becomes a three-dimensional sphere. "
+            "A wormhole in our universe isn't a tunnel you slide down—it is a spherical glass-like gateway, reflecting the warped starlight of a distant galaxy millions of light-years away."
+        ),
+        "director_note": "Intriguing, explanatory, clear emphasis on geometric dimensions."
+    },
+    {
+        "id": "02_millers_planet",
+        "title": "CHAPTER 2: GRAVITATIONAL TIME DILATION",
+        "subtitle": "Miller's Planet — Where 1 Hour Equals 7 Years",
+        "script": (
+            "Once through the bridge, the crew lands on Miller's planet, where one hour on the surface equals seven Earth years. "
+            "This isn't fantasy—it is Einstein's General Relativity in its most extreme manifestation. "
+            "Gravity is not simply a force; it is the physical warping of spacetime caused by massive objects. "
+            "The deeper you descend into a gravitational well, the slower your clock ticks relative to someone far away. "
+            "Because Miller's planet skims just outside the event horizon of a supermassive black hole, time itself is stretched to the breaking point. "
+            "And those towering four-thousand-foot waves? They are not tsunamis from earthquakes. "
+            "They are permanent tidal bulges—colossal gravitational tugs exerted by Gargantua, holding walls of water frozen in time."
+        ),
+        "director_note": "Tense, profound, conveying the heavy weight of lost time."
+    },
+    {
+        "id": "03_gargantua",
+        "title": "CHAPTER 3: GARGANTUA & GRAVITATIONAL LENSING",
+        "subtitle": "The Anatomy of a Rotating Kerr Black Hole",
+        "script": (
+            "At the heart of the system looms Gargantua: a supermassive Kerr black hole with the mass of one hundred million suns, spinning at ninety-nine point eight percent the speed of light. "
+            "To depict Gargantua, Thorne provided thirty pages of differential equations to the visual effects team. "
+            "The result revealed gravitational lensing: gravity so intense it bends the path of light rays. "
+            "Light emitted from the back of the glowing accretion disk is bent over the top and under the bottom of the black hole. "
+            "What appears to be a vertical halo is actually the backside of the disk warped directly into your line of sight. "
+            "Interstellar didn't just animate a black hole; it computed reality."
+        ),
+        "director_note": "Awe-inspiring, scientific reverence, precise visualization."
+    },
+    {
+        "id": "04_tesseract",
+        "title": "CHAPTER 4: THE 5TH DIMENSION & THE TESSERACT",
+        "subtitle": "Bulk Hyperspace & Gravity Transcending Time",
+        "script": (
+            "When Cooper falls through the event horizon, he doesn't crash into a physical singularity. "
+            "He enters the Tesseract—an interface constructed by fifth-dimensional bulk beings, who are humanity evolved into the distant future. "
+            "In modern theoretical physics and string theory, our four-dimensional universe of three space dimensions and one time dimension is embedded within a higher-dimensional hyperspace called 'the bulk.' "
+            "To a five-dimensional observer, time is not an irreversible river. Time is a physical spatial dimension. "
+            "Just as you can walk left or right across a room, a bulk entity can walk physically between yesterday, today, and tomorrow. "
+            "Because the human mind cannot fathom five dimensions, the Tesseract renders time as a three-dimensional geometric lattice of Murph's bedroom. "
+            "And how does Cooper transmit the quantum data? Gravity. "
+            "Electromagnetism and nuclear forces are trapped on our 3D brane. But gravity is the fabric of spacetime itself—the only force capable of bleeding across dimensions, allowing Cooper to twitch the second hand of Murph's watch."
+        ),
+        "director_note": "Deep philosophical resonance, intellectual depth, emotional climax."
+    },
+    {
+        "id": "05_quantum_gravity",
+        "title": "CHAPTER 5: SOLVING QUANTUM GRAVITY",
+        "subtitle": "Unifying Relativity with the Quantum Realm",
+        "script": (
+            "The grandest unsolved mystery in physics is the rift between Einstein's General Relativity, which explains the vast cosmos, and Quantum Mechanics, which governs subatomic particles. "
+            "To unlock gravity propulsion and lift humanity into space stations, Professor Brand needed quantum data from inside a gravitational singularity. "
+            "By relaying that data through the tick of an old wristwatch, Cooper bridged the infinite and the infinitesimal. "
+            "Interstellar proves that science and emotion are not opposites. "
+            "As Kip Thorne noted, gravity is the only phenomenon capable of traversing higher dimensions. "
+            "And through gravity, our connection to each other transcends both space and time."
+        ),
+        "director_note": "Triumphant, uplifting, cosmic harmony."
+    }
+]
+
+with open("/Users/vinaybt/Downloads/interstellar-decoded/script/interstellar_script.json", "w") as f:
+    json.dump(chapters, f, indent=2)
+
+print("Generated interstellar_script.json with", len(chapters), "chapters!")

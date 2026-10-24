@@ -1,0 +1,33 @@
+[Script Info]
+Title: Marvel Decoded - Why Cap Was Always Worthy
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Black,60,&H00FFFFFF,&H000000FF,&H00000000,&H90000000,-1,0,0,0,100,100,1,0,1,6,3,2,60,60,420,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.50,Default,,0,0,0,,IN AGE OF ULTRON...
+Dialogue: 0,0:00:02.50,0:00:05.50,Default,,0,0,0,,CAPTAIN AMERICA PULLS {\c&H0000E5FF&}THOR'S HAMMER{\c&H00FFFFFF&}...
+Dialogue: 0,0:00:05.50,0:00:08.50,Default,,0,0,0,,MOVES IT AN INCH... AND {\c&H0000E5FF&}GIVES UP{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:08.80,0:00:11.50,Default,,0,0,0,,FIVE YEARS LATER IN ENDGAME...
+Dialogue: 0,0:00:11.50,0:00:14.50,Default,,0,0,0,,MJOLNIR FLIES {\c&H0000E5FF&}STRAIGHT INTO HIS HAND{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:14.70,0:00:17.50,Default,,0,0,0,,DID STEVE SUDDENLY BECOME WORTHY?
+Dialogue: 0,0:00:17.50,0:00:20.50,Default,,0,0,0,,NO. HE WAS {\c&H0000E5FF&}ALWAYS WORTHY{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:21.00,0:00:24.50,Default,,0,0,0,,PSYCHOLOGISTS CALL THIS...
+Dialogue: 0,0:00:24.50,0:00:29.50,Default,,0,0,0,,{\c&H0000E5FF&}STATUS PRESERVATION{\c&H00FFFFFF&}: DOWNPLAYING ABILITY TO PROTECT IDENTITY.
+Dialogue: 0,0:00:29.80,0:00:32.50,Default,,0,0,0,,LOOK CLOSELY AT THE PARTY SCENE.
+Dialogue: 0,0:00:32.60,0:00:35.50,Default,,0,0,0,,THE EXACT MILLISECOND {\c&H0000E5FF&}MJOLNIR BUDGES{\c&H00FFFFFF&}...
+Dialogue: 0,0:00:35.50,0:00:38.20,Default,,0,0,0,,STEVE SEES THE {\c&H0000E5FF&}PANIC IN THOR'S EYES{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:38.50,0:00:42.50,Default,,0,0,0,,LIFTING IT WOULDN'T JUST PROVE STEVE'S STRENGTH...
+Dialogue: 0,0:00:42.50,0:00:46.50,Default,,0,0,0,,IT WOULD {\c&H0000E5FF&}DESTROY THOR'S IDENTITY{\c&H00FFFFFF&} IN FRONT OF HIS TEAM.
+Dialogue: 0,0:00:46.80,0:00:49.80,Default,,0,0,0,,SO STEVE {\c&H0000E5FF&}LETS GO{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:50.00,0:00:53.50,Default,,0,0,0,,IN ENDGAME... THERE'S NO EGO LEFT TO PROTECT.
+Dialogue: 0,0:00:53.80,0:00:56.50,Default,,0,0,0,,THOR IS {\c&H0000E5FF&}SECONDS AWAY{\c&H00FFFFFF&} FROM DYING.
+Dialogue: 0,0:00:56.80,0:01:00.80,Default,,0,0,0,,THE HAMMER DIDN'T ANSWER STEVE BECAUSE HE WAS STRONG ENOUGH...
+Dialogue: 0,0:01:01.00,0:01:04.50,Default,,0,0,0,,TRUE WORTHINESS ISN'T {\c&H0000E5FF&}SHOWING YOUR POWER{\c&H00FFFFFF&}.
+Dialogue: 0,0:01:04.80,0:01:09.00,Default,,0,0,0,,IT'S KNOWING {\c&H0000E5FF&}WHEN TO HOLD BACK{\c&H00FFFFFF&}.

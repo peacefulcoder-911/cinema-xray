@@ -1,0 +1,24 @@
+[Script Info]
+Title: Marvel Decoded - Doctor Strange 14M Futures
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Black,64,&H00FFFFFF,&H000000FF,&H00000000,&H90000000,-1,0,0,0,100,100,1,0,1,6,3,2,60,60,420,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:03.25,Default,,0,0,0,,{\c&H0000E5FF&}DOCTOR STRANGE{\c&H00FFFFFF&} VIEWED\N{\c&H0000E5FF&}14,000,605 FUTURES{\c&H00FFFFFF&}...
+Dialogue: 0,0:00:03.35,0:00:05.75,Default,,0,0,0,,...AND SAW {\c&H0000E5FF&}ONLY ONE{\c&H00FFFFFF&}\NWHERE THEY WON.
+Dialogue: 0,0:00:05.95,0:00:09.85,Default,,0,0,0,,SECONDS LATER, HE HANDED {\c&H0000E5FF&}THANOS{\c&H00FFFFFF&}\NTHE MOST DANGEROUS WEAPON.
+Dialogue: 0,0:00:10.15,0:00:11.15,Default,,0,0,0,,WHY {\c&H0000E5FF&}SURRENDER?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.35,0:00:13.90,Default,,0,0,0,,GAME THEORISTS CALL IT\N{\c&H0000E5FF&}BACKWARD INDUCTION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:14.15,0:00:18.70,Default,,0,0,0,,STRANGE KNEW THANOS WAS\N{\c&H0000E5FF&}MATHEMATICALLY UNSTOPPABLE{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:18.90,0:00:22.80,Default,,0,0,0,,BUT {\c&H0000E5FF&}TONY STARK{\c&H00FFFFFF&} WAS THE ONLY MIND\NCAPABLE OF INVENTING {\c&H0050FA7B&}TIME TRAVEL{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:23.05,0:00:25.50,Default,,0,0,0,,SURRENDERING THE {\c&H0050FA7B&}TIME STONE{\c&H00FFFFFF&}\NWASN'T DEFEAT.
+Dialogue: 0,0:00:25.70,0:00:26.95,Default,,0,0,0,,IT WAS AN {\c&H0000E5FF&}INVESTMENT{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:27.25,0:00:29.05,Default,,0,0,0,,DOCTOR STRANGE DIDN'T\NLOSE THE BATTLE.
+Dialogue: 0,0:00:29.25,0:00:30.70,Default,,0,0,0,,HE INITIATED THE {\c&H0000E5FF&}ENDGAME{\c&H00FFFFFF&}.

@@ -1,0 +1,28 @@
+[Script Info]
+Title: Interstellar Decoded - Video Essay
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,44,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,1,0,1,4,2,2,80,80,80,1
+Style: TitleCard,Arial Black,52,&H0000E5FF,&H000000FF,&H00000000,&H90000000,-1,0,0,0,100,100,2,0,1,5,3,5,60,60,60,1
+Style: SubTitleCard,Trebuchet MS,32,&H00E0E0E0,&H000000FF,&H00000000,&H90000000,0,0,0,0,100,100,1,0,1,3,2,5,60,60,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.80,0:00:05.50,TitleCard,,0,0,0,,{\fad(600,600)}CHAPTER 2: GRAVITATIONAL TIME DILATION
+Dialogue: 1,0:00:00.80,0:00:05.50,SubTitleCard,,0,0,0,,{\fad(600,600)}Miller's Planet — Where 1 Hour Equals 7 Years
+Dialogue: 0,0:00:00.20,0:00:06.00,Default,,0,0,0,,Once through the bridge, the crew lands on {\c&H0000E5FF&}Miller's planet{\c&H00FFFFFF&},
+Dialogue: 0,0:00:06.30,0:00:11.80,Default,,0,0,0,,Where {\c&H0000E5FF&}one hour on the surface equals seven Earth years{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:12.20,0:00:17.80,Default,,0,0,0,,This isn't fantasy—it is Einstein's {\c&H004EF1F2&}General Relativity{\c&H00FFFFFF&} in its most extreme manifestation.
+Dialogue: 0,0:00:18.20,0:00:23.50,Default,,0,0,0,,Gravity is not simply a force; it is the {\c&H0000E5FF&}physical warping of spacetime{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:23.90,0:00:30.00,Default,,0,0,0,,The deeper you descend into a gravitational well, the slower your clock ticks relative to the outside.
+Dialogue: 0,0:00:30.50,0:00:36.50,Default,,0,0,0,,Because Miller's planet skims just outside the event horizon of a supermassive black hole,
+Dialogue: 0,0:00:36.80,0:00:42.20,Default,,0,0,0,,{\c&H004EF1F2&}Time itself is stretched to the breaking point{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:42.80,0:00:48.50,Default,,0,0,0,,And those towering {\c&H0000E5FF&}four-thousand-foot waves{\c&H00FFFFFF&}?
+Dialogue: 0,0:00:48.80,0:00:53.20,Default,,0,0,0,,They are not tsunamis from earthquakes.
+Dialogue: 0,0:00:53.60,0:01:00.00,Default,,0,0,0,,They are {\c&H004EF1F2&}permanent tidal bulges{\c&H00FFFFFF&}—colossal gravitational tugs exerted by Gargantua,
+Dialogue: 0,0:01:00.40,0:01:06.00,Default,,0,0,0,,Holding walls of water frozen in time.

@@ -1,0 +1,31 @@
+[Script Info]
+Title: Marvel Decoded - Tony Stark Nanotech Infinity War
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Black,64,&H00FFFFFF,&H000000FF,&H00000000,&H90000000,-1,0,0,0,100,100,1,0,1,6,3,2,60,60,420,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:02.10,Default,,0,0,0,,EVER NOTICE THE
+Dialogue: 0,0:00:02.10,0:00:04.10,Default,,0,0,0,,{\c&H002A4DFF&}TERRIFYING DETAIL{\c&H00FFFFFF&}\NIN TONY STARK'S SUIT?
+Dialogue: 0,0:00:04.50,0:00:06.30,Default,,0,0,0,,WHEN TONY TAPS HIS CHEST...
+Dialogue: 0,0:00:06.30,0:00:08.20,Default,,0,0,0,,{\c&H0000E5FF&}BILLIONS OF NANOBOTS{\c&H00FFFFFF&}\NSWARM HIS BODY!
+Dialogue: 0,0:00:08.50,0:00:10.50,Default,,0,0,0,,IT LOOKS LIKE\NPURE COMIC BOOK MAGIC.
+Dialogue: 0,0:00:10.90,0:00:13.20,Default,,0,0,0,,EXCEPT... IT OBEYS ONE BRUTAL\N{\c&H0000E5FF&}LAW OF PHYSICS{\c&H00FFFFFF&}:
+Dialogue: 0,0:00:13.20,0:00:15.80,Default,,0,0,0,,{\c&H002A4DFF&}CONSERVATION OF MASS{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:16.10,0:00:18.20,Default,,0,0,0,,EVERY SINGLE NANOBOT\nIS STORED IN THAT
+Dialogue: 0,0:00:18.20,0:00:20.00,Default,,0,0,0,,{\c&H0000E5FF&}SMALL ARC REACTOR HOUSING{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:20.25,0:00:23.00,Default,,0,0,0,,IT CANNOT CREATE PARTICLES\N{\c&H002A4DFF&}OUT OF THIN AIR{\c&H00FFFFFF&}!
+Dialogue: 0,0:00:23.40,0:00:25.50,Default,,0,0,0,,SO WHEN THANOS BLASTS HIM\nWITH THE {\c&H00D950FF&}POWER STONE{\c&H00FFFFFF&}...
+Dialogue: 0,0:00:25.50,0:00:27.00,Default,,0,0,0,,{\c&H0000E5FF&}WATCH TONY'S LEGS!{\c&H00FFFFFF&}
+Dialogue: 0,0:00:27.20,0:00:30.40,Default,,0,0,0,,THE ARMOR STRIPS HIS LOWER BODY\N{\c&H0000E5FF&}TO REINFORCE HIS SHIELD{\c&H00FFFFFF&}!
+Dialogue: 0,0:00:30.90,0:00:34.40,Default,,0,0,0,,AND IN HIS FINAL STAND,\nWHEN HE FORMS A BLADE...
+Dialogue: 0,0:00:34.60,0:00:37.00,Default,,0,0,0,,HIS HELMET {\c&H002A4DFF&}DISSOLVES{\c&H00FFFFFF&}\NTO SUPPLY THE METAL!
+Dialogue: 0,0:00:37.20,0:00:39.30,Default,,0,0,0,,LEAVING HIS HEAD\N{\c&H002A4DFF&}COMPLETELY UNPROTECTED{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:39.60,0:00:41.30,Default,,0,0,0,,TONY WASN'T INVINCIBLE.
+Dialogue: 0,0:00:41.60,0:00:45.80,Default,,0,0,0,,HE WAS ACTIVELY DECIDING\NWHICH ORGAN {\c&H002A4DFF&}TO SACRIFICE NEXT{\c&H00FFFFFF&}.
