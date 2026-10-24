@@ -159,7 +159,7 @@ def run_pipeline(mode: str = "fullscreen"):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["fullscreen", "70pct"], default="fullscreen")
+    parser.add_argument("--mode", choices=["fullscreen", "70pct"], default="70pct")
     parser.add_argument("--upload", action="store_true", help="Upload directly to YouTube upon completion")
     parser.add_argument("--privacy", choices=["public", "unlisted", "private"], default="unlisted", help="YouTube privacy status")
     parser.add_argument("--upload-4k", action="store_true", default=True, help="Upload Ultra 4K UHD master instead of 1080p")
