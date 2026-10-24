@@ -39,3 +39,10 @@ output/clips_long/
 output/temp_long/
 output/final_long_video/
 
+
+# Step 4 Packaging & Config Secrets
+config/
+youtube_token.json
+output/thumbnails_long/
+output/thumbnails_short/
+output/publish_packages/
