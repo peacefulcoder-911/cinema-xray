@@ -35,3 +35,7 @@ output/state/
 *.db-wal
 *.db-shm
 
+output/clips_long/
+output/temp_long/
+output/final_long_video/
+
