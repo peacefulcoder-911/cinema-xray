@@ -26,23 +26,46 @@ def detect_letterbox_crop(video_path: str, sample_sec: float = 10.0) -> str:
 
 def render_70pct_scene_clip(input_video: str, start_sec: float, duration: float, output_path: str, fps: int = 30):
     """
-    Renders a 9:16 vertical clip where the movie footage takes exactly 70% of screen height (1344px out of 1920px),
+    Renders a 9:16 vertical clip where movie footage takes 70% of screen height (1344px out of 1920px),
     stripping letterbox bars and featuring a dynamically blurred, vibrant ambient background.
     """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    
     crop_filter = detect_letterbox_crop(input_video, sample_sec=start_sec + 1.0)
     
-    # Filter breakdown:
-    # 1. Strip hardcoded black bars with crop_filter
-    # 2. Background: Scaled to 1080x1920, blurred with gblur, subtle saturation boost
-    # 3. Foreground: Scaled to height 1344 (70% of 1920), cropped to width 1080
-    # 4. Centered overlay at (0, 288), leaving 288px (15%) top and 288px (15%) bottom
     vf = (
         f"[0:v]{crop_filter}scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=45,eq=brightness=-0.05:contrast=1.1:saturation=1.3[bg];"
         f"[0:v]{crop_filter}scale=-1:1344,crop=1080:1344:(in_w-1080)/2:0[fg];"
         f"[bg][fg]overlay=0:288,setsar=1"
     )
+
+    cmd = [
+        "ffmpeg", "-y",
+        "-ss", f"{start_sec:.3f}",
+        "-t", f"{duration:.3f}",
+        "-i", str(input_video),
+        "-filter_complex", vf,
+        "-c:v", "libx264",
+        "-preset", "ultrafast",
+        "-r", str(fps),
+        "-pix_fmt", "yuv420p",
+        "-an",
+        str(output_path)
+    ]
+    res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)
+    if res.returncode != 0:
+        raise RuntimeError(f"FFmpeg failed for clip {output_path}: {res.stderr[:300]}")
+    return output_path
+
+def render_100pct_fullscreen_clip(input_video: str, start_sec: float, duration: float, output_path: str, x_offset: int = 0, fps: int = 30):
+    """
+    Renders a 9:16 vertical clip where movie footage fills 100% of the screen (full bleed 1080x1920),
+    stripping letterbox bars and applying subject-focused pan & scan.
+    """
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    crop_filter = detect_letterbox_crop(input_video, sample_sec=start_sec + 1.0)
+    
+    crop_x = f"(in_w-1080)/2+{x_offset}" if x_offset != 0 else "(in_w-1080)/2"
+    vf = f"[0:v]{crop_filter}scale=-1:1920,crop=1080:1920:{crop_x}:0,setsar=1"
 
     cmd = [
         "ffmpeg", "-y",
@@ -132,7 +155,6 @@ def export_4k_uhd(input_mp4: str, output_4k_mp4: str):
     os.makedirs(os.path.dirname(output_4k_mp4), exist_ok=True)
     print(f"🚀 Upscaling to 4K UHD (2160x3840)...")
     
-    # Check for Apple Silicon VideoToolbox
     cmd = [
         "ffmpeg", "-y",
         "-i", str(input_mp4),
@@ -144,7 +166,6 @@ def export_4k_uhd(input_mp4: str, output_4k_mp4: str):
     ]
     res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)
     if res.returncode != 0:
-        # Fallback to libx264 fast preset
         print("Falling back to CPU 4K upscale...")
         cmd_cpu = [
             "ffmpeg", "-y",

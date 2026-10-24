@@ -5,28 +5,32 @@ Cinema X-Ray Master Autonomous Pipeline Runner
 Generates a complete, high-retention cinematic breakdown video:
 1. Generates or loads the script & concept.
 2. Generates studio-grade Gemini Achird voiceover.
-3. Aligns rapid subtitle cards in Center Bold Stroke style.
-4. Slices and formats movie scenes to 70% screen with ambient blurred background.
+3. Aligns rapid subtitle cards in Center Bold Stroke style with acoustic precision.
+4. Slices and formats movie scenes to 100% Fullscreen (or 70% Ambient) framing.
 5. Mixes cinematic tension score and burns subtitles.
-6. Renders final 1080x1920 Short + pristine 4K UHD Master (2160x3840).
+6. Renders final 1080x1920 Short + Ultra 4K UHD Master (2160x3840).
 """
 
 import os
 import sys
-import json
+import argparse
 from pathlib import Path
 
-# Add project root to path
 BASE_DIR = Path(__file__).parent.resolve()
 sys.path.append(str(BASE_DIR))
 
 from pipeline.audio_generator import generate_achird_audio
 from pipeline.subtitle_engine import generate_timed_subtitles, build_ass_subtitles
-from pipeline.video_compositor import render_70pct_scene_clip, assemble_final_video, export_4k_uhd
+from pipeline.video_compositor import (
+    render_70pct_scene_clip,
+    render_100pct_fullscreen_clip,
+    assemble_final_video,
+    export_4k_uhd
+)
 
-def run_pipeline():
+def run_pipeline(mode: str = "fullscreen"):
     print("==================================================")
-    print("🎬 CINEMA X-RAY: AUTONOMOUS VIDEO PRODUCTION")
+    print(f"🎬 CINEMA X-RAY: AUTONOMOUS VIDEO PRODUCTION ({mode.upper()} MODE)")
     print("==================================================")
 
     # 1. Topic & Script Configuration
@@ -47,7 +51,7 @@ def run_pipeline():
 
     script_dir = BASE_DIR / "output" / "script"
     audio_dir = BASE_DIR / "output" / "audio"
-    clips_dir = BASE_DIR / "output" / "clips"
+    clips_dir = BASE_DIR / "output" / (f"clips_{mode}" if mode == "fullscreen" else "clips")
     temp_dir = BASE_DIR / "output" / "temp"
     final_dir = BASE_DIR / "output" / "final_video"
 
@@ -63,46 +67,52 @@ def run_pipeline():
 
     # 2. Voiceover Generation
     audio_path = audio_dir / "mjolnir_worthiness_voiceover.wav"
-    print("\n[Step 2/5] Generating Gemini Achird Voiceover...")
+    print("\n[Step 2/5] Generating/Loading Gemini Achird Voiceover...")
     total_duration = generate_achird_audio(script_text, str(audio_path))
     print(f"Voiceover Duration: {total_duration:.2f} seconds")
 
     # 3. Subtitle Alignment & ASS Generation
-    print("\n[Step 3/5] Generating Center Bold Stroke Subtitles...")
+    print("\n[Step 3/5] Generating Center Bold Stroke Subtitles (Acoustic Locked)...")
     subtitles_json_path = script_dir / "subtitles.json"
-    cards = generate_timed_subtitles(str(audio_path), script_text, total_duration, str(subtitles_json_path))
+    cards = generate_timed_subtitles(str(audio_path), script_text, total_duration, str(subtitles_json_path), force_refresh=False)
 
     ass_path = temp_dir / "subtitles_center_bold.ass"
     build_ass_subtitles(cards, str(ass_path))
 
-    # 4. Slicing & Preparing Video Scenes (70% Screen Framing)
-    print("\n[Step 4/5] Processing Cinematic Scenes from Raw Video (70% Screen Presence)...")
+    # 4. Slicing & Preparing Video Scenes
+    print(f"\n[Step 4/5] Processing Cinematic Scenes from Raw Video ({mode.upper()} Framing)...")
     ultron_raw = BASE_DIR / "projects" / "marvel-decoded" / "raw_video" / "ultron_hammer.mp4"
     endgame_raw = BASE_DIR / "projects" / "marvel-decoded" / "raw_video" / "endgame_mjolnir.mp4"
 
-    # Precise scene timeline tailored to narration
+    # Precise scene timeline tailored to narration & subject placement
     scene_cuts = [
-        {"src": ultron_raw,  "in": 14.5, "dur": 4.5, "desc": "Avengers party, Steve walks up"},
-        {"src": ultron_raw,  "in": 20.0, "dur": 5.0, "desc": "Steve pulls, hammer squeaks, Thor freezes"},
-        {"src": ultron_raw,  "in": 25.5, "dur": 4.5, "desc": "Steve stops, Thor nervous laugh"},
-        {"src": ultron_raw,  "in": 21.5, "dur": 4.8, "desc": "Close up of Mjolnir enchantment"},
-        {"src": endgame_raw, "in": 3.0,  "dur": 5.5, "desc": "Endgame: Thanos pressing Stormbreaker on Thor"},
-        {"src": endgame_raw, "in": 8.5,  "dur": 4.5, "desc": "Mjolnir flies off the ground"},
-        {"src": endgame_raw, "in": 13.5, "dur": 5.2, "desc": "Cap catches Mjolnir, ready to fight"},
-        {"src": endgame_raw, "in": 21.0, "dur": 4.8, "desc": "Cap smashes Thanos in mid-air with lightning"},
-        {"src": endgame_raw, "in": 11.5, "dur": round(total_duration - 38.8, 2), "desc": "Thor smiling: I knew it!"}
+        {"src": ultron_raw,  "in": 14.5, "dur": 4.5, "x_offset": -600, "desc": "Thor watching Steve walk up"},
+        {"src": ultron_raw,  "in": 20.0, "dur": 5.0, "x_offset": -300, "desc": "Steve pulls, hammer squeaks, Thor freezes"},
+        {"src": ultron_raw,  "in": 25.5, "dur": 4.5, "x_offset": 0,    "desc": "Steve stops, Thor nervous laugh"},
+        {"src": ultron_raw,  "in": 21.5, "dur": 4.8, "x_offset": -200, "desc": "Close up of Mjolnir enchantment"},
+        {"src": endgame_raw, "in": 0.5,  "dur": 5.5, "x_offset": 0,    "desc": "Endgame: Thanos pressing axe on Thor"},
+        {"src": endgame_raw, "in": 8.5,  "dur": 4.5, "x_offset": 0,    "desc": "Mjolnir flies off the ground"},
+        {"src": endgame_raw, "in": 13.5, "dur": 5.2, "x_offset": -600, "desc": "Cap catches Mjolnir, ready to fight"},
+        {"src": endgame_raw, "in": 23.5, "dur": 4.8, "x_offset": 300,  "desc": "Cap walks forward with Mjolnir and shield"},
+        {"src": endgame_raw, "in": 17.5, "dur": round(total_duration - 38.8, 2), "x_offset": 0, "desc": "Thor smiling: I knew it!"}
     ]
 
     rendered_clips = []
     for idx, sc in enumerate(scene_cuts, 1):
         out_clip = clips_dir / f"scene_{idx:02d}.mp4"
-        print(f"  Cutting Scene {idx:02d}: {sc['desc']} ({sc['dur']:.2f}s)...")
-        render_70pct_scene_clip(str(sc["src"]), sc["in"], sc["dur"], str(out_clip))
+        print(f"  Cutting Scene {idx:02d}: {sc['desc']} ({sc['dur']:.2f}s, offset: {sc['x_offset']})...")
+        if mode == "fullscreen":
+            render_100pct_fullscreen_clip(str(sc["src"]), sc["in"], sc["dur"], str(out_clip), x_offset=sc["x_offset"])
+        else:
+            render_70pct_scene_clip(str(sc["src"]), sc["in"], sc["dur"], str(out_clip))
         rendered_clips.append(str(out_clip))
 
     # 5. Master Video Assembly (Music + Subtitles + Clips)
-    print("\n[Step 5/5] Assembling Master Video with Ambient Score & Subtitles...")
-    final_output_1080p = final_dir / "cinema_xray_cap_mjolnir_worthy.mp4"
+    suffix = "_fullscreen" if mode == "fullscreen" else ""
+    final_output_1080p = final_dir / f"cinema_xray_cap_mjolnir_worthy{suffix}.mp4"
+    final_output_4k = final_dir / f"cinema_xray_cap_mjolnir_worthy{suffix}_4k.mp4"
+
+    print(f"\n[Step 5/5] Assembling Master Video with Ambient Score & Subtitles...")
     assemble_final_video(
         scene_clips=rendered_clips,
         audio_path=str(audio_path),
@@ -111,19 +121,21 @@ def run_pipeline():
         temp_dir=str(temp_dir)
     )
 
-    # 6. 4K UHD Master Export
-    final_output_4k = final_dir / "cinema_xray_cap_mjolnir_worthy_4k.mp4"
+    # 6. Ultra 4K UHD Master Export
     export_4k_uhd(str(final_output_1080p), str(final_output_4k))
 
     print("\n==================================================")
     print("🎉 CINEMA X-RAY VIDEO PRODUCTION COMPLETE!")
     print(f"📁 1080p Master : {final_output_1080p}")
-    print(f"🌟 4K UHD Master: {final_output_4k}")
+    print(f"🌟 Ultra 4K UHD : {final_output_4k}")
     print(f"⏱️ Duration     : {total_duration:.2f}s")
-    print(f"📺 Framing      : 70% Screen Presence + Blurred Ambient Backdrop")
-    print(f"💬 Subtitles    : Center Bold Stroke (Arial Black 76pt + Gold Keywords)")
+    print(f"📺 Framing      : {mode.upper()} 100% Fullscreen Short Form")
+    print(f"💬 Subtitles    : Center Bold Stroke (Acoustic Aligned + Gold Keywords)")
     print("==================================================")
-    return str(final_output_1080p)
+    return str(final_output_4k)
 
 if __name__ == "__main__":
-    run_pipeline()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--mode", choices=["fullscreen", "70pct"], default="fullscreen")
+    args = parser.parse_args()
+    run_pipeline(mode=args.mode)
