@@ -21,6 +21,7 @@ sys.path.append(str(BASE_DIR))
 
 from pipeline.audio_generator import generate_achird_audio
 from pipeline.subtitle_engine import generate_timed_subtitles, build_ass_subtitles
+from pipeline.youtube_uploader import upload_video
 from pipeline.video_compositor import (
     render_70pct_scene_clip,
     render_100pct_fullscreen_clip,
@@ -131,11 +132,36 @@ def run_pipeline(mode: str = "fullscreen"):
     print(f"⏱️ Duration     : {total_duration:.2f}s")
     print(f"📺 Framing      : {mode.upper()} 100% Fullscreen Short Form")
     print(f"💬 Subtitles    : Center Bold Stroke (Acoustic Aligned + Gold Keywords)")
+    # 7. Optional Direct YouTube Upload
+    if upload:
+        print("\n[Step 7] Uploading Video Directly to YouTube...")
+        try:
+            yt_title = "The Exact Second Cap Became Worthy | Cinema X-Ray #shorts"
+            yt_desc = (
+                "Did Steve Rogers always have the power of Thor? In Avengers: Age of Ultron, Mjolnir budged... "
+                "In Avengers: Endgame, Thor's chest was being crushed when the hammer answered Cap's call.\n\n"
+                "#CinemaXRay #Marvel #CaptainAmerica #Thor #Mjolnir #AvengersEndgame #Shorts"
+            )
+            upload_target = str(final_output_4k) if upload_4k else str(final_output_1080p)
+            yt_result = upload_video(
+                file_path=upload_target,
+                title=yt_title,
+                description=yt_desc,
+                tags=["Cinema X-Ray", "Captain America", "Thor", "Mjolnir", "Marvel", "Endgame", "Shorts"],
+                privacy_status=privacy
+            )
+            print(f"🚀 Live Video Link: {yt_result['url']}")
+        except Exception as e:
+            print(f"❌ YouTube Upload Error: {e}")
+
     print("==================================================")
     return str(final_output_4k)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["fullscreen", "70pct"], default="fullscreen")
+    parser.add_argument("--upload", action="store_true", help="Upload directly to YouTube upon completion")
+    parser.add_argument("--privacy", choices=["public", "unlisted", "private"], default="unlisted", help="YouTube privacy status")
+    parser.add_argument("--upload-4k", action="store_true", default=True, help="Upload Ultra 4K UHD master instead of 1080p")
     args = parser.parse_args()
-    run_pipeline(mode=args.mode)
+    run_pipeline(mode=args.mode, upload=args.upload, privacy=args.privacy, upload_4k=args.upload_4k)

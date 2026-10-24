@@ -23,3 +23,10 @@ output/temp/
 output/clips/
 output/final_video/
 output/audio/
+
+# Secrets & Credentials
+credentials/
+client_secrets.json
+token.json
+*.token
+
