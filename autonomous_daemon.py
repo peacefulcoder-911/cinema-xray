@@ -174,7 +174,6 @@ def compute_staggered_schedule() -> Dict[str, str]:
 
     slots = {
         "SHORT_FUNNEL_1": (11, 0),
-        "LONG_FORM_PILLAR": (14, 0),
         "SHORT_FUNNEL_2": (18, 0),
         "SHORT_BRIDGE_3": (21, 30),
     }
@@ -461,6 +460,11 @@ def process_short_form_job(
         beats = manifest_data.get("beats", [])
         sliced_clips = []
         sample_beats = beats[:3] if dry_run else beats[:8]
+        # Dynamically scale clip duration so clips cover voiceover + 0.6s buffer
+        ffprobe_dur_cmd = ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(audio_path)]
+        audio_dur = float(subprocess.check_output(ffprobe_dur_cmd).decode().strip())
+        target_clip_dur = round((audio_dur + 0.60) / max(len(sample_beats), 1), 2)
+        print(f"  Dynamic Clip Duration: {target_clip_dur}s across {len(sample_beats)} cuts (Voiceover: {audio_dur:.2f}s)")
         for b in sample_beats:
             b_id = b.get("beat_id", 1)
             clip_file = clips_dir / f"{job_slug}_scene_{b_id:02d}.mp4"
@@ -468,7 +472,7 @@ def process_short_form_job(
                 render_70pct_scene_clip(
                     input_video=str(source_footage),
                     start_sec=float(b_id * 3.0),
-                    duration=4.5,
+                    duration=target_clip_dur,
                     output_path=str(clip_file)
                 )
             sliced_clips.append(str(clip_file))
@@ -510,6 +514,8 @@ def process_short_form_job(
         video_path=final_short_mp4,
         thumbnail_path=thumb_path,
         video_format="SHORT_45_SEC",
+        voiceover_path=audio_path,
+        subtitles_path=subtitle_ass,
         dry_run=dry_run
     )
     if not passed:
@@ -594,36 +600,9 @@ def execute_daily_batch(dry_run: bool = False):
     conn.commit()
     conn.close()
 
-    # 2. Process Long-Form Pillar FIRST
-    long_job_dict = plan.long_form.model_dump()
-    long_slug = long_job_dict["job_slug"]
-    current_state = get_job_state(long_slug)
-
+    # 2. Long-Form Pillar on Hold (Exclusively 3 Shorts per day per user request)
+    print("\nℹ️ Long-Form Pillar on hold. Focusing 100% on 3x Daily Shorts Autopilot.")
     long_video_id = None
-    if current_state and current_state.get("status") == STATUS_UPLOADED:
-        print(f"\n♻️ Long-Form Pillar already completed: {current_state.get('youtube_video_id')}")
-        long_video_id = current_state.get("youtube_video_id")
-    elif current_state and current_state.get("status") == STATUS_QUARANTINED:
-        print(f"\n⚠️ Long-Form Pillar was previously quarantined ({current_state.get('error_message')}). Skipping.")
-    else:
-        # 3-Strike Retry Loop
-        max_retries = 3
-        for attempt in range(1, max_retries + 1):
-            try:
-                long_video_id = process_long_form_job(
-                    job_data=long_job_dict,
-                    publish_at_iso=schedule["LONG_FORM_PILLAR"],
-                    dry_run=dry_run
-                )
-                break
-            except Exception as e:
-                print(f"❌ Long-Form Attempt {attempt}/{max_retries} Failed: {e}")
-                update_job_state(long_slug, current_state.get("status", STATUS_PLANNED), retry_count=attempt)
-                if attempt == max_retries:
-                    log_daemon_error(long_slug, "LONG_FORM_PIPELINE", e)
-                    update_job_state(long_slug, STATUS_QUARANTINED, error_message=str(e))
-                    long_video_id = f"fallback_long_{long_slug}"
-                time.sleep(2 * attempt)
 
     # 3. Process the 3 Shorts in Sequence
     shorts = [

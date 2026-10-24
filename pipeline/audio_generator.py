@@ -88,7 +88,7 @@ def _synthesize_elevenlabs_tts(script_text: str, temp_wav_path: str, voice_name:
 def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
     """Invokes Gemini TTS for Achird voice and saves raw 24kHz mono PCM WAV."""
     client = _get_api_client()
-    models_to_try = ["gemini-2.5-flash-preview-tts", "gemini-3.1-flash-tts-preview"]
+    models_to_try = ["gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts"]
 
     prompt_content = f"Read aloud verbatim: {script_text}"
 

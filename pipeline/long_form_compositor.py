@@ -157,7 +157,7 @@ def assemble_long_form_video(
     ]
     subprocess.run(concat_cmd, check=True)
 
-    # 2. Get Voiceover Duration
+    # 2. Get Voiceover Duration and Establish Synchronized Master Target
     ffprobe_cmd = [
         "ffprobe", "-v", "error",
         "-show_entries", "format=duration",
@@ -166,17 +166,21 @@ def assemble_long_form_video(
     ]
     dur_str = subprocess.check_output(ffprobe_cmd).decode().strip()
     total_dur = float(dur_str)
+    target_master_dur = round(total_dur + 0.60, 2)
+    pad_audio = round(target_master_dur - total_dur, 2)
 
-    # 3. Procedural Long-Form Tension Score Mix (-22dB subtle bed)
+    # 3. Procedural Long-Form Tension Score Mix (-22dB subtle bed with synchronized tail pad & fade)
     mixed_audio = temp_dir_path / f"mixed_long_audio_{out_1080p.stem}.wav"
     mix_cmd = [
         "ffmpeg", "-y", "-v", "quiet",
-        "-f", "lavfi", "-i", f"sine=frequency=55:duration={total_dur}:sample_rate=24000",
-        "-f", "lavfi", "-i", f"anoisesrc=d={total_dur}:c=pink:r=24000:a=0.015,lowpass=f=350,volume=0.04",
+        "-f", "lavfi", "-i", f"sine=frequency=55:duration={target_master_dur}:sample_rate=24000",
+        "-f", "lavfi", "-i", f"anoisesrc=d={target_master_dur}:c=pink:r=24000:a=0.015,lowpass=f=350,volume=0.04",
         "-i", str(voiceover_wav_path),
         "-filter_complex",
-        "[0:a][1:a]amix=inputs=2:duration=first[amb];[2:a]volume=1.20[vocal];"
-        "[amb][vocal]amix=inputs=2:duration=first:dropout_transition=2[outa]",
+        f"[0:a][1:a]amix=inputs=2:duration=first[amb];"
+        f"[2:a]apad=pad_dur={pad_audio},volume=1.20[vocal];"
+        f"[amb][vocal]amix=inputs=2:duration=first:dropout_transition=2,"
+        f"afade=t=out:st={round(target_master_dur - 0.35, 2)}:d=0.35[outa]",
         "-map", "[outa]",
         "-c:a", "pcm_s16le",
         str(mixed_audio)
@@ -184,18 +188,29 @@ def assemble_long_form_video(
     subprocess.run(mix_cmd, check=True)
 
     # 4. Burn Lower-Third Widescreen Subtitles into 1080p Master
-    print(f"[Long Compositor] Burning widescreen subtitles & assembling 1080p master ({total_dur:.1f}s)...")
+    print(f"[Long Compositor] Burning widescreen subtitles & assembling 1080p master ({target_master_dur:.1f}s)...")
+    # Fail-Safe Video Duration Alignment (Guarantees zero truncation)
+    raw_video_dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=noprint_wrappers=1:nokey=1", str(raw_video)]).decode().strip())
+    
+    vf_chain = []
+    if raw_video_dur < target_master_dur:
+        pad_needed = round(target_master_dur - raw_video_dur + 0.10, 2)
+        print(f"⚠️ Sliced long-form clips ({raw_video_dur:.2f}s) shorter than master ({target_master_dur:.2f}s). Applying tpad frame hold (+{pad_needed:.2f}s) to guarantee zero audio cutoff.")
+        vf_chain.append(f"tpad=stop_mode=clone:stop_duration={pad_needed}")
+    vf_chain.append(f"ass={ass_subtitle_path}")
+    vf_filter = ",".join(vf_chain)
+
     final_cmd = [
         "ffmpeg", "-y",
         "-i", str(raw_video),
         "-i", str(mixed_audio),
-        "-vf", f"ass={ass_subtitle_path}",
+        "-vf", vf_filter,
         "-c:v", "libx264",
-        "-preset", "fast",
+        "-preset", "medium",
         "-crf", "18",
         "-c:a", "aac",
         "-b:a", "192k",
-        "-shortest",
+        "-t", f"{target_master_dur:.2f}",
         str(out_1080p)
     ]
     subprocess.run(final_cmd, check=True)
@@ -212,6 +227,7 @@ def export_long_form_4k_uhd(input_1080p_path: str, output_4k_path: str) -> str:
     out_4k.parent.mkdir(parents=True, exist_ok=True)
     print(f"[Long Compositor] Upscaling to horizontal 4K UHD (3840x2160)...")
 
+    in_dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=noprint_wrappers=1:nokey=1", str(input_1080p_path)]).decode().strip())
     cmd = [
         "ffmpeg", "-y",
         "-i", str(input_1080p_path),
@@ -223,6 +239,7 @@ def export_long_form_4k_uhd(input_1080p_path: str, output_4k_path: str) -> str:
         "-profile:v", "high",
         "-pix_fmt", "yuv420p",
         "-c:a", "copy",
+        "-t", f"{in_dur:.2f}",
         str(out_4k)
     ]
     res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)
