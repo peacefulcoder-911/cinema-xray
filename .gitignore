@@ -19,3 +19,7 @@ raw_video/
 clips/
 out/
 temp/
+output/temp/
+output/clips/
+output/final_video/
+output/audio/
