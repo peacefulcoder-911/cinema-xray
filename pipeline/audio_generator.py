@@ -40,16 +40,7 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
     client = _get_api_client()
     models_to_try = ["gemini-2.5-flash-preview-tts", "gemini-3.1-flash-tts-preview"]
 
-    prompt_content = f"""Read the following narration for a high-end Cinema X-Ray video essay.
-
-# Audio Profile
-A calm, authoritative, intellectually compelling cinematic storyteller and film analyst.
-Delivery is grounded, clear, deeply observant, and charismatic. Zero theatrical pressure, just natural brilliance.
-Tone: Fascinated by cinematic details, serious, fast-paced without dead air.
-Accent: American (General).
-
-## Script:
-{script_text}"""
+    prompt_content = f"Read aloud verbatim: {script_text}"
 
     contents = [
         types.Content(
