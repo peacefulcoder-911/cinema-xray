@@ -19,6 +19,7 @@ import json
 import sqlite3
 import argparse
 import traceback
+import subprocess
 from pathlib import Path
 from typing import Dict, Any, List, Optional
 from datetime import datetime, timezone, timedelta
