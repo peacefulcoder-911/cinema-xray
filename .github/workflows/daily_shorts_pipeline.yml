@@ -1,0 +1,118 @@
+name: Cinema X-Ray Daily Shorts Pipeline
+
+on:
+  schedule:
+    # Trigger every day at 12:00 AM IST Midnight (18:30 UTC)
+    - cron: '30 18 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'Number of shorts to produce (1, 2, or 3)'
+        required: false
+        default: '1'
+        type: choice
+        options:
+          - '1'
+          - '2'
+          - '3'
+      live_upload:
+        description: 'Upload live to YouTube with scheduled publishAt release'
+        required: false
+        default: true
+        type: boolean
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/daily_shorts_pipeline.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  produce_and_publish:
+    name: Autonomous Video Production & YouTube Scheduling
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install System Dependencies (FFmpeg & Fonts)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-liberation fonts-dejavu-core libass-dev
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Hydrate Credentials from Secrets
+        run: |
+          mkdir -p credentials config
+          if [ -n "${{ secrets.YOUTUBE_CLIENT_SECRETS_JSON }}" ]; then
+            echo '${{ secrets.YOUTUBE_CLIENT_SECRETS_JSON }}' > credentials/client_secrets.json
+            echo '${{ secrets.YOUTUBE_CLIENT_SECRETS_JSON }}' > config/client_secrets.json
+            echo "✅ client_secrets.json restored"
+          else
+            echo "⚠️ YOUTUBE_CLIENT_SECRETS_JSON secret not found in repository settings."
+          fi
+
+          if [ -n "${{ secrets.YOUTUBE_TOKEN_JSON }}" ]; then
+            echo '${{ secrets.YOUTUBE_TOKEN_JSON }}' > credentials/token.json
+            echo '${{ secrets.YOUTUBE_TOKEN_JSON }}' > config/youtube_token.json
+            echo "✅ token.json restored"
+          else
+            echo "⚠️ YOUTUBE_TOKEN_JSON secret not found in repository settings."
+          fi
+
+      - name: Execute Autonomous Daily Shorts Pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          # Determine count (default 1 on push/manual, 3 on daily midnight schedule)
+          COUNT="${{ inputs.count }}"
+          if [ -z "$COUNT" ]; then
+            if [ "${{ github.event_name }}" = "schedule" ]; then
+              COUNT="3"
+            else
+              COUNT="1"
+            fi
+          fi
+
+          UPLOAD_FLAG="--live"
+          if [ "${{ inputs.live_upload }}" = "false" ]; then
+            UPLOAD_FLAG="--dry-run"
+          fi
+
+          # If YouTube token is missing, notify and fallback to dry-run verification
+          if [ ! -f credentials/token.json ]; then
+            echo "⚠️ No YouTube token present in runner. Running pipeline in dry-run verification mode."
+            UPLOAD_FLAG="--dry-run"
+          fi
+
+          python pipeline/daily_batch_runner.py --count "$COUNT" $UPLOAD_FLAG
+
+      - name: GitOps Commit & Push Updated Topics Database
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add database/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(database): update completed topics registry [skip ci]"
+            git push origin main
+            echo "✅ Completed topics database successfully pushed to repository."
+          else
+            echo "Database unchanged."
+          fi
