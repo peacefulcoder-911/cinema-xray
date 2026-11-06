@@ -1,0 +1,58 @@
+[Script Info]
+Title: Cinema Decoded - Interstellar Ticking Clock 8K
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,1,0,0,0,100,100,2,0,1,10,4,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.02,CenterBold,,0,0,0,,LISTEN CLOSELY TO
+Dialogue: 0,0:00:01.02,0:00:01.84,CenterBold,,0,0,0,,THE {\c&H0000D7FF&}SOUNDTRACK{\c&HFFFFFF&} ON
+Dialogue: 0,0:00:01.84,0:00:02.46,CenterBold,,0,0,0,,MILLER'S PLANET.
+Dialogue: 0,0:00:02.92,0:00:03.72,CenterBold,,0,0,0,,EVERY SINGLE {\c&H0000D7FF&}TICK{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.72,0:00:04.32,CenterBold,,0,0,0,,YOU HEAR IN
+Dialogue: 0,0:00:04.32,0:00:05.08,CenterBold,,0,0,0,,HANS ZIMMER'S SCORE
+Dialogue: 0,0:00:05.08,0:00:06.26,CenterBold,,0,0,0,,IS EXACTLY 1
+Dialogue: 0,0:00:06.26,0:00:07.60,CenterBold,,0,0,0,,.25 {\c&H0000D7FF&}SECONDS{\c&HFFFFFF&} APART.
+Dialogue: 0,0:00:07.98,0:00:08.60,CenterBold,,0,0,0,,THAT IS NOT
+Dialogue: 0,0:00:08.60,0:00:09.40,CenterBold,,0,0,0,,A RANDOM TEMPO.
+Dialogue: 0,0:00:09.78,0:00:10.96,CenterBold,,0,0,0,,BECAUSE OF GARGANTUA'S
+Dialogue: 0,0:00:10.96,0:00:11.72,CenterBold,,0,0,0,,EXTREME {\c&H000030D0&}GRAVITY,{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.08,0:00:12.78,CenterBold,,0,0,0,,ONE {\c&H0000D7FF&}HOUR{\c&HFFFFFF&} ON
+Dialogue: 0,0:00:12.78,0:00:13.58,CenterBold,,0,0,0,,THIS PLANET EQUALS
+Dialogue: 0,0:00:13.58,0:00:14.56,CenterBold,,0,0,0,,{\c&H0000D7FF&}SEVEN{\c&HFFFFFF&} {\c&H0000D7FF&}YEARS{\c&HFFFFFF&} ON
+Dialogue: 0,0:00:14.56,0:00:15.06,CenterBold,,0,0,0,,{\c&H00FFFF00&}EARTH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.20,0:00:15.70,CenterBold,,0,0,0,,IF YOU DO
+Dialogue: 0,0:00:15.60,0:00:16.10,CenterBold,,0,0,0,,THE MATH,
+Dialogue: 0,0:00:16.22,0:00:17.62,CenterBold,,0,0,0,,EXACTLY 1 .25
+Dialogue: 0,0:00:17.62,0:00:18.70,CenterBold,,0,0,0,,{\c&H0000D7FF&}SECONDS{\c&HFFFFFF&} EQUALS AN
+Dialogue: 0,0:00:18.70,0:00:19.78,CenterBold,,0,0,0,,ENTIRE {\c&H00FFFF00&}EARTH{\c&HFFFFFF&} {\c&H00FFFF00&}DAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.78,0:00:20.48,CenterBold,,0,0,0,,PASSING BY.
+Dialogue: 0,0:00:20.74,0:00:21.62,CenterBold,,0,0,0,,WITH EVERY SINGLE
+Dialogue: 0,0:00:21.62,0:00:22.12,CenterBold,,0,0,0,,{\c&H0000D7FF&}CLICK{\c&HFFFFFF&} OF THE
+Dialogue: 0,0:00:22.08,0:00:22.58,CenterBold,,0,0,0,,CLOCK,
+Dialogue: 0,0:00:22.66,0:00:23.26,CenterBold,,0,0,0,,COOPER IS {\c&H000030D0&}LOSING{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.26,0:00:24.38,CenterBold,,0,0,0,,ANOTHER FULL {\c&H00FFFF00&}DAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.38,0:00:25.06,CenterBold,,0,0,0,,OF HIS DAUGHTER'S
+Dialogue: 0,0:00:25.06,0:00:25.56,CenterBold,,0,0,0,,{\c&H0000D7FF&}LIFE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.68,0:00:26.18,CenterBold,,0,0,0,,BY THE TIME
+Dialogue: 0,0:00:26.18,0:00:26.86,CenterBold,,0,0,0,,THEY ESCAPE THE
+Dialogue: 0,0:00:26.86,0:00:27.58,CenterBold,,0,0,0,,{\c&H000030D0&}MOUNTAIN{\c&HFFFFFF&} {\c&H000030D0&}WAVE{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:27.58,0:00:28.18,CenterBold,,0,0,0,,RETURN TO THE
+Dialogue: 0,0:00:28.18,0:00:28.68,CenterBold,,0,0,0,,SHIP,
+Dialogue: 0,0:00:28.42,0:00:29.60,CenterBold,,0,0,0,,23 {\c&H0000D7FF&}YEARS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.80,0:00:30.30,CenterBold,,0,0,0,,{\c&H000030D0&}FOUR{\c&HFFFFFF&} MONTHS,
+Dialogue: 0,0:00:30.48,0:00:31.20,CenterBold,,0,0,0,,AND {\c&H000030D0&}EIGHT{\c&HFFFFFF&} {\c&H000030D0&}DAYS{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.20,0:00:31.78,CenterBold,,0,0,0,,HAVE {\c&H000030D0&}VANISHED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.30,0:00:32.96,CenterBold,,0,0,0,,THE {\c&H0000D7FF&}TICKING{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:32.96,0:00:33.82,CenterBold,,0,0,0,,NEVER JUST MUSIC.
+Dialogue: 0,0:00:34.18,0:00:34.68,CenterBold,,0,0,0,,IT WAS A
+Dialogue: 0,0:00:34.50,0:00:35.72,CenterBold,,0,0,0,,{\c&H000030D0&}COUNTDOWN{\c&HFFFFFF&} OF COOPER'S
+Dialogue: 0,0:00:35.72,0:00:36.56,CenterBold,,0,0,0,,LOST {\c&H0000D7FF&}PARENTHOOD.{\c&HFFFFFF&}

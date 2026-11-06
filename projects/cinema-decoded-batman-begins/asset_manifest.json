@@ -1,0 +1,57 @@
+{
+  "topic_id": "cinema-decoded-batman-begins",
+  "project_title": "Batman Begins — Batman Turns His Childhood Fear Into a Weapon",
+  "film": "Batman Begins (2005)",
+  "director": "Christopher Nolan",
+  "assets": [
+    {
+      "asset_id": "OW7r6kgXbJs",
+      "file_path": "output/clip_cache/OW7r6kgXbJs.mp4",
+      "title": "Batman Begins - The opening scene 'Batman fallen into the well'",
+      "source_url": "https://www.youtube.com/watch?v=OW7r6kgXbJs",
+      "scenes_assigned": ["scene_01", "scene_02", "scene_03"],
+      "narrative_role": "Young Bruce Wayne falling into the well and being attacked by shrieking bat swarm."
+    },
+    {
+      "asset_id": "HIcGuFnl7ZU",
+      "file_path": "output/clip_cache/HIcGuFnl7ZU.mp4",
+      "title": "Batman Begins: Why Do We Fall? So We Can Learn to Pick Ourselves Up",
+      "source_url": "https://www.youtube.com/watch?v=HIcGuFnl7ZU",
+      "scenes_assigned": ["scene_04"],
+      "narrative_role": "Thomas Wayne rescues Bruce and delivers the thematic core: Why do we fall?"
+    },
+    {
+      "asset_id": "uiaRYQlsjy4",
+      "file_path": "output/clip_cache/uiaRYQlsjy4.mp4",
+      "title": "Batman Begins - The Will to Act (Training Scene HD)",
+      "source_url": "https://www.youtube.com/watch?v=uiaRYQlsjy4",
+      "scenes_assigned": ["scene_05"],
+      "narrative_role": "Henri Ducard League of Shadows training on frozen lake: To conquer fear, you must become fear."
+    },
+    {
+      "asset_id": "O346Rqdj2Uk",
+      "file_path": "output/clip_cache/O346Rqdj2Uk.mp4",
+      "title": "Batman Begins: Bruce Wayne embraces his worst fear.",
+      "source_url": "https://www.youtube.com/watch?v=O346Rqdj2Uk",
+      "scenes_assigned": ["scene_06"],
+      "narrative_role": "Adult Bruce Wayne in the Batcave standing amidst the swirling swarm and rising with them."
+    },
+    {
+      "asset_id": "xd1Qp8VwiBU",
+      "file_path": "output/clip_cache/xd1Qp8VwiBU.mp4",
+      "title": "Why Bats, Master Wayne?",
+      "source_url": "https://www.youtube.com/watch?v=xd1Qp8VwiBU",
+      "scenes_assigned": ["scene_07"],
+      "narrative_role": "Bruce Wayne explains why he chose bats: Bats frighten me. It's time my enemies shared my dread."
+    },
+    {
+      "asset_id": "8aGtHBHx7HU",
+      "file_path": "output/clip_cache/8aGtHBHx7HU.mp4",
+      "title": "Batman Finds Falcone - Batman Begins [2005]",
+      "source_url": "https://www.youtube.com/watch?v=8aGtHBHx7HU",
+      "scenes_assigned": ["scene_08"],
+      "narrative_role": "First appearance at the Gotham docks, Falcone interrogation: I'm Batman."
+    }
+  ]
+}
+

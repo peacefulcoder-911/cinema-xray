@@ -29,7 +29,12 @@ from pipeline.video_compositor import (
     export_4k_uhd
 )
 
-def run_pipeline(mode: str = "fullscreen"):
+def run_pipeline(
+    mode: str = "fullscreen",
+    upload: bool = False,
+    privacy: str = "unlisted",
+    upload_4k: bool = True
+):
     print("==================================================")
     print(f"🎬 CINEMA X-RAY: AUTONOMOUS VIDEO PRODUCTION ({mode.upper()} MODE)")
     print("==================================================")

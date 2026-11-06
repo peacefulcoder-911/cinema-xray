@@ -1,0 +1,46 @@
+[Script Info]
+Title: Cinema Decoded - Batman Begins Batman Turns His Childhood Fear Into a Weapon
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: LowerCenter,Arial Black,70,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,1,0,0,0,100,100,2,0,1,10,4,2,60,60,340,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:04.20,LowerCenter,,0,0,0,,NOTICE HOW BATMAN WAS NOT BUILT
+ON {\c&H0000D7FF&}FEARLESSNESS{\c&HFFFFFF&},
+Dialogue: 0,0:00:04.50,0:00:07.80,LowerCenter,,0,0,0,,BUT ON THE VERY {\c&H000030D0&}TERROR{\c&HFFFFFF&}
+THAT BROKE BRUCE WAYNE.
+Dialogue: 0,0:00:08.20,0:00:11.90,LowerCenter,,0,0,0,,AS A BOY, BRUCE PLUNGED
+INTO A {\c&H0000D7FF&}COLLAPSED WELL{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.20,0:00:15.80,LowerCenter,,0,0,0,,WHERE A SHRIEKING SWARM OF {\c&H0000D7FF&}BATS{\c&HFFFFFF&}
+{\c&H000030D0&}SCARRED HIS MIND{\c&HFFFFFF&}.
+Dialogue: 0,0:00:16.10,0:00:19.80,LowerCenter,,0,0,0,,HIS FATHER TAUGHT HIM THAT {\c&H0000D7FF&}FALLING{\c&HFFFFFF&}
+IS HOW WE LEARN TO RISE,
+Dialogue: 0,0:00:20.20,0:00:22.80,LowerCenter,,0,0,0,,BUT THE TRAUMA REMAINED
+TRAPPED IN THE {\c&H0000D7FF&}DARKNESS{\c&HFFFFFF&}.
+Dialogue: 0,0:00:23.20,0:00:27.00,LowerCenter,,0,0,0,,YEARS LATER, HENRI DUCARD
+FORCES HIM TO {\c&H0000D7FF&}FACE THE TRUTH{\c&HFFFFFF&}:
+Dialogue: 0,0:00:27.40,0:00:29.40,LowerCenter,,0,0,0,,YOU CANNOT {\c&H000030D0&}DESTROY FEAR{\c&HFFFFFF&}.
+Dialogue: 0,0:00:29.80,0:00:32.70,LowerCenter,,0,0,0,,TO MASTER YOUR ENEMY,
+YOU HAVE TO {\c&H0000D7FF&}BECOME IT{\c&HFFFFFF&}.
+Dialogue: 0,0:00:33.00,0:00:37.60,LowerCenter,,0,0,0,,DEEP INSIDE THE CAVE, BRUCE STEPS
+DIRECTLY INTO THE {\c&H0000D7FF&}BAT SWARM{\c&HFFFFFF&}.
+Dialogue: 0,0:00:37.90,0:00:40.50,LowerCenter,,0,0,0,,HE STOPS RUNNING.
+HE {\c&H0000D7FF&}RISES WITH THEM{\c&HFFFFFF&}.
+Dialogue: 0,0:00:41.00,0:00:45.40,LowerCenter,,0,0,0,,WHEN ALFRED ASKS WHY BATS,
+BRUCE GIVES THE {\c&H0000D7FF&}DEFINITIVE ANSWER{\c&HFFFFFF&}:
+Dialogue: 0,0:00:45.70,0:00:47.10,LowerCenter,,0,0,0,,{\c&H000030D0&}"BATS FRIGHTEN ME."{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.40,0:00:49.80,LowerCenter,,0,0,0,,"IT'S TIME MY ENEMIES
+{\c&H0000D7FF&}SHARED MY DREAD{\c&HFFFFFF&}."
+Dialogue: 0,0:00:50.30,0:00:52.80,LowerCenter,,0,0,0,,HE DIDN'T ELIMINATE
+HIS {\c&H000030D0&}CHILDHOOD WEAKNESS{\c&HFFFFFF&}.
+Dialogue: 0,0:00:53.20,0:00:57.80,LowerCenter,,0,0,0,,HE INVERTED IT INTO HIS {\c&H0000D7FF&}ARMOR{\c&HFFFFFF&},
+HIS {\c&H0000D7FF&}WEAPON{\c&HFFFFFF&}, AND HIS {\c&H0000D7FF&}PERMANENT IDENTITY{\c&HFFFFFF&}.

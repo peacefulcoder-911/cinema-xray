@@ -15,14 +15,24 @@ __pycache__/
 *.webm
 *.wav
 *.flac
+*.mp3
+*.m4a
+*.aac
 raw_video/
 clips/
 out/
 temp/
-output/temp/
-output/clips/
-output/final_video/
-output/audio/
+output/
+clip_cache/
+projects/*/scratch/
+projects/*/clips*/
+projects/*/out*/
+projects/*/qc_frames*/
+projects/*/audio/
+
+# Frontend builds & caches
+frontend/dist/
+frontend/node_modules/
 
 # Secrets & Credentials
 credentials/

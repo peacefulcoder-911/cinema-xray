@@ -1,0 +1,101 @@
+{
+  "topic_id": "cinema-decoded-batman-begins",
+  "title": "Batman Begins — Batman Turns His Childhood Fear Into a Weapon",
+  "movie": "Batman Begins (2005)",
+  "director": "Christopher Nolan",
+  "total_duration": 58.05,
+  "fps": 30,
+  "resolution": "1080x1920",
+  "audio_master": "batman_begins_mixed_audio.m4a",
+  "subtitle_file": "batman_begins_subtitles.ass",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "beat": "Beat 01 — The Hook / The Origin Paradox",
+      "source_clip": "output/clip_cache/_BdN3m5ZENI_hd.mp4",
+      "start_time": 22.0,
+      "duration": 4.5,
+      "timeline_start": 0.0,
+      "timeline_end": 4.5,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "Notice how Batman was not built on fearlessness, but on the very terror that broke Bruce Wayne."
+    },
+    {
+      "scene_id": "scene_02",
+      "beat": "Beat 02 — The Plunge Into Darkness",
+      "source_clip": "output/clip_cache/_BdN3m5ZENI_hd.mp4",
+      "start_time": 26.5,
+      "duration": 3.7,
+      "timeline_start": 4.5,
+      "timeline_end": 8.2,
+      "motion": "FAST_ZOOM",
+      "narration_line": "...that broke Bruce Wayne."
+    },
+    {
+      "scene_id": "scene_03",
+      "beat": "Beat 03 — The Childhood Phobia / Bat Attack",
+      "source_clip": "output/clip_cache/S3UsAgjZA3Q_hd.mp4",
+      "start_time": 12.0,
+      "duration": 7.8,
+      "timeline_start": 8.2,
+      "timeline_end": 16.0,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "As a boy, Bruce plunged into a collapsed well where a shrieking swarm of bats scarred his mind."
+    },
+    {
+      "scene_id": "scene_04",
+      "beat": "Beat 04 — The Father's Rule",
+      "source_clip": "output/clip_cache/HIcGuFnl7ZU_hd.mp4",
+      "start_time": 27.0,
+      "duration": 6.5,
+      "timeline_start": 16.0,
+      "timeline_end": 22.5,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "His father taught him that falling is how we learn to rise, but the trauma remained trapped in the darkness."
+    },
+    {
+      "scene_id": "scene_05",
+      "beat": "Beat 05 — Psychological Discipline / League of Shadows",
+      "source_clip": "output/clip_cache/xJYSJWXmUeU_hd.mp4",
+      "start_time": 42.0,
+      "duration": 10.5,
+      "timeline_start": 22.5,
+      "timeline_end": 33.0,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "Years later, Henri Ducard forces him to face the truth: you cannot destroy fear. To master your enemy, you have to become it."
+    },
+    {
+      "scene_id": "scene_06",
+      "beat": "Beat 06 — Embracing the Swarm in the Batcave",
+      "source_clip": "output/clip_cache/O346Rqdj2Uk_hd.mp4",
+      "start_time": 66.0,
+      "duration": 8.0,
+      "timeline_start": 33.0,
+      "timeline_end": 41.0,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "Deep inside the cave, Bruce steps directly into the bat swarm. He stops running. He rises with them."
+    },
+    {
+      "scene_id": "scene_07",
+      "beat": "Beat 07 — Projecting the Terror",
+      "source_clip": "output/clip_cache/xd1Qp8VwiBU.mp4",
+      "start_time": 4.0,
+      "duration": 9.0,
+      "timeline_start": 41.0,
+      "timeline_end": 50.0,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "When Alfred asks why bats, Bruce gives the chilling answer: 'Bats frighten me. It's time my enemies shared my dread.'"
+    },
+    {
+      "scene_id": "scene_08",
+      "beat": "Beat 08 — The Permanent Identity / Falcone Docks",
+      "source_clip": "output/clip_cache/8aGtHBHx7HU_hd.mp4",
+      "start_time": 268.0,
+      "duration": 8.05,
+      "timeline_start": 50.0,
+      "timeline_end": 58.05,
+      "motion": "FAST_ZOOM",
+      "narration_line": "He didn't eliminate his childhood weakness. He inverted it into his armor, his weapon, and his permanent identity."
+    }
+  ]
+}
