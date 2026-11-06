@@ -28,6 +28,7 @@ from pipeline.video_compositor import (
     assemble_final_video,
     export_4k_uhd
 )
+from pipeline.ultra_upscaler_8k import upgrade_to_super_resolution
 
 def run_pipeline(
     mode: str = "fullscreen",
@@ -130,10 +131,21 @@ def run_pipeline(
     # 6. Ultra 4K UHD Master Export
     export_4k_uhd(str(final_output_1080p), str(final_output_4k))
 
+    # 7. Ultra 8K Master Export (4320x7680)
+    final_output_8k = final_dir / f"cinema_xray_cap_mjolnir_worthy{suffix}_8k.mp4"
+    upgrade_to_super_resolution(
+        input_video=str(final_output_1080p),
+        output_video=str(final_output_8k),
+        target_tier="8K",
+        sharpness=0.35,
+        bitrate="85M"
+    )
+
     print("\n==================================================")
     print("🎉 CINEMA X-RAY VIDEO PRODUCTION COMPLETE!")
     print(f"📁 1080p Master : {final_output_1080p}")
     print(f"🌟 Ultra 4K UHD : {final_output_4k}")
+    print(f"🚀 Ultra 8K UHD : {final_output_8k}")
     print(f"⏱️ Duration     : {total_duration:.2f}s")
     print(f"📺 Framing      : {mode.upper()} 100% Fullscreen Short Form")
     print(f"💬 Subtitles    : Center Bold Stroke (Acoustic Aligned + Gold Keywords)")
