@@ -30,7 +30,7 @@ sys.path.insert(0, str(REPO_ROOT))
 from pipeline.topic_database import TopicDatabase
 from pipeline.audio_generator import generate_achird_audio
 from pipeline.subtitle_engine import generate_timed_subtitles, build_ass_subtitles
-from pipeline.video_compositor import render_70pct_scene_clip, assemble_final_video, export_4k_uhd
+from pipeline.video_compositor import render_70pct_scene_clip, assemble_final_video, export_4k_uhd, get_media_duration
 from pipeline.ultra_upscaler_8k import upgrade_to_super_resolution
 from pipeline.youtube_publisher import generate_algorithmic_metadata, upload_to_youtube, YouTubePackage
 
@@ -382,11 +382,15 @@ def produce_single_short(
 
     rendered_clips = []
     accum_dur = 0.0
+    v_dur = get_media_duration(str(source_file)) if source_file.exists() else 0.0
     for idx, (in_sec, cut_dur, desc) in enumerate(film_entry["cuts"], 1):
         if accum_dur >= dur + 0.5:
             break
         c_path = clips_dir / f"clip_{idx:02d}.mp4"
-        render_70pct_scene_clip(str(source_file), in_sec, cut_dur, str(c_path))
+        safe_in = in_sec
+        if v_dur > 5.0 and safe_in + cut_dur > v_dur:
+            safe_in = max(0.0, v_dur - cut_dur - 1.0)
+        render_70pct_scene_clip(str(source_file), safe_in, cut_dur, str(c_path))
         rendered_clips.append(str(c_path))
         accum_dur += cut_dur
 
