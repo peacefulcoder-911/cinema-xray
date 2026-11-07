@@ -134,6 +134,16 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
             print(f"[Gemini TTS] Model {m} note: {e}")
             last_err = e
 
+    # Fallback 1: ElevenLabs Studio Voice (brian)
+    try:
+        print("[Audio Generator] Attempting studio voiceover via ElevenLabs (brian)...")
+        _synthesize_elevenlabs_tts(script_text, temp_wav_path, voice_name="brian")
+        if os.path.exists(temp_wav_path) and os.path.getsize(temp_wav_path) > 1000:
+            print("✅ ElevenLabs Voiceover Synthesized Successfully!")
+            return
+    except Exception as el_err:
+        print(f"[Audio Generator] ElevenLabs fallback note: {el_err}")
+
     import shutil
     if shutil.which("say"):
         try:
@@ -172,7 +182,9 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
 
 def _apply_loudness_normalization(input_wav: str, output_wav: str) -> None:
     """Master audio using FFmpeg EBU R128 loudnorm filter (I=-14, TP=-1.5, LRA=11)."""
-    os.makedirs(os.path.dirname(output_wav), exist_ok=True)
+    parent_dir = os.path.dirname(output_wav)
+    if parent_dir:
+        os.makedirs(parent_dir, exist_ok=True)
     cmd = [
         "ffmpeg", "-y", "-v", "quiet",
         "-i", input_wav,

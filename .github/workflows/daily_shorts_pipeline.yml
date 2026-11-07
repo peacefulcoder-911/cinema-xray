@@ -20,13 +20,10 @@ on:
         required: false
         default: true
         type: boolean
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/workflows/daily_shorts_pipeline.yml'
-      - 'pipeline/**'
-      - 'requirements.txt'
+
+concurrency:
+  group: cinema-xray-pipeline
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -142,7 +139,7 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "chore(database): update completed topics registry [skip ci]"
             for i in 1 2 3; do
-              git pull --rebase origin main && git push origin main && break || sleep 2
+              git pull --rebase -X theirs origin main && git push origin main && break || (git rebase --abort 2>/dev/null || true; sleep 2)
             done
             echo "✅ Completed topics database successfully pushed to repository."
           else

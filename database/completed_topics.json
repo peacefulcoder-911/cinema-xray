@@ -1,40 +1,8 @@
 {
   "database_version": "1.0",
-  "total_completed": 6,
-  "last_updated": "2026-11-07T11:34:16.505728",
+  "total_completed": 4,
+  "last_updated": "2026-11-07T11:41:58.261362",
   "topics": [
-    {
-      "id": 7,
-      "topic_slug": "caps_final_choice_was_never_about_peggy",
-      "movie_name": "Avengers: Endgame",
-      "film_cluster": "Marvel Cinematic Universe (MCU)",
-      "title": "Caps Final Choice Was Never About Peggy",
-      "hook": "Everyone thinks Captain America's endgame was about Peggy. They're wrong.",
-      "core_thesis": "Captain America's decision to stay in the past wasn't merely a romantic reunion with Peggy Carter; it was a profound psychological choice to reclaim the ordinary life he was denied by the Super Soldier program, a quiet act of self-determination after decades of sacrifice.",
-      "category_lens": "Character Psychology",
-      "youtube_video_id": null,
-      "youtube_url": null,
-      "scheduled_slot": "MORNING",
-      "scheduled_time_iso": "2026-11-07T05:00:00Z",
-      "status": "COMPLETED",
-      "created_at": "2026-11-07 02:19:31"
-    },
-    {
-      "id": 5,
-      "topic_slug": "dark_knight_hospital_explosion_truth",
-      "movie_name": "The Dark Knight",
-      "film_cluster": "Christopher Nolan Cinema",
-      "title": "The Truth Behind the Joker Hospital Detonation",
-      "hook": "Heath Ledger's detonator pause was not an accident\u2014it was masterwork calculation.",
-      "core_thesis": "Nolan and Ledger rehearsed the delay to mirror the Joker's theatrical control over chaos.",
-      "category_lens": "Cinematic Storytelling & Film Language",
-      "youtube_video_id": null,
-      "youtube_url": null,
-      "scheduled_slot": "AFTERNOON",
-      "scheduled_time_iso": null,
-      "status": "COMPLETED",
-      "created_at": "2026-11-06 20:38:45"
-    },
     {
       "id": 4,
       "topic_slug": "tony_nanotech_secret_panic",

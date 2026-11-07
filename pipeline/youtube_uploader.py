@@ -52,12 +52,20 @@ def get_youtube_service(client_secret_path=None, token_path=None):
             try:
                 print("[YouTube Auth] Access token expired, refreshing with refresh_token...")
                 creds.refresh(Request())
-                print("[YouTube Auth] Token refreshed successfully.")
+                with open(token_path, "w") as token_file:
+                    token_file.write(creds.to_json())
+                print("[YouTube Auth] Token refreshed and saved successfully.")
             except Exception as e:
                 print(f"[YouTube Auth] Token refresh failed ({e}). Re-authenticating...")
                 creds = None
 
         if not creds or not creds.valid:
+            if os.environ.get("CI") or not sys.stdin.isatty():
+                raise RuntimeError(
+                    "[YouTube Auth Error] Headless CI environment detected: cannot open browser for OAuth flow. "
+                    "Ensure YOUTUBE_TOKEN_JSON and YOUTUBE_CLIENT_SECRETS_JSON are configured correctly in GitHub Actions Secrets."
+                )
+
             if not client_secret_path.exists():
                 raise FileNotFoundError(
                     f"\n[YouTube Auth Error] client_secrets.json not found at:\n  {client_secret_path}\n"

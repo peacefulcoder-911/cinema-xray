@@ -163,116 +163,112 @@ def compute_publish_time(slot_name: str) -> str:
 
 
 CURATED_FALLBACK_CANDIDATES = {
-    "Inception": GeneratedTopicCandidate(
-        title="The Spinning Totem Paradox You Missed in Inception",
-        hook="You spent the entire ending looking at Cobb's spinning top, but you were watching the wrong totem.",
-        core_thesis="The top was Mal's totem, not Cobb's. Cobb's real totem was his wedding ring, revealing the movie's true reality.",
-        category_lens="Visual Symbolism & Subtext",
-        script_text=(
-            "You spent the entire ending looking at Cobb's spinning top, but you were watching the wrong totem. "
-            "In the rules of Inception, you can never touch another person's totem without compromising its integrity. "
-            "The top belonged to Mal. Cobb's real totem was his wedding ring. In every dream sequence, the ring is visibly "
-            "on Cobb's finger. But in the real world, the ring is missing. In the final scene, when Cobb hugs his children, "
-            "his hands are completely bare. The top wobbles, but it doesn't matter. Cobb was already home."
+    "The Dark Knight": [
+        GeneratedTopicCandidate(
+            title="The Unscripted Detonation in The Dark Knight",
+            hook="When the Gotham General Hospital didn't detonate, Heath Ledger's reaction became cinema history.",
+            core_thesis="The explosive delay was meticulously rehearsed, allowing Ledger to improvise the iconic fidgeting detonator beat.",
+            category_lens="Cinematic Techniques",
+            script_text=(
+                "When Gotham General Hospital didn't detonate on cue, Heath Ledger didn't break character. "
+                "Contrary to Hollywood myth, Christopher Nolan didn't accidentally misfire the pyrotechnics. "
+                "The pause was meticulously planned to protect Ledger from the concussive blast radius. "
+                "Ledger knew the second explosion was coming, but he improvised tapping the malfunctioning remote, "
+                "muttering to himself in frustrated impatience. That single unscripted gesture transformed an expensive "
+                "demolition sequence into the defining portrait of chaotic psychotic genius."
+            )
+        ),
+        GeneratedTopicCandidate(
+            title="Why the Joker Changes His Scar Story Every Time",
+            hook="The Joker told three different stories about his scars, and all of them were deliberate psychological weapons.",
+            core_thesis="The Joker's contradictory scar origins are psychological mirrors tailored to exploit the specific emotional vulnerabilities of his victims.",
+            category_lens="Character Psychology",
+            script_text=(
+                "The Joker told three different stories about his scars, and all of them were deliberate lies. "
+                "To Gambol, he claimed his father gave him the scars to exploit fear of domestic abuse. "
+                "To Rachel Dawes, he claimed he did it to comfort his disfigured wife, weaponizing romantic guilt. "
+                "And right before Batman threw him from the skyscraper, he was about to invent a third story tailored "
+                "specifically for Bruce Wayne. The scars weren't a tragic backstory; they were a psychological weapon "
+                "designed to deconstruct whoever was standing across from him."
+            )
         )
-    ),
-    "The Dark Knight": GeneratedTopicCandidate(
-        title="Why the Joker Changes His Scar Story Every Time",
-        hook="The Joker told three different stories about his scars, and all of them were deliberate psychological weapons.",
-        core_thesis="The Joker's contradictory scar origins are psychological mirrors tailored to exploit the specific emotional vulnerabilities of his victims.",
-        category_lens="Character Psychology",
-        script_text=(
-            "The Joker told three different stories about his scars, and all of them were deliberate lies. "
-            "To Gambol, he claimed his father gave him the scars to exploit fear of domestic abuse. "
-            "To Rachel Dawes, he claimed he did it to comfort his disfigured wife, weaponizing romantic guilt. "
-            "And right before Batman threw him from the skyscraper, he was about to invent a third story tailored "
-            "specifically for Bruce Wayne. The scars weren't a tragic backstory; they were a psychological weapon "
-            "designed to deconstruct whoever was standing across from him."
+    ],
+    "Avengers: Age of Ultron": [
+        GeneratedTopicCandidate(
+            title="Why Steve Rogers Pretended Not to Lift Mjolnir",
+            hook="In Age of Ultron, Captain America didn't fail to lift Mjolnir—he chose not to.",
+            core_thesis="Worthiness is an absolute state. Steve felt the hammer budge and instantly stopped pulling to protect Thor's divine pride.",
+            category_lens="Character Psychology",
+            script_text=(
+                "In Age of Ultron, every Avenger tries and fails to budge Thor's hammer. But watch Steve Rogers closely. "
+                "The moment Steve grips the handle, Mjolnir visibly shifts on the glass table. Thor's smile instantly vanishes "
+                "into pure panic. But on the next pull, Steve grunts in mock defeat and lets go. Director Joss Whedon and "
+                "Marvel later confirmed the truth: worthiness isn't partial; you are either worthy or you are not. "
+                "Steve Rogers was worthy the entire time. He simply chose Thor's dignity over his own ego."
+            )
         )
-    ),
-    "Oppenheimer": GeneratedTopicCandidate(
-        title="Why the Trinity Test Explosion Had Complete Silence",
-        hook="When the Trinity blast erupted, Christopher Nolan stripped away all sound for one chilling reason.",
-        core_thesis="The visceral silence before the delayed shockwave mimics real physics while isolating Oppenheimer in pure psychological terror.",
-        category_lens="Cinematic Techniques",
-        script_text=(
-            "When the Trinity blast erupted, Christopher Nolan stripped away all sound for one chilling reason. "
-            "Light travels at three hundred thousand kilometers per second, but sound crawls at just three hundred meters. "
-            "The silence forces you to watch Oppenheimer's breathing as pure white light consumes the desert. "
-            "For forty terrifying seconds, there is no roar, no music, only the terrifying beauty of destruction. "
-            "When the actual shockwave finally detonates, it shatters the theater not as an explosion, but as a visceral moral reckoning."
+    ],
+    "Avengers: Endgame": [
+        GeneratedTopicCandidate(
+            title="The Real Reason Cap Left the Avengers Behind",
+            hook="Captain America's decision to stay in the past wasn't just about Peggy Carter.",
+            core_thesis="Steve Rogers realized he had lived entirely as a weapon for others, and staying in the past was his first act of true personal freedom.",
+            category_lens="Character Psychology",
+            script_text=(
+                "Everyone thinks Captain America's ending was purely romantic. But look closer at Steve Rogers. "
+                "From the day he entered the super soldier chamber in nineteen forty-one, he never had an ordinary life. "
+                "He was a soldier, a government symbol, and finally an Avenger—always fighting someone else's war. "
+                "When Tony Stark told him to finally get a life, Steve realized that defeating Thanos concluded his debt to humanity. "
+                "Handing the shield to Sam Wilson wasn't retirement; it was Steve Rogers reclaiming the soul he sacrificed eighty years ago."
+            )
         )
-    ),
-    "Interstellar": GeneratedTopicCandidate(
-        title="The Secret Meaning of the Ticking Clock on Millers Planet",
-        hook="Every single tick of Hans Zimmer's soundtrack on Miller's planet cost Cooper an entire day of his daughter's life.",
-        core_thesis="Hans Zimmer scored the music at 1.25-second ticks, perfectly matching the mathematical relativity of one day on Earth.",
-        category_lens="Cinematic Techniques",
-        script_text=(
-            "Every single tick of Hans Zimmer's soundtrack on Miller's planet cost Cooper an entire day of his daughter's life. "
-            "Christopher Nolan asked Zimmer to construct a clock pulse running at precisely 1.25-second intervals. "
-            "Because one hour on Miller's planet equals seven Earth years, every single tick of that clock represents "
-            "exactly twenty-four hours passing for Murph back home. When Cooper finally escapes and watches twenty-three "
-            "years of video logs in the airlock, you realize the music wasn't just building tension; it was counting the "
-            "exact time stolen from his family."
+    ],
+    "Avengers: Infinity War": [
+        GeneratedTopicCandidate(
+            title="Why Tonys Nanotech Suit Consumed His Clothes",
+            hook="When Tony tapped his reactor in Infinity War, the nanotech vaporized his clothes for a dark reason.",
+            core_thesis="Driven by severe PTSD, Tony designed the Mark 50 to consume whatever fabric he was wearing into raw carbon plating to deploy defense in milliseconds.",
+            category_lens="Hidden Details & Symbolism",
+            script_text=(
+                "When Tony Stark tapped his chest reactor in Infinity War, his sunglasses and track jacket vanished into thin air. "
+                "That wasn't a visual effects shortcut. After the trauma of New York and Siberia, Tony lived with paralyzing PTSD. "
+                "He couldn't endure the seconds it took for a suit to fly from orbit. The Mark 50 was engineered to absorb "
+                "the carbon molecules of his everyday clothing to fuel instant particle replication. Tony literally converted "
+                "his civilian life into armor, proving he could never stop being Iron Man, even for a split second."
+            )
         )
-    ),
-    "The Matrix": GeneratedTopicCandidate(
-        title="The Unseen Color Code Hidden Inside The Matrix",
-        hook="Notice how every scene in the Matrix feels sickeningly green, but the real world is ice blue?",
-        core_thesis="The Wachowskis graded the digital simulation with a sickly phosphor green CRT cast, while Zion is graded in cold organic blue.",
-        category_lens="Visual Symbolism & Subtext",
-        script_text=(
-            "Notice how every scene in the Matrix feels sickeningly green, but the real world is ice blue? "
-            "The Wachowskis didn't just use green as a stylistic choice; they tinted every single frame inside "
-            "the simulation with the exact phosphorescent green of vintage computer monitors. There is not a "
-            "single pure blue or white pixel inside the Matrix. But the moment Neo wakes up in the real world "
-            "aboard the Nebuchadnezzar, the color grade immediately shifts to frigid industrial blues and warm human "
-            "skin tones. The simulation is an artificial sickness; reality is cold, raw, and alive."
+    ],
+    "Batman Begins": [
+        GeneratedTopicCandidate(
+            title="Why Bruce Wayne Weaponized His Childhood Fear",
+            hook="Batman was built from the very thing Bruce Wayne feared most.",
+            core_thesis="Bruce does not overcome his fear of bats; he masters what fear does to the human psyche and weaponizes it into an immortal symbol.",
+            category_lens="Character Psychology",
+            script_text=(
+                "Bruce Wayne didn't conquer his fear of bats in that limestone cave; he surrendered to it. "
+                "Most vigilantes adopt symbols of power, like lions or eagles. Bruce chose the creature that gave him nightmares "
+                "as an eight-year-old boy. Why? Because Bruce understood that fear is an infectious psychological contagion. "
+                "By wrapping himself in the exact terror that paralyzed his childhood, he didn't just fight criminals—"
+                "he forced Gotham's underworld to share the exact same trauma that created him."
+            )
         )
-    ),
-    "Fight Club": GeneratedTopicCandidate(
-        title="The Single Frame Clues You Missed in Fight Club",
-        hook="Before the narrator even meets Tyler Durden, Tyler appears four distinct times on screen.",
-        core_thesis="David Fincher spliced single-frame sub-perceptual flashes of Brad Pitt into everyday scenes to show Tyler's subconscious takeover.",
-        category_lens="Hidden Details & Symbolism",
-        script_text=(
-            "Before the narrator even meets Tyler Durden on the airplane, Tyler appears four distinct times on screen. "
-            "In the doctor's office, the copier room, the testicular cancer meeting, and outside the hotel, "
-            "David Fincher literally splices single frames of Brad Pitt right into the film reel. They last for one "
-            "twenty-fourth of a second—too fast for the conscious mind to register, but impossible for your subconscious "
-            "to ignore. Tyler didn't magically appear after the condo exploded; he was invading the narrator's waking "
-            "brain frame by frame."
+    ],
+    "Interstellar": [
+        GeneratedTopicCandidate(
+            title="The Secret Meaning of the Ticking Clock on Millers Planet",
+            hook="Every single tick of Hans Zimmer's soundtrack on Miller's planet cost Cooper an entire day of his daughter's life.",
+            core_thesis="Hans Zimmer scored the music at 1.25-second ticks, perfectly matching the mathematical relativity of one day on Earth.",
+            category_lens="Cinematic Techniques",
+            script_text=(
+                "Every single tick of Hans Zimmer's soundtrack on Miller's planet cost Cooper an entire day of his daughter's life. "
+                "Christopher Nolan asked Zimmer to construct a clock pulse running at precisely 1.25-second intervals. "
+                "Because one hour on Miller's planet equals seven Earth years, every single tick of that clock represents "
+                "exactly twenty-four hours passing for Murph back home. When Cooper finally escapes and watches twenty-three "
+                "years of video logs in the airlock, you realize the music wasn't just building tension; it was counting the "
+                "exact time stolen from his family."
+            )
         )
-    ),
-    "Whiplash": GeneratedTopicCandidate(
-        title="The Terrifying Truth Behind Fletchers Tempo",
-        hook="Fletcher screamed at Andrew for dragging and rushing, but Fletcher was never testing his rhythm.",
-        core_thesis="Fletcher's abuse wasn't about acoustic tempo; it was an psychological filtration system designed to break anyone who wasn't willing to self-destruct for greatness.",
-        category_lens="Character Psychology",
-        script_text=(
-            "Fletcher screamed at Andrew for dragging and rushing, but Fletcher was never testing his rhythm. "
-            "In the infamous rehearsal scene, Fletcher slaps Andrew across the face while demanding to know if he's "
-            "rushing or dragging. Andrew can't tell, because nobody can detect micro-variations of a few milliseconds. "
-            "Fletcher knew that. The test was never musical precision; it was psychological submission. Fletcher was "
-            "filtering out talented musicians to find the one borderline obsessive willing to bleed across the drumheads "
-            "until his soul tore in half. The tragedy of Whiplash isn't that Andrew failed; it's that he survived."
-        )
-    ),
-    "Dune: Part Two": GeneratedTopicCandidate(
-        title="The Secret Psychological Shift in Paul Atreides",
-        hook="The exact second Paul drank the Water of Life, Denis Villeneuve altered how his voice was recorded.",
-        core_thesis="The sound designers blended five different ancestral vocal tracks whenever Paul spoke to signify his loss of individual humanity.",
-        category_lens="Cinematic Techniques",
-        script_text=(
-            "The exact second Paul drank the Water of Life, Denis Villeneuve altered how his voice was recorded. "
-            "Before the southern temple, Timothée Chalamet's voice is miked as a solitary, isolated human frequency. "
-            "But the moment he survives the poison and steps into the hall of leaders, the sound design layer-stacks "
-            "five separate ancestral voices beneath every sentence he utters. When Paul screams 'Silence!' to the Reverend "
-            "Mother, it isn't one young man speaking; it is thousands of years of calculated genetic fury converging into "
-            "a weapon. Paul didn't just become the Kwisatz Haderach; his individual soul was completely erased."
-        )
-    )
+    ]
 }
 
 
@@ -361,26 +357,39 @@ Strict Rules:
     # Fallback to curated high-retention cinematic topic if API is unavailable or quota exhausted
     if not candidate:
         film_name = film_entry["film"]
-        if film_name in CURATED_FALLBACK_CANDIDATES:
-            print(f"🎬 Utilizing pre-verified golden standard thesis for '{film_name}'.")
-            candidate = CURATED_FALLBACK_CANDIDATES[film_name]
-        else:
-            print("⚠️ Utilizing curated cinematic thesis fallback.")
+        curated_entries = CURATED_FALLBACK_CANDIDATES.get(film_name, [])
+        if isinstance(curated_entries, GeneratedTopicCandidate):
+            curated_entries = [curated_entries]
+
+        for cand in curated_entries:
+            is_dup, reason = db.is_duplicate(cand.title, film_name, cand.core_thesis)
+            if not is_dup:
+                candidate = cand
+                print(f"🎬 Selected non-duplicate curated thesis for '{film_name}': {candidate.title}")
+                break
+
+        if not candidate and curated_entries:
+            # If all are considered duplicates in history, choose the first curated entry
+            candidate = curated_entries[0]
+            print(f"🎬 Utilizing curated thesis for '{film_name}': {candidate.title}")
+
+        if not candidate:
+            print("⚠️ Utilizing generic cinematic thesis fallback.")
             candidate = GeneratedTopicCandidate(
-                title=f"The Unseen Truth in {film_entry['film']}",
+                title=f"The Unnoticed Genius of {film_entry['film']}",
                 hook=f"You watched {film_entry['film']}, but missed the central visual thesis.",
                 core_thesis="The visual subtext reverses the perceived hero arc, transforming a triumphant climax into a haunting psychological compromise.",
                 category_lens="Visual Symbolism & Subtext",
                 script_text=(
-                    f"In {film_entry['film']}, every major choice comes down to perception versus reality. "
+                    f"In {film_entry['film']}, every major cinematic choice comes down to perception versus reality. "
                     "When the camera lingers on the protagonist's eyes, the director is not highlighting bravery—"
                     "he is revealing acute vulnerability. Notice the deliberate framing and color grading shifts "
                     "between dawn and dusk. The ending isn't a simple victory; it is a profound sacrifice of peace."
                 )
             )
 
-    # Fallback to unique variant
-    slug = f"{re.sub(r'[^a-z0-9]+', '_', candidate.title.lower())}_{int(time.time())}"[:40]
+    # Clean, concise slug
+    slug = re.sub(r'[^a-z0-9]+', '_', candidate.title.lower()).strip('_')[:40]
     return candidate, slug
 
 
@@ -507,21 +516,24 @@ def produce_single_short(
     yt_url = yt_res.get("url")
     print(f"🚀 YouTube Upload Result: {yt_url if yt_url else 'DRY_RUN (Simulated)'}")
 
-    # 8. Record Completed Topic in Database
-    db_id = db.add_completed_topic(
-        topic_slug=topic_slug,
-        movie_name=film_entry["film"],
-        film_cluster=film_entry["cluster"],
-        title=candidate.title,
-        hook=candidate.hook,
-        core_thesis=candidate.core_thesis,
-        category_lens=candidate.category_lens,
-        scheduled_slot=slot_name,
-        scheduled_time_iso=publish_iso,
-        youtube_video_id=yt_id,
-        youtube_url=yt_url
-    )
-    print(f"💾 Recorded in completed_topics.db (Row #{db_id})")
+    # 8. Record Completed Topic in Database ONLY if not in dry-run mode and a live video ID was obtained
+    if not dry_run and yt_id and not yt_id.startswith("PENDING_"):
+        db_id = db.add_completed_topic(
+            topic_slug=topic_slug,
+            movie_name=film_entry["film"],
+            film_cluster=film_entry["cluster"],
+            title=candidate.title,
+            hook=candidate.hook,
+            core_thesis=candidate.core_thesis,
+            category_lens=candidate.category_lens,
+            scheduled_slot=slot_name,
+            scheduled_time_iso=publish_iso,
+            youtube_video_id=yt_id,
+            youtube_url=yt_url
+        )
+        print(f"💾 Recorded in completed_topics.db (Row #{db_id})")
+    else:
+        print(f"ℹ️ Skipping database recording (dry_run={dry_run}, yt_id={yt_id})")
 
     return {
         "topic_slug": topic_slug,
