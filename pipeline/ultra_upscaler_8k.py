@@ -142,7 +142,6 @@ def upgrade_to_super_resolution(
             "-c:v", "libx264",
             "-preset", "ultrafast",
             "-crf", "18",
-            "-tag:v", "hvc1",
             "-c:a", "copy",
             str(output_path)
         ]
