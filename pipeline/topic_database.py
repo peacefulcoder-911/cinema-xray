@@ -177,6 +177,8 @@ class TopicDatabase:
             return [dict(r) for r in cur.fetchall()]
 
     get_all_completed_topics = get_completed_topics
+    all_completed_topics = get_completed_topics
+    list_completed_topics = get_completed_topics
 
     def is_duplicate(self, title: str, movie_name: str = "", core_thesis: str = "") -> Tuple[bool, str]:
         """

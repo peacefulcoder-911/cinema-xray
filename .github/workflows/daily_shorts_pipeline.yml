@@ -39,6 +39,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: main
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -135,13 +136,29 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash push -m "db-updates" database/ || true
+          git pull --rebase origin main || true
+          git stash pop || true
+          python3 -c "
+          from pipeline.topic_database import TopicDatabase
+          db = TopicDatabase()
+          db.seed_initial_history()
+          db.export_to_json()
+          " || true
           git add database/
           if ! git diff --cached --quiet; then
             git commit -m "chore(database): update completed topics registry [skip ci]"
-            for i in 1 2 3; do
-              git pull --rebase -X theirs origin main && git push origin main && break || (git rebase --abort 2>/dev/null || true; sleep 2)
+            for attempt in 1 2 3 4 5; do
+              echo "Attempt $attempt to push database changes to origin/main..."
+              if git push origin HEAD:main; then
+                echo "✅ Successfully pushed database changes to origin/main"
+                break
+              fi
+              echo "⚠️ Push rejected on attempt $attempt. Pulling and rebasing..."
+              git fetch origin main
+              git rebase origin/main || (git rebase --abort && git merge -X theirs origin/main -m "Merge remote main")
+              sleep 3
             done
-            echo "✅ Completed topics database successfully pushed to repository."
           else
             echo "Database unchanged."
           fi
