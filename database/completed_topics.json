@@ -1,24 +1,8 @@
 {
   "database_version": "1.0",
-  "total_completed": 6,
+  "total_completed": 5,
   "last_updated": "2026-11-07T03:14:12.392437",
   "topics": [
-    {
-      "id": 6,
-      "topic_slug": "the_unseen_truth_in_avengers_endgame_179",
-      "movie_name": "Avengers: Endgame",
-      "film_cluster": "Marvel Cinematic Universe (MCU)",
-      "title": "The Unseen Truth in Avengers: Endgame",
-      "hook": "You watched Avengers: Endgame, but missed the central visual thesis.",
-      "core_thesis": "The visual subtext reverses the perceived hero arc, transforming a triumphant climax into a haunting psychological compromise.",
-      "category_lens": "Visual Symbolism & Subtext",
-      "youtube_video_id": null,
-      "youtube_url": "https://youtu.be/_infWnOzY8A",
-      "scheduled_slot": "MORNING",
-      "scheduled_time_iso": "2026-11-07T10:30:00Z",
-      "status": "COMPLETED",
-      "created_at": "2026-11-07 03:14:12"
-    },
     {
       "id": 5,
       "topic_slug": "dark_knight_hospital_explosion_truth",

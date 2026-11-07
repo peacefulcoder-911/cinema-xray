@@ -97,6 +97,10 @@ jobs:
           fi
 
           UPLOAD_FLAG="--live"
+          # Git push events should only test/verify in dry-run mode so test placeholders are never published
+          if [ "${{ github.event_name }}" = "push" ]; then
+            UPLOAD_FLAG="--dry-run"
+          fi
           if [ "${{ inputs.live_upload }}" = "false" ]; then
             UPLOAD_FLAG="--dry-run"
           fi

@@ -280,9 +280,25 @@ def produce_single_short(
     # 4. Video Slicing (70% Canvas with Ambient Blurred Letterbox)
     source_file = film_entry["file"]
     if not source_file.exists():
-        # Fallback to any available raw video in marvel-decoded
-        fallback = REPO_ROOT / "projects" / "marvel-decoded" / "raw_video" / "endgame_mjolnir.mp4"
-        source_file = fallback
+        try:
+            from pipeline.clip_search_engine import search_and_acquire_clip
+            print(f"📥 Acquiring HD scene footage from YouTube for {film_entry['film']}...")
+            clip_info = search_and_acquire_clip(
+                query=f"{film_entry['film']} iconic scene clip 1080p",
+                movie_name=film_entry["film"],
+                require_authorized_license=False,
+                allow_network_download=True
+            )
+            if clip_info and clip_info.file_path and clip_info.file_path.exists():
+                source_file = clip_info.file_path
+                print(f"✅ Successfully acquired HD footage from YouTube: {source_file}")
+            else:
+                fallback = REPO_ROOT / "projects" / "marvel-decoded" / "raw_video" / "endgame_mjolnir.mp4"
+                source_file = fallback
+        except Exception as acq_err:
+            print(f"⚠️ YouTube clip acquisition note ({acq_err}). Checking local fallback...")
+            fallback = REPO_ROOT / "projects" / "marvel-decoded" / "raw_video" / "endgame_mjolnir.mp4"
+            source_file = fallback
 
     clips_dir = OUTPUT_DIR / "clips" / topic_slug
     clips_dir.mkdir(parents=True, exist_ok=True)
