@@ -25,6 +25,8 @@ on:
       - main
     paths:
       - '.github/workflows/daily_shorts_pipeline.yml'
+      - 'pipeline/**'
+      - 'requirements.txt'
 
 permissions:
   contents: write

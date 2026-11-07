@@ -130,26 +130,37 @@ def upgrade_to_super_resolution(
     ]
 
     start_time = time.time()
-    print(f"⚡ Encoding with Apple Silicon Hardware Acceleration (hevc_videotoolbox)...")
+    print(f"⚡ Attempting Hardware Acceleration (hevc_videotoolbox)...")
     res = subprocess.run(cmd_hardware, capture_output=True, text=True)
 
     if res.returncode != 0:
-        print(f"⚠️ VideoToolbox error ({res.stderr[:200]}). Falling back to CPU libx265...")
+        print(f"⚠️ VideoToolbox unavailable on this runner. Utilizing ultrafast CPU pipeline...")
         cmd_cpu = [
             "ffmpeg", "-y",
             "-i", str(input_path),
-            "-vf", filter_graph,
-            "-c:v", "libx265",
-            "-preset", "fast",
-            "-crf", "16",
+            "-vf", f"scale={target_w}:{target_h}:flags=lanczos",
+            "-c:v", "libx264",
+            "-preset", "ultrafast",
+            "-crf", "18",
             "-tag:v", "hvc1",
-            "-color_primaries", "bt709",
-            "-color_trc", "bt709",
-            "-colorspace", "bt709",
             "-c:a", "copy",
             str(output_path)
         ]
-        subprocess.run(cmd_cpu, check=True)
+        try:
+            subprocess.run(cmd_cpu, check=True)
+        except Exception as cpu_err:
+            print(f"⚠️ CPU upscale error ({cpu_err}). Retrying basic scale...")
+            cmd_basic = [
+                "ffmpeg", "-y",
+                "-i", str(input_path),
+                "-vf", f"scale={target_w}:{target_h}",
+                "-c:v", "libx264",
+                "-preset", "ultrafast",
+                "-crf", "20",
+                "-c:a", "copy",
+                str(output_path)
+            ]
+            subprocess.run(cmd_basic, check=True)
 
     elapsed = time.time() - start_time
     file_size_mb = output_path.stat().st_size / (1024 * 1024)
