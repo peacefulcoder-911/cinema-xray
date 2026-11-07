@@ -65,6 +65,37 @@ class TopicDatabase:
             if count > 0:
                 return
 
+            if self.json_path.exists():
+                try:
+                    data = json.loads(self.json_path.read_text(encoding="utf-8"))
+                    topics = data.get("topics", [])
+                    if topics:
+                        for t in topics:
+                            cur.execute("""
+                            INSERT OR IGNORE INTO completed_topics
+                            (id, topic_slug, movie_name, film_cluster, title, hook, core_thesis, category_lens, scheduled_slot, scheduled_time_iso, youtube_video_id, youtube_url, status, created_at)
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                            """, (
+                                t.get("id"),
+                                t.get("topic_slug"),
+                                t.get("movie_name"),
+                                t.get("film_cluster"),
+                                t.get("title"),
+                                t.get("hook"),
+                                t.get("core_thesis"),
+                                t.get("category_lens"),
+                                t.get("scheduled_slot"),
+                                t.get("scheduled_time_iso"),
+                                t.get("youtube_video_id"),
+                                t.get("youtube_url"),
+                                t.get("status", "COMPLETED"),
+                                t.get("created_at")
+                            ))
+                        conn.commit()
+                        return
+                except Exception as e:
+                    print(f"Warning: could not seed from json: {e}")
+
             initial_records = [
                 {
                     "topic_slug": "interstellar_ticking_clock_meaning",

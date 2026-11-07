@@ -218,6 +218,7 @@ def upload_video(
 
     return {
         "id": video_id,
+        "video_id": video_id,
         "url": video_url,
         "status": status_body["privacyStatus"],
         "channel": channel_info

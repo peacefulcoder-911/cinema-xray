@@ -512,8 +512,8 @@ def produce_single_short(
             "url": f"https://youtu.be/pending_{topic_slug[:8]}"
         }
 
-    yt_id = yt_res.get("video_id")
-    yt_url = yt_res.get("url")
+    yt_id = yt_res.get("id") or yt_res.get("video_id")
+    yt_url = yt_res.get("url") or (f"https://youtu.be/{yt_id}" if yt_id else None)
     print(f"🚀 YouTube Upload Result: {yt_url if yt_url else 'DRY_RUN (Simulated)'}")
 
     # 8. Record Completed Topic in Database ONLY if not in dry-run mode and a live video ID was obtained

@@ -1,23 +1,23 @@
 {
   "database_version": "1.0",
   "total_completed": 5,
-  "last_updated": "2026-11-07T06:21:20.816811",
+  "last_updated": "2026-11-07T11:57:03.100358",
   "topics": [
     {
       "id": 5,
-      "topic_slug": "dark_knight_hospital_explosion_truth",
-      "movie_name": "The Dark Knight",
+      "topic_slug": "why_bruce_wayne_weaponized_his_childhood",
+      "movie_name": "Batman Begins",
       "film_cluster": "Christopher Nolan Cinema",
-      "title": "The Truth Behind the Joker Hospital Detonation",
-      "hook": "Heath Ledger's detonator pause was not an accident\u2014it was masterwork calculation.",
-      "core_thesis": "Nolan and Ledger rehearsed the delay to mirror the Joker's theatrical control over chaos.",
-      "category_lens": "Cinematic Storytelling & Film Language",
-      "youtube_video_id": null,
-      "youtube_url": null,
-      "scheduled_slot": "AFTERNOON",
+      "title": "Why Bruce Wayne Weaponized His Childhood Fear",
+      "hook": "Batman was built from the very thing Bruce Wayne feared most.",
+      "core_thesis": "Bruce does not overcome his fear of bats; he masters what fear does to the human psyche and weaponizes it into an immortal symbol.",
+      "category_lens": "Character Psychology",
+      "youtube_video_id": "y8Tqd-C0Cpk",
+      "youtube_url": "https://youtu.be/y8Tqd-C0Cpk",
+      "scheduled_slot": "MORNING",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-07 06:21:20"
+      "created_at": "2026-11-07 06:27:03"
     },
     {
       "id": 4,
@@ -28,12 +28,12 @@
       "hook": "When Tony tapped his reactor, the nanotech vaporized his sunglasses and jacket.",
       "core_thesis": "Driven by severe PTSD, Tony designed the Mark 50 to consume whatever fabric he was wearing into raw carbon plating to deploy defense in milliseconds.",
       "category_lens": "Hidden Details & Symbolism",
-      "youtube_video_id": null,
-      "youtube_url": null,
+      "youtube_video_id": "2F1_UBylP8U",
+      "youtube_url": "https://youtu.be/2F1_UBylP8U",
       "scheduled_slot": "MORNING",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-07 06:21:20"
+      "created_at": "2026-11-07 06:27:03"
     },
     {
       "id": 3,
@@ -44,12 +44,12 @@
       "hook": "Did Cap suddenly become worthy in Endgame, or did he fake it in Age of Ultron?",
       "core_thesis": "Worthiness is binary. The second Mjolnir budged in Age of Ultron, Steve stopped pulling to spare Thor's pride in front of the Avengers.",
       "category_lens": "Character Psychology",
-      "youtube_video_id": null,
-      "youtube_url": null,
+      "youtube_video_id": "baYdDjJ6CC0",
+      "youtube_url": "https://youtu.be/baYdDjJ6CC0",
       "scheduled_slot": "AFTERNOON",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-07 06:21:20"
+      "created_at": "2026-11-07 06:27:03"
     },
     {
       "id": 2,
@@ -60,12 +60,12 @@
       "hook": "Batman was built from the very thing Bruce Wayne feared most.",
       "core_thesis": "Bruce does not overcome his fear of bats; he masters what fear does to the human psyche and weaponizes it into an immortal symbol.",
       "category_lens": "Character Psychology",
-      "youtube_video_id": null,
-      "youtube_url": null,
+      "youtube_video_id": "AxgYtqerRD4",
+      "youtube_url": "https://youtu.be/AxgYtqerRD4",
       "scheduled_slot": "MORNING",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-07 06:21:20"
+      "created_at": "2026-11-07 06:27:03"
     },
     {
       "id": 1,
@@ -76,12 +76,12 @@
       "hook": "Every tick in Hans Zimmer's soundtrack is exactly 1.25 seconds apart.",
       "core_thesis": "Because 1 hour on Miller's planet equals 7 Earth years, each 1.25-second tick represents an entire 24-hour day passing on Earth.",
       "category_lens": "Hidden Details & Symbolism",
-      "youtube_video_id": null,
-      "youtube_url": null,
+      "youtube_video_id": "o9xvURxEPD4",
+      "youtube_url": "https://youtu.be/o9xvURxEPD4",
       "scheduled_slot": "NIGHT",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-07 06:21:20"
+      "created_at": "2026-11-07 06:27:03"
     }
   ]
 }
