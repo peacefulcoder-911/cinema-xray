@@ -47,15 +47,19 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Install System Dependencies (FFmpeg & Fonts)
+      - name: Verify System Tools & Install Essential Fonts
         run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg fonts-liberation fonts-dejavu-core libass-dev
+          echo "=== Verifying FFmpeg ==="
+          ffmpeg -version | head -n 2 || (sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg)
+          echo "=== Installing Subtitle Fonts ==="
+          sudo apt-get update -qq || true
+          sudo apt-get install -y --no-install-recommends fonts-liberation fonts-dejavu-core || true
+          fc-cache -f || true
 
       - name: Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install --no-cache-dir -r requirements.txt
 
       - name: Hydrate Credentials from Secrets
         run: |
@@ -116,3 +120,4 @@ jobs:
           else
             echo "Database unchanged."
           fi
+

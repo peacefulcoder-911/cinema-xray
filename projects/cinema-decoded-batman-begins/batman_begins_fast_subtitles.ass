@@ -9,58 +9,58 @@ PlayResY: 1920
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: LowerCenter,Arial Black,70,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,1,0,0,0,100,100,2,0,1,10,4,2,60,60,340,1
+Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,1,0,0,0,100,100,2,0,1,10,4,5,60,60,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.96,LowerCenter,,0,0,0,,NOTICE HOW BATMAN
-Dialogue: 0,0:00:00.96,0:00:01.66,LowerCenter,,0,0,0,,WAS NOT BUILT
-Dialogue: 0,0:00:01.66,0:00:02.44,LowerCenter,,0,0,0,,ON {\c&H0000D7FF&}FEARLESSNESS,{\c&HFFFFFF&}
-Dialogue: 0,0:00:02.72,0:00:03.27,LowerCenter,,0,0,0,,BUT ON THE
-Dialogue: 0,0:00:03.06,0:00:04.04,LowerCenter,,0,0,0,,VERY {\c&H000030D0&}TERROR{\c&HFFFFFF&} THAT
-Dialogue: 0,0:00:04.04,0:00:04.84,LowerCenter,,0,0,0,,BROKE BRUCE WAYNE.
-Dialogue: 0,0:00:05.40,0:00:05.95,LowerCenter,,0,0,0,,AS A BOY,
-Dialogue: 0,0:00:06.20,0:00:06.88,LowerCenter,,0,0,0,,BRUCE PLUNGED INTO
-Dialogue: 0,0:00:06.88,0:00:07.66,LowerCenter,,0,0,0,,A COLLAPSED {\c&H0000D7FF&}WELL{\c&HFFFFFF&}
-Dialogue: 0,0:00:07.66,0:00:08.46,LowerCenter,,0,0,0,,WHERE A SHRIEKING
-Dialogue: 0,0:00:08.46,0:00:09.10,LowerCenter,,0,0,0,,{\c&H0000D7FF&}SWARM{\c&HFFFFFF&} OF {\c&H0000D7FF&}BATS{\c&HFFFFFF&}
-Dialogue: 0,0:00:09.10,0:00:09.94,LowerCenter,,0,0,0,,{\c&H000030D0&}SCARRED{\c&HFFFFFF&} HIS MIND.
-Dialogue: 0,0:00:10.40,0:00:11.02,LowerCenter,,0,0,0,,HIS FATHER TAUGHT
-Dialogue: 0,0:00:11.02,0:00:11.68,LowerCenter,,0,0,0,,HIM THAT {\c&H0000D7FF&}FALLING{\c&HFFFFFF&}
-Dialogue: 0,0:00:11.68,0:00:12.32,LowerCenter,,0,0,0,,IS HOW WE
-Dialogue: 0,0:00:12.32,0:00:12.92,LowerCenter,,0,0,0,,LEARN TO {\c&H0000D7FF&}RISE,{\c&HFFFFFF&}
-Dialogue: 0,0:00:13.22,0:00:13.86,LowerCenter,,0,0,0,,BUT THE TRAUMA
-Dialogue: 0,0:00:13.86,0:00:14.74,LowerCenter,,0,0,0,,REMAINED TRAPPED IN
-Dialogue: 0,0:00:14.74,0:00:15.29,LowerCenter,,0,0,0,,THE {\c&H0000D7FF&}DARKNESS.{\c&HFFFFFF&}
-Dialogue: 0,0:00:15.70,0:00:16.25,LowerCenter,,0,0,0,,YEARS LATER,
-Dialogue: 0,0:00:16.44,0:00:17.40,LowerCenter,,0,0,0,,HENRI DUCARD FORCES
-Dialogue: 0,0:00:17.40,0:00:17.95,LowerCenter,,0,0,0,,HIM TO FACE
-Dialogue: 0,0:00:17.88,0:00:18.43,LowerCenter,,0,0,0,,THE {\c&H0000D7FF&}TRUTH.{\c&HFFFFFF&}
-Dialogue: 0,0:00:18.68,0:00:19.58,LowerCenter,,0,0,0,,YOU CANNOT DESTROY
-Dialogue: 0,0:00:19.58,0:00:20.13,LowerCenter,,0,0,0,,{\c&H000030D0&}FEAR.{\c&HFFFFFF&}
-Dialogue: 0,0:00:20.38,0:00:20.98,LowerCenter,,0,0,0,,TO MASTER YOUR
-Dialogue: 0,0:00:20.98,0:00:21.53,LowerCenter,,0,0,0,,ENEMY,
-Dialogue: 0,0:00:21.60,0:00:22.15,LowerCenter,,0,0,0,,YOU HAVE TO
-Dialogue: 0,0:00:22.14,0:00:22.69,LowerCenter,,0,0,0,,{\c&H0000D7FF&}BECOME{\c&HFFFFFF&} IT.
-Dialogue: 0,0:00:23.06,0:00:23.78,LowerCenter,,0,0,0,,DEEP INSIDE THE
-Dialogue: 0,0:00:23.78,0:00:24.33,LowerCenter,,0,0,0,,CAVE,
-Dialogue: 0,0:00:24.34,0:00:25.06,LowerCenter,,0,0,0,,BRUCE STEPS DIRECTLY
-Dialogue: 0,0:00:25.06,0:00:25.98,LowerCenter,,0,0,0,,INTO THE BATSWARM.
-Dialogue: 0,0:00:26.28,0:00:27.04,LowerCenter,,0,0,0,,HE STOPS RUNNING.
-Dialogue: 0,0:00:27.34,0:00:28.00,LowerCenter,,0,0,0,,HE RISES WITH
-Dialogue: 0,0:00:28.00,0:00:28.55,LowerCenter,,0,0,0,,THEM.
-Dialogue: 0,0:00:28.18,0:00:29.36,LowerCenter,,0,0,0,,WHEN ALFRED ASKS
-Dialogue: 0,0:00:29.36,0:00:29.91,LowerCenter,,0,0,0,,WHY {\c&H0000D7FF&}BATS,{\c&HFFFFFF&}
-Dialogue: 0,0:00:30.24,0:00:30.79,LowerCenter,,0,0,0,,BRUCE GIVES THE
-Dialogue: 0,0:00:30.74,0:00:31.40,LowerCenter,,0,0,0,,CHILLING ANSWER.
-Dialogue: 0,0:00:31.94,0:00:32.74,LowerCenter,,0,0,0,,{\c&H0000D7FF&}BATS{\c&HFFFFFF&} FRIGHTEN ME.
-Dialogue: 0,0:00:33.06,0:00:33.61,LowerCenter,,0,0,0,,IT'S TIME MY
-Dialogue: 0,0:00:33.58,0:00:34.58,LowerCenter,,0,0,0,,ENEMIES SHARED MY
-Dialogue: 0,0:00:34.58,0:00:35.13,LowerCenter,,0,0,0,,{\c&H0000D7FF&}DREAD.{\c&HFFFFFF&}
-Dialogue: 0,0:00:35.28,0:00:36.18,LowerCenter,,0,0,0,,HE DIDN'T ELIMINATE
-Dialogue: 0,0:00:36.18,0:00:37.04,LowerCenter,,0,0,0,,HIS CHILDHOOD {\c&H000030D0&}WEAKNESS.{\c&HFFFFFF&}
-Dialogue: 0,0:00:37.42,0:00:38.18,LowerCenter,,0,0,0,,HE INVERTED IT
-Dialogue: 0,0:00:38.18,0:00:38.88,LowerCenter,,0,0,0,,INTO HIS {\c&H0000D7FF&}ARMOR,{\c&HFFFFFF&}
-Dialogue: 0,0:00:39.22,0:00:39.77,LowerCenter,,0,0,0,,HIS {\c&H0000D7FF&}WEAPON,{\c&HFFFFFF&}
-Dialogue: 0,0:00:39.86,0:00:40.54,LowerCenter,,0,0,0,,AND HIS PERMANENT
-Dialogue: 0,0:00:40.54,0:00:41.09,LowerCenter,,0,0,0,,{\c&H0000D7FF&}IDENTITY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.00,0:00:00.96,CenterBold,,0,0,0,,NOTICE HOW BATMAN
+Dialogue: 0,0:00:00.96,0:00:01.66,CenterBold,,0,0,0,,WAS NOT BUILT
+Dialogue: 0,0:00:01.66,0:00:02.44,CenterBold,,0,0,0,,ON {\c&H0000D7FF&}FEARLESSNESS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.72,0:00:03.27,CenterBold,,0,0,0,,BUT ON THE
+Dialogue: 0,0:00:03.06,0:00:04.04,CenterBold,,0,0,0,,VERY {\c&H000030D0&}TERROR{\c&HFFFFFF&} THAT
+Dialogue: 0,0:00:04.04,0:00:04.84,CenterBold,,0,0,0,,BROKE BRUCE WAYNE.
+Dialogue: 0,0:00:05.40,0:00:05.95,CenterBold,,0,0,0,,AS A BOY,
+Dialogue: 0,0:00:06.20,0:00:06.88,CenterBold,,0,0,0,,BRUCE PLUNGED INTO
+Dialogue: 0,0:00:06.88,0:00:07.66,CenterBold,,0,0,0,,A COLLAPSED {\c&H0000D7FF&}WELL{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.66,0:00:08.46,CenterBold,,0,0,0,,WHERE A SHRIEKING
+Dialogue: 0,0:00:08.46,0:00:09.10,CenterBold,,0,0,0,,{\c&H0000D7FF&}SWARM{\c&HFFFFFF&} OF {\c&H0000D7FF&}BATS{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.10,0:00:09.94,CenterBold,,0,0,0,,{\c&H000030D0&}SCARRED{\c&HFFFFFF&} HIS MIND.
+Dialogue: 0,0:00:10.40,0:00:11.02,CenterBold,,0,0,0,,HIS FATHER TAUGHT
+Dialogue: 0,0:00:11.02,0:00:11.68,CenterBold,,0,0,0,,HIM THAT {\c&H0000D7FF&}FALLING{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.68,0:00:12.32,CenterBold,,0,0,0,,IS HOW WE
+Dialogue: 0,0:00:12.32,0:00:12.92,CenterBold,,0,0,0,,LEARN TO {\c&H0000D7FF&}RISE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.22,0:00:13.86,CenterBold,,0,0,0,,BUT THE TRAUMA
+Dialogue: 0,0:00:13.86,0:00:14.74,CenterBold,,0,0,0,,REMAINED TRAPPED IN
+Dialogue: 0,0:00:14.74,0:00:15.29,CenterBold,,0,0,0,,THE {\c&H0000D7FF&}DARKNESS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.70,0:00:16.25,CenterBold,,0,0,0,,YEARS LATER,
+Dialogue: 0,0:00:16.44,0:00:17.40,CenterBold,,0,0,0,,HENRI DUCARD FORCES
+Dialogue: 0,0:00:17.40,0:00:17.95,CenterBold,,0,0,0,,HIM TO FACE
+Dialogue: 0,0:00:17.88,0:00:18.43,CenterBold,,0,0,0,,THE {\c&H0000D7FF&}TRUTH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.68,0:00:19.58,CenterBold,,0,0,0,,YOU CANNOT DESTROY
+Dialogue: 0,0:00:19.58,0:00:20.13,CenterBold,,0,0,0,,{\c&H000030D0&}FEAR.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.38,0:00:20.98,CenterBold,,0,0,0,,TO MASTER YOUR
+Dialogue: 0,0:00:20.98,0:00:21.53,CenterBold,,0,0,0,,ENEMY,
+Dialogue: 0,0:00:21.60,0:00:22.15,CenterBold,,0,0,0,,YOU HAVE TO
+Dialogue: 0,0:00:22.14,0:00:22.69,CenterBold,,0,0,0,,{\c&H0000D7FF&}BECOME{\c&HFFFFFF&} IT.
+Dialogue: 0,0:00:23.06,0:00:23.78,CenterBold,,0,0,0,,DEEP INSIDE THE
+Dialogue: 0,0:00:23.78,0:00:24.33,CenterBold,,0,0,0,,CAVE,
+Dialogue: 0,0:00:24.34,0:00:25.06,CenterBold,,0,0,0,,BRUCE STEPS DIRECTLY
+Dialogue: 0,0:00:25.06,0:00:25.98,CenterBold,,0,0,0,,INTO THE BATSWARM.
+Dialogue: 0,0:00:26.28,0:00:27.04,CenterBold,,0,0,0,,HE STOPS RUNNING.
+Dialogue: 0,0:00:27.34,0:00:28.00,CenterBold,,0,0,0,,HE RISES WITH
+Dialogue: 0,0:00:28.00,0:00:28.55,CenterBold,,0,0,0,,THEM.
+Dialogue: 0,0:00:28.18,0:00:29.36,CenterBold,,0,0,0,,WHEN ALFRED ASKS
+Dialogue: 0,0:00:29.36,0:00:29.91,CenterBold,,0,0,0,,WHY {\c&H0000D7FF&}BATS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.24,0:00:30.79,CenterBold,,0,0,0,,BRUCE GIVES THE
+Dialogue: 0,0:00:30.74,0:00:31.40,CenterBold,,0,0,0,,CHILLING ANSWER.
+Dialogue: 0,0:00:31.94,0:00:32.74,CenterBold,,0,0,0,,{\c&H0000D7FF&}BATS{\c&HFFFFFF&} FRIGHTEN ME.
+Dialogue: 0,0:00:33.06,0:00:33.61,CenterBold,,0,0,0,,IT'S TIME MY
+Dialogue: 0,0:00:33.58,0:00:34.58,CenterBold,,0,0,0,,ENEMIES SHARED MY
+Dialogue: 0,0:00:34.58,0:00:35.13,CenterBold,,0,0,0,,{\c&H0000D7FF&}DREAD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.28,0:00:36.18,CenterBold,,0,0,0,,HE DIDN'T ELIMINATE
+Dialogue: 0,0:00:36.18,0:00:37.04,CenterBold,,0,0,0,,HIS CHILDHOOD {\c&H000030D0&}WEAKNESS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.42,0:00:38.18,CenterBold,,0,0,0,,HE INVERTED IT
+Dialogue: 0,0:00:38.18,0:00:38.88,CenterBold,,0,0,0,,INTO HIS {\c&H0000D7FF&}ARMOR,{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.22,0:00:39.77,CenterBold,,0,0,0,,HIS {\c&H0000D7FF&}WEAPON,{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.86,0:00:40.54,CenterBold,,0,0,0,,AND HIS PERMANENT
+Dialogue: 0,0:00:40.54,0:00:41.09,CenterBold,,0,0,0,,{\c&H0000D7FF&}IDENTITY.{\c&HFFFFFF&}

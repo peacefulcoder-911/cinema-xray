@@ -240,3 +240,4 @@ if __name__ == "__main__":
     print(f"✅ TopicDatabase initialized. Total topics: {len(completed)}")
     for t in completed:
         print(f"  • [{t['movie_name']}] {t['title']} (Slot: {t['scheduled_slot']})")
+
