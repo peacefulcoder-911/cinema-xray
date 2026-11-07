@@ -501,7 +501,7 @@ def main():
     db.seed_initial_history()
 
     results = []
-    completed_topics = db.get_all_completed_topics()
+    completed_topics = db.get_completed_topics()
     start_offset = len(completed_topics)
     for i in range(args.count):
         slot = SLOT_ORDER[i]

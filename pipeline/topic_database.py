@@ -145,6 +145,8 @@ class TopicDatabase:
             cur.execute("SELECT * FROM completed_topics ORDER BY id DESC;")
             return [dict(r) for r in cur.fetchall()]
 
+    get_all_completed_topics = get_completed_topics
+
     def is_duplicate(self, title: str, movie_name: str = "", core_thesis: str = "") -> Tuple[bool, str]:
         """
         Check if a candidate topic duplicates an existing record.
