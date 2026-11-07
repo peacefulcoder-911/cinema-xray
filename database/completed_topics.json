@@ -1,40 +1,8 @@
 {
   "database_version": "1.0",
-  "total_completed": 6,
-  "last_updated": "2026-11-07T06:39:36.316384",
+  "total_completed": 4,
+  "last_updated": "2026-11-07T14:46:54.181049",
   "topics": [
-    {
-      "id": 6,
-      "topic_slug": "the_dark_reason_bruce_wayne_refused_to_k",
-      "movie_name": "Batman Begins",
-      "film_cluster": "Christopher Nolan Cinema",
-      "title": "The Dark Reason Bruce Wayne Refused to Kill",
-      "hook": "Bruce Wayne refused to execute a criminal for the League of Shadows, but not out of mercy.",
-      "core_thesis": "Bruce realized that the moment a vigilante crosses into execution, justice becomes tyranny and fear becomes oppression.",
-      "category_lens": "Character Psychology",
-      "youtube_video_id": "GEQcoLvRWTI",
-      "youtube_url": "https://youtu.be/GEQcoLvRWTI",
-      "scheduled_slot": "MORNING",
-      "scheduled_time_iso": "2026-11-07T10:30:00Z",
-      "status": "COMPLETED",
-      "created_at": "2026-11-07 06:39:36"
-    },
-    {
-      "id": 5,
-      "topic_slug": "why_bruce_wayne_weaponized_his_childhood",
-      "movie_name": "Batman Begins",
-      "film_cluster": "Christopher Nolan Cinema",
-      "title": "Why Bruce Wayne Weaponized His Childhood Fear",
-      "hook": "Batman was built from the very thing Bruce Wayne feared most.",
-      "core_thesis": "Bruce does not overcome his fear of bats; he masters what fear does to the human psyche and weaponizes it into an immortal symbol.",
-      "category_lens": "Character Psychology",
-      "youtube_video_id": "y8Tqd-C0Cpk",
-      "youtube_url": "https://youtu.be/y8Tqd-C0Cpk",
-      "scheduled_slot": "MORNING",
-      "scheduled_time_iso": null,
-      "status": "COMPLETED",
-      "created_at": "2026-11-07 06:27:03"
-    },
     {
       "id": 4,
       "topic_slug": "tony_nanotech_secret_panic",
