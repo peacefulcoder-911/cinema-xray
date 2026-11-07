@@ -108,15 +108,15 @@ AVAILABLE_FOOTAGE_LIBRARY = [
         ]
     },
     {
-        "film": "Batman Begins",
-        "cluster": "Christopher Nolan Cinema",
-        "file": REPO_ROOT / "assets" / "footage" / "batman_begins.mp4",
+        "film": "Avengers: Infinity War",
+        "cluster": "Marvel Cinematic Universe (MCU)",
+        "file": REPO_ROOT / "assets" / "footage" / "strange_futures.mp4",
         "cuts": [
-            (0.0, 5.0, "Bruce falling into the dark well"),
-            (7.0, 5.0, "Swarm of bats rising from shadows"),
-            (15.0, 6.0, "Confronting childhood darkness"),
-            (23.0, 6.0, "The Batman silhouette emerges"),
-            (31.0, 6.0, "Weaponizing the fear against Gotham")
+            (2.0, 5.0, "Doctor Strange levitating in trance with Time Stone glowing"),
+            (12.0, 6.0, "Stranges head vibrating through fourteen million alternate realities"),
+            (22.0, 5.5, "Tony asking how many futures they won"),
+            (32.0, 5.0, "Strange looking up with chilling certainty: One"),
+            (42.0, 6.0, "The realization of the necessary sacrifice")
         ]
     }
 ]
@@ -224,6 +224,20 @@ CURATED_FALLBACK_CANDIDATES = {
         )
     ],
     "Avengers: Infinity War": [
+        GeneratedTopicCandidate(
+            title="Doctor Stranges Real Plan for Tony Stark",
+            hook="When Doctor Strange viewed fourteen million futures, he saved Tony Stark for one chilling reason.",
+            core_thesis="Strange didn't bargain for Tony's life to save the universe; he knew Tony had to endure five years of fatherhood so he would finally have something worth sacrificing everything for.",
+            category_lens="Character Psychology",
+            script_text=(
+                "When Doctor Strange traded the Time Stone for Tony Stark's life, Thanos thought it was surrender. "
+                "It wasn't. Out of fourteen million six hundred and five futures, only one led to victory. "
+                "And in that singular timeline, Tony Stark had to survive the snap, marry Pepper, and raise a daughter. "
+                "Why? Because the Tony Stark on Titan was still fighting out of ego and unresolved trauma. "
+                "Five years of quiet family life gave Tony the one thing that transformed him from an arrogant genius "
+                "into someone who could look Thanos in the eyes and snap his fingers: pure, selfless love."
+            )
+        ),
         GeneratedTopicCandidate(
             title="Why Tonys Nanotech Suit Consumed His Clothes",
             hook="When Tony tapped his reactor in Infinity War, the nanotech vaporized his clothes for a dark reason.",
