@@ -50,7 +50,7 @@ AVAILABLE_FOOTAGE_LIBRARY = [
     {
         "film": "Avengers: Endgame",
         "cluster": "Marvel Cinematic Universe (MCU)",
-        "file": REPO_ROOT / "projects" / "marvel-decoded" / "raw_video" / "endgame_mjolnir.mp4",
+        "file": REPO_ROOT / "assets" / "footage" / "endgame_mjolnir.mp4",
         "cuts": [
             (0.5, 4.5, "Thanos pressing blade on Thor"),
             (8.5, 4.0, "Mjolnir lifting from ground"),
@@ -62,7 +62,7 @@ AVAILABLE_FOOTAGE_LIBRARY = [
     {
         "film": "Avengers: Age of Ultron",
         "cluster": "Marvel Cinematic Universe (MCU)",
-        "file": REPO_ROOT / "projects" / "marvel-decoded" / "raw_video" / "ultron_hammer.mp4",
+        "file": REPO_ROOT / "assets" / "footage" / "ultron_hammer.mp4",
         "cuts": [
             (14.5, 4.5, "Steve steps up to Mjolnir"),
             (20.0, 5.0, "Steve pulls, hammer nudges, Thor freezes"),
@@ -73,114 +73,50 @@ AVAILABLE_FOOTAGE_LIBRARY = [
     {
         "film": "Avengers: Infinity War",
         "cluster": "Marvel Cinematic Universe (MCU)",
-        "file": REPO_ROOT / "projects" / "marvel-decoded" / "raw_video" / "tony_suitup.mp4",
+        "file": REPO_ROOT / "assets" / "footage" / "tony_suitup.mp4",
         "cuts": [
-            (99.5, 3.5, "Tony double-taps chest reactor"),
-            (102.5, 3.5, "Nanotech spreads across torso"),
-            (104.5, 3.5, "Nanotech gauntlet and arm form"),
-            (106.8, 4.5, "Nanotech crawls over neck"),
-            (108.8, 4.5, "Full helmet seals, eyes ignite"),
-            (111.0, 4.5, "Shield blocks massive hammer strike")
+            (4.5, 4.0, "Tony double-taps chest reactor"),
+            (7.5, 4.0, "Nanotech spreads across torso"),
+            (9.5, 4.5, "Nanotech gauntlet and arm form"),
+            (11.8, 5.0, "Nanotech crawls over neck"),
+            (13.8, 5.0, "Full helmet seals, eyes ignite"),
+            (16.0, 5.5, "Shield blocks massive hammer strike")
         ]
     },
     {
         "film": "Interstellar",
         "cluster": "Christopher Nolan Cinema",
-        "file": REPO_ROOT / "output" / "clip_cache" / "interstellar_tidal_wave_1080p.mp4",
+        "file": REPO_ROOT / "assets" / "footage" / "interstellar_water.mp4",
         "cuts": [
-            (55.0, 4.0, "Ranger spacecraft touching down on water"),
-            (68.0, 5.0, "Crew walking in ankle-deep ocean"),
-            (118.0, 4.5, "Cooper looks toward the horizon"),
-            (135.0, 4.0, "Realization: those aren't mountains"),
-            (152.0, 5.5, "Massive tidal wave looming over ship"),
-            (205.0, 5.0, "Engines fire as wave crashes")
-        ]
-    },
-    {
-        "film": "Batman Begins",
-        "cluster": "Christopher Nolan Cinema",
-        "file": REPO_ROOT / "output" / "clip_cache" / "interstellar_tidal_wave_1080p.mp4",
-        "cuts": [
-            (55.0, 4.0, "Dark exploration"),
-            (118.0, 4.5, "Confronting darkness"),
-            (152.0, 5.0, "The symbol emerging")
+            (5.0, 5.0, "Ranger spacecraft touching down on water"),
+            (18.0, 6.0, "Crew walking in ankle-deep ocean"),
+            (68.0, 6.0, "Cooper looks toward the horizon"),
+            (85.0, 6.5, "Realization: those aren't mountains"),
+            (92.0, 7.0, "Massive tidal wave looming over ship")
         ]
     },
     {
         "film": "The Dark Knight",
         "cluster": "Christopher Nolan Cinema",
-        "file": REPO_ROOT / "output" / "clip_cache" / "dark_knight_hospital.mp4",
+        "file": REPO_ROOT / "assets" / "footage" / "dark_knight_hospital.mp4",
         "cuts": [
-            (10.0, 4.5, "Joker walking out of hospital in nurse disguise"),
-            (18.0, 5.0, "Joker tapping detonator frantically"),
-            (25.0, 4.0, "Hospital explosion erupts behind Joker"),
-            (32.0, 4.5, "Joker casually boarding school bus")
+            (0.0, 5.0, "Joker walking out of hospital in nurse disguise"),
+            (8.0, 5.5, "Joker tapping detonator frantically"),
+            (15.0, 5.0, "Hospital explosion erupts behind Joker"),
+            (22.0, 5.5, "Joker casually boarding school bus"),
+            (30.0, 6.0, "Joker looking back through bus window")
         ]
     },
     {
-        "film": "Inception",
+        "film": "Batman Begins",
         "cluster": "Christopher Nolan Cinema",
-        "file": REPO_ROOT / "output" / "clip_cache" / "inception_hallway.mp4",
+        "file": REPO_ROOT / "assets" / "footage" / "batman_begins.mp4",
         "cuts": [
-            (20.0, 4.5, "Arthur fighting in rotating zero-g hallway"),
-            (35.0, 5.0, "Van tumbling slowly off bridge in rain"),
-            (50.0, 4.0, "Spinning totem wobbling on table"),
-            (65.0, 4.5, "City folding over itself in dream world")
-        ]
-    },
-    {
-        "film": "Oppenheimer",
-        "cluster": "Christopher Nolan Cinema",
-        "file": REPO_ROOT / "output" / "clip_cache" / "oppenheimer_trinity.mp4",
-        "cuts": [
-            (15.0, 4.5, "Oppenheimer staring at bomb tower in rain"),
-            (45.0, 5.0, "Dead silence as Trinity explosion ignites"),
-            (60.0, 4.5, "Shockwave hits bunker rattling glass"),
-            (75.0, 4.0, "Gymnasium crowd stomping in haunting silence")
-        ]
-    },
-    {
-        "film": "The Matrix",
-        "cluster": "Sci-Fi Masterpieces",
-        "file": REPO_ROOT / "output" / "clip_cache" / "matrix_bullet_time.mp4",
-        "cuts": [
-            (12.0, 4.5, "Neo dodging bullets in bullet time on rooftop"),
-            (28.0, 5.0, "Morpheus leaping between skyscrapers"),
-            (42.0, 4.0, "Neo stopping bullets in mid-air in hallway"),
-            (55.0, 4.5, "Agents morphing into citizens")
-        ]
-    },
-    {
-        "film": "Fight Club",
-        "cluster": "Psychological Thrillers",
-        "file": REPO_ROOT / "output" / "clip_cache" / "fight_club_buildings.mp4",
-        "cuts": [
-            (10.0, 4.5, "Tyler Durden appearing in single frame flashes"),
-            (25.0, 5.0, "Narrator realizing he is Tyler in hotel room"),
-            (45.0, 4.5, "Skyscrapers collapsing to Pixies music"),
-            (60.0, 4.0, "Basement fight under harsh swinging bulb")
-        ]
-    },
-    {
-        "film": "Whiplash",
-        "cluster": "Psychological Thrillers",
-        "file": REPO_ROOT / "output" / "clip_cache" / "whiplash_caravan.mp4",
-        "cuts": [
-            (15.0, 4.5, "Andrew bleeding on cymbals during rehearsal"),
-            (30.0, 5.0, "Fletcher raising hand: Not quite my tempo"),
-            (50.0, 5.0, "Final Caravan drum solo erupting"),
-            (70.0, 4.0, "Fletcher subtle nod of respect at finale")
-        ]
-    },
-    {
-        "film": "Dune: Part Two",
-        "cluster": "Sci-Fi Masterpieces",
-        "file": REPO_ROOT / "output" / "clip_cache" / "dune_sandworm.mp4",
-        "cuts": [
-            (18.0, 4.5, "Paul planting maker hooks on sand dune"),
-            (32.0, 5.0, "Massive sandworm emerging through desert storm"),
-            (50.0, 4.5, "Feyd-Rautha gladiator arena in monochrome"),
-            (68.0, 4.0, "Paul leading Fremen army into final battle")
+            (0.0, 5.0, "Bruce falling into the dark well"),
+            (7.0, 5.0, "Swarm of bats rising from shadows"),
+            (15.0, 6.0, "Confronting childhood darkness"),
+            (23.0, 6.0, "The Batman silhouette emerges"),
+            (31.0, 6.0, "Weaponizing the fear against Gotham")
         ]
     }
 ]
@@ -479,27 +415,16 @@ def produce_single_short(
     print(f"💬 Subtitles Aligned: {len(cards)} cards centered at Y=960 (Alignment 5)")
 
     # 4. Video Slicing (70% Canvas with Ambient Blurred Letterbox)
-    source_file = film_entry["file"]
+    source_file = Path(film_entry["file"])
     if not source_file.exists():
-        try:
-            from pipeline.clip_search_engine import search_and_acquire_clip
-            print(f"📥 Acquiring HD scene footage from YouTube for {film_entry['film']}...")
-            clip_info = search_and_acquire_clip(
-                query=f"{film_entry['film']} iconic scene clip 1080p",
-                movie_name=film_entry["film"],
-                require_authorized_license=False,
-                allow_network_download=True
-            )
-            if clip_info and clip_info.file_path and clip_info.file_path.exists():
-                source_file = clip_info.file_path
-                print(f"✅ Successfully acquired HD footage from YouTube: {source_file}")
-            else:
-                fallback = REPO_ROOT / "projects" / "marvel-decoded" / "raw_video" / "endgame_mjolnir.mp4"
-                source_file = fallback
-        except Exception as acq_err:
-            print(f"⚠️ YouTube clip acquisition note ({acq_err}). Checking local fallback...")
-            fallback = REPO_ROOT / "projects" / "marvel-decoded" / "raw_video" / "endgame_mjolnir.mp4"
-            source_file = fallback
+        fallback_candidates = [
+            REPO_ROOT / "assets" / "footage" / f"{film_entry['film'].lower().replace(' ', '_').replace(':', '')}.mp4",
+            REPO_ROOT / "assets" / "footage" / "endgame_mjolnir.mp4",
+            REPO_ROOT / "assets" / "footage" / "interstellar_water.mp4",
+            REPO_ROOT / "assets" / "footage" / "dark_knight_hospital.mp4"
+        ]
+        source_file = next((f for f in fallback_candidates if f.exists()), source_file)
+        print(f"🎬 Resolved footage asset for {film_entry['film']}: {source_file.name}")
 
     clips_dir = OUTPUT_DIR / "clips" / topic_slug
     clips_dir.mkdir(parents=True, exist_ok=True)

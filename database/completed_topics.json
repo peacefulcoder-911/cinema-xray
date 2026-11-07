@@ -1,23 +1,23 @@
 {
   "database_version": "1.0",
   "total_completed": 6,
-  "last_updated": "2026-11-07T04:58:14.863802",
+  "last_updated": "2026-11-07T11:34:16.505728",
   "topics": [
     {
-      "id": 6,
-      "topic_slug": "why_the_joker_changes_his_scar_story_eve",
-      "movie_name": "The Dark Knight",
-      "film_cluster": "Christopher Nolan Cinema",
-      "title": "Why the Joker Changes His Scar Story Every Time",
-      "hook": "The Joker told three different stories about his scars, and all of them were deliberate psychological weapons.",
-      "core_thesis": "The Joker's contradictory scar origins are psychological mirrors tailored to exploit the specific emotional vulnerabilities of his victims.",
+      "id": 7,
+      "topic_slug": "caps_final_choice_was_never_about_peggy",
+      "movie_name": "Avengers: Endgame",
+      "film_cluster": "Marvel Cinematic Universe (MCU)",
+      "title": "Caps Final Choice Was Never About Peggy",
+      "hook": "Everyone thinks Captain America's endgame was about Peggy. They're wrong.",
+      "core_thesis": "Captain America's decision to stay in the past wasn't merely a romantic reunion with Peggy Carter; it was a profound psychological choice to reclaim the ordinary life he was denied by the Super Soldier program, a quiet act of self-determination after decades of sacrifice.",
       "category_lens": "Character Psychology",
       "youtube_video_id": null,
       "youtube_url": null,
       "scheduled_slot": "MORNING",
-      "scheduled_time_iso": "2026-11-07T10:30:00Z",
+      "scheduled_time_iso": "2026-11-07T05:00:00Z",
       "status": "COMPLETED",
-      "created_at": "2026-11-07 04:58:14"
+      "created_at": "2026-11-07 02:19:31"
     },
     {
       "id": 5,
@@ -33,7 +33,7 @@
       "scheduled_slot": "AFTERNOON",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-07 04:54:55"
+      "created_at": "2026-11-06 20:38:45"
     },
     {
       "id": 4,
@@ -44,12 +44,12 @@
       "hook": "When Tony tapped his reactor, the nanotech vaporized his sunglasses and jacket.",
       "core_thesis": "Driven by severe PTSD, Tony designed the Mark 50 to consume whatever fabric he was wearing into raw carbon plating to deploy defense in milliseconds.",
       "category_lens": "Hidden Details & Symbolism",
-      "youtube_video_id": null,
-      "youtube_url": null,
-      "scheduled_slot": "MORNING",
+      "youtube_video_id": "2F1_UBylP8U",
+      "youtube_url": "https://youtu.be/2F1_UBylP8U",
+      "scheduled_slot": "AFTERNOON",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-07 04:54:55"
+      "created_at": "2026-11-06 20:38:45"
     },
     {
       "id": 3,
@@ -60,12 +60,12 @@
       "hook": "Did Cap suddenly become worthy in Endgame, or did he fake it in Age of Ultron?",
       "core_thesis": "Worthiness is binary. The second Mjolnir budged in Age of Ultron, Steve stopped pulling to spare Thor's pride in front of the Avengers.",
       "category_lens": "Character Psychology",
-      "youtube_video_id": null,
-      "youtube_url": null,
+      "youtube_video_id": "baYdDjJ6CC0",
+      "youtube_url": "https://youtu.be/baYdDjJ6CC0",
       "scheduled_slot": "AFTERNOON",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-07 04:54:55"
+      "created_at": "2026-11-06 20:38:45"
     },
     {
       "id": 2,
@@ -76,12 +76,12 @@
       "hook": "Batman was built from the very thing Bruce Wayne feared most.",
       "core_thesis": "Bruce does not overcome his fear of bats; he masters what fear does to the human psyche and weaponizes it into an immortal symbol.",
       "category_lens": "Character Psychology",
-      "youtube_video_id": null,
-      "youtube_url": null,
+      "youtube_video_id": "AxgYtqerRD4",
+      "youtube_url": "https://youtu.be/AxgYtqerRD4",
       "scheduled_slot": "MORNING",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-07 04:54:55"
+      "created_at": "2026-11-06 20:38:45"
     },
     {
       "id": 1,
@@ -92,12 +92,12 @@
       "hook": "Every tick in Hans Zimmer's soundtrack is exactly 1.25 seconds apart.",
       "core_thesis": "Because 1 hour on Miller's planet equals 7 Earth years, each 1.25-second tick represents an entire 24-hour day passing on Earth.",
       "category_lens": "Hidden Details & Symbolism",
-      "youtube_video_id": null,
-      "youtube_url": null,
+      "youtube_video_id": "o9xvURxEPD4",
+      "youtube_url": "https://youtu.be/o9xvURxEPD4",
       "scheduled_slot": "NIGHT",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-07 04:54:55"
+      "created_at": "2026-11-06 20:38:45"
     }
   ]
 }

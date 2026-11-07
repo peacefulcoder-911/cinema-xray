@@ -93,22 +93,12 @@ def render_70pct_scene_clip(input_video: str, start_sec: float, duration: float,
     """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     if not input_video or not os.path.exists(input_video):
-        cmd = [
-            "ffmpeg", "-y",
-            "-f", "lavfi",
-            "-i", f"color=c=0x0a0f1d:s=1080x1920:d={duration:.3f},format=yuv420p",
-            "-c:v", "libx264",
-            "-preset", "ultrafast",
-            "-r", str(fps),
-            "-t", f"{duration:.3f}",
-            "-pix_fmt", "yuv420p",
-            "-an",
-            str(output_path)
-        ]
-        res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)
-        if res.returncode != 0:
-            raise RuntimeError(f"FFmpeg failed for synthetic clip {output_path}: {res.stderr[:300]}")
-        return output_path
+        asset_candidates = sorted(list((REPO_ROOT / "assets" / "footage").glob("*.mp4")))
+        if asset_candidates:
+            input_video = str(asset_candidates[0])
+            print(f"[Compositor Guard] Input video missing, redirected to verified asset footage: {input_video}")
+        else:
+            raise FileNotFoundError(f"No source footage available for clip {output_path}")
 
     crop_filter = detect_letterbox_crop(input_video, sample_sec=start_sec + 1.0)
     

@@ -141,8 +141,9 @@ jobs:
           git add database/
           if ! git diff --cached --quiet; then
             git commit -m "chore(database): update completed topics registry [skip ci]"
-            git pull --rebase origin main || true
-            git push origin main
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin main && break || sleep 2
+            done
             echo "✅ Completed topics database successfully pushed to repository."
           else
             echo "Database unchanged."
