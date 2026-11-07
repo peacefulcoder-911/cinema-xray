@@ -49,14 +49,13 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Verify System Tools & Install Essential Fonts
+      - name: Install System Tools & Subtitle Fonts
         run: |
-          echo "=== Verifying FFmpeg ==="
-          ffmpeg -version | head -n 2 || (sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg)
-          echo "=== Installing Subtitle Fonts ==="
-          sudo apt-get update -qq || true
-          sudo apt-get install -y --no-install-recommends fonts-liberation fonts-dejavu-core || true
-          fc-cache -f || true
+          echo "=== Installing FFmpeg & Subtitle Fonts ==="
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg fonts-liberation fonts-dejavu-core
+          ffmpeg -version | head -n 2
+          fc-cache -f
 
       - name: Install Python Dependencies
         run: |
