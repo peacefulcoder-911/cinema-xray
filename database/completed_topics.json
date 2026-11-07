@@ -1,7 +1,7 @@
 {
   "database_version": "1.0",
   "total_completed": 7,
-  "last_updated": "2026-11-07T07:49:31.567677",
+  "last_updated": "2026-11-07T08:20:31.545816",
   "topics": [
     {
       "id": 7,
@@ -60,9 +60,9 @@
       "hook": "When Tony tapped his reactor, the nanotech vaporized his sunglasses and jacket.",
       "core_thesis": "Driven by severe PTSD, Tony designed the Mark 50 to consume whatever fabric he was wearing into raw carbon plating to deploy defense in milliseconds.",
       "category_lens": "Hidden Details & Symbolism",
-      "youtube_video_id": null,
-      "youtube_url": null,
-      "scheduled_slot": "MORNING",
+      "youtube_video_id": "2F1_UBylP8U",
+      "youtube_url": "https://youtu.be/2F1_UBylP8U",
+      "scheduled_slot": "AFTERNOON",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
       "created_at": "2026-11-06 20:38:45"
@@ -92,8 +92,8 @@
       "hook": "Batman was built from the very thing Bruce Wayne feared most.",
       "core_thesis": "Bruce does not overcome his fear of bats; he masters what fear does to the human psyche and weaponizes it into an immortal symbol.",
       "category_lens": "Character Psychology",
-      "youtube_video_id": "UlhQPynoNXg",
-      "youtube_url": "https://youtu.be/UlhQPynoNXg",
+      "youtube_video_id": "AxgYtqerRD4",
+      "youtube_url": "https://youtu.be/AxgYtqerRD4",
       "scheduled_slot": "MORNING",
       "scheduled_time_iso": null,
       "status": "COMPLETED",
@@ -108,8 +108,8 @@
       "hook": "Every tick in Hans Zimmer's soundtrack is exactly 1.25 seconds apart.",
       "core_thesis": "Because 1 hour on Miller's planet equals 7 Earth years, each 1.25-second tick represents an entire 24-hour day passing on Earth.",
       "category_lens": "Hidden Details & Symbolism",
-      "youtube_video_id": "sc_RvA4Okyc",
-      "youtube_url": "https://youtu.be/sc_RvA4Okyc",
+      "youtube_video_id": "o9xvURxEPD4",
+      "youtube_url": "https://youtu.be/o9xvURxEPD4",
       "scheduled_slot": "NIGHT",
       "scheduled_time_iso": null,
       "status": "COMPLETED",

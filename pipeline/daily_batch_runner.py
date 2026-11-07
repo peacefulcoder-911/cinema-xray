@@ -276,9 +276,19 @@ def produce_single_short(
     )
     print(f"✅ 1080p Master Rendered: {final_1080p}")
 
-    # 6. 4K UHD Master
+    # 6. 4K & 8K Ultra HD Masters (Interstellar Golden Standard)
     export_4k_uhd(str(final_1080p), str(final_4k))
     print(f"🌟 4K UHD Master Rendered: {final_4k}")
+
+    final_8k = FINAL_VIDEO_DIR / f"cinema_xray_{topic_slug}_8k.mp4"
+    upgrade_to_super_resolution(
+        input_video=str(final_1080p),
+        output_video=str(final_8k),
+        target_tier="8K",
+        sharpness=0.35,
+        bitrate="85M"
+    )
+    print(f"👑 8K Ultra HD Master Rendered: {final_8k}")
 
     # 7. Algorithmic Metadata & YouTube Scheduling
     publish_iso = compute_publish_time(slot_name)
@@ -298,8 +308,9 @@ def produce_single_short(
         job_slug=topic_slug
     )
 
+    upload_target = final_8k if final_8k.exists() else final_4k
     yt_res = upload_to_youtube(
-        video_path=final_4k,
+        video_path=upload_target,
         thumbnail_path=None,
         metadata_package=meta_pkg,
         publish_at_iso=publish_iso,
