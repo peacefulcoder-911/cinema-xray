@@ -105,6 +105,83 @@ AVAILABLE_FOOTAGE_LIBRARY = [
             (118.0, 4.5, "Confronting darkness"),
             (152.0, 5.0, "The symbol emerging")
         ]
+    },
+    {
+        "film": "The Dark Knight",
+        "cluster": "Christopher Nolan Cinema",
+        "file": REPO_ROOT / "output" / "clip_cache" / "dark_knight_hospital.mp4",
+        "cuts": [
+            (10.0, 4.5, "Joker walking out of hospital in nurse disguise"),
+            (18.0, 5.0, "Joker tapping detonator frantically"),
+            (25.0, 4.0, "Hospital explosion erupts behind Joker"),
+            (32.0, 4.5, "Joker casually boarding school bus")
+        ]
+    },
+    {
+        "film": "Inception",
+        "cluster": "Christopher Nolan Cinema",
+        "file": REPO_ROOT / "output" / "clip_cache" / "inception_hallway.mp4",
+        "cuts": [
+            (20.0, 4.5, "Arthur fighting in rotating zero-g hallway"),
+            (35.0, 5.0, "Van tumbling slowly off bridge in rain"),
+            (50.0, 4.0, "Spinning totem wobbling on table"),
+            (65.0, 4.5, "City folding over itself in dream world")
+        ]
+    },
+    {
+        "film": "Oppenheimer",
+        "cluster": "Christopher Nolan Cinema",
+        "file": REPO_ROOT / "output" / "clip_cache" / "oppenheimer_trinity.mp4",
+        "cuts": [
+            (15.0, 4.5, "Oppenheimer staring at bomb tower in rain"),
+            (45.0, 5.0, "Dead silence as Trinity explosion ignites"),
+            (60.0, 4.5, "Shockwave hits bunker rattling glass"),
+            (75.0, 4.0, "Gymnasium crowd stomping in haunting silence")
+        ]
+    },
+    {
+        "film": "The Matrix",
+        "cluster": "Sci-Fi Masterpieces",
+        "file": REPO_ROOT / "output" / "clip_cache" / "matrix_bullet_time.mp4",
+        "cuts": [
+            (12.0, 4.5, "Neo dodging bullets in bullet time on rooftop"),
+            (28.0, 5.0, "Morpheus leaping between skyscrapers"),
+            (42.0, 4.0, "Neo stopping bullets in mid-air in hallway"),
+            (55.0, 4.5, "Agents morphing into citizens")
+        ]
+    },
+    {
+        "film": "Fight Club",
+        "cluster": "Psychological Thrillers",
+        "file": REPO_ROOT / "output" / "clip_cache" / "fight_club_buildings.mp4",
+        "cuts": [
+            (10.0, 4.5, "Tyler Durden appearing in single frame flashes"),
+            (25.0, 5.0, "Narrator realizing he is Tyler in hotel room"),
+            (45.0, 4.5, "Skyscrapers collapsing to Pixies music"),
+            (60.0, 4.0, "Basement fight under harsh swinging bulb")
+        ]
+    },
+    {
+        "film": "Whiplash",
+        "cluster": "Psychological Thrillers",
+        "file": REPO_ROOT / "output" / "clip_cache" / "whiplash_caravan.mp4",
+        "cuts": [
+            (15.0, 4.5, "Andrew bleeding on cymbals during rehearsal"),
+            (30.0, 5.0, "Fletcher raising hand: Not quite my tempo"),
+            (50.0, 5.0, "Final Caravan drum solo erupting"),
+            (70.0, 4.0, "Fletcher subtle nod of respect at finale")
+        ]
+    },
+    {
+        "film": "Dune: Part Two",
+        "cluster": "Sci-Fi Masterpieces",
+        "file": REPO_ROOT / "output" / "clip_cache" / "dune_sandworm.mp4",
+        "cuts": [
+            (18.0, 4.5, "Paul planting maker hooks on sand dune"),
+            (32.0, 5.0, "Massive sandworm emerging through desert storm"),
+            (50.0, 4.5, "Feyd-Rautha gladiator arena in monochrome"),
+            (68.0, 4.0, "Paul leading Fremen army into final battle")
+        ]
     }
 ]
 
@@ -424,9 +501,11 @@ def main():
     db.seed_initial_history()
 
     results = []
+    completed_topics = db.get_all_completed_topics()
+    start_offset = len(completed_topics)
     for i in range(args.count):
         slot = SLOT_ORDER[i]
-        film = AVAILABLE_FOOTAGE_LIBRARY[i % len(AVAILABLE_FOOTAGE_LIBRARY)]
+        film = AVAILABLE_FOOTAGE_LIBRARY[(start_offset + i) % len(AVAILABLE_FOOTAGE_LIBRARY)]
         res = produce_single_short(db, film, slot, dry_run=dry_run)
         results.append(res)
 
