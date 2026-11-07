@@ -63,23 +63,44 @@ jobs:
           pip install --no-cache-dir -r requirements.txt
 
       - name: Hydrate Credentials from Secrets
+        env:
+          YOUTUBE_CLIENT_SECRETS_CONTENT: ${{ secrets.YOUTUBE_CLIENT_SECRETS_JSON }}
+          YOUTUBE_TOKEN_CONTENT: ${{ secrets.YOUTUBE_TOKEN_JSON }}
         run: |
           mkdir -p credentials config
-          if [ -n "${{ secrets.YOUTUBE_CLIENT_SECRETS_JSON }}" ]; then
-            echo '${{ secrets.YOUTUBE_CLIENT_SECRETS_JSON }}' > credentials/client_secrets.json
-            echo '${{ secrets.YOUTUBE_CLIENT_SECRETS_JSON }}' > config/client_secrets.json
+          if [ -n "$YOUTUBE_CLIENT_SECRETS_CONTENT" ]; then
+            printf "%s" "$YOUTUBE_CLIENT_SECRETS_CONTENT" > credentials/client_secrets.json
+            cp credentials/client_secrets.json config/client_secrets.json
             echo "✅ client_secrets.json restored"
           else
             echo "⚠️ YOUTUBE_CLIENT_SECRETS_JSON secret not found in repository settings."
           fi
 
-          if [ -n "${{ secrets.YOUTUBE_TOKEN_JSON }}" ]; then
-            echo '${{ secrets.YOUTUBE_TOKEN_JSON }}' > credentials/token.json
-            echo '${{ secrets.YOUTUBE_TOKEN_JSON }}' > config/youtube_token.json
+          if [ -n "$YOUTUBE_TOKEN_CONTENT" ]; then
+            printf "%s" "$YOUTUBE_TOKEN_CONTENT" > credentials/token.json
+            cp credentials/token.json config/youtube_token.json
             echo "✅ token.json restored"
           else
             echo "⚠️ YOUTUBE_TOKEN_JSON secret not found in repository settings."
           fi
+
+          # Fast pre-flight check for YouTube token freshness
+          python3 -c "
+          from pathlib import Path
+          from google.oauth2.credentials import Credentials
+          from google.auth.transport.requests import Request
+          p = Path('credentials/token.json')
+          if p.exists() and p.stat().st_size > 10:
+              try:
+                  c = Credentials.from_authorized_user_file(str(p))
+                  if c.expired and c.refresh_token:
+                      c.refresh(Request())
+                      print('✅ Pre-Flight Auth: YouTube Token refreshed & valid!')
+                  elif c.valid:
+                      print('✅ Pre-Flight Auth: YouTube Token is valid!')
+              except Exception as e:
+                  print(f'⚠️ Pre-Flight Auth Warning: {e}')
+          "
 
       - name: Execute Autonomous Daily Shorts Pipeline
         env:

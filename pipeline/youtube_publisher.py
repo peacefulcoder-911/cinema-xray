@@ -10,6 +10,8 @@ import sys
 import time
 import json
 import re
+import socket
+socket.setdefaulttimeout(180)
 from pathlib import Path
 from typing import Union, Dict, Any, List, Optional
 from datetime import datetime, timezone
@@ -447,6 +449,13 @@ def get_youtube_service(client_secret_path=None, token_path=None):
             if not secret_file:
                 raise FileNotFoundError(
                     f"\n[YouTube Auth Error] client_secrets.json not found in config/ or credentials/."
+                )
+
+            is_ci = os.environ.get("CI") == "true" or os.environ.get("GITHUB_ACTIONS") == "true" or not sys.stdin.isatty()
+            if is_ci:
+                raise RuntimeError(
+                    "[YouTube Auth Error] YouTube credentials are invalid or expired and cannot be refreshed in headless CI. "
+                    "Browser OAuth consent prompt cannot be displayed. Please check secrets.YOUTUBE_TOKEN_JSON."
                 )
 
             print("\n[YouTube Auth] Opening browser for one-time YouTube Channel authorization...")
