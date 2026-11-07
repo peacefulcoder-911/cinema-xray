@@ -234,6 +234,18 @@ class TopicDatabase:
             INSERT INTO completed_topics
             (topic_slug, movie_name, film_cluster, title, hook, core_thesis, category_lens, scheduled_slot, scheduled_time_iso, youtube_video_id, youtube_url)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(topic_slug) DO UPDATE SET
+                movie_name=excluded.movie_name,
+                film_cluster=excluded.film_cluster,
+                title=excluded.title,
+                hook=excluded.hook,
+                core_thesis=excluded.core_thesis,
+                category_lens=excluded.category_lens,
+                scheduled_slot=excluded.scheduled_slot,
+                scheduled_time_iso=excluded.scheduled_time_iso,
+                youtube_video_id=COALESCE(excluded.youtube_video_id, completed_topics.youtube_video_id),
+                youtube_url=COALESCE(excluded.youtube_url, completed_topics.youtube_url),
+                status='COMPLETED'
             """, (
                 topic_slug,
                 movie_name,

@@ -240,6 +240,18 @@ CURATED_FALLBACK_CANDIDATES = {
     ],
     "Batman Begins": [
         GeneratedTopicCandidate(
+            title="The Dark Reason Bruce Wayne Refused to Kill",
+            hook="Bruce Wayne refused to execute a criminal for the League of Shadows, but not out of mercy.",
+            core_thesis="Bruce realized that the moment a vigilante crosses into execution, justice becomes tyranny and fear becomes oppression.",
+            category_lens="Character Psychology",
+            script_text=(
+                "When Ras al Ghul commanded Bruce Wayne to execute a thief in the Himalayan temple, Bruce burned the monastery to the ground instead. "
+                "That wasn't mercy; it was self-preservation. Bruce knew that the rage inside him was limitless. "
+                "If he allowed himself to cross the threshold into execution just once, there would be no moral boundary left to stop him. "
+                "Batman doesn't spare killers because he values their lives; he refuses to kill because it is the only wall separating Bruce Wayne from the monsters he hunts."
+            )
+        ),
+        GeneratedTopicCandidate(
             title="Why Bruce Wayne Weaponized His Childhood Fear",
             hook="Batman was built from the very thing Bruce Wayne feared most.",
             core_thesis="Bruce does not overcome his fear of bats; he masters what fear does to the human psyche and weaponizes it into an immortal symbol.",
@@ -369,9 +381,11 @@ Strict Rules:
                 break
 
         if not candidate and curated_entries:
-            # If all are considered duplicates in history, choose the first curated entry
+            # If all are considered duplicates in history, choose the first curated entry with unique slug
             candidate = curated_entries[0]
             print(f"🎬 Utilizing curated thesis for '{film_name}': {candidate.title}")
+            slug = f"{re.sub(r'[^a-z0-9]+', '_', candidate.title.lower()).strip('_')[:30]}_{int(time.time())}"
+            return candidate, slug
 
         if not candidate:
             print("⚠️ Utilizing generic cinematic thesis fallback.")
