@@ -95,7 +95,7 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
         "gemini-2.5-flash-preview-tts"
     ]
 
-    prompt_content = f"Read aloud verbatim: {script_text}"
+    prompt_content = script_text.strip()
 
     contents = [
         types.Content(
