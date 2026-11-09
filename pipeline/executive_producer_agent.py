@@ -41,7 +41,7 @@ def get_api_client():
     api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     if not api_key:
         raise ValueError("GEMINI_API_KEY not found in environment or .env file.")
-    return genai.Client(api_key=api_key)
+    return genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=120000))
 
 
 class ExecutiveProducerAgent:
@@ -128,10 +128,17 @@ STRICT RULES:
 - Zero generic filler ("Hey guys", "In this video", "Mind-blowing", "Crazy").
 - Output ONLY the 5 numbered lines, nothing else.
 """
-        models = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-3.5-flash", "gemini-2.5-flash"]
+        models = ["gemini-3.8-flash", "gemini-2.5-flash", "gemini-3.5-flash", "gemini-flash-latest"]
         for m in models:
             try:
-                resp = self.client.models.generate_content(model=m, contents=[prompt])
+                timeout_ms = 12000 if "3.8" in m else 45000
+                resp = self.client.models.generate_content(
+                    model=m,
+                    contents=[prompt],
+                    config=types.GenerateContentConfig(
+                        http_options=types.HttpOptions(timeout=timeout_ms)
+                    )
+                )
                 lines = [l.strip() for l in resp.text.splitlines() if l.strip()]
                 candidates = []
                 for l in lines:
@@ -139,8 +146,10 @@ STRICT RULES:
                     if len(cleaned.split()) >= 6:
                         candidates.append(cleaned)
                 if len(candidates) >= 3:
+                    print(f"[Executive Producer Agent] Hook generation succeeded using model: {m}")
                     return candidates[:5]
-            except Exception:
+            except Exception as e:
+                print(f"[Executive Producer Agent] Hook generation note on {m}: {e}")
                 continue
 
         return [
@@ -254,18 +263,21 @@ Approved Opening Hook: "{best_hook}"
 
 Write the full prompt now. Output pure markdown with no intro or outro comments."""
 
-        models = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-3.5-flash", "gemini-2.5-flash"]
+        models = ["gemini-3.8-flash", "gemini-2.5-flash", "gemini-3.5-flash", "gemini-flash-latest"]
         for m in models:
             try:
+                timeout_ms = 12000 if "3.8" in m else 90000
                 resp = self.client.models.generate_content(
                     model=m,
                     contents=[types.Content(role="user", parts=[types.Part.from_text(text=user_prompt)])],
                     config=types.GenerateContentConfig(
                         system_instruction=system_instruction,
-                        temperature=0.7
+                        temperature=0.7,
+                        http_options=types.HttpOptions(timeout=timeout_ms)
                     )
                 )
                 if resp and resp.text:
+                    print(f"[Executive Producer Agent] Brief synthesis succeeded using model: {m}")
                     return resp.text.strip()
             except Exception as e:
                 print(f"[Executive Producer Agent] Note on {m}: {e}")

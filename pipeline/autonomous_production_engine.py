@@ -399,17 +399,23 @@ class AutonomousProductionEngine:
             scene_desc = meta.get("central_discovery", "")
         else:
             if not topic:
-                if movie and scene:
-                    topic = {
-                        "topic_slug": sanitize_slug(f"{movie}_{scene}"),
-                        "movie": movie,
-                        "director": "Cinema Master",
-                        "theme": "The Psychological Trap",
-                        "topic": scene,
-                        "core_thesis": scene,
-                        "scene_description": scene
-                    }
-                else:
+                if movie:
+                    from pipeline.executive_producer_agent import CATALOG_PATH
+                    cat_scenes = json.loads(CATALOG_PATH.read_text(encoding="utf-8")).get("scenes", [])
+                    matched = next((s for s in cat_scenes if movie.lower() in s.get("movie", "").lower()), None)
+                    if matched:
+                        topic = matched
+                    elif scene:
+                        topic = {
+                            "topic_slug": sanitize_slug(f"{movie}_{scene}"),
+                            "movie": movie,
+                            "director": "Cinema Master",
+                            "theme": "The Psychological Trap",
+                            "topic": scene,
+                            "core_thesis": scene,
+                            "scene_description": scene
+                        }
+                if not topic:
                     topic = self.ep_agent.pick_next_topic()
 
             print(f"🎯 Selected Topic: {topic['movie']} — {topic['topic']}")

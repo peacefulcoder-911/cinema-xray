@@ -63,6 +63,15 @@
       "topic": "Why Paul Atreides Drinking The Water of Life Was A Tragedy, Not A Triumph",
       "core_thesis": "Paul doesn't become the Kwisatz Haderach to save the universe. He accepts the prophecy because it is the only narrow path to keep Chani alive, knowing it unleashes a holy war that will kill sixty billion people.",
       "scene_description": "Paul walking into the Southern Temple among thousands of fanatic Fremen, shouting 'I am Paul Muad'Dib Atreides!' while Chani looks on in horror."
+    },
+    {
+      "topic_slug": "iron_man_3_barrel_of_monkeys",
+      "movie": "Iron Man 3 (2013)",
+      "director": "Shane Black",
+      "theme": "The Hero Beyond The Armor",
+      "topic": "The Barrel of Monkeys Rescue: Why Tony Stark Was Never Just A Suit",
+      "core_thesis": "JARVIS calculates an impossible equation: thirteen passengers falling at terminal velocity and the Mark 42 armor can only carry four. Tony solves the free-fall crisis not with brute thruster power, but through human psychology and physics—building a chain of trust before revealing he wasn't even inside the suit.",
+      "scene_description": "Tony Stark diving from Air Force One into free fall, instructing 13 falling passengers to grab each other in a chain reaction known as Barrel of Monkeys."
     }
   ]
 }
