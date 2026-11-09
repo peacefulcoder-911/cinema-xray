@@ -1,19 +1,23 @@
 {
   "database_version": "1.0",
   "total_completed": 1,
-  "last_updated": "2026-11-09T23:50:00.000000",
+  "last_updated": "2026-11-09T18:26:51.217609",
   "topics": [
     {
       "id": 1,
-      "topic_slug": "inception_real_totem",
-      "movie_name": "Inception (2010)",
+      "topic_slug": "whiplash_caravan_trap",
+      "movie_name": "Whiplash (2014)",
       "film_cluster": "Cinematic Psychology & Visual Storytelling",
-      "title": "THE SPINNING TOP WAS NOT DOM COBB'S REAL TOTEM",
-      "hook": "Look closely at Cobb's left hand in every dream scene.",
-      "core_thesis": "Cobb's real totem was his wedding ring, not the spinning top.",
+      "title": "THE CARNEGIE HALL EXECUTION",
+      "hook": "You thought Fletcher\u2019s Carnegie Hall invitation was redemption, but it was actually a meticulously planned public execution",
+      "core_thesis": "THE CARNEGIE HALL EXECUTION",
       "category_lens": "Film Scene Analysis",
+      "youtube_video_id": null,
+      "youtube_url": null,
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-09 21:00:00"
+      "created_at": "2026-11-09 18:26:51"
     }
   ]
 }
