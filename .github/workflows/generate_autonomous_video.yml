@@ -110,3 +110,4 @@ jobs:
           else
             echo "Database unchanged."
           fi
+
