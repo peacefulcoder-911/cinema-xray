@@ -1,62 +1,69 @@
 {
   "movie": "Whiplash (2014)",
-  "topic": "THE ANATOMY OF SABOTAGE",
-  "total_duration": 41.8,
+  "topic": "THE FINAL TRAP OF CARNEGIE HALL",
+  "total_duration": 42.94,
   "beats": [
     {
       "beat_id": "beat_01",
       "start": 0.0,
-      "duration": 5.22,
+      "duration": 4.77,
       "motion": "SLOW_PUSH_IN",
       "has_callout": false
     },
     {
       "beat_id": "beat_02",
-      "start": 5.22,
-      "duration": 5.22,
+      "start": 4.77,
+      "duration": 4.77,
       "motion": "SLOW_PAN_LEFT",
       "has_callout": false
     },
     {
       "beat_id": "beat_03",
-      "start": 10.44,
-      "duration": 5.22,
+      "start": 9.54,
+      "duration": 4.77,
       "motion": "SLOW_PUSH_IN",
       "has_callout": false
     },
     {
       "beat_id": "beat_04",
-      "start": 15.66,
-      "duration": 5.22,
+      "start": 14.31,
+      "duration": 4.77,
       "motion": "SLOW_PAN_RIGHT",
       "has_callout": false
     },
     {
       "beat_id": "beat_05",
-      "start": 20.88,
-      "duration": 5.22,
+      "start": 19.08,
+      "duration": 4.77,
       "motion": "FAST_ZOOM",
       "has_callout": false
     },
     {
       "beat_id": "beat_06",
-      "start": 26.1,
-      "duration": 5.22,
+      "start": 23.85,
+      "duration": 4.77,
       "motion": "SLOW_PUSH_IN",
       "has_callout": false
     },
     {
       "beat_id": "beat_07",
-      "start": 31.32,
-      "duration": 5.22,
+      "start": 28.62,
+      "duration": 4.77,
       "motion": "SLOW_PAN_LEFT",
       "has_callout": false
     },
     {
       "beat_id": "beat_08",
-      "start": 36.54,
-      "duration": 5.26,
+      "start": 33.39,
+      "duration": 4.77,
       "motion": "SLOW_PUSH_IN",
+      "has_callout": false
+    },
+    {
+      "beat_id": "beat_09",
+      "start": 38.16,
+      "duration": 4.78,
+      "motion": "SLOW_PAN_LEFT",
       "has_callout": false
     }
   ]
