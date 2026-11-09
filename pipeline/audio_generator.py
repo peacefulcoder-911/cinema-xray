@@ -38,7 +38,7 @@ def _get_api_client():
     api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     if not api_key:
         raise ValueError("GEMINI_API_KEY not found in environment or .env file.")
-    return genai.Client(api_key=api_key)
+    return genai.Client(api_key=api_key, http_options=types.HttpOptions(api_version="v1beta"))
 
 
 
@@ -91,6 +91,31 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
         except Exception as e:
             print(f"[Gemini TTS] Model {m} note: {e}")
             last_err = e
+
+    # Fallback 1: Neural TTS via edge-tts (studio documentary voice, no API key required)
+    try:
+        import asyncio
+        import edge_tts
+        print("[Audio Generator] Synthesizing via edge-tts neural voiceover (en-US-ChristopherNeural)...")
+        temp_mp3 = temp_wav_path + ".mp3"
+        async def _run_edge():
+            comm = edge_tts.Communicate(script_text, voice="en-US-ChristopherNeural")
+            await comm.save(temp_mp3)
+        asyncio.run(_run_edge())
+        if os.path.exists(temp_mp3) and os.path.getsize(temp_mp3) > 1000:
+            subprocess.run([
+                "ffmpeg", "-y", "-v", "quiet",
+                "-i", temp_mp3,
+                "-ar", "24000",
+                "-ac", "1",
+                "-c:a", "pcm_s16le",
+                temp_wav_path
+            ], check=True)
+            os.remove(temp_mp3)
+            print("✅ Synthesized successfully via edge-tts (ChristopherNeural)")
+            return
+    except Exception as edge_err:
+        print(f"[Audio Generator] edge-tts note: {edge_err}")
 
     import shutil
     if shutil.which("say"):
