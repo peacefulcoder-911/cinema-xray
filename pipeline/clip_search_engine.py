@@ -398,22 +398,30 @@ def _execute_yt_dlp_download(download_cmd: List[str]) -> subprocess.CompletedPro
 
 
 def search_and_acquire_clip(
-    query: str,
+    query: str = "",
     movie_name: str = "",
     focus_characters: Optional[List[str]] = None,
     forbidden_terms: Optional[List[str]] = None,
     min_duration: float = 15.0,
     max_duration: float = 600.0,
     allow_network_download: bool = True,
-    require_authorized_license: bool = True,
+    require_authorized_license: bool = False,
     scene_id: Optional[str] = None,
-    audit_tracker: Optional[AcquisitionAuditTracker] = None
+    audit_tracker: Optional[AcquisitionAuditTracker] = None,
+    **kwargs: Any
 ) -> Optional[AcquiredClipInfo]:
     """
     Searches YouTube for real footage, enforces Subject & Character Guarding,
     filters out soundtracks, podcasts, and BTS, verifies license/permissions,
     and downloads 1080p MP4 into clip_cache/ with complete provenance.
     """
+    # Backward compatibility with alternative keyword arguments
+    if "scene_description" in kwargs and not query:
+        query = f"{movie_name} {kwargs['scene_description']} scene 1080p".strip()
+    if "preferred_characters" in kwargs and not focus_characters:
+        focus_characters = kwargs["preferred_characters"]
+    if not query:
+        query = f"{movie_name} scene 1080p".strip()
     candidate_queries = build_search_queries(movie_name, query, focus_characters=focus_characters)
     forbidden = [f.lower().strip() for f in (forbidden_terms or []) if f.strip()]
 

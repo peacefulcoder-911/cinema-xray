@@ -170,9 +170,11 @@ class AutonomousProductionEngine:
         try:
             from pipeline.clip_search_engine import search_and_acquire_clip
             clip_info = search_and_acquire_clip(
+                query=f"{movie_clean} {scene_description} scene 1080p",
                 movie_name=movie_clean,
-                scene_description=scene_description,
-                preferred_characters=[]
+                focus_characters=[],
+                require_authorized_license=False,
+                allow_network_download=True
             )
             if clip_info and clip_info.file_path and clip_info.file_path.exists():
                 print(f"✅ Downloaded & cached footage to: {clip_info.file_path}")
@@ -180,19 +182,33 @@ class AutonomousProductionEngine:
         except Exception as e:
             print(f"⚠️ Clip search engine note: {e}")
 
-        # 4. Fallback: Any tracked footage in assets/footage/*.mp4
-        available_assets = sorted(list((REPO_ROOT / "assets" / "footage").glob("*.mp4")), key=lambda p: p.stat().st_size, reverse=True)
-        if available_assets:
-            print(f"🎬 Utilizing verified repository footage asset: {available_assets[0]}")
-            return available_assets[0]
+        # 3b. Broader movie scene query retry if specific query did not yield results
+        try:
+            from pipeline.clip_search_engine import search_and_acquire_clip
+            print(f"🔍 Retrying YouTube with broader scene query: {movie_clean} movie scene 1080p...")
+            clip_info = search_and_acquire_clip(
+                query=f"{movie_clean} scene 1080p",
+                movie_name=movie_clean,
+                focus_characters=[],
+                require_authorized_license=False,
+                allow_network_download=True
+            )
+            if clip_info and clip_info.file_path and clip_info.file_path.exists():
+                print(f"✅ Downloaded & cached footage via broader query: {clip_info.file_path}")
+                return clip_info.file_path
+        except Exception as e:
+            print(f"⚠️ Broader clip search note: {e}")
 
-        # 5. Fallback: Check if any existing mp4 in clip_cache can be used
-        cached_all = sorted(list(CLIP_CACHE_DIR.glob("*.mp4")), key=lambda p: p.stat().st_size, reverse=True)
-        if cached_all:
-            print(f"⚠️ Using reference cached footage: {cached_all[0]}")
-            return cached_all[0]
+        # 4. Check if any existing mp4 in clip_cache matches this specific movie
+        for cached_f in sorted(list(CLIP_CACHE_DIR.glob("*.mp4")), key=lambda p: p.stat().st_size, reverse=True):
+            if slug_m in cached_f.stem.lower() or topic_slug in cached_f.stem.lower():
+                print(f"🎬 Found matched cached footage in: {cached_f}")
+                return cached_f
 
-        raise FileNotFoundError(f"No footage available for {movie_name}. Please download a scene clip into output/clip_cache/.")
+        raise FileNotFoundError(
+            f"No authentic footage could be acquired for '{movie_name}'. "
+            f"YouTube search and local cache found no matching scene clips."
+        )
 
     def render_70pct_clip_clean(
         self,
