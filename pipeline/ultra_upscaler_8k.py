@@ -144,6 +144,7 @@ def upgrade_to_super_resolution(
             "-vf", f"scale={target_w}:{target_h}:flags=lanczos",
             "-c:v", "libx264",
             "-preset", "ultrafast",
+            "-pix_fmt", "yuv420p",
             "-crf", "18",
             "-c:a", "copy",
             str(output_path)
@@ -158,6 +159,7 @@ def upgrade_to_super_resolution(
                 "-vf", f"scale={target_w}:{target_h}",
                 "-c:v", "libx264",
                 "-preset", "ultrafast",
+                "-pix_fmt", "yuv420p",
                 "-crf", "20",
                 "-c:a", "copy",
                 str(output_path)

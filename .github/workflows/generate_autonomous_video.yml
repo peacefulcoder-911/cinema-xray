@@ -14,9 +14,9 @@ on:
         default: ''
         type: string
       upscale_8k:
-        description: 'Enable 8K Super-Resolution (Default false for 2-min fast 1080p rendering)'
+        description: 'Render in 8K Super-Resolution (4320x7680) (Default: true)'
         required: false
-        default: false
+        default: true
         type: boolean
 
 concurrency:
@@ -74,7 +74,7 @@ jobs:
             CMD_ARGS="--movie '${{ inputs.movie }}' --scene '${{ inputs.scene }}'"
           fi
 
-          if [ "${{ inputs.upscale_8k }}" != "true" ]; then
+          if [ "${{ inputs.upscale_8k }}" == "false" ]; then
             CMD_ARGS="$CMD_ARGS --no-8k"
           fi
 
