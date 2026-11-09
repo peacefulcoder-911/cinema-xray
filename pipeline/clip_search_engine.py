@@ -370,6 +370,13 @@ def _search_youtube_html(query: str, limit: int = 5) -> List[str]:
         return []
 
 
+def _get_cookie_args() -> List[str]:
+    for p in [REPO_ROOT / "cookies.txt", Path("cookies.txt")]:
+        if p.exists() and p.stat().st_size > 10:
+            return ["--cookies", str(p)]
+    return []
+
+
 def _search_yt_dlp_candidates(
     query: str,
     min_duration: float = 15.0,
@@ -378,13 +385,15 @@ def _search_yt_dlp_candidates(
 ) -> List[Dict[str, Any]]:
     """Searches YouTube candidates via direct HTML parsing + yt-dlp metadata extraction."""
     candidates = []
+    cookie_args = _get_cookie_args()
 
     # 1. Primary Method: Fast HTML Search for Video IDs
     html_vids = _search_youtube_html(query, limit=max_results)
     if html_vids:
         for vid in html_vids:
             cmd = [
-                sys.executable, "-m", "yt_dlp",
+                sys.executable, "-m", "yt_dlp"
+            ] + cookie_args + [
                 "--extractor-args", "youtube:player_client=android",
                 "--dump-json",
                 "--no-playlist",
@@ -419,7 +428,8 @@ def _search_yt_dlp_candidates(
 
     # 2. Secondary Fallback: Standard yt-dlp search
     search_cmd = [
-        sys.executable, "-m", "yt_dlp",
+        sys.executable, "-m", "yt_dlp"
+    ] + cookie_args + [
         "--extractor-args", "youtube:player_client=android",
         "--default-search", f"ytsearch{max_results}",
         "--dump-json",
@@ -463,6 +473,9 @@ def _execute_yt_dlp_download(download_cmd: List[str]) -> subprocess.CompletedPro
     """Executes yt-dlp to download media stream."""
     if download_cmd and download_cmd[0] == "yt-dlp":
         download_cmd = [sys.executable, "-m", "yt_dlp"] + download_cmd[1:]
+    cookie_args = _get_cookie_args()
+    if cookie_args and "--cookies" not in download_cmd:
+        download_cmd = download_cmd[:3] + cookie_args + download_cmd[3:]
     return subprocess.run(download_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
 

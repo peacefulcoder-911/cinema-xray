@@ -61,9 +61,14 @@ jobs:
       - name: Execute Autonomous Production Pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
           PYTHONUNBUFFERED: "1"
         run: |
           echo "=== Running Autonomous Cinema Production ==="
+          if [ -n "$YOUTUBE_COOKIES" ]; then
+            echo "$YOUTUBE_COOKIES" > cookies.txt
+            echo "✅ Configured YouTube authentication cookies"
+          fi
           CMD_ARGS="--auto"
           if [ -n "${{ inputs.movie }}" ] && [ -n "${{ inputs.scene }}" ]; then
             CMD_ARGS="--movie '${{ inputs.movie }}' --scene '${{ inputs.scene }}'"
@@ -74,6 +79,7 @@ jobs:
           fi
 
           eval python3 run_autonomous_cinema.py $CMD_ARGS
+          rm -f cookies.txt
 
       - name: Upload Video Deliverables as GitHub Artifacts
         uses: actions/upload-artifact@v4
