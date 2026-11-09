@@ -1,0 +1,13 @@
+{
+  "project_id": "cinema-decoded-mad-max-chrome",
+  "movie": "Mad Max: Fury Road (2015)",
+  "title": "Why the War Boys Spray Chrome Before They Die",
+  "central_question": "Why do these soldiers cover their mouths with silver paint before sacrificing themselves?",
+  "core_thesis": "Immortan Joe has built a belief system in which even death becomes a form of obedience. By elevating machines to divine status and chrome to sacred metal, he convinced disposable youth that self-annihilation in his name was eternal glory.",
+  "target_duration_seconds": 45,
+  "style": "Cinema Decoded Psychological Breakdown",
+  "aspect_ratio": "9:16",
+  "resolution": "4320x7680 (8K Ultra HD)",
+  "voice_model": "gemini-3.8-flash-tts (Achird)"
+}
+

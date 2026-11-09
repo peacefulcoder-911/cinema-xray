@@ -1,0 +1,50 @@
+[Script Info]
+Title: Cinema X-Ray Center Bold Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,10,4,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.32,0:00:01.28,CenterBold,,0,0,0,,{\c&H0000E5FF&}CYPHER{\c&H00FFFFFF&} KNOWS THE
+Dialogue: 0,0:00:01.28,0:00:02.00,CenterBold,,0,0,0,,STEAK IS {\c&H0000E5FF&}FAKE{\c&H00FFFFFF&},
+Dialogue: 0,0:00:02.32,0:00:03.34,CenterBold,,0,0,0,,SO WHY {\c&H0000E5FF&}DOES{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.34,0:00:04.12,CenterBold,,0,0,0,,HE WANT {\c&H0000E5FF&}ANOTHER{\c&H00FFFFFF&} BITE?
+Dialogue: 0,0:00:05.66,0:00:06.24,CenterBold,,0,0,0,,HE {\c&H0000E5FF&}KNOWS{\c&H00FFFFFF&} THE
+Dialogue: 0,0:00:06.24,0:00:07.28,CenterBold,,0,0,0,,{\c&H0000E5FF&}ENTIRE{\c&H00FFFFFF&} WORLD AROUND
+Dialogue: 0,0:00:07.28,0:00:08.18,CenterBold,,0,0,0,,HIM IS AN {\c&H0000E5FF&}ILLUSION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:08.64,0:00:09.92,CenterBold,,0,0,0,,HE'S {\c&H0000E5FF&}ALREADY{\c&H00FFFFFF&} ESCAPED IT.
+Dialogue: 0,0:00:10.36,0:00:11.14,CenterBold,,0,0,0,,BUT {\c&H0000E5FF&}SITTING{\c&H00FFFFFF&} ACROSS
+Dialogue: 0,0:00:11.14,0:00:12.00,CenterBold,,0,0,0,,FROM {\c&H0000E5FF&}AGENT{\c&H00FFFFFF&} SMITH,
+Dialogue: 0,0:00:12.62,0:00:13.52,CenterBold,,0,0,0,,HE MAKES A {\c&H0000E5FF&}DECISION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:14.78,0:00:15.66,CenterBold,,0,0,0,,HE {\c&H0000E5FF&}LOOKS{\c&H00FFFFFF&} AT
+Dialogue: 0,0:00:15.66,0:00:16.08,CenterBold,,0,0,0,,THE STEAK,
+Dialogue: 0,0:00:16.72,0:00:17.30,CenterBold,,0,0,0,,TASTES IT,
+Dialogue: 0,0:00:17.54,0:00:18.34,CenterBold,,0,0,0,,AND {\c&H0000E5FF&}ADMITS{\c&H00FFFFFF&} HE
+Dialogue: 0,0:00:18.34,0:00:19.24,CenterBold,,0,0,0,,{\c&H0000E5FF&}KNOWS{\c&H00FFFFFF&} IT ISN'T REAL.
+Dialogue: 0,0:00:19.96,0:00:20.66,CenterBold,,0,0,0,,{\c&H0000E5FF&}THEN{\c&H00FFFFFF&} HE SAYS
+Dialogue: 0,0:00:20.66,0:00:21.70,CenterBold,,0,0,0,,SOMETHING {\c&H0000E5FF&}TERRIFYING{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:23.36,0:00:24.42,CenterBold,,0,0,0,,IGNORANCE IS {\c&H0000E5FF&}BLISS{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:26.06,0:00:27.54,CenterBold,,0,0,0,,{\c&H0000E5FF&}CYPHER{\c&H00FFFFFF&} ISN'T ASKING
+Dialogue: 0,0:00:27.54,0:00:28.50,CenterBold,,0,0,0,,{\c&H0000E5FF&}WHETHER{\c&H00FFFFFF&} THE MATRIX
+Dialogue: 0,0:00:28.50,0:00:29.22,CenterBold,,0,0,0,,IS {\c&H0000E5FF&}REAL{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:29.86,0:00:30.50,CenterBold,,0,0,0,,HE {\c&H0000E5FF&}ALREADY{\c&H00FFFFFF&} KNOWS
+Dialogue: 0,0:00:30.50,0:00:31.12,CenterBold,,0,0,0,,THE {\c&H0000E5FF&}ANSWER{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:31.78,0:00:32.82,CenterBold,,0,0,0,,HE'S ASKING {\c&H0000E5FF&}WHETHER{\c&H00FFFFFF&}
+Dialogue: 0,0:00:32.82,0:00:33.76,CenterBold,,0,0,0,,THE {\c&H0000E5FF&}TRUTH{\c&H00FFFFFF&} IS
+Dialogue: 0,0:00:33.76,0:00:34.78,CenterBold,,0,0,0,,WORTH THE {\c&H0000E5FF&}SUFFERING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:34.78,0:00:35.74,CenterBold,,0,0,0,,THAT {\c&H0000E5FF&}COMES{\c&H00FFFFFF&} WITH IT.
+Dialogue: 0,0:00:37.20,0:00:38.82,CenterBold,,0,0,0,,BECAUSE {\c&H0000E5FF&}SOMETIMES{\c&H00FFFFFF&} THE
+Dialogue: 0,0:00:38.82,0:00:39.60,CenterBold,,0,0,0,,{\c&H0000E5FF&}HARDEST{\c&H00FFFFFF&} PART OF
+Dialogue: 0,0:00:39.60,0:00:40.52,CenterBold,,0,0,0,,KNOWING THE {\c&H0000E5FF&}TRUTH{\c&H00FFFFFF&}
+Dialogue: 0,0:00:40.52,0:00:41.80,CenterBold,,0,0,0,,IS {\c&H0000E5FF&}ACCEPTING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:41.80,0:00:42.52,CenterBold,,0,0,0,,THAT YOU {\c&H0000E5FF&}STILL{\c&H00FFFFFF&}
+Dialogue: 0,0:00:42.52,0:00:43.20,CenterBold,,0,0,0,,WANT THE {\c&H0000E5FF&}LIE{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:43.20,0:00:46.18,CenterBold,,0,0,0,,WOULD YOU CHOOSE THE {\c&H0000E5FF&}TRUTH{\c&H00FFFFFF&}?

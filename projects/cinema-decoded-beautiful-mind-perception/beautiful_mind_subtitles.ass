@@ -1,0 +1,64 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,5,60,60,960,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.76,CenterBold,,0,0,0,,A BEAUTIFUL {\c&H0000E5FF&}MIND{\c&H00FFFFFF&}
+Dialogue: 0,0:00:00.76,0:00:01.82,CenterBold,,0,0,0,,DOES SOMETHING {\c&H0000E5FF&}UNUSUAL.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:02.46,0:00:02.78,CenterBold,,0,0,0,,IT MAKES YOU
+Dialogue: 0,0:00:02.78,0:00:03.46,CenterBold,,0,0,0,,BELIEVE IN THE
+Dialogue: 0,0:00:03.46,0:00:04.40,CenterBold,,0,0,0,,SAME {\c&H0000E5FF&}REALITY{\c&H00FFFFFF&} THAT
+Dialogue: 0,0:00:04.40,0:00:04.62,CenterBold,,0,0,0,,IT'S
+Dialogue: 0,0:00:04.62,0:00:05.56,CenterBold,,0,0,0,,MAIN CHARACTER BELIEVES
+Dialogue: 0,0:00:05.56,0:00:06.54,CenterBold,,0,0,0,,IN. FROM THE
+Dialogue: 0,0:00:06.54,0:00:07.26,CenterBold,,0,0,0,,MOMENT JOHN NASH
+Dialogue: 0,0:00:07.26,0:00:08.30,CenterBold,,0,0,0,,ARRIVES AT {\c&H0000E5FF&}PRINCETON,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:08.62,0:00:09.22,CenterBold,,0,0,0,,THE CAMERA LOCKS
+Dialogue: 0,0:00:09.22,0:00:09.60,CenterBold,,0,0,0,,ONTO
+Dialogue: 0,0:00:09.60,0:00:10.90,CenterBold,,0,0,0,,HIS SUBJECTIVE {\c&H0000E5FF&}PERSPECTIVE.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.42,0:00:12.04,CenterBold,,0,0,0,,THE FILM DOESN'T
+Dialogue: 0,0:00:12.04,0:00:12.92,CenterBold,,0,0,0,,USE {\c&H0000E5FF&}WARPED{\c&H00FFFFFF&} LENSES
+Dialogue: 0,0:00:12.92,0:00:14.02,CenterBold,,0,0,0,,OR SPOOKY MUSIC.
+Dialogue: 0,0:00:14.42,0:00:15.20,CenterBold,,0,0,0,,HIS ROOMMATE {\c&H0000E5FF&}CHARLES{\c&H00FFFFFF&}
+Dialogue: 0,0:00:15.20,0:00:16.00,CenterBold,,0,0,0,,ISN'T FRAMED AS
+Dialogue: 0,0:00:16.00,0:00:16.90,CenterBold,,0,0,0,,A {\c&H0000E5FF&}GHOST.{\c&H00FFFFFF&} HE
+Dialogue: 0,0:00:16.90,0:00:17.94,CenterBold,,0,0,0,,SHARES DRINKS, GIVES
+Dialogue: 0,0:00:17.94,0:00:19.10,CenterBold,,0,0,0,,ADVICE, AND FEELS
+Dialogue: 0,0:00:19.10,0:00:19.96,CenterBold,,0,0,0,,COMPLETELY GROUNDED.
+Dialogue: 0,0:00:20.56,0:00:21.16,CenterBold,,0,0,0,,WHEN A SECRET
+Dialogue: 0,0:00:21.16,0:00:22.10,CenterBold,,0,0,0,,AGENT RECRUITS NASH
+Dialogue: 0,0:00:22.10,0:00:22.80,CenterBold,,0,0,0,,FOR {\c&H0000E5FF&}COLD{\c&H00FFFFFF&} {\c&H0000E5FF&}WAR{\c&H00FFFFFF&}
+Dialogue: 0,0:00:22.80,0:00:23.90,CenterBold,,0,0,0,,CODE BREAKING, THE
+Dialogue: 0,0:00:23.90,0:00:24.52,CenterBold,,0,0,0,,FILM FRAMES IT
+Dialogue: 0,0:00:24.52,0:00:25.24,CenterBold,,0,0,0,,AS A GROUNDED
+Dialogue: 0,0:00:25.24,0:00:26.92,CenterBold,,0,0,0,,{\c&H0000E5FF&}ESPIONAGE{\c&H00FFFFFF&} {\c&H0000E5FF&}THRILLER.{\c&H00FFFFFF&} BECAUSE
+Dialogue: 0,0:00:26.92,0:00:27.54,CenterBold,,0,0,0,,THE STORY FEELS
+Dialogue: 0,0:00:27.54,0:00:28.74,CenterBold,,0,0,0,,{\c&H0000E5FF&}COHERENT,{\c&H00FFFFFF&} WE {\c&H0000E5FF&}TRUST{\c&H00FFFFFF&}
+Dialogue: 0,0:00:28.74,0:00:30.22,CenterBold,,0,0,0,,IT COMPLETELY. THEN
+Dialogue: 0,0:00:30.22,0:00:30.76,CenterBold,,0,0,0,,COMES THE {\c&H0000E5FF&}SHOCK.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:31.38,0:00:32.20,CenterBold,,0,0,0,,THE ROOMMATE, THE
+Dialogue: 0,0:00:32.20,0:00:33.32,CenterBold,,0,0,0,,AGENT, THE CONSPIRACY.
+Dialogue: 0,0:00:34.12,0:00:34.64,CenterBold,,0,0,0,,NONE OF THEM
+Dialogue: 0,0:00:34.64,0:00:35.52,CenterBold,,0,0,0,,EXISTS AT OUTSIDE
+Dialogue: 0,0:00:35.52,0:00:36.14,CenterBold,,0,0,0,,NASH'S {\c&H0000E5FF&}MIND.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:36.72,0:00:37.16,CenterBold,,0,0,0,,IT FORCES YOU
+Dialogue: 0,0:00:37.16,0:00:38.16,CenterBold,,0,0,0,,TO MENTALLY {\c&H0000E5FF&}REWIND{\c&H00FFFFFF&}
+Dialogue: 0,0:00:38.16,0:00:39.36,CenterBold,,0,0,0,,EVERY EARLIER SCENE.
+Dialogue: 0,0:00:40.14,0:00:40.82,CenterBold,,0,0,0,,THE CLEVEREST PART
+Dialogue: 0,0:00:40.82,0:00:41.52,CenterBold,,0,0,0,,ISN'T THAT NASH
+Dialogue: 0,0:00:41.52,0:00:41.70,CenterBold,,0,0,0,,CANNOT
+Dialogue: 0,0:00:41.70,0:00:42.70,CenterBold,,0,0,0,,{\c&H0000E5FF&}DISTINGUISH{\c&H00FFFFFF&} WHAT HE
+Dialogue: 0,0:00:42.70,0:00:43.98,CenterBold,,0,0,0,,EXPERIENCES FROM {\c&H0000E5FF&}REALITY.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:44.48,0:00:44.90,CenterBold,,0,0,0,,IT'S THAT THE
+Dialogue: 0,0:00:44.90,0:00:45.76,CenterBold,,0,0,0,,FILM MAKES US
+Dialogue: 0,0:00:45.76,0:00:46.88,CenterBold,,0,0,0,,{\c&H0000E5FF&}TRUST{\c&H00FFFFFF&} HIS {\c&H0000E5FF&}PERSPECTIVE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:46.88,0:00:48.06,CenterBold,,0,0,0,,BEFORE WE REALIZE
+Dialogue: 0,0:00:48.06,0:00:48.74,CenterBold,,0,0,0,,WE SHOULD {\c&H0000E5FF&}QUESTION{\c&H00FFFFFF&}
+Dialogue: 0,0:00:48.74,0:00:48.92,CenterBold,,0,0,0,,IT.

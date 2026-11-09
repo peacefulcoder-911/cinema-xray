@@ -22,7 +22,7 @@ RESOLUTIONS = {
         "default_bitrate": "85M",
         "max_bitrate": "100M",
         "bufsize": "120M",
-        "cas_strength": 0.35
+        "cas_strength": 0.55
     },
     "4K": {
         "vertical": (2160, 3840),
@@ -110,7 +110,7 @@ def upgrade_to_super_resolution(
     print(f"  Audio Passthrough: Lossless EBU R128 (-14 LUFS)")
     print(f"  Output Path:       {output_path}\n")
 
-    filter_graph = f"scale={target_w}:{target_h}:flags=lanczos,cas=strength={cas_val}"
+    filter_graph = f"scale={target_w}:{target_h}:flags=lanczos+accurate_rnd,cas=strength={cas_val}"
 
     # Primary: Apple Silicon VideoToolbox HEVC hardware acceleration
     cmd_hardware = [
@@ -121,6 +121,8 @@ def upgrade_to_super_resolution(
         "-b:v", target_b,
         "-maxrate", config["max_bitrate"],
         "-bufsize", config["bufsize"],
+        "-q:v", "80",
+        "-prio_speed", "false",
         "-tag:v", "hvc1",
         "-color_primaries", "bt709",
         "-color_trc", "bt709",
@@ -134,7 +136,8 @@ def upgrade_to_super_resolution(
     res = subprocess.run(cmd_hardware, capture_output=True, text=True)
 
     if res.returncode != 0:
-        print(f"⚠️ VideoToolbox unavailable on this runner. Utilizing ultrafast CPU pipeline...")
+        print(f"⚠️ VideoToolbox hardware acceleration failed: {res.stderr[-300:] if res.stderr else 'unknown error'}")
+        print(f"⚠️ Utilizing CPU fallback pipeline...")
         cmd_cpu = [
             "ffmpeg", "-y",
             "-i", str(input_path),

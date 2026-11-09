@@ -159,7 +159,7 @@ def build_all_scenes():
     return stitched
 
 def render_master(stitched_vid):
-    print('=== RENDERING FINAL MASTER WITH ELEVENLABS AUDIO & SUBTITLES ===')
+    print('=== RENDERING FINAL MASTER WITH AUDIO & SUBTITLES ===')
     filter_complex = (
         '[1:a]volume=1.0[v_aud];'
         '[0:a]volume=0.22[m_aud];'

@@ -26,73 +26,30 @@ def _load_env():
             line = line.strip()
             if line and not line.startswith('#') and '=' in line:
                 k, v = line.split('=', 1)
-                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+                k_clean = k.strip()
+                v_clean = v.strip().strip('"').strip("'")
+                if k_clean in ["GEMINI_API_KEY", "GOOGLE_API_KEY"] or k_clean not in os.environ:
+                    os.environ[k_clean] = v_clean
 _load_env()
 
 
 def _get_api_client():
-    api_key = os.environ.get("GEMINI_API_KEY", "AIzaSyDStjE_IOWgo7NWUSqrxHi3KBki2Rfyk0k")
+    _load_env()
+    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    if not api_key:
+        raise ValueError("GEMINI_API_KEY not found in environment or .env file.")
     return genai.Client(api_key=api_key)
 
 
-
-ELEVENLABS_VOICES = {
-    "brian": "nPczCjzI2devNBz1zQrb",   # Deep, Resonant, Analytical (Cinema X-Ray Video Essay)
-    "adam": "pNInz6obpgDQGcFmaJgB",    # Dominant, Firm, Dramatic
-    "roger": "CwhRBWXzGAHq8TQ4Fs17",   # Resonant, Casual
-    "george": "JBFqnCBsd6RMkjVDRZzb",  # British Storyteller
-}
-
-def _synthesize_elevenlabs_tts(script_text: str, temp_wav_path: str, voice_name: str = "brian") -> None:
-    """Synthesizes audio using ElevenLabs REST API and converts to 24kHz mono PCM WAV."""
-    import requests
-    api_key = os.environ.get("ELEVENLABS_API_KEY", "sk_5bee36c5d62728dc6c787af78d15981d7112dce3882a1d74")
-    voice_id = ELEVENLABS_VOICES.get(voice_name.lower(), voice_name)
-    url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
-    payload = {
-        "text": script_text,
-        "model_id": "eleven_multilingual_v2",
-        "voice_settings": {
-            "stability": 0.5,
-            "similarity_boost": 0.8,
-            "style": 0.0,
-            "use_speaker_boost": True
-        }
-    }
-    headers = {
-        "xi-api-key": api_key,
-        "Content-Type": "application/json"
-    }
-    print(f"[ElevenLabs TTS] Generating audio with voice '{voice_name}'...")
-    res = requests.post(url, json=payload, headers=headers)
-    if res.status_code != 200:
-        raise RuntimeError(f"ElevenLabs API failed ({res.status_code}): {res.text}")
-    
-    os.makedirs(os.path.dirname(temp_wav_path), exist_ok=True)
-    temp_mp3 = temp_wav_path + ".temp.mp3"
-    with open(temp_mp3, "wb") as f:
-        f.write(res.content)
-    
-    # Convert MP3 to 24kHz mono PCM WAV
-    subprocess.run([
-        "ffmpeg", "-y", "-v", "quiet",
-        "-i", temp_mp3,
-        "-ar", "24000",
-        "-ac", "1",
-        "-c:a", "pcm_s16le",
-        temp_wav_path
-    ], check=True)
-    if os.path.exists(temp_mp3):
-        os.remove(temp_mp3)
 
 def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
     """Invokes Gemini TTS for Achird voice and saves raw 24kHz mono PCM WAV."""
     client = _get_api_client()
     models_to_try = [
-        "gemini-3.8-flash-tts",
-        "gemini-3.8-flash-lite-tts",
+        "gemini-2.5-flash-preview-tts",
         "gemini-3.1-flash-tts-preview",
-        "gemini-2.5-flash-preview-tts"
+        "gemini-3.8-flash-tts",
+        "gemini-3.8-flash-lite-tts"
     ]
 
     prompt_content = script_text.strip()
@@ -105,7 +62,7 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
     ]
 
     config = types.GenerateContentConfig(
-        temperature=0.85,
+        temperature=0.7,
         response_modalities=["AUDIO"],
         speech_config=types.SpeechConfig(
             voice_config=types.VoiceConfig(
@@ -129,20 +86,11 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
                         wf.setsampwidth(2)
                         wf.setframerate(24000)
                         wf.writeframes(raw_data)
+                    print(f"✅ Synthesized successfully via {m} (Achird)")
                     return
         except Exception as e:
             print(f"[Gemini TTS] Model {m} note: {e}")
             last_err = e
-
-    # Fallback 1: ElevenLabs Studio Voice (brian)
-    try:
-        print("[Audio Generator] Attempting studio voiceover via ElevenLabs (brian)...")
-        _synthesize_elevenlabs_tts(script_text, temp_wav_path, voice_name="brian")
-        if os.path.exists(temp_wav_path) and os.path.getsize(temp_wav_path) > 1000:
-            print("✅ ElevenLabs Voiceover Synthesized Successfully!")
-            return
-    except Exception as el_err:
-        print(f"[Audio Generator] ElevenLabs fallback note: {el_err}")
 
     import shutil
     if shutil.which("say"):
@@ -180,16 +128,49 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
     return
 
 
-def _apply_loudness_normalization(input_wav: str, output_wav: str) -> None:
-    """Master audio using FFmpeg EBU R128 loudnorm filter (I=-14, TP=-1.5, LRA=11)."""
+def _apply_loudness_normalization(input_wav: str, output_wav: str, target_peak_db: float = -1.0) -> None:
+    """
+    Standard Cinema Decoded audio mastering:
+    Uses static linear peak gain normalization (target peak -1.0 dB to -1.5 dB).
+    Avoids dynamic AGC compressor loudnorm which boosts silence floors and causes
+    unwanted 'whooshing' or 'breathing' background noise during speech pauses.
+    Outputs clean 48kHz 16-bit mono PCM WAV.
+    """
     parent_dir = os.path.dirname(output_wav)
     if parent_dir:
         os.makedirs(parent_dir, exist_ok=True)
+
+    # 1. Measure current max_volume via FFmpeg volumedetect
+    cmd_measure = [
+        "ffmpeg", "-i", input_wav,
+        "-af", "volumedetect",
+        "-f", "null", "-"
+    ]
+    res = subprocess.run(cmd_measure, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    max_vol = None
+    for line in res.stderr.splitlines():
+        if "max_volume:" in line:
+            parts = line.split("max_volume:")
+            if len(parts) > 1:
+                val_str = parts[1].replace("dB", "").strip()
+                try:
+                    max_vol = float(val_str)
+                except ValueError:
+                    pass
+            break
+
+    if max_vol is None:
+        gain_db = 0.0
+    else:
+        gain_db = target_peak_db - max_vol
+        gain_db = max(-12.0, min(12.0, gain_db))
+
+    print(f"[Audio Mastering] Measured max volume: {max_vol} dB -> Applying linear gain: {gain_db:+.1f} dB (Zero AGC pumping)")
     cmd = [
         "ffmpeg", "-y", "-v", "quiet",
         "-i", input_wav,
-        "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
-        "-ar", "24000",
+        "-af", f"volume={gain_db:.2f}dB",
+        "-ar", "48000",
         "-c:a", "pcm_s16le",
         output_wav
     ]
@@ -223,12 +204,10 @@ def verify_audio_file(audio_path: str, video_format: str = "SHORT_45_SEC") -> fl
 def generate_achird_audio(
     script_input: Union[str, Path, Dict[str, Any]],
     output_path: str,
-    video_format: str = "SHORT_45_SEC",
-    provider: str = None,
-    elevenlabs_voice: str = "brian"
+    video_format: str = "SHORT_45_SEC"
 ) -> float:
     """
-    Generates studio-quality Achird voiceover with loudness normalization and smart caching.
+    Generates studio-quality Achird voiceover via Gemini TTS with loudness normalization and smart caching.
     Supports:
       - Plain text string or SHORT_45_SEC: Single-shot synthesis.
       - LONG_5_6_MIN or manifest dictionary/path: Chapter-safe synthesis across 5 chapters with 0.30s pauses.
@@ -267,10 +246,7 @@ def generate_achird_audio(
             script_text = str(script_input).strip()
 
         raw_unmastered = str(temp_dir / f"raw_{Path(output_path).stem}.wav")
-        if provider == "elevenlabs":
-            _synthesize_elevenlabs_tts(script_text, raw_unmastered, voice_name=elevenlabs_voice)
-        else:
-            _synthesize_raw_tts(script_text, raw_unmastered)
+        _synthesize_raw_tts(script_text, raw_unmastered)
 
         print("[Audio Mastering] Normalizing loudness to broadcast standard (-14 LUFS)...")
         _apply_loudness_normalization(raw_unmastered, output_path)
@@ -303,10 +279,7 @@ def generate_achird_audio(
             # Check chapter cache
             if not ch_wav.exists() or ch_wav.stat().st_size < 5000:
                 print(f"  🎙️ Synthesizing Chapter {ch_idx}/{len(chapter_keys)} ({len(ch_text.split())} words)...")
-                if provider == "elevenlabs":
-                    _synthesize_elevenlabs_tts(ch_text, str(ch_wav), voice_name=elevenlabs_voice)
-                else:
-                    _synthesize_raw_tts(ch_text, str(ch_wav))
+                _synthesize_raw_tts(ch_text, str(ch_wav))
             else:
                 print(f"  ♻️ Reusing cached Chapter {ch_idx}/{len(chapter_keys)}...")
 
@@ -341,18 +314,3 @@ if __name__ == "__main__":
     test_script = "In Age of Ultron, when Steve Rogers barely nudged Thor's hammer, Thor's smile instantly vanished."
     dur = generate_achird_audio(test_script, "/tmp/test_achird_short.wav")
     print(f"Short test duration: {dur:.2f}s")
-
-def generate_elevenlabs_audio(
-    script_input: Union[str, Path, Dict[str, Any]],
-    output_path: str,
-    voice_name: str = "brian",
-    video_format: str = "SHORT_45_SEC"
-) -> float:
-    """Generates broadcast-mastered ElevenLabs audio for Short-Form or Long-Form."""
-    return generate_achird_audio(
-        script_input=script_input,
-        output_path=output_path,
-        video_format=video_format,
-        provider="elevenlabs",
-        elevenlabs_voice=voice_name
-    )

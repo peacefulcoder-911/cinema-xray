@@ -1,0 +1,66 @@
+{
+  "project_id": "cinema-decoded-limitless-intelligence",
+  "movie": "Limitless (2011)",
+  "runtime_seconds": 51.27,
+  "framing_preset": "70% Active Cinematic Framing (1080x1344 active foreground, blurred 1080x1920 backdrop, 2px matte borders)",
+  "subtitles": {
+    "format": "ASS (Advanced SubStation Alpha v4.00+)",
+    "path": "projects/cinema-decoded-limitless-intelligence/limitless_subtitles.ass",
+    "style": "CenterBold (Arial Black 76pt, yellow &H0000E5FF& keyword highlighting, no box background)",
+    "events_count": 56
+  },
+  "audio": {
+    "voice": "Gemini Achird (Prebuilt Broadcast Neural Voice)",
+    "raw_path": "projects/cinema-decoded-limitless-intelligence/audio/raw_tts.wav",
+    "master_path": "projects/cinema-decoded-limitless-intelligence/audio/limitless_achird_master.wav",
+    "duration": 51.27,
+    "loudness_standard": "EBU R128 (-14.0 LUFS, -1.5 dB True Peak, LRA 11.0)",
+    "sampling_rate": "24000 Hz, mono PCM 16-bit"
+  },
+  "visual_assets": [
+    {
+      "beat_id": "beat_01_the_dangerous_question",
+      "expected_path": "output/clip_cache/limitless_penthouse_opening_1080p.mp4",
+      "duration": 3.14,
+      "status": "AWAITING_SOURCE_OR_COOKIE_EXPORT"
+    },
+    {
+      "beat_id": "beat_02_the_struggling_writer",
+      "expected_path": "output/clip_cache/limitless_messy_apartment_1080p.mp4",
+      "duration": 8.78,
+      "status": "AWAITING_SOURCE_OR_COOKIE_EXPORT"
+    },
+    {
+      "beat_id": "beat_03_the_cognitive_explosion",
+      "expected_path": "output/clip_cache/limitless_infinite_zoom_trading_1080p.mp4",
+      "duration": 9.38,
+      "status": "AWAITING_SOURCE_OR_COOKIE_EXPORT"
+    },
+    {
+      "beat_id": "beat_04_the_rising_contradiction",
+      "expected_path": "output/clip_cache/limitless_van_loon_confrontation_1080p.mp4",
+      "duration": 10.40,
+      "status": "AWAITING_SOURCE_OR_COOKIE_EXPORT"
+    },
+    {
+      "beat_id": "beat_05_the_vulnerability_trap",
+      "expected_path": "output/clip_cache/limitless_gennady_withdrawal_1080p.mp4",
+      "duration": 10.30,
+      "status": "AWAITING_SOURCE_OR_COOKIE_EXPORT"
+    },
+    {
+      "beat_id": "beat_06_intelligence_vs_wisdom_payoff",
+      "expected_path": "output/clip_cache/limitless_ending_senate_1080p.mp4",
+      "duration": 9.27,
+      "status": "AWAITING_SOURCE_OR_COOKIE_EXPORT"
+    }
+  ],
+  "target_render": {
+    "resolution": "8K Ultra HD (4320x7680)",
+    "aspect_ratio": "9:16 Vertical",
+    "target_bitrate": "85 Mbps",
+    "codec": "hevc_videotoolbox (Apple Silicon Hardware Acceleration)",
+    "destination": "output/final_video/cinema_xray_limitless_8k.mp4"
+  }
+}
+

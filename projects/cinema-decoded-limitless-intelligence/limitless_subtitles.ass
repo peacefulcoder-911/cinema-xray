@@ -1,0 +1,68 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,5,60,60,960,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.60,CenterBold,,0,0,0,,WHAT IF BECOMING
+Dialogue: 0,0:00:00.60,0:00:01.72,CenterBold,,0,0,0,,{\c&H0000E5FF&}SMARTER{\c&H00FFFFFF&} ACTUALLY MADE
+Dialogue: 0,0:00:01.72,0:00:02.18,CenterBold,,0,0,0,,YOUR LIFE MORE
+Dialogue: 0,0:00:02.18,0:00:02.48,CenterBold,,0,0,0,,{\c&H0000E5FF&}DANGEROUS?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.14,0:00:03.86,CenterBold,,0,0,0,,EDDIE MORA BEGINS
+Dialogue: 0,0:00:03.86,0:00:04.94,CenterBold,,0,0,0,,AS AN UNMOTIVATED
+Dialogue: 0,0:00:04.94,0:00:06.04,CenterBold,,0,0,0,,WRITER STRUGGLING WITH
+Dialogue: 0,0:00:06.04,0:00:07.08,CenterBold,,0,0,0,,DIRECTION AND CREATIVE
+Dialogue: 0,0:00:07.08,0:00:07.56,CenterBold,,0,0,0,,PARALYSIS.
+Dialogue: 0,0:00:08.00,0:00:08.78,CenterBold,,0,0,0,,THEN, A SINGLE
+Dialogue: 0,0:00:08.78,0:00:10.18,CenterBold,,0,0,0,,PILL OF {\c&H0000E5FF&}NZT48{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.18,0:00:11.92,CenterBold,,0,0,0,,CHANGES EVERYTHING. SUDDENLY,
+Dialogue: 0,0:00:12.10,0:00:12.88,CenterBold,,0,0,0,,HIS MIND OPERATES
+Dialogue: 0,0:00:12.88,0:00:13.82,CenterBold,,0,0,0,,AT TOTAL COGNITIVE
+Dialogue: 0,0:00:13.82,0:00:14.22,CenterBold,,0,0,0,,{\c&H0000E5FF&}CLARITY.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:14.52,0:00:15.16,CenterBold,,0,0,0,,HE FINISHES HIS
+Dialogue: 0,0:00:15.16,0:00:15.78,CenterBold,,0,0,0,,BOOK IN DAYS,
+Dialogue: 0,0:00:16.08,0:00:16.98,CenterBold,,0,0,0,,MASTERS FOREIGN LANGUAGES,
+Dialogue: 0,0:00:17.48,0:00:18.28,CenterBold,,0,0,0,,AND TURNS THOUSANDS
+Dialogue: 0,0:00:18.28,0:00:19.32,CenterBold,,0,0,0,,INTO MILLIONS ON
+Dialogue: 0,0:00:19.32,0:00:19.70,CenterBold,,0,0,0,,WALL STREET.
+Dialogue: 0,0:00:20.22,0:00:20.70,CenterBold,,0,0,0,,YET, AS HIS
+Dialogue: 0,0:00:20.70,0:00:21.74,CenterBold,,0,0,0,,{\c&H0000E5FF&}AMBITION{\c&H00FFFFFF&} GROWS, A
+Dialogue: 0,0:00:21.74,0:00:23.06,CenterBold,,0,0,0,,CRITICAL CONTRADICTION EMERGES.
+Dialogue: 0,0:00:23.60,0:00:24.50,CenterBold,,0,0,0,,HIS ABILITIES EXPAND
+Dialogue: 0,0:00:24.50,0:00:25.40,CenterBold,,0,0,0,,FAR FASTER THAN
+Dialogue: 0,0:00:25.40,0:00:26.06,CenterBold,,0,0,0,,HIS ABILITY TO
+Dialogue: 0,0:00:26.06,0:00:27.10,CenterBold,,0,0,0,,MANAGE THE {\c&H0000E5FF&}CONSEQUENCES.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:27.10,0:00:28.50,CenterBold,,0,0,0,,EDDIE CAN OUTTHINK
+Dialogue: 0,0:00:28.50,0:00:29.64,CenterBold,,0,0,0,,FINANCIAL TITANS, YET
+Dialogue: 0,0:00:29.64,0:00:30.50,CenterBold,,0,0,0,,HE BORROWS CASH
+Dialogue: 0,0:00:30.50,0:00:31.06,CenterBold,,0,0,0,,FROM A VIOLENT
+Dialogue: 0,0:00:31.06,0:00:31.50,CenterBold,,0,0,0,,LOAN SHARK.
+Dialogue: 0,0:00:32.00,0:00:32.66,CenterBold,,0,0,0,,HE SEES ENDLESS
+Dialogue: 0,0:00:32.66,0:00:33.96,CenterBold,,0,0,0,,{\c&H0000E5FF&}POSSIBILITIES,{\c&H00FFFFFF&} YET HIS
+Dialogue: 0,0:00:33.96,0:00:34.90,CenterBold,,0,0,0,,SURVIVAL BECOMES TRAPPED
+Dialogue: 0,0:00:34.90,0:00:35.88,CenterBold,,0,0,0,,BY CHEMICAL DEPENDENCE.
+Dialogue: 0,0:00:36.62,0:00:37.14,CenterBold,,0,0,0,,BEING ABLE TO
+Dialogue: 0,0:00:37.14,0:00:37.82,CenterBold,,0,0,0,,SEE MORE {\c&H0000E5FF&}OPTIONS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:37.82,0:00:38.98,CenterBold,,0,0,0,,DOESN'T AUTOMATICALLY MEAN
+Dialogue: 0,0:00:38.98,0:00:39.76,CenterBold,,0,0,0,,KNOWING WHICH ONES
+Dialogue: 0,0:00:39.76,0:00:40.44,CenterBold,,0,0,0,,ARE WORTH CHOOSING.
+Dialogue: 0,0:00:41.04,0:00:41.76,CenterBold,,0,0,0,,{\c&H0000E5FF&}NZT{\c&H00FFFFFF&} GIVES EDDIE
+Dialogue: 0,0:00:41.76,0:00:42.50,CenterBold,,0,0,0,,A MORE {\c&H0000E5FF&}POWERFUL{\c&H00FFFFFF&}
+Dialogue: 0,0:00:42.50,0:00:43.60,CenterBold,,0,0,0,,MIND, BUT IT
+Dialogue: 0,0:00:43.60,0:00:44.46,CenterBold,,0,0,0,,DOESN'T AUTOMATICALLY GIVE
+Dialogue: 0,0:00:44.46,0:00:44.92,CenterBold,,0,0,0,,HIM A BETTER
+Dialogue: 0,0:00:44.92,0:00:45.42,CenterBold,,0,0,0,,UNDERSTANDING
+Dialogue: 0,0:00:45.42,0:00:45.84,CenterBold,,0,0,0,,OF WHAT TO
+Dialogue: 0,0:00:45.84,0:00:46.24,CenterBold,,0,0,0,,DO WITH IT.
+Dialogue: 0,0:00:46.56,0:00:47.50,CenterBold,,0,0,0,,BECAUSE {\c&H0000E5FF&}INTELLIGENCE{\c&H00FFFFFF&} CAN
+Dialogue: 0,0:00:47.50,0:00:47.84,CenterBold,,0,0,0,,HELP YOU GET
+Dialogue: 0,0:00:47.84,0:00:48.36,CenterBold,,0,0,0,,WHAT YOU WANT,
+Dialogue: 0,0:00:48.78,0:00:49.62,CenterBold,,0,0,0,,{\c&H0000E5FF&}WISDOM{\c&H00FFFFFF&} HELPS YOU
+Dialogue: 0,0:00:49.62,0:00:50.44,CenterBold,,0,0,0,,{\c&H0000E5FF&}DECIDE{\c&H00FFFFFF&} WHETHER YOU
+Dialogue: 0,0:00:50.44,0:00:50.92,CenterBold,,0,0,0,,SHOULD WANT IT.

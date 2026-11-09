@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "topic": "cinema-decoded-kgf-fear-weapon",
+  "title": "KGF: Chapter 1 \u2014 How Rocky Turns Fear into His Most Powerful Weapon",
+  "master_1080p": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-kgf-fear-weapon/out/cinema_decoded_kgf_fear_weapon_1080p.mp4",
+  "master_4k": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-kgf-fear-weapon/out/cinema_decoded_kgf_fear_weapon_4k.mp4",
+  "master_8k": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-kgf-fear-weapon/out/cinema_decoded_kgf_fear_weapon_8k.mp4",
+  "thumbnail": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-kgf-fear-weapon/thumbnail.jpg",
+  "total_duration": 46.44,
+  "resolution_1080p": "1080x1920",
+  "resolution_4k": "2160x3840",
+  "resolution_8k": "4320x7680",
+  "fps": "30",
+  "qc_frames_extracted": 16,
+  "checks": {
+    "aspect_ratio_9_16": true,
+    "duration_within_40_50_sec": true,
+    "has_loudness_normalized_audio": true,
+    "has_center_bold_ass_subtitles": true,
+    "no_box_text_overlays": true,
+    "uses_gemini_achird_emotion_voice": true,
+    "procedural_cinematic_sound_design": true,
+    "super_resolution_8k": true,
+    "all_scenes_supported_by_film": true,
+    "no_black_or_blank_frames": true
+  }
+}

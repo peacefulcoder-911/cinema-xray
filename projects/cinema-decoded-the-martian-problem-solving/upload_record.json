@@ -1,0 +1,76 @@
+{
+  "status": "SCHEDULED",
+  "slot": "MORNING",
+  "publish_at_iso": "2026-11-09T05:00:00Z",
+  "local_time_desc": "10:30 AM IST (Monday, Nov 9, 2026)",
+  "video_id": "ptKwx0ShwII",
+  "youtube_url": "https://youtu.be/ptKwx0ShwII",
+  "title": "The Martian: The Secret to Solving Any Impossible Problem #Shorts",
+  "uploaded_at": "2026-11-08T20:14:44.788754+00:00",
+  "video_file": "/Users/vinaybt/Downloads/cinema-xray/output/final_video/cinema_xray_the_martian_8k.mp4",
+  "thumbnail_file": "/Users/vinaybt/Downloads/cinema-xray/output/thumbnails_short/the_martian_problem_solving_thumb.jpg",
+  "video_size_mb": 453.27,
+  "youtube_response": {
+    "kind": "youtube#video",
+    "etag": "oEI2T7_jtCdjmfxTdYtejEaDREg",
+    "id": "ptKwx0ShwII",
+    "snippet": {
+      "publishedAt": "2026-11-08T20:13:25Z",
+      "channelId": "UCglv3tAGqrOIoY03wCTVxgg",
+      "title": "The Martian: The Secret to Solving Any Impossible Problem #Shorts",
+      "description": "How does Mark Watney survive on a planet where everything is trying to kill him? He doesn't solve Mars all at once. Discover the engineering psychology of breaking the impossible into solvable steps.\n\n#TheMartian #MattDamon #ProblemSolving #FilmAnalysis #CinemaDecoded #Shorts",
+      "thumbnails": {
+        "default": {
+          "url": "https://i9.ytimg.com/vi/ptKwx0ShwII/default.jpg?sqp=CJiuw9cG&rs=AOn4CLAxwFvZH1WlMlnSzIb8dPBvuIqu-w",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i9.ytimg.com/vi/ptKwx0ShwII/mqdefault.jpg?sqp=CJiuw9cG&rs=AOn4CLAtT-vrpy5Y2aTZlbJ4iP3kGBm4Qg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i9.ytimg.com/vi/ptKwx0ShwII/hqdefault.jpg?sqp=CJiuw9cG&rs=AOn4CLB_Cq7QEPzAfFHSOiIIZ41MFs8aDw",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Cinema X-Ray",
+      "tags": [
+        "Cinema Decoded",
+        "Cinema X-Ray",
+        "Engineering Mindset",
+        "Film Analysis",
+        "Mark Watney",
+        "Matt Damon",
+        "Movie Psychology",
+        "NASA",
+        "Problem Solving",
+        "Ridley Scott",
+        "Science The Shit Out Of This",
+        "Shorts",
+        "Survival",
+        "The Martian",
+        "The Martian Explained"
+      ],
+      "categoryId": "1",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "The Martian: The Secret to Solving Any Impossible Problem #Shorts",
+        "description": "How does Mark Watney survive on a planet where everything is trying to kill him? He doesn't solve Mars all at once. Discover the engineering psychology of breaking the impossible into solvable steps.\n\n#TheMartian #MattDamon #ProblemSolving #FilmAnalysis #CinemaDecoded #Shorts"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "status": {
+      "uploadStatus": "uploaded",
+      "privacyStatus": "private",
+      "publishAt": "2026-11-09T05:00:00Z",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "selfDeclaredMadeForKids": false
+    }
+  }
+}

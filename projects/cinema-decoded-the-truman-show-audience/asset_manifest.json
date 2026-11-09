@@ -1,0 +1,63 @@
+{
+  "project_id": "cinema-decoded-the-truman-show-audience",
+  "movie": "The Truman Show (1998)",
+  "director": "Peter Weir",
+  "lead_actor": "Jim Carrey",
+  "assets": [
+    {
+      "beat_id": "beat_01_truman_ordinary_routine",
+      "clip_file": "output/clip_cache/truman_morning_routine_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=9bMqDykDxeg",
+      "resolution": "1920x1080",
+      "start_sec": 1.0,
+      "duration": 5.50,
+      "description": "Truman steps outside his pristine suburban Seahaven home, greeting neighbors with his cheerful catchphrase."
+    },
+    {
+      "beat_id": "beat_02_manufactured_reality_spotlight",
+      "clip_file": "output/clip_cache/truman_falling_light_cameras_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=MdwuW8n3JYA",
+      "resolution": "1280x720",
+      "start_sec": 8.0,
+      "duration": 10.30,
+      "description": "Sirius 9 studio spotlight crashes from the cloudless artificial sky onto the pavement as hidden surveillance monitors Truman."
+    },
+    {
+      "beat_id": "beat_03_audience_captivated_consumers",
+      "clip_file": "output/clip_cache/truman_audience_watching_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=f_UmiKHl1rM",
+      "resolution": "1918x1080",
+      "start_sec": 30.0,
+      "duration": 12.00,
+      "description": "Everyday viewers glued to television screens: two elderly women with Truman pillows, man soaking in bathtub, bar patrons."
+    },
+    {
+      "beat_id": "beat_04_christof_lunar_control",
+      "clip_file": "output/clip_cache/truman_christof_control_room_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=CunxgZ4JBlY",
+      "resolution": "1920x1080",
+      "start_sec": 50.0,
+      "duration": 11.00,
+      "description": "Christof in the lunar control room overlooking the giant curved projection screen, directing Truman's life like a deity."
+    },
+    {
+      "beat_id": "beat_05_truman_radio_tracking_paranoia",
+      "clip_file": "output/clip_cache/truman_radio_frequency_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=n2UsRWerBlM",
+      "resolution": "1920x1080",
+      "start_sec": 8.0,
+      "duration": 8.20,
+      "description": "Truman in his car intercepts the production radio frequency reciting his exact movements, realizing his existence is tracked."
+    },
+    {
+      "beat_id": "beat_06_stairway_exit_wall_freedom",
+      "clip_file": "output/clip_cache/truman_stairway_exit_wall_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=zhPX3sIQn3c",
+      "resolution": "2560x1440",
+      "start_sec": 210.0,
+      "duration": 8.17,
+      "description": "Truman reaches the painted sky wall staircase, bows to Christof and the global audience, and steps through the dark exit."
+    }
+  ]
+}
+

@@ -1,0 +1,968 @@
+{
+  "total_cards": 44,
+  "cards": [
+    {
+      "start": 0.0,
+      "end": 0.82,
+      "words": [
+        {
+          "word": "WHY",
+          "start": 0.0,
+          "end": 0.36
+        },
+        {
+          "word": "WOULD",
+          "start": 0.36,
+          "end": 0.56
+        },
+        {
+          "word": "SOMEONE",
+          "start": 0.56,
+          "end": 0.82
+        }
+      ],
+      "text": "WHY WOULD SOMEONE"
+    },
+    {
+      "start": 0.82,
+      "end": 2.06,
+      "words": [
+        {
+          "word": "SPRAY",
+          "start": 0.82,
+          "end": 1.26
+        },
+        {
+          "word": "SILVER",
+          "start": 1.26,
+          "end": 1.72
+        },
+        {
+          "word": "PAINT",
+          "start": 1.72,
+          "end": 2.06
+        }
+      ],
+      "text": "SPRAY SILVER PAINT"
+    },
+    {
+      "start": 2.06,
+      "end": 2.68,
+      "words": [
+        {
+          "word": "INTO",
+          "start": 2.06,
+          "end": 2.36
+        },
+        {
+          "word": "THEIR",
+          "start": 2.36,
+          "end": 2.46
+        },
+        {
+          "word": "MOUTH",
+          "start": 2.46,
+          "end": 2.68
+        }
+      ],
+      "text": "INTO THEIR MOUTH"
+    },
+    {
+      "start": 2.68,
+      "end": 3.72,
+      "words": [
+        {
+          "word": "JUST",
+          "start": 2.68,
+          "end": 3.1
+        },
+        {
+          "word": "BEFORE",
+          "start": 3.1,
+          "end": 3.38
+        },
+        {
+          "word": "DYING?",
+          "start": 3.38,
+          "end": 3.72
+        }
+      ],
+      "text": "JUST BEFORE DYING?"
+    },
+    {
+      "start": 4.42,
+      "end": 4.8,
+      "words": [
+        {
+          "word": "IN",
+          "start": 4.42,
+          "end": 4.48
+        },
+        {
+          "word": "THE",
+          "start": 4.48,
+          "end": 4.56
+        },
+        {
+          "word": "WASTELAND",
+          "start": 4.56,
+          "end": 4.8
+        }
+      ],
+      "text": "IN THE WASTELAND"
+    },
+    {
+      "start": 4.8,
+      "end": 5.52,
+      "words": [
+        {
+          "word": "OF",
+          "start": 4.8,
+          "end": 5.12
+        },
+        {
+          "word": "MAD",
+          "start": 5.12,
+          "end": 5.28
+        },
+        {
+          "word": "MAX,",
+          "start": 5.28,
+          "end": 5.52
+        }
+      ],
+      "text": "OF MAD MAX,"
+    },
+    {
+      "start": 5.8,
+      "end": 6.6,
+      "words": [
+        {
+          "word": "THE",
+          "start": 5.8,
+          "end": 5.84
+        },
+        {
+          "word": "WARBOYS",
+          "start": 5.84,
+          "end": 6.2
+        },
+        {
+          "word": "DON'T",
+          "start": 6.2,
+          "end": 6.6
+        }
+      ],
+      "text": "THE WARBOYS DON'T"
+    },
+    {
+      "start": 6.6,
+      "end": 7.44,
+      "words": [
+        {
+          "word": "FEAR",
+          "start": 6.6,
+          "end": 6.82
+        },
+        {
+          "word": "DEATH,",
+          "start": 6.82,
+          "end": 7.08
+        },
+        {
+          "word": "THEY",
+          "start": 7.3,
+          "end": 7.44
+        }
+      ],
+      "text": "FEAR DEATH, THEY"
+    },
+    {
+      "start": 7.44,
+      "end": 9.02,
+      "words": [
+        {
+          "word": "WORSHIP",
+          "start": 7.44,
+          "end": 7.8
+        },
+        {
+          "word": "IT.",
+          "start": 7.8,
+          "end": 8.12
+        },
+        {
+          "word": "CONDITIONED",
+          "start": 8.58,
+          "end": 9.02
+        }
+      ],
+      "text": "WORSHIP IT. CONDITIONED"
+    },
+    {
+      "start": 9.02,
+      "end": 9.84,
+      "words": [
+        {
+          "word": "UNDER",
+          "start": 9.02,
+          "end": 9.26
+        },
+        {
+          "word": "IMMORTAN",
+          "start": 9.26,
+          "end": 9.66
+        },
+        {
+          "word": "JOE,",
+          "start": 9.66,
+          "end": 9.84
+        }
+      ],
+      "text": "UNDER IMMORTAN JOE,"
+    },
+    {
+      "start": 10.18,
+      "end": 10.74,
+      "words": [
+        {
+          "word": "THEY",
+          "start": 10.18,
+          "end": 10.2
+        },
+        {
+          "word": "BELIEVE",
+          "start": 10.2,
+          "end": 10.42
+        },
+        {
+          "word": "DYING",
+          "start": 10.42,
+          "end": 10.74
+        }
+      ],
+      "text": "THEY BELIEVE DYING"
+    },
+    {
+      "start": 10.74,
+      "end": 11.32,
+      "words": [
+        {
+          "word": "IN",
+          "start": 10.74,
+          "end": 10.94
+        },
+        {
+          "word": "HIS",
+          "start": 10.94,
+          "end": 11.02
+        },
+        {
+          "word": "SERVICE",
+          "start": 11.02,
+          "end": 11.32
+        }
+      ],
+      "text": "IN HIS SERVICE"
+    },
+    {
+      "start": 11.32,
+      "end": 12.7,
+      "words": [
+        {
+          "word": "GUARANTEES",
+          "start": 11.32,
+          "end": 11.7
+        },
+        {
+          "word": "ETERNAL",
+          "start": 11.7,
+          "end": 12.38
+        },
+        {
+          "word": "GLORY",
+          "start": 12.38,
+          "end": 12.7
+        }
+      ],
+      "text": "GUARANTEES ETERNAL GLORY"
+    },
+    {
+      "start": 12.7,
+      "end": 14.12,
+      "words": [
+        {
+          "word": "IN",
+          "start": 12.7,
+          "end": 12.98
+        },
+        {
+          "word": "VALHALLA.",
+          "start": 12.98,
+          "end": 13.08
+        },
+        {
+          "word": "THE",
+          "start": 14.12,
+          "end": 14.12
+        }
+      ],
+      "text": "IN VALHALLA. THE"
+    },
+    {
+      "start": 14.12,
+      "end": 14.9,
+      "words": [
+        {
+          "word": "CHROME",
+          "start": 14.12,
+          "end": 14.26
+        },
+        {
+          "word": "SPRAY",
+          "start": 14.26,
+          "end": 14.54
+        },
+        {
+          "word": "ISN'T",
+          "start": 14.54,
+          "end": 14.9
+        }
+      ],
+      "text": "CHROME SPRAY ISN'T"
+    },
+    {
+      "start": 14.9,
+      "end": 15.94,
+      "words": [
+        {
+          "word": "MADNESS.",
+          "start": 14.9,
+          "end": 15.08
+        },
+        {
+          "word": "TO",
+          "start": 15.84,
+          "end": 15.86
+        },
+        {
+          "word": "THE",
+          "start": 15.86,
+          "end": 15.94
+        }
+      ],
+      "text": "MADNESS. TO THE"
+    },
+    {
+      "start": 15.94,
+      "end": 17.18,
+      "words": [
+        {
+          "word": "WARBOYS,",
+          "start": 15.94,
+          "end": 16.3
+        },
+        {
+          "word": "MACHINES",
+          "start": 16.5,
+          "end": 16.76
+        },
+        {
+          "word": "ARE",
+          "start": 16.76,
+          "end": 17.18
+        }
+      ],
+      "text": "WARBOYS, MACHINES ARE"
+    },
+    {
+      "start": 17.18,
+      "end": 18.1,
+      "words": [
+        {
+          "word": "IMMORTAL,",
+          "start": 17.18,
+          "end": 17.34
+        },
+        {
+          "word": "AND",
+          "start": 17.8,
+          "end": 17.84
+        },
+        {
+          "word": "CHROME",
+          "start": 17.84,
+          "end": 18.1
+        }
+      ],
+      "text": "IMMORTAL, AND CHROME"
+    },
+    {
+      "start": 18.1,
+      "end": 19.0,
+      "words": [
+        {
+          "word": "IS",
+          "start": 18.1,
+          "end": 18.46
+        },
+        {
+          "word": "SACRED",
+          "start": 18.46,
+          "end": 18.68
+        },
+        {
+          "word": "METAL.",
+          "start": 18.68,
+          "end": 19.0
+        }
+      ],
+      "text": "IS SACRED METAL."
+    },
+    {
+      "start": 19.6,
+      "end": 20.08,
+      "words": [
+        {
+          "word": "BY",
+          "start": 19.6,
+          "end": 19.66
+        },
+        {
+          "word": "PAINTING",
+          "start": 19.66,
+          "end": 19.92
+        },
+        {
+          "word": "THEIR",
+          "start": 19.92,
+          "end": 20.08
+        }
+      ],
+      "text": "BY PAINTING THEIR"
+    },
+    {
+      "start": 20.08,
+      "end": 20.88,
+      "words": [
+        {
+          "word": "MOUTH",
+          "start": 20.08,
+          "end": 20.2
+        },
+        {
+          "word": "SILVER,",
+          "start": 20.2,
+          "end": 20.56
+        },
+        {
+          "word": "THEY",
+          "start": 20.8,
+          "end": 20.88
+        }
+      ],
+      "text": "MOUTH SILVER, THEY"
+    },
+    {
+      "start": 20.88,
+      "end": 21.64,
+      "words": [
+        {
+          "word": "TURN",
+          "start": 20.88,
+          "end": 21.08
+        },
+        {
+          "word": "FROM",
+          "start": 21.08,
+          "end": 21.3
+        },
+        {
+          "word": "MORTAL",
+          "start": 21.3,
+          "end": 21.64
+        }
+      ],
+      "text": "TURN FROM MORTAL"
+    },
+    {
+      "start": 21.64,
+      "end": 22.74,
+      "words": [
+        {
+          "word": "FLESH",
+          "start": 21.64,
+          "end": 21.98
+        },
+        {
+          "word": "INTO",
+          "start": 21.98,
+          "end": 22.34
+        },
+        {
+          "word": "MECHANICAL",
+          "start": 22.34,
+          "end": 22.74
+        }
+      ],
+      "text": "FLESH INTO MECHANICAL"
+    },
+    {
+      "start": 22.74,
+      "end": 24.38,
+      "words": [
+        {
+          "word": "WEAPONS.",
+          "start": 22.74,
+          "end": 23.22
+        },
+        {
+          "word": "THEIR",
+          "start": 23.98,
+          "end": 24.02
+        },
+        {
+          "word": "DESPERATE",
+          "start": 24.02,
+          "end": 24.38
+        }
+      ],
+      "text": "WEAPONS. THEIR DESPERATE"
+    },
+    {
+      "start": 24.38,
+      "end": 25.4,
+      "words": [
+        {
+          "word": "CRY,",
+          "start": 24.38,
+          "end": 24.58
+        },
+        {
+          "word": "WITNESS",
+          "start": 24.94,
+          "end": 25.08
+        },
+        {
+          "word": "ME,",
+          "start": 25.08,
+          "end": 25.4
+        }
+      ],
+      "text": "CRY, WITNESS ME,"
+    },
+    {
+      "start": 25.64,
+      "end": 26.8,
+      "words": [
+        {
+          "word": "TRANSFORMS",
+          "start": 25.64,
+          "end": 25.9
+        },
+        {
+          "word": "SUICIDE",
+          "start": 25.9,
+          "end": 26.38
+        },
+        {
+          "word": "INTO",
+          "start": 26.38,
+          "end": 26.8
+        }
+      ],
+      "text": "TRANSFORMS SUICIDE INTO"
+    },
+    {
+      "start": 26.8,
+      "end": 27.64,
+      "words": [
+        {
+          "word": "A",
+          "start": 26.8,
+          "end": 26.94
+        },
+        {
+          "word": "CELEBRATED",
+          "start": 26.94,
+          "end": 27.34
+        },
+        {
+          "word": "PUBLIC",
+          "start": 27.34,
+          "end": 27.64
+        }
+      ],
+      "text": "A CELEBRATED PUBLIC"
+    },
+    {
+      "start": 27.64,
+      "end": 29.62,
+      "words": [
+        {
+          "word": "PERFORMANCE.",
+          "start": 27.64,
+          "end": 28.04
+        },
+        {
+          "word": "IMMORTAN",
+          "start": 28.88,
+          "end": 29.36
+        },
+        {
+          "word": "JOE'S",
+          "start": 29.36,
+          "end": 29.62
+        }
+      ],
+      "text": "PERFORMANCE. IMMORTAN JOE'S"
+    },
+    {
+      "start": 29.62,
+      "end": 30.48,
+      "words": [
+        {
+          "word": "TRUE",
+          "start": 29.62,
+          "end": 29.76
+        },
+        {
+          "word": "POWER",
+          "start": 29.76,
+          "end": 30.12
+        },
+        {
+          "word": "ISN'T",
+          "start": 30.12,
+          "end": 30.48
+        }
+      ],
+      "text": "TRUE POWER ISN'T"
+    },
+    {
+      "start": 30.48,
+      "end": 31.24,
+      "words": [
+        {
+          "word": "WEAPONS",
+          "start": 30.48,
+          "end": 30.78
+        },
+        {
+          "word": "OR",
+          "start": 30.78,
+          "end": 31.02
+        },
+        {
+          "word": "WATER,",
+          "start": 31.02,
+          "end": 31.24
+        }
+      ],
+      "text": "WEAPONS OR WATER,"
+    },
+    {
+      "start": 31.8,
+      "end": 33.18,
+      "words": [
+        {
+          "word": "IT'S",
+          "start": 31.8,
+          "end": 31.96
+        },
+        {
+          "word": "PSYCHOLOGICAL",
+          "start": 31.96,
+          "end": 32.34
+        },
+        {
+          "word": "ENSLAVEMENT.",
+          "start": 32.34,
+          "end": 33.18
+        }
+      ],
+      "text": "IT'S PSYCHOLOGICAL ENSLAVEMENT."
+    },
+    {
+      "start": 33.66,
+      "end": 34.28,
+      "words": [
+        {
+          "word": "HE",
+          "start": 33.66,
+          "end": 33.72
+        },
+        {
+          "word": "CONVINCED",
+          "start": 33.72,
+          "end": 33.92
+        },
+        {
+          "word": "DYING",
+          "start": 33.92,
+          "end": 34.28
+        }
+      ],
+      "text": "HE CONVINCED DYING"
+    },
+    {
+      "start": 34.28,
+      "end": 34.78,
+      "words": [
+        {
+          "word": "MEN",
+          "start": 34.28,
+          "end": 34.5
+        },
+        {
+          "word": "THAT",
+          "start": 34.5,
+          "end": 34.68
+        },
+        {
+          "word": "THEIR",
+          "start": 34.68,
+          "end": 34.78
+        }
+      ],
+      "text": "MEN THAT THEIR"
+    },
+    {
+      "start": 34.78,
+      "end": 35.9,
+      "words": [
+        {
+          "word": "EXPLOITATION",
+          "start": 34.78,
+          "end": 35.22
+        },
+        {
+          "word": "WAS",
+          "start": 35.22,
+          "end": 35.66
+        },
+        {
+          "word": "SUPREME",
+          "start": 35.66,
+          "end": 35.9
+        }
+      ],
+      "text": "EXPLOITATION WAS SUPREME"
+    },
+    {
+      "start": 35.9,
+      "end": 37.3,
+      "words": [
+        {
+          "word": "HONOR.",
+          "start": 35.9,
+          "end": 36.34
+        },
+        {
+          "word": "THAT'S",
+          "start": 37.0,
+          "end": 37.22
+        },
+        {
+          "word": "THE",
+          "start": 37.22,
+          "end": 37.3
+        }
+      ],
+      "text": "HONOR. THAT'S THE"
+    },
+    {
+      "start": 37.3,
+      "end": 38.68,
+      "words": [
+        {
+          "word": "TERRIFYING",
+          "start": 37.3,
+          "end": 37.52
+        },
+        {
+          "word": "PART.",
+          "start": 37.52,
+          "end": 37.88
+        },
+        {
+          "word": "IMMORTAN",
+          "start": 38.44,
+          "end": 38.68
+        }
+      ],
+      "text": "TERRIFYING PART. IMMORTAN"
+    },
+    {
+      "start": 38.68,
+      "end": 39.34,
+      "words": [
+        {
+          "word": "JOE",
+          "start": 38.68,
+          "end": 38.86
+        },
+        {
+          "word": "DOESN'T",
+          "start": 38.86,
+          "end": 39.22
+        },
+        {
+          "word": "JUST",
+          "start": 39.22,
+          "end": 39.34
+        }
+      ],
+      "text": "JOE DOESN'T JUST"
+    },
+    {
+      "start": 39.34,
+      "end": 40.12,
+      "words": [
+        {
+          "word": "COMMAND",
+          "start": 39.34,
+          "end": 39.58
+        },
+        {
+          "word": "AN",
+          "start": 39.58,
+          "end": 39.8
+        },
+        {
+          "word": "ARMY",
+          "start": 39.8,
+          "end": 40.12
+        }
+      ],
+      "text": "COMMAND AN ARMY"
+    },
+    {
+      "start": 40.12,
+      "end": 40.82,
+      "words": [
+        {
+          "word": "WILLING",
+          "start": 40.12,
+          "end": 40.38
+        },
+        {
+          "word": "TO",
+          "start": 40.38,
+          "end": 40.58
+        },
+        {
+          "word": "DIE",
+          "start": 40.58,
+          "end": 40.82
+        }
+      ],
+      "text": "WILLING TO DIE"
+    },
+    {
+      "start": 40.82,
+      "end": 41.66,
+      "words": [
+        {
+          "word": "FOR",
+          "start": 40.82,
+          "end": 41.0
+        },
+        {
+          "word": "HIM.",
+          "start": 41.0,
+          "end": 41.18
+        },
+        {
+          "word": "HE",
+          "start": 41.56,
+          "end": 41.66
+        }
+      ],
+      "text": "FOR HIM. HE"
+    },
+    {
+      "start": 41.66,
+      "end": 42.52,
+      "words": [
+        {
+          "word": "CREATES",
+          "start": 41.66,
+          "end": 42.0
+        },
+        {
+          "word": "AN",
+          "start": 42.0,
+          "end": 42.26
+        },
+        {
+          "word": "ARMY",
+          "start": 42.26,
+          "end": 42.52
+        }
+      ],
+      "text": "CREATES AN ARMY"
+    },
+    {
+      "start": 42.52,
+      "end": 43.3,
+      "words": [
+        {
+          "word": "THAT",
+          "start": 42.52,
+          "end": 42.76
+        },
+        {
+          "word": "BELIEVES",
+          "start": 42.76,
+          "end": 42.98
+        },
+        {
+          "word": "DYING",
+          "start": 42.98,
+          "end": 43.3
+        }
+      ],
+      "text": "THAT BELIEVES DYING"
+    },
+    {
+      "start": 43.3,
+      "end": 43.9,
+      "words": [
+        {
+          "word": "FOR",
+          "start": 43.3,
+          "end": 43.5
+        },
+        {
+          "word": "HIM",
+          "start": 43.5,
+          "end": 43.66
+        },
+        {
+          "word": "IS",
+          "start": 43.66,
+          "end": 43.9
+        }
+      ],
+      "text": "FOR HIM IS"
+    },
+    {
+      "start": 43.9,
+      "end": 44.38,
+      "words": [
+        {
+          "word": "A",
+          "start": 43.9,
+          "end": 44.06
+        },
+        {
+          "word": "REWARD.",
+          "start": 44.06,
+          "end": 44.38
+        }
+      ],
+      "text": "A REWARD."
+    }
+  ]
+}

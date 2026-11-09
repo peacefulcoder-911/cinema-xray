@@ -1,0 +1,94 @@
+{
+  "project": "cinema-decoded-spiderman-homecoming-vulture",
+  "movie": "Spider-Man: Homecoming",
+  "director": "Jon Watts",
+  "release_year": 2017,
+  "studio": "Sony Pictures / Marvel Studios / Columbia Pictures",
+  "fair_use_rationale": "Non-profit educational and critical film scene analysis under Section 107 of the U.S. Copyright Act. Transformative documentary commentary analyzing the socio-economic motivations of Adrian Toomes (The Vulture), investigating how labor displacement and corporate monopoly drive cinematic antagonism.",
+  "source_materials": [
+    {
+      "source_name": "Spider-Man: Homecoming (2017) - Official Opening Scene & Vulture Origin",
+      "clip_id": "spiderman_homecoming_vulture_opening_raw",
+      "resolution": "1920x1080",
+      "fps": 23.976,
+      "audio_codec": "aac 2.0 (44.1 kHz)",
+      "video_codec": "vp9 (1080p)",
+      "license": "Fair Use / Transformative Commentary",
+      "extracted_cuts": [
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/01_alien_tech_cutting.mp4",
+          "scene": "Blue-collar salvage worker using Chitauri energy cutter to slice through alien armor",
+          "start_sec": 58.0,
+          "duration": 9.0
+        },
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/02_toomes_crew_stacking.mp4",
+          "scene": "Adrian Toomes supervising his crew stacking armor plates at the Manhattan site",
+          "start_sec": 76.0,
+          "duration": 9.0
+        },
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/03_battle_of_ny_cleanup.mp4",
+          "scene": "Opening sequence showing child drawing and Grand Central post-battle wreckage",
+          "start_sec": 5.0,
+          "duration": 13.0
+        },
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/04_toomes_salvage_operation.mp4",
+          "scene": "Heavy construction excavators and salvage haulers operating at the disaster zone",
+          "start_sec": 25.0,
+          "duration": 12.0
+        },
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/05_real_crew_payroll.mp4",
+          "scene": "Multiple crew members working on debris removal; real working-class payroll",
+          "start_sec": 67.0,
+          "duration": 9.0
+        },
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/06_damage_control_arrival.mp4",
+          "scene": "Department of Damage Control arrives with government convoy and armed guards",
+          "start_sec": 85.0,
+          "duration": 13.0
+        },
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/07_contract_confrontation.mp4",
+          "scene": "Anne Marie Hoag informs Toomes that Damage Control has executive jurisdiction",
+          "start_sec": 98.0,
+          "duration": 16.0
+        },
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/08_warehouse_alien_cache.mp4",
+          "scene": "Toomes and his men look at the hoarded load of Chitauri technology in their truck",
+          "start_sec": 177.0,
+          "duration": 16.0
+        },
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/09_weapons_construction.mp4",
+          "scene": "The Tinkerer assembling and testing alien weapons in their covert workshop",
+          "start_sec": 205.0,
+          "duration": 18.0
+        },
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/10_toomes_payroll_defense.mp4",
+          "scene": "Toomes passionately defending his crew: 'These guys have a family. I have a family.'",
+          "start_sec": 123.0,
+          "duration": 9.0
+        },
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/11_vulture_suit_reveal.mp4",
+          "scene": "Exoskeleton flight harness and razor-sharp mechanical wings locking in place",
+          "start_sec": 248.0,
+          "duration": 10.0
+        },
+        {
+          "filename": "assets/footage/spiderman_homecoming/vulture_origin/12_vulture_flight_launch.mp4",
+          "scene": "The Vulture activates twin jet turbines and launches into the night sky",
+          "start_sec": 258.0,
+          "duration": 10.0
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,51 @@
+{
+  "project_id": "cinema-decoded-the-martian-problem-solving",
+  "audio": {
+    "voice_model": "gemini-3.8-flash-tts (Achird)",
+    "tempo_multiplier": 1.12,
+    "loudness_standard": "EBU R128 (-14.0 LUFS, TP -1.5 dB, LRA 11)",
+    "sample_rate": 24000,
+    "duration_sec": 46.521,
+    "file_path": "projects/cinema-decoded-the-martian-problem-solving/audio/martian_achird_fast.wav"
+  },
+  "subtitles": {
+    "alignment_engine": "faster-whisper",
+    "total_cards": 47,
+    "style": "CenterBold (Arial Black, 76pt, yellow focus highlighting, bottom-center anchored at y=960)",
+    "ass_path": "projects/cinema-decoded-the-martian-problem-solving/martian_subtitles.ass",
+    "json_path": "projects/cinema-decoded-the-martian-problem-solving/subtitles.json"
+  },
+  "source_footage_targets": [
+    {
+      "beat_id": "beat_01_alone_on_mars",
+      "description": "Ares III Hab exterior and solitary Watney on Mars landscape",
+      "target_file": "output/clip_cache/the_martian_alone_on_mars_1080p.mp4"
+    },
+    {
+      "beat_id": "beat_02_resource_calculation",
+      "description": "Hab interior / ration counting and calculation sequence",
+      "target_file": "output/clip_cache/the_martian_resource_planning_1080p.mp4"
+    },
+    {
+      "beat_id": "beat_03_botany_experiment",
+      "description": "Hab farming sequence / potato planting and sprout growth",
+      "target_file": "output/clip_cache/the_martian_planting_potatoes_1080p.mp4"
+    },
+    {
+      "beat_id": "beat_04_water_hydrazine",
+      "description": "Water creation experiment in the Hab / chemical setup",
+      "target_file": "output/clip_cache/the_martian_making_water_1080p.mp4"
+    },
+    {
+      "beat_id": "beat_05_pathfinder_communication",
+      "description": "Pathfinder recovery and hex communication sequence",
+      "target_file": "output/clip_cache/the_martian_pathfinder_comms_1080p.mp4"
+    },
+    {
+      "beat_id": "beat_06_final_payoff_iteration",
+      "description": "Rover journey / Ares IV preparation / Watney looking forward",
+      "target_file": "output/clip_cache/the_martian_rover_journey_1080p.mp4"
+    }
+  ]
+}
+

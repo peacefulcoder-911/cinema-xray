@@ -1,0 +1,547 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 49,
+  "impact_timestamps": [
+    {
+      "word": "MILLIONS",
+      "start": 2.99,
+      "end": 1.04
+    },
+    {
+      "word": "TRUMAN",
+      "start": 1.04,
+      "end": 1.82
+    },
+    {
+      "word": "WATCHED",
+      "start": 1.82,
+      "end": 2.46
+    },
+    {
+      "word": "ALMOST",
+      "start": 2.78,
+      "end": 4.04
+    },
+    {
+      "word": "TRIES",
+      "start": 4.04,
+      "end": 5.16
+    },
+    {
+      "word": "NEIGHBOUR",
+      "start": 5.76,
+      "end": 6.64
+    },
+    {
+      "word": "CONVERSATION",
+      "start": 6.98,
+      "end": 7.4
+    },
+    {
+      "word": "COINCIDENCE",
+      "start": 7.88,
+      "end": 8.68
+    },
+    {
+      "word": "SEAHAVEN",
+      "start": 8.68,
+      "end": 9.86
+    },
+    {
+      "word": "BILLION",
+      "start": 9.86,
+      "end": 10.64
+    },
+    {
+      "word": "TELEVISION",
+      "start": 10.64,
+      "end": 11.92
+    },
+    {
+      "word": "GENUINELY",
+      "start": 12.54,
+      "end": 13.92
+    },
+    {
+      "word": "BELIEVES",
+      "start": 13.92,
+      "end": 14.9
+    },
+    {
+      "word": "ORDINARY",
+      "start": 14.9,
+      "end": 15.56
+    },
+    {
+      "word": "UNREALOUTSIDE",
+      "start": 16.48,
+      "end": 17.26
+    },
+    {
+      "word": "MILLIONS",
+      "start": 17.76,
+      "end": 18.48
+    },
+    {
+      "word": "HEARTBREAKS",
+      "start": 18.48,
+      "end": 20.04
+    },
+    {
+      "word": "ANXIETIES",
+      "start": 20.62,
+      "end": 21.46
+    },
+    {
+      "word": "ROUTINES",
+      "start": 21.74,
+      "end": 22.66
+    },
+    {
+      "word": "THEY",
+      "start": 23.28,
+      "end": 24.24
+    },
+    {
+      "word": "AFFECTION",
+      "start": 24.24,
+      "end": 25.94
+    },
+    {
+      "word": "NEVER",
+      "start": 25.94,
+      "end": 26.72
+    },
+    {
+      "word": "TELEVISION",
+      "start": 26.72,
+      "end": 27.54
+    },
+    {
+      "word": "THAT",
+      "start": 28.24,
+      "end": 29.12
+    },
+    {
+      "word": "CONTRADICTION",
+      "start": 29.12,
+      "end": 30.44
+    },
+    {
+      "word": "ENTERTAINMENT",
+      "start": 31.24,
+      "end": 32.46
+    },
+    {
+      "word": "IMPRISONMENT",
+      "start": 32.46,
+      "end": 33.44
+    },
+    {
+      "word": "THEY",
+      "start": 33.84,
+      "end": 34.76
+    },
+    {
+      "word": "PAIN",
+      "start": 34.76,
+      "end": 35.42
+    },
+    {
+      "word": "DEMANDING",
+      "start": 35.42,
+      "end": 37.12
+    },
+    {
+      "word": "CAMERAS",
+      "start": 37.12,
+      "end": 37.86
+    },
+    {
+      "word": "ROLLING",
+      "start": 37.86,
+      "end": 38.44
+    },
+    {
+      "word": "TRUMAN",
+      "start": 39.52,
+      "end": 40.22
+    },
+    {
+      "word": "ENTIRE",
+      "start": 40.22,
+      "end": 41.1
+    },
+    {
+      "word": "WATCHING",
+      "start": 41.1,
+      "end": 41.68
+    },
+    {
+      "word": "DOESNT",
+      "start": 42.4,
+      "end": 43.06
+    },
+    {
+      "word": "REALIZE",
+      "start": 43.06,
+      "end": 43.78
+    },
+    {
+      "word": "WATCHING",
+      "start": 43.78,
+      "end": 44.68
+    },
+    {
+      "word": "BECOME",
+      "start": 44.68,
+      "end": 45.4
+    },
+    {
+      "word": "REASON",
+      "start": 45.4,
+      "end": 46.0
+    },
+    {
+      "word": "CANNOT",
+      "start": 46.0,
+      "end": 46.8
+    },
+    {
+      "word": "THATS",
+      "start": 47.7,
+      "end": 48.16
+    },
+    {
+      "word": "MAKES",
+      "start": 48.16,
+      "end": 48.7
+    },
+    {
+      "word": "UNCOMFORTABLE",
+      "start": 48.7,
+      "end": 49.46
+    },
+    {
+      "word": "SOMETIMES",
+      "start": 50.32,
+      "end": 50.82
+    },
+    {
+      "word": "SOMEONES",
+      "start": 51.26,
+      "end": 52.26
+    },
+    {
+      "word": "STORY",
+      "start": 52.26,
+      "end": 53.12
+    },
+    {
+      "word": "CARING",
+      "start": 53.12,
+      "end": 53.9
+    },
+    {
+      "word": "FREEDOM",
+      "start": 53.9,
+      "end": 54.6
+    }
+  ],
+  "cards": [
+    {
+      "start": 2.99,
+      "end": 1.04,
+      "text": "MILLIONS OF PEOPLE",
+      "highlight": "MILLIONS"
+    },
+    {
+      "start": 1.04,
+      "end": 1.82,
+      "text": "KNOW TRUMAN IS",
+      "highlight": "TRUMAN"
+    },
+    {
+      "start": 1.82,
+      "end": 2.46,
+      "text": "BEING WATCHED,",
+      "highlight": "WATCHED"
+    },
+    {
+      "start": 2.78,
+      "end": 4.04,
+      "text": "BUT ALMOST NOBODY",
+      "highlight": "ALMOST"
+    },
+    {
+      "start": 4.04,
+      "end": 5.16,
+      "text": "TRIES TO STOP IT.",
+      "highlight": "TRIES"
+    },
+    {
+      "start": 5.76,
+      "end": 6.64,
+      "text": "EVERY NEIGHBOUR,",
+      "highlight": "NEIGHBOUR"
+    },
+    {
+      "start": 6.98,
+      "end": 7.4,
+      "text": "CONVERSATION,",
+      "highlight": "CONVERSATION"
+    },
+    {
+      "start": 7.88,
+      "end": 8.68,
+      "text": "AND COINCIDENCE IN",
+      "highlight": "COINCIDENCE"
+    },
+    {
+      "start": 8.68,
+      "end": 9.86,
+      "text": "SEAHAVEN IS STAGED",
+      "highlight": "SEAHAVEN"
+    },
+    {
+      "start": 9.86,
+      "end": 10.64,
+      "text": "BY A BILLION",
+      "highlight": "BILLION"
+    },
+    {
+      "start": 10.64,
+      "end": 11.92,
+      "text": "-DOLLAR TELEVISION BROADCAST.",
+      "highlight": "TELEVISION"
+    },
+    {
+      "start": 12.54,
+      "end": 13.92,
+      "text": "YET TRUMAN GENUINELY",
+      "highlight": "GENUINELY"
+    },
+    {
+      "start": 13.92,
+      "end": 14.9,
+      "text": "BELIEVES HIS LIFE",
+      "highlight": "BELIEVES"
+    },
+    {
+      "start": 14.9,
+      "end": 15.56,
+      "text": "IS ORDINARY.",
+      "highlight": "ORDINARY"
+    },
+    {
+      "start": 16.48,
+      "end": 17.26,
+      "text": "UNREALOUTSIDE THE DOME,",
+      "highlight": "UNREALOUTSIDE"
+    },
+    {
+      "start": 17.76,
+      "end": 18.48,
+      "text": "MILLIONS OF VIEWERS",
+      "highlight": "MILLIONS"
+    },
+    {
+      "start": 18.48,
+      "end": 20.04,
+      "text": "WATCH HIS DEEPEST HEARTBREAKS,",
+      "highlight": "HEARTBREAKS"
+    },
+    {
+      "start": 20.62,
+      "end": 21.46,
+      "text": "PRIVATE ANXIETIES,",
+      "highlight": "ANXIETIES"
+    },
+    {
+      "start": 21.74,
+      "end": 22.66,
+      "text": "AND DAILY ROUTINES.",
+      "highlight": "ROUTINES"
+    },
+    {
+      "start": 23.28,
+      "end": 24.24,
+      "text": "THEY FEEL REAL",
+      "highlight": "THEY"
+    },
+    {
+      "start": 24.24,
+      "end": 25.94,
+      "text": "AFFECTION FOR HIM\u2014AND",
+      "highlight": "AFFECTION"
+    },
+    {
+      "start": 25.94,
+      "end": 26.72,
+      "text": "THEY NEVER TURN",
+      "highlight": "NEVER"
+    },
+    {
+      "start": 26.72,
+      "end": 27.54,
+      "text": "THE TELEVISION OFF.",
+      "highlight": "TELEVISION"
+    },
+    {
+      "start": 28.24,
+      "end": 29.12,
+      "text": "THAT IS THE",
+      "highlight": "THAT"
+    },
+    {
+      "start": 29.12,
+      "end": 30.44,
+      "text": "FILM'S CHILLING CONTRADICTION.",
+      "highlight": "CONTRADICTION"
+    },
+    {
+      "start": 31.24,
+      "end": 32.46,
+      "text": "THEIR ENTERTAINMENT REQUIRES",
+      "highlight": "ENTERTAINMENT"
+    },
+    {
+      "start": 32.46,
+      "end": 33.44,
+      "text": "HIS IMPRISONMENT.",
+      "highlight": "IMPRISONMENT"
+    },
+    {
+      "start": 33.84,
+      "end": 34.76,
+      "text": "THEY CAN WEEP",
+      "highlight": "THEY"
+    },
+    {
+      "start": 34.76,
+      "end": 35.42,
+      "text": "FOR HIS PAIN",
+      "highlight": "PAIN"
+    },
+    {
+      "start": 35.42,
+      "end": 37.12,
+      "text": "WHILE SILENTLY DEMANDING",
+      "highlight": "DEMANDING"
+    },
+    {
+      "start": 37.12,
+      "end": 37.86,
+      "text": "THAT THE CAMERAS",
+      "highlight": "CAMERAS"
+    },
+    {
+      "start": 37.86,
+      "end": 38.44,
+      "text": "KEEP ROLLING.",
+      "highlight": "ROLLING"
+    },
+    {
+      "start": 39.52,
+      "end": 40.22,
+      "text": "TRUMAN THINKS THE",
+      "highlight": "TRUMAN"
+    },
+    {
+      "start": 40.22,
+      "end": 41.1,
+      "text": "ENTIRE WORLD IS",
+      "highlight": "ENTIRE"
+    },
+    {
+      "start": 41.1,
+      "end": 41.68,
+      "text": "WATCHING HIM.",
+      "highlight": "WATCHING"
+    },
+    {
+      "start": 42.4,
+      "end": 43.06,
+      "text": "BUT HE DOESN'T",
+      "highlight": "DOESNT"
+    },
+    {
+      "start": 43.06,
+      "end": 43.78,
+      "text": "REALIZE THAT THE",
+      "highlight": "REALIZE"
+    },
+    {
+      "start": 43.78,
+      "end": 44.68,
+      "text": "PEOPLE WATCHING HAVE",
+      "highlight": "WATCHING"
+    },
+    {
+      "start": 44.68,
+      "end": 45.4,
+      "text": "BECOME PART OF",
+      "highlight": "BECOME"
+    },
+    {
+      "start": 45.4,
+      "end": 46.0,
+      "text": "THE REASON HE",
+      "highlight": "REASON"
+    },
+    {
+      "start": 46.0,
+      "end": 46.8,
+      "text": "CANNOT ESCAPE.",
+      "highlight": "CANNOT"
+    },
+    {
+      "start": 47.7,
+      "end": 48.16,
+      "text": "AND THAT'S WHAT",
+      "highlight": "THATS"
+    },
+    {
+      "start": 48.16,
+      "end": 48.7,
+      "text": "MAKES THE FILM",
+      "highlight": "MAKES"
+    },
+    {
+      "start": 48.7,
+      "end": 49.46,
+      "text": "SO UNCOMFORTABLE.",
+      "highlight": "UNCOMFORTABLE"
+    },
+    {
+      "start": 50.32,
+      "end": 50.82,
+      "text": "SOMETIMES,",
+      "highlight": "SOMETIMES"
+    },
+    {
+      "start": 51.26,
+      "end": 52.26,
+      "text": "CARING ABOUT SOMEONE'S",
+      "highlight": "SOMEONES"
+    },
+    {
+      "start": 52.26,
+      "end": 53.12,
+      "text": "STORY ISN'T THE",
+      "highlight": "STORY"
+    },
+    {
+      "start": 53.12,
+      "end": 53.9,
+      "text": "SAME AS CARING",
+      "highlight": "CARING"
+    },
+    {
+      "start": 53.9,
+      "end": 54.6,
+      "text": "ABOUT THEIR FREEDOM.",
+      "highlight": "FREEDOM"
+    }
+  ]
+}

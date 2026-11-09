@@ -1,0 +1,481 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 43,
+  "impact_timestamps": [
+    {
+      "word": "INSIDE",
+      "start": 0.27,
+      "end": 1.1
+    },
+    {
+      "word": "MINES",
+      "start": 1.1,
+      "end": 2.38
+    },
+    {
+      "word": "MEASURED",
+      "start": 2.78,
+      "end": 3.58
+    },
+    {
+      "word": "GOLDIT",
+      "start": 3.58,
+      "end": 4.64
+    },
+    {
+      "word": "MEASURED",
+      "start": 4.64,
+      "end": 5.6
+    },
+    {
+      "word": "TERROR",
+      "start": 5.6,
+      "end": 7.06
+    },
+    {
+      "word": "THOUSAND",
+      "start": 7.06,
+      "end": 8.24
+    },
+    {
+      "word": "LIVED",
+      "start": 8.24,
+      "end": 9.0
+    },
+    {
+      "word": "SUBMISSION",
+      "start": 9.0,
+      "end": 10.52
+    },
+    {
+      "word": "ABSOLUTE",
+      "start": 10.52,
+      "end": 11.5
+    },
+    {
+      "word": "MONOPOLY",
+      "start": 11.5,
+      "end": 12.74
+    },
+    {
+      "word": "ANYONE",
+      "start": 13.66,
+      "end": 14.26
+    },
+    {
+      "word": "EXECUTED",
+      "start": 14.26,
+      "end": 15.12
+    },
+    {
+      "word": "ASSASSIN",
+      "start": 15.86,
+      "end": 16.78
+    },
+    {
+      "word": "ELIMINATE",
+      "start": 16.78,
+      "end": 17.58
+    },
+    {
+      "word": "EXACT",
+      "start": 17.58,
+      "end": 18.28
+    },
+    {
+      "word": "MISTAKE",
+      "start": 18.28,
+      "end": 18.84
+    },
+    {
+      "word": "TRIED",
+      "start": 19.42,
+      "end": 19.96
+    },
+    {
+      "word": "WEAPONS",
+      "start": 19.96,
+      "end": 20.84
+    },
+    {
+      "word": "UNDERSTOOD",
+      "start": 21.84,
+      "end": 22.76
+    },
+    {
+      "word": "DICTATOR",
+      "start": 22.76,
+      "end": 24.12
+    },
+    {
+      "word": "RULES",
+      "start": 24.12,
+      "end": 25.02
+    },
+    {
+      "word": "LONG",
+      "start": 25.02,
+      "end": 25.46
+    },
+    {
+      "word": "OPPRESSED",
+      "start": 25.46,
+      "end": 26.56
+    },
+    {
+      "word": "IMPOSSIBLE",
+      "start": 26.56,
+      "end": 27.28
+    },
+    {
+      "word": "UNREALSO",
+      "start": 27.28,
+      "end": 28.4
+    },
+    {
+      "word": "SURVIVAL",
+      "start": 28.4,
+      "end": 29.26
+    },
+    {
+      "word": "DROPPING",
+      "start": 29.26,
+      "end": 30.12
+    },
+    {
+      "word": "KNEES",
+      "start": 30.12,
+      "end": 30.54
+    },
+    {
+      "word": "REFUSED",
+      "start": 31.18,
+      "end": 32.22
+    },
+    {
+      "word": "STRIKE",
+      "start": 33.02,
+      "end": 33.66
+    },
+    {
+      "word": "DELIVERED",
+      "start": 33.66,
+      "end": 34.44
+    },
+    {
+      "word": "PHYSICAL",
+      "start": 34.44,
+      "end": 35.04
+    },
+    {
+      "word": "STRENGTHIT",
+      "start": 35.04,
+      "end": 36.14
+    },
+    {
+      "word": "SHATTER",
+      "start": 36.14,
+      "end": 36.58
+    },
+    {
+      "word": "INVINCIBILITY",
+      "start": 36.58,
+      "end": 38.38
+    },
+    {
+      "word": "DIDNT",
+      "start": 38.98,
+      "end": 39.94
+    },
+    {
+      "word": "ENTER",
+      "start": 39.94,
+      "end": 40.72
+    },
+    {
+      "word": "TYRANT",
+      "start": 40.72,
+      "end": 41.24
+    },
+    {
+      "word": "ENTERED",
+      "start": 41.72,
+      "end": 42.38
+    },
+    {
+      "word": "EMPIRE",
+      "start": 42.38,
+      "end": 43.4
+    },
+    {
+      "word": "MADE",
+      "start": 44.02,
+      "end": 44.58
+    },
+    {
+      "word": "CHANGE",
+      "start": 44.58,
+      "end": 45.36
+    }
+  ],
+  "cards": [
+    {
+      "start": 0.27,
+      "end": 1.1,
+      "text": "INSIDE THE BRUTAL",
+      "highlight": "INSIDE"
+    },
+    {
+      "start": 1.1,
+      "end": 2.38,
+      "text": "GOLD MINES OF KGF,",
+      "highlight": "MINES"
+    },
+    {
+      "start": 2.78,
+      "end": 3.58,
+      "text": "POWER WASN\u2019T MEASURED",
+      "highlight": "POWER"
+    },
+    {
+      "start": 3.58,
+      "end": 4.64,
+      "text": "IN GOLD\u2014IT WAS",
+      "highlight": "GOLDIT"
+    },
+    {
+      "start": 4.64,
+      "end": 5.6,
+      "text": "MEASURED IN PURE",
+      "highlight": "MEASURED"
+    },
+    {
+      "start": 5.6,
+      "end": 7.06,
+      "text": "TERROR. TWENTY",
+      "highlight": "TERROR"
+    },
+    {
+      "start": 7.06,
+      "end": 8.24,
+      "text": "THOUSAND ENSLAVED WORKERS",
+      "highlight": "THOUSAND"
+    },
+    {
+      "start": 8.24,
+      "end": 9.0,
+      "text": "LIVED IN TOTAL",
+      "highlight": "LIVED"
+    },
+    {
+      "start": 9.0,
+      "end": 10.52,
+      "text": "SUBMISSION BECAUSE GARUDA",
+      "highlight": "GARUDA"
+    },
+    {
+      "start": 10.52,
+      "end": 11.5,
+      "text": "HELD AN ABSOLUTE",
+      "highlight": "ABSOLUTE"
+    },
+    {
+      "start": 11.5,
+      "end": 12.74,
+      "text": "MONOPOLY ON FEAR.",
+      "highlight": "FEAR"
+    },
+    {
+      "start": 13.66,
+      "end": 14.26,
+      "text": "ANYONE WHO LOOKED",
+      "highlight": "ANYONE"
+    },
+    {
+      "start": 14.26,
+      "end": 15.12,
+      "text": "UP WAS EXECUTED.",
+      "highlight": "EXECUTED"
+    },
+    {
+      "start": 15.86,
+      "end": 16.78,
+      "text": "EVERY ASSASSIN SENT",
+      "highlight": "ASSASSIN"
+    },
+    {
+      "start": 16.78,
+      "end": 17.58,
+      "text": "TO ELIMINATE GARUDA",
+      "highlight": "GARUDA"
+    },
+    {
+      "start": 17.58,
+      "end": 18.28,
+      "text": "MADE THE EXACT",
+      "highlight": "EXACT"
+    },
+    {
+      "start": 18.28,
+      "end": 18.84,
+      "text": "SAME MISTAKE.",
+      "highlight": "MISTAKE"
+    },
+    {
+      "start": 19.42,
+      "end": 19.96,
+      "text": "THEY TRIED TO",
+      "highlight": "TRIED"
+    },
+    {
+      "start": 19.96,
+      "end": 20.84,
+      "text": "FIGHT HIM WITH WEAPONS.",
+      "highlight": "WEAPONS"
+    },
+    {
+      "start": 21.84,
+      "end": 22.76,
+      "text": "ROCKY UNDERSTOOD SOMETHING",
+      "highlight": "ROCKY"
+    },
+    {
+      "start": 22.76,
+      "end": 24.12,
+      "text": "DEEPER\u2014A DICTATOR",
+      "highlight": "DICTATOR"
+    },
+    {
+      "start": 24.12,
+      "end": 25.02,
+      "text": "ONLY RULES AS",
+      "highlight": "RULES"
+    },
+    {
+      "start": 25.02,
+      "end": 25.46,
+      "text": "LONG AS THE",
+      "highlight": "LONG"
+    },
+    {
+      "start": 25.46,
+      "end": 26.56,
+      "text": "OPPRESSED BELIEVE DEFIANCE",
+      "highlight": "DEFIANCE"
+    },
+    {
+      "start": 26.56,
+      "end": 27.28,
+      "text": "IS IMPOSSIBLE.",
+      "highlight": "IMPOSSIBLE"
+    },
+    {
+      "start": 27.28,
+      "end": 28.4,
+      "text": "SO IN A",
+      "highlight": "SO"
+    },
+    {
+      "start": 28.4,
+      "end": 29.26,
+      "text": "WORLD WHERE SURVIVAL",
+      "highlight": "SURVIVAL"
+    },
+    {
+      "start": 29.26,
+      "end": 30.12,
+      "text": "MEANT DROPPING TO",
+      "highlight": "DROPPING"
+    },
+    {
+      "start": 30.12,
+      "end": 30.54,
+      "text": "YOUR KNEES,",
+      "highlight": "KNEES"
+    },
+    {
+      "start": 31.18,
+      "end": 32.22,
+      "text": "ROCKY REFUSED TO BOW.",
+      "highlight": "ROCKY"
+    },
+    {
+      "start": 33.02,
+      "end": 33.66,
+      "text": "EVERY STRIKE HE",
+      "highlight": "STRIKE"
+    },
+    {
+      "start": 33.66,
+      "end": 34.44,
+      "text": "DELIVERED WASN\u2019T TO",
+      "highlight": "DELIVERED"
+    },
+    {
+      "start": 34.44,
+      "end": 35.04,
+      "text": "PROVE HIS PHYSICAL",
+      "highlight": "PHYSICAL"
+    },
+    {
+      "start": 35.04,
+      "end": 36.14,
+      "text": "STRENGTH\u2014IT WAS TO",
+      "highlight": "STRENGTHIT"
+    },
+    {
+      "start": 36.14,
+      "end": 36.58,
+      "text": "SHATTER THE",
+      "highlight": "SHATTER"
+    },
+    {
+      "start": 36.58,
+      "end": 38.38,
+      "text": "ILLUSION OF GARUDA'S INVINCIBILITY.",
+      "highlight": "INVINCIBILITY"
+    },
+    {
+      "start": 38.98,
+      "end": 39.94,
+      "text": "ROCKY DIDN\u2019T JUST",
+      "highlight": "ROCKY"
+    },
+    {
+      "start": 39.94,
+      "end": 40.72,
+      "text": "ENTER KGF TO",
+      "highlight": "ENTER"
+    },
+    {
+      "start": 40.72,
+      "end": 41.24,
+      "text": "KILL A TYRANT.",
+      "highlight": "TYRANT"
+    },
+    {
+      "start": 41.72,
+      "end": 42.38,
+      "text": "HE ENTERED AN",
+      "highlight": "ENTERED"
+    },
+    {
+      "start": 42.38,
+      "end": 43.4,
+      "text": "EMPIRE BUILT ON FEAR,",
+      "highlight": "FEAR"
+    },
+    {
+      "start": 44.02,
+      "end": 44.58,
+      "text": "AND MADE FEAR",
+      "highlight": "FEAR"
+    },
+    {
+      "start": 44.58,
+      "end": 45.36,
+      "text": "CHANGE SIDES.",
+      "highlight": "CHANGE"
+    }
+  ]
+}

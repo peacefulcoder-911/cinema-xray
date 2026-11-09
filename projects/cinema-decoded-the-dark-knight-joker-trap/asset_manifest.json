@@ -1,0 +1,60 @@
+{
+  "project": "cinema-decoded-the-dark-knight-joker-trap",
+  "movie": "The Dark Knight",
+  "director": "Christopher Nolan",
+  "release_year": 2008,
+  "studio": "Warner Bros. Pictures / Legendary Entertainment",
+  "fair_use_rationale": "Non-profit educational and critical film scene analysis under Section 107 of the U.S. Copyright Act. Transformative visual presentation with documentary commentary, reframing, and pedagogical breakdown of narrative pacing and character psychology.",
+  "source_materials": [
+    {
+      "source_name": "The Dark Knight (2008) - Official Interrogation Scene",
+      "clip_id": "dark_knight_interrogation_raw",
+      "resolution": "1920x1080",
+      "fps": 23.976,
+      "audio_codec": "aac 5.1",
+      "video_codec": "av01 / libdav1d",
+      "license": "Fair Use / Transformative Commentary",
+      "extracted_cuts": [
+        {
+          "filename": "assets/footage/dark_knight/joker_choice/joker_interrogation.mp4",
+          "scene": "Batman entrance and establishing interrogation room dynamic",
+          "start_sec": 80.0,
+          "duration": 8.0
+        },
+        {
+          "filename": "assets/footage/dark_knight/joker_choice/joker_reveals_locations.mp4",
+          "scene": "Joker reveals Rachel and Harvey Dent locations with countdown timers",
+          "start_sec": 275.0,
+          "duration": 12.0
+        },
+        {
+          "filename": "assets/footage/dark_knight/joker_choice/batman_reaction.mp4",
+          "scene": "Batman slamming Joker against mirror wall processing psychological dilemma",
+          "start_sec": 246.0,
+          "duration": 7.0
+        },
+        {
+          "filename": "assets/footage/dark_knight/joker_choice/joker_closeup.mp4",
+          "scene": "Extreme close-up of Joker laughing: 'You have nothing to threaten me with'",
+          "start_sec": 264.0,
+          "duration": 8.0
+        },
+        {
+          "filename": "assets/footage/dark_knight/joker_choice/batman_leaves.mp4",
+          "scene": "Batman bolts out of interrogation room into precinct bullpen",
+          "start_sec": 287.0,
+          "duration": 9.0
+        }
+      ]
+    }
+  ],
+  "audio_assets": [
+    {
+      "asset_name": "Narration Voiceover (Master)",
+      "filename": "projects/cinema-decoded-the-dark-knight-joker-trap/audio/joker_trap_master.wav",
+      "voice": "Achird Studio Voice (Gemini TTS / Emotion-Directed Delivery)",
+      "loudness": "-14 LUFS (EBU R128 Compliant)",
+      "soundbed": "Subtle low subterranean drone (55Hz/110Hz @ -26dB), zero transition SFX"
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 49,
+  "impact_timestamps": [
+    {
+      "word": "SYNDROME",
+      "start": 0.0,
+      "end": 1.44
+    },
+    {
+      "word": "SPECIAL",
+      "start": 1.44,
+      "end": 2.36
+    },
+    {
+      "word": "ENTIRE",
+      "start": 2.74,
+      "end": 3.4
+    },
+    {
+      "word": "SPENT",
+      "start": 3.4,
+      "end": 4.38
+    },
+    {
+      "word": "TRYING",
+      "start": 4.38,
+      "end": 5.16
+    },
+    {
+      "word": "THAT",
+      "start": 5.16,
+      "end": 5.86
+    },
+    {
+      "word": "BOY",
+      "start": 6.48,
+      "end": 6.96
+    },
+    {
+      "word": "NAMED",
+      "start": 6.96,
+      "end": 7.9
+    },
+    {
+      "word": "IDOLIZED",
+      "start": 8.08,
+      "end": 9.04
+    },
+    {
+      "word": "INCREDIBLE",
+      "start": 9.22,
+      "end": 9.58
+    },
+    {
+      "word": "BEGGING",
+      "start": 9.96,
+      "end": 10.56
+    },
+    {
+      "word": "SIDEKICK",
+      "start": 10.56,
+      "end": 11.14
+    },
+    {
+      "word": "WHEN",
+      "start": 11.8,
+      "end": 12.38
+    },
+    {
+      "word": "REJECTED",
+      "start": 12.38,
+      "end": 13.24
+    },
+    {
+      "word": "SPECIAL",
+      "start": 13.24,
+      "end": 14.36
+    },
+    {
+      "word": "HUMILIATION",
+      "start": 14.94,
+      "end": 16.26
+    },
+    {
+      "word": "IDENTITY",
+      "start": 16.26,
+      "end": 16.96
+    },
+    {
+      "word": "WITHOUT",
+      "start": 17.66,
+      "end": 18.76
+    },
+    {
+      "word": "TECHNOLOGY",
+      "start": 19.0,
+      "end": 19.86
+    },
+    {
+      "word": "REINVENT",
+      "start": 19.86,
+      "end": 21.0
+    },
+    {
+      "word": "SYNDROME",
+      "start": 21.0,
+      "end": 21.58
+    },
+    {
+      "word": "BUILT",
+      "start": 22.1,
+      "end": 22.84
+    },
+    {
+      "word": "ENERGY",
+      "start": 22.84,
+      "end": 23.98
+    },
+    {
+      "word": "OMNIDROID",
+      "start": 23.98,
+      "end": 25.12
+    },
+    {
+      "word": "STAND",
+      "start": 25.72,
+      "end": 26.32
+    },
+    {
+      "word": "SUPERHEROES",
+      "start": 26.32,
+      "end": 27.42
+    },
+    {
+      "word": "ELIMINATE",
+      "start": 27.42,
+      "end": 28.78
+    },
+    {
+      "word": "PHILOSOPHY",
+      "start": 29.4,
+      "end": 30.72
+    },
+    {
+      "word": "EVERYONES",
+      "start": 31.02,
+      "end": 32.22
+    },
+    {
+      "word": "WILL",
+      "start": 32.64,
+      "end": 33.36
+    },
+    {
+      "word": "LOOK",
+      "start": 34.18,
+      "end": 34.8
+    },
+    {
+      "word": "ACTUALLY",
+      "start": 34.8,
+      "end": 35.76
+    },
+    {
+      "word": "STAGED",
+      "start": 36.22,
+      "end": 36.86
+    },
+    {
+      "word": "CATASTROPHIC",
+      "start": 36.86,
+      "end": 37.88
+    },
+    {
+      "word": "CITY",
+      "start": 37.88,
+      "end": 38.68
+    },
+    {
+      "word": "SWOOP",
+      "start": 38.68,
+      "end": 39.42
+    },
+    {
+      "word": "SAVIOR",
+      "start": 39.42,
+      "end": 40.24
+    },
+    {
+      "word": "ABOLISHING",
+      "start": 40.86,
+      "end": 42.08
+    },
+    {
+      "word": "ENGINEERING",
+      "start": 42.34,
+      "end": 43.0
+    },
+    {
+      "word": "WORLD",
+      "start": 43.0,
+      "end": 43.78
+    },
+    {
+      "word": "WAS",
+      "start": 43.78,
+      "end": 44.74
+    },
+    {
+      "word": "ONLY",
+      "start": 44.74,
+      "end": 45.52
+    },
+    {
+      "word": "WORSHIP",
+      "start": 45.52,
+      "end": 45.92
+    },
+    {
+      "word": "SYNDROME",
+      "start": 46.58,
+      "end": 47.6
+    },
+    {
+      "word": "WITHOUT",
+      "start": 47.6,
+      "end": 48.56
+    },
+    {
+      "word": "WENT",
+      "start": 49.18,
+      "end": 49.68
+    },
+    {
+      "word": "WORLD",
+      "start": 49.68,
+      "end": 50.16
+    },
+    {
+      "word": "EVERYONE",
+      "start": 50.16,
+      "end": 51.3
+    },
+    {
+      "word": "HIM",
+      "start": 51.3,
+      "end": 52.16
+    }
+  ],
+  "cards": [
+    {
+      "start": 0.0,
+      "end": 1.44,
+      "text": "SYNDROME SAYS NOBODY",
+      "highlight": "SYNDROME"
+    },
+    {
+      "start": 1.44,
+      "end": 2.36,
+      "text": "SHOULD BE SPECIAL,",
+      "highlight": "SPECIAL"
+    },
+    {
+      "start": 2.74,
+      "end": 3.4,
+      "text": "BUT HIS ENTIRE",
+      "highlight": "ENTIRE"
+    },
+    {
+      "start": 3.4,
+      "end": 4.38,
+      "text": "LIFE IS SPENT",
+      "highlight": "SPENT"
+    },
+    {
+      "start": 4.38,
+      "end": 5.16,
+      "text": "TRYING TO PROVE",
+      "highlight": "TRYING"
+    },
+    {
+      "start": 5.16,
+      "end": 5.86,
+      "text": "THAT HE IS.",
+      "highlight": "THAT"
+    },
+    {
+      "start": 6.48,
+      "end": 6.96,
+      "text": "AS A BOY",
+      "highlight": "BOY"
+    },
+    {
+      "start": 6.96,
+      "end": 7.9,
+      "text": "NAMED BUDDY PINE,",
+      "highlight": "NAMED"
+    },
+    {
+      "start": 8.08,
+      "end": 9.04,
+      "text": "HE IDOLIZED MR.",
+      "highlight": "IDOLIZED"
+    },
+    {
+      "start": 9.22,
+      "end": 9.58,
+      "text": "INCREDIBLE,",
+      "highlight": "INCREDIBLE"
+    },
+    {
+      "start": 9.96,
+      "end": 10.56,
+      "text": "BEGGING TO BE",
+      "highlight": "BEGGING"
+    },
+    {
+      "start": 10.56,
+      "end": 11.14,
+      "text": "HIS SIDEKICK.",
+      "highlight": "SIDEKICK"
+    },
+    {
+      "start": 11.8,
+      "end": 12.38,
+      "text": "BUT WHEN HE",
+      "highlight": "WHEN"
+    },
+    {
+      "start": 12.38,
+      "end": 13.24,
+      "text": "WAS REJECTED AND",
+      "highlight": "REJECTED"
+    },
+    {
+      "start": 13.24,
+      "end": 14.36,
+      "text": "TOLD HE WASN'T SPECIAL,",
+      "highlight": "SPECIAL"
+    },
+    {
+      "start": 14.94,
+      "end": 16.26,
+      "text": "THAT HUMILIATION BECAME",
+      "highlight": "HUMILIATION"
+    },
+    {
+      "start": 16.26,
+      "end": 16.96,
+      "text": "HIS IDENTITY.",
+      "highlight": "IDENTITY"
+    },
+    {
+      "start": 17.66,
+      "end": 18.76,
+      "text": "WITHOUT NATURAL POWERS,",
+      "highlight": "WITHOUT"
+    },
+    {
+      "start": 19.0,
+      "end": 19.86,
+      "text": "BUDDY USED TECHNOLOGY",
+      "highlight": "TECHNOLOGY"
+    },
+    {
+      "start": 19.86,
+      "end": 21.0,
+      "text": "TO REINVENT HIMSELF",
+      "highlight": "REINVENT"
+    },
+    {
+      "start": 21.0,
+      "end": 21.58,
+      "text": "AS SYNDROME.",
+      "highlight": "SYNDROME"
+    },
+    {
+      "start": 22.1,
+      "end": 22.84,
+      "text": "HE BUILT ZERO",
+      "highlight": "BUILT"
+    },
+    {
+      "start": 22.84,
+      "end": 23.98,
+      "text": "-POINT ENERGY AND",
+      "highlight": "ENERGY"
+    },
+    {
+      "start": 23.98,
+      "end": 25.12,
+      "text": "THE LETHAL OMNIDROID,",
+      "highlight": "OMNIDROID"
+    },
+    {
+      "start": 25.72,
+      "end": 26.32,
+      "text": "NOT TO STAND",
+      "highlight": "STAND"
+    },
+    {
+      "start": 26.32,
+      "end": 27.42,
+      "text": "BESIDE SUPERHEROES,",
+      "highlight": "SUPERHEROES"
+    },
+    {
+      "start": 27.42,
+      "end": 28.78,
+      "text": "BUT TO ELIMINATE THEM.",
+      "highlight": "ELIMINATE"
+    },
+    {
+      "start": 29.4,
+      "end": 30.72,
+      "text": "HIS FAMOUS PHILOSOPHY CLAIMED,",
+      "highlight": "PHILOSOPHY"
+    },
+    {
+      "start": 31.02,
+      "end": 32.22,
+      "text": "WHEN EVERYONE'S SUPER,",
+      "highlight": "EVERYONES"
+    },
+    {
+      "start": 32.64,
+      "end": 33.36,
+      "text": "NO ONE WILL BE.",
+      "highlight": "WILL"
+    },
+    {
+      "start": 34.18,
+      "end": 34.8,
+      "text": "YET LOOK AT",
+      "highlight": "LOOK"
+    },
+    {
+      "start": 34.8,
+      "end": 35.76,
+      "text": "WHAT HE ACTUALLY DID.",
+      "highlight": "ACTUALLY"
+    },
+    {
+      "start": 36.22,
+      "end": 36.86,
+      "text": "HE STAGED A",
+      "highlight": "STAGED"
+    },
+    {
+      "start": 36.86,
+      "end": 37.88,
+      "text": "CATASTROPHIC ATTACK ON",
+      "highlight": "CATASTROPHIC"
+    },
+    {
+      "start": 37.88,
+      "end": 38.68,
+      "text": "THE CITY JUST",
+      "highlight": "CITY"
+    },
+    {
+      "start": 38.68,
+      "end": 39.42,
+      "text": "TO SWOOP IN",
+      "highlight": "SWOOP"
+    },
+    {
+      "start": 39.42,
+      "end": 40.24,
+      "text": "AND PLAY THE SAVIOR.",
+      "highlight": "SAVIOR"
+    },
+    {
+      "start": 40.86,
+      "end": 42.08,
+      "text": "HE WASN'T ABOLISHING HEROES,",
+      "highlight": "ABOLISHING"
+    },
+    {
+      "start": 42.34,
+      "end": 43.0,
+      "text": "HE WAS ENGINEERING",
+      "highlight": "ENGINEERING"
+    },
+    {
+      "start": 43.0,
+      "end": 43.78,
+      "text": "A WORLD WHERE",
+      "highlight": "WORLD"
+    },
+    {
+      "start": 43.78,
+      "end": 44.74,
+      "text": "HE WAS THE",
+      "highlight": "WAS"
+    },
+    {
+      "start": 44.74,
+      "end": 45.52,
+      "text": "ONLY HERO LEFT",
+      "highlight": "ONLY"
+    },
+    {
+      "start": 45.52,
+      "end": 45.92,
+      "text": "TO WORSHIP.",
+      "highlight": "WORSHIP"
+    },
+    {
+      "start": 46.58,
+      "end": 47.6,
+      "text": "SYNDROME DOESN'T WANT",
+      "highlight": "SYNDROME"
+    },
+    {
+      "start": 47.6,
+      "end": 48.56,
+      "text": "A WORLD WITHOUT HEROES,",
+      "highlight": "WITHOUT"
+    },
+    {
+      "start": 49.18,
+      "end": 49.68,
+      "text": "HE WENT TO",
+      "highlight": "WENT"
+    },
+    {
+      "start": 49.68,
+      "end": 50.16,
+      "text": "A WORLD WHERE",
+      "highlight": "WORLD"
+    },
+    {
+      "start": 50.16,
+      "end": 51.3,
+      "text": "EVERYONE FINALLY SEES",
+      "highlight": "EVERYONE"
+    },
+    {
+      "start": 51.3,
+      "end": 52.16,
+      "text": "HIM AS ONE.",
+      "highlight": "HIM"
+    }
+  ]
+}

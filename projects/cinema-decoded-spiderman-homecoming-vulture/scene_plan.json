@@ -1,0 +1,117 @@
+{
+  "movie": "Spider-Man: Homecoming (2017)",
+  "topic": "Spider-Man: Homecoming — The Contract That Created The Vulture",
+  "theme": "The Stolen Livelihood",
+  "total_duration": 44.53,
+  "beats": [
+    {
+      "beat_id": "beat_01_alien_tech_hook",
+      "narration_text": "You never asked why a New York salvage crew was holding alien weapons,",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/01_alien_tech_cutting.mp4",
+      "source_start": 0.5,
+      "duration": 3.90,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "Extreme close-up of blue-collar crew slicing through alien Chitauri armor with a glowing extraterrestrial energy cutter."
+    },
+    {
+      "beat_id": "beat_02_toomes_reveal_contract",
+      "narration_text": "and the answer is one cancelled contract.",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/02_toomes_crew_stacking.mp4",
+      "source_start": 0.0,
+      "duration": 3.50,
+      "motion": "SLOW_PAN_LEFT",
+      "scene_description": "Adrian Toomes supervising his salvage crew stacking alien armor plating under the Manhattan wreckage."
+    },
+    {
+      "beat_id": "beat_03_opening_hidden_backstory",
+      "narration_text": "Spider-Man: Homecoming shows you this in its opening minutes and never says it out loud.",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/03_battle_of_ny_cleanup.mp4",
+      "source_start": 1.0,
+      "duration": 5.10,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "Child's crayon drawing of Avengers transitioning into the shattered skyline of Grand Central and Stark Tower debris."
+    },
+    {
+      "beat_id": "beat_04_toomes_salvage_company",
+      "narration_text": "After the Battle of New York, Adrian Toomes runs a salvage company hired to clean up the wreckage.",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/04_toomes_salvage_operation.mp4",
+      "source_start": 0.0,
+      "duration": 4.00,
+      "motion": "SLOW_PAN_RIGHT",
+      "scene_description": "Heavy cranes, industrial haulers, and debris removal operations at the epicenter of the Battle of New York."
+    },
+    {
+      "beat_id": "beat_05_real_crew_real_payroll",
+      "narration_text": "Real crew, real payroll.",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/05_real_crew_payroll.mp4",
+      "source_start": 0.0,
+      "duration": 3.70,
+      "motion": "FAST_ZOOM",
+      "scene_description": "Multiple working-class laborers cutting metal and securing cargo; an authentic functioning local enterprise."
+    },
+    {
+      "beat_id": "beat_06_damage_control_arrival",
+      "narration_text": "Then Damage Control, a government outfit with Stark's backing, takes the job over.",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/06_damage_control_arrival.mp4",
+      "source_start": 0.0,
+      "duration": 2.60,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "Sleek government vehicles and armed federal personnel arriving to seize control of the site."
+    },
+    {
+      "beat_id": "beat_07_contract_cancelled_confrontation",
+      "narration_text": "takes the job over.",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/07_contract_confrontation.mp4",
+      "source_start": 1.0,
+      "duration": 2.60,
+      "motion": "STATIC",
+      "scene_description": "Anne Marie Hoag issues executive order 396B, terminating the salvage contract on the spot."
+    },
+    {
+      "beat_id": "beat_08_warehouse_alien_cache",
+      "narration_text": "Toomes is left with a warehouse of alien tech and a crew that still needs paying.",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/08_warehouse_alien_cache.mp4",
+      "source_start": 0.5,
+      "duration": 3.60,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "Back of the salvage truck reveals glowing purple Chitauri power cores and hoarded extraterrestrial salvage."
+    },
+    {
+      "beat_id": "beat_09_building_weapons",
+      "narration_text": "So he keeps the tech and builds weapons from it.",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/09_weapons_construction.mp4",
+      "source_start": 1.0,
+      "duration": 4.00,
+      "motion": "FAST_ZOOM",
+      "scene_description": "The Tinkerer soldering circuitry and testing high-powered alien blasters in the dimly lit warehouse workshop."
+    },
+    {
+      "beat_id": "beat_10_one_lost_contract_payoff",
+      "narration_text": "That's the answer: one lost contract.",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/10_toomes_payroll_defense.mp4",
+      "source_start": 0.0,
+      "duration": 3.20,
+      "motion": "SLOW_PAN_LEFT",
+      "scene_description": "Adrian Toomes emotional confrontation: 'I bought trucks for this job. I brought in a whole new crew. These guys have a family.'"
+    },
+    {
+      "beat_id": "beat_11_protecting_a_payroll",
+      "narration_text": "The Vulture isn't chasing power, he's protecting a payroll.",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/11_vulture_suit_reveal.mp4",
+      "source_start": 0.5,
+      "duration": 3.80,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "Vulture exoskeleton wings lock onto Toomes' harness, glowing green optical sensors activate in the shadows."
+    },
+    {
+      "beat_id": "beat_12_believable_motive_prompt",
+      "narration_text": "Which Marvel villain had the most believable motive? Tell me in the comments.",
+      "source_file": "assets/footage/spiderman_homecoming/vulture_origin/12_vulture_flight_launch.mp4",
+      "source_start": 0.0,
+      "duration": 4.53,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "The Vulture launches from the warehouse platform with twin jet turbines roaring into the night sky."
+    }
+  ]
+}
+

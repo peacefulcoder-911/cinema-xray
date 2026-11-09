@@ -1,0 +1,12 @@
+{
+  "project_id": "cinema-decoded-beautiful-mind-perception",
+  "movie": "A Beautiful Mind (2001)",
+  "title": "A Beautiful Mind: How the Film Makes Reality and Perception Compete",
+  "central_question": "How does a film make us believe in something that was never actually happening?",
+  "core_thesis": "The audience trusts Nash's perspective because the film initially gives us very little reason to question it. By presenting hallucinations without visual distortion or horror tropes, the viewer is not just observing Nash's delusion—the viewer is participating in it.",
+  "target_duration_seconds": 50,
+  "aspect_ratio": "9:16",
+  "resolution": "4320x7680 (8K Ultra HD)",
+  "voice_model": "gemini-3.8-flash-tts (Achird)"
+}
+

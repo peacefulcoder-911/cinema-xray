@@ -1,0 +1,70 @@
+{
+  "movie": "Inception (2010)",
+  "topic": "The Spinning Top Wasn't Dom Cobb's Real Totem",
+  "total_duration": 36.770958,
+  "beats": [
+    {
+      "beat_id": "beat_01",
+      "start": 0.0,
+      "duration": 4.09,
+      "motion": "SLOW_PUSH_IN",
+      "has_callout": false
+    },
+    {
+      "beat_id": "beat_02",
+      "start": 4.09,
+      "duration": 4.09,
+      "motion": "SLOW_PAN_LEFT",
+      "has_callout": false
+    },
+    {
+      "beat_id": "beat_03",
+      "start": 8.18,
+      "duration": 4.09,
+      "motion": "SLOW_PUSH_IN",
+      "has_callout": false
+    },
+    {
+      "beat_id": "beat_04",
+      "start": 12.27,
+      "duration": 4.09,
+      "motion": "SLOW_PAN_RIGHT",
+      "has_callout": false
+    },
+    {
+      "beat_id": "beat_05",
+      "start": 16.36,
+      "duration": 4.09,
+      "motion": "FAST_ZOOM",
+      "has_callout": false
+    },
+    {
+      "beat_id": "beat_06",
+      "start": 20.45,
+      "duration": 4.09,
+      "motion": "SLOW_PUSH_IN",
+      "has_callout": false
+    },
+    {
+      "beat_id": "beat_07",
+      "start": 24.54,
+      "duration": 4.09,
+      "motion": "SLOW_PAN_LEFT",
+      "has_callout": false
+    },
+    {
+      "beat_id": "beat_08",
+      "start": 28.63,
+      "duration": 4.09,
+      "motion": "SLOW_PUSH_IN",
+      "has_callout": false
+    },
+    {
+      "beat_id": "beat_09",
+      "start": 32.72,
+      "duration": 4.05,
+      "motion": "SLOW_PAN_LEFT",
+      "has_callout": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "stages": [
+    {
+      "stage": "1. Scene Slicing & 70% Cinematic Framing (Ambient Blur + Motion)",
+      "duration_seconds": 48.25,
+      "percentage": 25.0
+    },
+    {
+      "stage": "2. Visual Clips Concatenation",
+      "duration_seconds": 8.09,
+      "percentage": 4.2
+    },
+    {
+      "stage": "3. 1080p Master Assembly with Subtitle Burn-in & Audio",
+      "duration_seconds": 20.98,
+      "percentage": 10.9
+    },
+    {
+      "stage": "4. Hardware-Accelerated 8K Ultra HD Super-Resolution (4320x7680 @ 85 Mbps)",
+      "duration_seconds": 109.97,
+      "percentage": 57.0
+    },
+    {
+      "stage": "5. High-CTR Vertical Thumbnail Generation",
+      "duration_seconds": 0.22,
+      "percentage": 0.1
+    },
+    {
+      "stage": "6. Automated Quality Control & QC Frame Extraction",
+      "duration_seconds": 5.35,
+      "percentage": 2.8
+    }
+  ],
+  "total_duration_seconds": 192.87,
+  "total_duration_minutes": 3.21
+}

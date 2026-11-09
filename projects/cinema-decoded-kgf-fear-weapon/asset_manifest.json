@@ -1,0 +1,35 @@
+{
+  "topic_id": "cinema-decoded-kgf-fear-weapon",
+  "project_title": "KGF: Chapter 1 — How Rocky Turns Fear into His Most Powerful Weapon",
+  "film": "KGF: Chapter 1 (2018)",
+  "director": "Prashanth Neel",
+  "assets": [
+    {
+      "asset_id": "kgf_the_rise_of_rocky_1080p",
+      "file_path": "output/clip_cache/kgf_the_rise_of_rocky_1080p.mp4",
+      "title": "KGF: The Rise of Rocky — Official Sequence",
+      "resolution": "1920x1080",
+      "fps": 24,
+      "scenes_assigned": ["scene_01", "scene_03", "scene_09", "scene_12", "scene_13"],
+      "narrative_role": "Establishes the thousands of enslaved workers inside the excavation trenches, their total submission with bowed heads and trembling hands, Rocky's iconic refusal to bow, the wonder of the children, and Rocky rising on the mine bridge."
+    },
+    {
+      "asset_id": "kgf_garuda_terror_1080p",
+      "file_path": "output/clip_cache/kgf_garuda_terror_1080p.mp4",
+      "title": "KGF: Garuda's Terror & The Bangalore Unveiling",
+      "resolution": "1920x1080",
+      "fps": 25,
+      "scenes_assigned": ["scene_04", "scene_05", "scene_06", "scene_07"],
+      "narrative_role": "Depicts Garuda's absolute reign of terror, the snarling tyrant as the red banner drops, the assassin's gun hesitating behind the velvet curtain, and Rocky in the white suit calmly decoding the psychology of power."
+    },
+    {
+      "asset_id": "kgf_rocky_enters_mines_1080p",
+      "file_path": "output/clip_cache/kgf_rocky_enters_mines_1080p.mp4",
+      "title": "KGF: Rocky Enters Mines & Breaks The Guard Barrier",
+      "resolution": "1920x1080",
+      "fps": 25,
+      "scenes_assigned": ["scene_02", "scene_08", "scene_10", "scene_11"],
+      "narrative_role": "Shows the military patrol jeeps and barbed wire perimeter of the mines, Rocky entering the barren dust hills alone, the high-impact strike sending armed enforcers somersaulting through the air, and Rocky dragging the shovel across the dirt."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+name: Generate Autonomous Cinema Video
+
+on:
+  workflow_dispatch:
+    inputs:
+      movie:
+        description: 'Specific film title (Leave empty to auto-pick next from catalog)'
+        required: false
+        default: ''
+        type: string
+      scene:
+        description: 'Specific scene or psychological concept (Leave empty for auto-pick)'
+        required: false
+        default: ''
+        type: string
+      upscale_8k:
+        description: 'Enable 8K Super-Resolution (Default false for 2-min fast 1080p rendering)'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: cinema-xray-production
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  produce_video:
+    name: Autonomous Executive Producer & Video Engine
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install System Tools & Subtitle Fonts
+        run: |
+          echo "=== Installing FFmpeg & Subtitle Fonts ==="
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg fonts-liberation fonts-dejavu-core
+          ffmpeg -version | head -n 2
+          fc-cache -f
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --no-cache-dir -r requirements.txt
+
+      - name: Execute Autonomous Production Pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          echo "=== Running Autonomous Cinema Production ==="
+          CMD_ARGS="--auto"
+          if [ -n "${{ inputs.movie }}" ] && [ -n "${{ inputs.scene }}" ]; then
+            CMD_ARGS="--movie '${{ inputs.movie }}' --scene '${{ inputs.scene }}'"
+          fi
+
+          if [ "${{ inputs.upscale_8k }}" != "true" ]; then
+            CMD_ARGS="$CMD_ARGS --no-8k"
+          fi
+
+          eval python3 run_autonomous_cinema.py $CMD_ARGS
+
+      - name: Upload Video Deliverables as GitHub Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cinema-decoded-deliverables
+          path: |
+            output/final_video/*.mp4
+            projects/*/out/*.mp4
+            output/thumbnails_short/*.jpg
+            projects/*/brief.md
+            projects/*/scene_plan.json
+            projects/*/qc_frames/*.jpg
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: GitOps Commit & Push Updated Topics Database
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add database/ projects/*/brief.md projects/*/scene_plan.json projects/*/script.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(database): record completed cinema topic [skip ci]"
+            for attempt in 1 2 3 4 5; do
+              echo "Attempt $attempt to push database changes to origin/main..."
+              if git push origin HEAD:main; then
+                echo "✅ Successfully pushed database changes to origin/main"
+                break
+              fi
+              echo "⚠️ Push rejected on attempt $attempt. Pulling and rebasing..."
+              git fetch origin main
+              git rebase origin/main || (git rebase --abort && git merge -X theirs origin/main -m "Merge remote main")
+              sleep 3
+            done
+          else
+            echo "Database unchanged."
+          fi

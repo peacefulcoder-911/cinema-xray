@@ -1,0 +1,181 @@
+{
+  "project_title": "The Matrix — Why Cypher Chooses The Lie",
+  "movie": "The Matrix (1999)",
+  "total_duration": 46.38,
+  "fps": 30,
+  "resolution": {
+    "width": 1080,
+    "height": 1920
+  },
+  "beats": [
+    {
+      "beat_id": "01_hook_steak",
+      "section": "HOOK",
+      "narration": "Cypher knows the steak is fake.",
+      "start_time": 0.0,
+      "end_time": 2.2,
+      "duration": 2.2,
+      "source_file": "assets/footage/matrix/cypher_steak/steak_closeup.mp4",
+      "source_start": 0.5,
+      "motion": "SLOW_PUSH_IN",
+      "description": "Extreme close-up of sizzling steak being pierced by fork"
+    },
+    {
+      "beat_id": "02_hook_cypher",
+      "section": "HOOK",
+      "narration": "So why does he want another bite?",
+      "start_time": 2.2,
+      "end_time": 5.2,
+      "duration": 3.0,
+      "source_file": "assets/footage/matrix/cypher_steak/cypher_reaction.mp4",
+      "source_start": 0.2,
+      "motion": "SLOW_PUSH_IN",
+      "description": "Cypher looking down with calculating expression"
+    },
+    {
+      "beat_id": "03_context_world",
+      "section": "CONTEXT",
+      "narration": "He knows the entire world around him is an illusion.",
+      "start_time": 5.2,
+      "end_time": 8.5,
+      "duration": 3.3,
+      "source_file": "assets/footage/matrix/cypher_steak/cypher_restaurant.mp4",
+      "source_start": 0.2,
+      "motion": "SLOW_PAN_LEFT",
+      "description": "Wide elegant restaurant, violinists in background, red wine glass"
+    },
+    {
+      "beat_id": "04_context_escaped",
+      "section": "CONTEXT",
+      "narration": "He's already escaped it.",
+      "start_time": 8.5,
+      "end_time": 11.5,
+      "duration": 3.0,
+      "source_file": "assets/footage/matrix/cypher_steak/cypher_reaction.mp4",
+      "source_start": 1.0,
+      "motion": "SLOW_PAN_RIGHT",
+      "description": "Cypher looking across the table with cold determination"
+    },
+    {
+      "beat_id": "05_context_smith",
+      "section": "CONTEXT",
+      "narration": "But sitting across from Agent Smith, he makes a decision.",
+      "start_time": 11.5,
+      "end_time": 14.5,
+      "duration": 3.0,
+      "source_file": "assets/footage/matrix/cypher_steak/smith_conversation.mp4",
+      "source_start": 0.5,
+      "motion": "SLOW_PUSH_IN",
+      "description": "Agent Smith in sunglasses observing Cypher intently"
+    },
+    {
+      "beat_id": "06_evidence_tastes",
+      "section": "SCENE EVIDENCE",
+      "narration": "He looks at the steak, tastes it,",
+      "start_time": 14.5,
+      "end_time": 17.5,
+      "duration": 3.0,
+      "source_file": "assets/footage/matrix/cypher_steak/steak_closeup.mp4",
+      "source_start": 2.0,
+      "motion": "SLOW_PUSH_IN",
+      "description": "Cypher raising the piece of steak towards his lips"
+    },
+    {
+      "beat_id": "07_evidence_savoring",
+      "section": "SCENE EVIDENCE",
+      "narration": "and admits he knows it isn't real. Then he says something terrifying:",
+      "start_time": 17.5,
+      "end_time": 22.5,
+      "duration": 5.0,
+      "source_file": "assets/footage/matrix/cypher_steak/cypher_eating.mp4",
+      "source_start": 0.5,
+      "motion": "SLOW_PUSH_IN",
+      "description": "Cypher chewing, eyes half closed, savoring the simulated taste"
+    },
+    {
+      "beat_id": "08_evidence_bliss",
+      "section": "SCENE EVIDENCE",
+      "narration": "[Film Dialogue] Ignorance is bliss.",
+      "start_time": 22.5,
+      "end_time": 25.5,
+      "duration": 3.0,
+      "source_file": "assets/footage/matrix/cypher_steak/cypher_reaction.mp4",
+      "source_start": 3.1,
+      "motion": "FAST_ZOOM",
+      "description": "Cypher raises wine glass, smirks, delivering 'Ignorance is bliss'"
+    },
+    {
+      "beat_id": "09_psych_asking",
+      "section": "PSYCHOLOGICAL INTERPRETATION",
+      "narration": "Cypher isn't asking whether the Matrix is real. He already knows the answer.",
+      "start_time": 25.5,
+      "end_time": 29.5,
+      "duration": 4.0,
+      "source_file": "assets/footage/matrix/cypher_steak/smith_conversation.mp4",
+      "source_start": 2.0,
+      "motion": "SLOW_PAN_LEFT",
+      "description": "Shot-reverse-shot between Smith and Cypher establishing transaction"
+    },
+    {
+      "beat_id": "10_psych_contrast_slop",
+      "section": "PSYCHOLOGICAL INTERPRETATION",
+      "narration": "He's asking whether the truth is worth the suffering",
+      "start_time": 29.5,
+      "end_time": 33.5,
+      "duration": 4.0,
+      "source_file": "assets/footage/matrix/cypher_steak/real_world_contrast.mp4",
+      "source_start": 0.5,
+      "motion": "SLOW_PAN_RIGHT",
+      "description": "Bleak Nebuchadnezzar mess hall with runny grey protein slop"
+    },
+    {
+      "beat_id": "11_psych_return_restaurant",
+      "section": "PSYCHOLOGICAL INTERPRETATION",
+      "narration": "that comes with it.",
+      "start_time": 33.5,
+      "end_time": 37.0,
+      "duration": 3.5,
+      "source_file": "assets/footage/matrix/cypher_steak/cypher_restaurant.mp4",
+      "source_start": 0.8,
+      "motion": "SLOW_PUSH_IN",
+      "description": "Return to the seductive warmth and luxury of the simulated world"
+    },
+    {
+      "beat_id": "12_payoff_truth_part1",
+      "section": "PAYOFF",
+      "narration": "Because sometimes, the hardest part of knowing the truth...",
+      "start_time": 37.0,
+      "end_time": 40.5,
+      "duration": 3.5,
+      "source_file": "assets/footage/matrix/cypher_steak/cypher_eating.mp4",
+      "source_start": 3.5,
+      "motion": "SLOW_PUSH_IN",
+      "description": "Cypher's face reflecting the agonizing truth of his human desire"
+    },
+    {
+      "beat_id": "13_payoff_steak_macro",
+      "section": "PAYOFF",
+      "narration": "is accepting that you still want the lie.",
+      "start_time": 40.5,
+      "end_time": 43.2,
+      "duration": 2.7,
+      "source_file": "assets/footage/matrix/cypher_steak/steak_closeup.mp4",
+      "source_start": 1.0,
+      "motion": "SLOW_PUSH_IN",
+      "description": "Extreme close-up of the red juicy meat glistening under candlelight"
+    },
+    {
+      "beat_id": "14_climax_decision",
+      "section": "PAYOFF",
+      "narration": "[Climax] WOULD YOU CHOOSE THE TRUTH?",
+      "start_time": 43.2,
+      "end_time": 46.38,
+      "duration": 3.18,
+      "source_file": "assets/footage/matrix/cypher_steak/cypher_reaction.mp4",
+      "source_start": 2.5,
+      "motion": "SLOW_PUSH_IN",
+      "description": "Final close-up fading into shadow with final question"
+    }
+  ]
+}
+

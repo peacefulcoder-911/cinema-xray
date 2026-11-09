@@ -1,0 +1,69 @@
+{
+  "catalog_version": "1.0",
+  "scenes": [
+    {
+      "topic_slug": "inception_real_totem",
+      "movie": "Inception (2010)",
+      "director": "Christopher Nolan",
+      "theme": "The Deliberate Illusion",
+      "topic": "The Spinning Top Wasn't Dom Cobb's Real Totem",
+      "core_thesis": "Audiences spend the entire movie staring at the spinning top at the end, but the top was never Cobb's totem—it was Mal's. Cobb's real totem was his wedding ring, which only appears when he is dreaming.",
+      "scene_description": "The closing scene where Cobb spins the top on the table and walks outside to embrace his children without watching it fall."
+    },
+    {
+      "topic_slug": "whiplash_caravan_trap",
+      "movie": "Whiplash (2014)",
+      "director": "Damien Chazelle",
+      "theme": "The Price of Greatness",
+      "topic": "Why Fletcher Never Wanted Andrew To Succeed",
+      "core_thesis": "Fletcher's invitation to Carnegie Hall was never a second chance. It was deliberate career sabotage designed to publicly humiliate Andrew for testifying against him—until Andrew refused to leave the stage.",
+      "scene_description": "Fletcher calls the wrong chart 'Caravan' to humiliate Andrew, before Andrew seizes control of the tempo and plays the impossible drum solo."
+    },
+    {
+      "topic_slug": "shutter_island_water_glass",
+      "movie": "Shutter Island (2010)",
+      "director": "Martin Scorsese",
+      "theme": "The Rejection of Reality",
+      "topic": "The Invisible Glass of Water: How Shutter Island Telegraphed The Truth in 10 Seconds",
+      "core_thesis": "In the interrogation of Bridget Kearns, she drinks from an empty hand because Teddy Daniels cannot process water. His subconscious edits out water because water is how his children died.",
+      "scene_description": "Teddy Daniels interrogating Bridget Kearns at Ashecliffe, who raises an invisible glass to her lips before placing a real glass back on the table."
+    },
+    {
+      "topic_slug": "interstellar_ticking_seconds",
+      "movie": "Interstellar (2014)",
+      "director": "Christopher Nolan",
+      "theme": "Time as a Non-Renewable Resource",
+      "topic": "The Soundtrack Trick That Counts Human Lives in Seconds",
+      "core_thesis": "On Miller's planet, Hans Zimmer placed a prominent acoustic click every 1.25 seconds. Each click represents an entire day passing on Earth, making the background score literally count the deaths of everyone Cooper left behind.",
+      "scene_description": "Cooper, Brand, and Doyle landing the Ranger in knee-deep water on Miller's planet while the relentless ticking tempo accelerates in the score."
+    },
+    {
+      "topic_slug": "the_prestige_real_sacrifice",
+      "movie": "The Prestige (2006)",
+      "director": "Christopher Nolan",
+      "theme": "Obsession and Identity",
+      "topic": "Why Borden's Magic Trick Was Far More Terrifying Than Angier's",
+      "core_thesis": "Angier used technology to clone and murder himself every night, but Alfred Borden lived a real double life from childhood with his twin—sharing one woman, one identity, and one half of a life.",
+      "scene_description": "Borden revealing the truth in the prison cell: 'We each had half a full life, which was enough for us. But not for them.'"
+    },
+    {
+      "topic_slug": "civil_war_zemo_plan",
+      "movie": "Captain America: Civil War (2016)",
+      "director": "Anthony and Joe Russo",
+      "theme": "Vengeance from Below",
+      "topic": "Why Helmut Zemo Was The Only MCU Villain Who Actually Won",
+      "core_thesis": "Zemo had no superpowers, no money, and no army. He knew he couldn't defeat the Avengers physically, so he simply gave them information they couldn't survive: December 16, 1991.",
+      "scene_description": "Zemo in the Siberian bunker playing the tape of Bucky Barnes killing Tony Stark's parents, stepping back to let the heroes destroy each other."
+    },
+    {
+      "topic_slug": "dune_paul_terrible_purpose",
+      "movie": "Dune: Part Two (2024)",
+      "director": "Denis Villeneuve",
+      "theme": "The Trap of Prophecy",
+      "topic": "Why Paul Atreides Drinking The Water of Life Was A Tragedy, Not A Triumph",
+      "core_thesis": "Paul doesn't become the Kwisatz Haderach to save the universe. He accepts the prophecy because it is the only narrow path to keep Chani alive, knowing it unleashes a holy war that will kill sixty billion people.",
+      "scene_description": "Paul walking into the Southern Temple among thousands of fanatic Fremen, shouting 'I am Paul Muad'Dib Atreides!' while Chani looks on in horror."
+    }
+  ]
+}
+

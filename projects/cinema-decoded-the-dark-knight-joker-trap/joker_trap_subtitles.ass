@@ -1,0 +1,43 @@
+[Script Info]
+Title: Cinema X-Ray Center Bold Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,10,4,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.25,0:00:01.06,CenterBold,,0,0,0,,LOOK {\c&H0000E5FF&}CLOSELY{\c&H00FFFFFF&} AT
+Dialogue: 0,0:00:01.06,0:00:01.56,CenterBold,,0,0,0,,WHAT THE {\c&H0000E5FF&}JOKER{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.56,0:00:03.32,CenterBold,,0,0,0,,DOES DURING THIS {\c&H0000E5FF&}INTERROGATION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:03.86,0:00:05.08,CenterBold,,0,0,0,,{\c&H0000E5FF&}BATMAN{\c&H00FFFFFF&} THINKS HE'S
+Dialogue: 0,0:00:05.08,0:00:05.88,CenterBold,,0,0,0,,ASKING THE {\c&H0000E5FF&}QUESTIONS{\c&H00FFFFFF&},
+Dialogue: 0,0:00:06.32,0:00:06.98,CenterBold,,0,0,0,,BUT THE {\c&H0000E5FF&}JOKER{\c&H00FFFFFF&}
+Dialogue: 0,0:00:06.98,0:00:08.54,CenterBold,,0,0,0,,IS {\c&H0000E5FF&}CONTROLLING{\c&H00FFFFFF&} THE CONVERSATION.
+Dialogue: 0,0:00:09.06,0:00:09.94,CenterBold,,0,0,0,,HE {\c&H0000E5FF&}REVEALS{\c&H00FFFFFF&} THAT
+Dialogue: 0,0:00:09.94,0:00:10.82,CenterBold,,0,0,0,,{\c&H0000E5FF&}HARVEY{\c&H00FFFFFF&} DENT AND
+Dialogue: 0,0:00:10.82,0:00:11.84,CenterBold,,0,0,0,,RACHEL ARE IN {\c&H0000E5FF&}DANGER{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:12.46,0:00:13.16,CenterBold,,0,0,0,,THEN HE {\c&H0000E5FF&}GIVES{\c&H00FFFFFF&}
+Dialogue: 0,0:00:13.16,0:00:14.36,CenterBold,,0,0,0,,BATMAN TWO {\c&H0000E5FF&}LOCATIONS{\c&H00FFFFFF&},
+Dialogue: 0,0:00:14.92,0:00:15.44,CenterBold,,0,0,0,,TWO {\c&H0000E5FF&}PEOPLE{\c&H00FFFFFF&},
+Dialogue: 0,0:00:15.84,0:00:16.80,CenterBold,,0,0,0,,TWO {\c&H0000E5FF&}TICKING{\c&H00FFFFFF&} CLOCKS.
+Dialogue: 0,0:00:17.52,0:00:18.60,CenterBold,,0,0,0,,BATMAN HAS TO {\c&H0000E5FF&}CHOOSE{\c&H00FFFFFF&},
+Dialogue: 0,0:00:18.92,0:00:20.12,CenterBold,,0,0,0,,AND THAT'S {\c&H0000E5FF&}EXACTLY{\c&H00FFFFFF&}
+Dialogue: 0,0:00:20.12,0:00:20.98,CenterBold,,0,0,0,,WHAT THE JOKER {\c&H0000E5FF&}WANTS{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:21.60,0:00:22.42,CenterBold,,0,0,0,,HE ISN'T {\c&H0000E5FF&}SIMPLY{\c&H00FFFFFF&}
+Dialogue: 0,0:00:22.42,0:00:23.06,CenterBold,,0,0,0,,{\c&H0000E5FF&}TRYING{\c&H00FFFFFF&} TO MAKE
+Dialogue: 0,0:00:23.06,0:00:23.78,CenterBold,,0,0,0,,BATMAN {\c&H0000E5FF&}ANGRY{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:24.28,0:00:25.20,CenterBold,,0,0,0,,HE'S {\c&H0000E5FF&}FORCING{\c&H00FFFFFF&} BATMAN
+Dialogue: 0,0:00:25.20,0:00:26.38,CenterBold,,0,0,0,,INTO A {\c&H0000E5FF&}SITUATION{\c&H00FFFFFF&}
+Dialogue: 0,0:00:26.38,0:00:27.34,CenterBold,,0,0,0,,{\c&H0000E5FF&}WHERE{\c&H00FFFFFF&} EVEN DOING
+Dialogue: 0,0:00:27.34,0:00:28.06,CenterBold,,0,0,0,,THE {\c&H0000E5FF&}RIGHT{\c&H00FFFFFF&} THING
+Dialogue: 0,0:00:28.06,0:00:29.58,CenterBold,,0,0,0,,MEANS SOMEONE GETS {\c&H0000E5FF&}HURT{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:30.30,0:00:31.10,CenterBold,,0,0,0,,THE REAL {\c&H0000E5FF&}TRAP{\c&H00FFFFFF&}
+Dialogue: 0,0:00:31.10,0:00:31.80,CenterBold,,0,0,0,,ISN'T THE ROOM.
+Dialogue: 0,0:00:32.40,0:00:33.08,CenterBold,,0,0,0,,IT'S THE {\c&H0000E5FF&}CHOICE{\c&H00FFFFFF&}.

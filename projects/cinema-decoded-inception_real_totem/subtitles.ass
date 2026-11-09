@@ -1,0 +1,51 @@
+[Script Info]
+Title: Cinema X-Ray Center Bold Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,10,4,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.28,0:00:01.10,CenterBold,,0,0,0,,YOU'VE {\c&H0000E5FF&}STARED{\c&H00FFFFFF&} AT
+Dialogue: 0,0:00:01.10,0:00:02.32,CenterBold,,0,0,0,,{\c&H0000E5FF&}INCEPTION{\c&H00FFFFFF&} SPINNING TOP
+Dialogue: 0,0:00:02.32,0:00:02.86,CenterBold,,0,0,0,,FOR {\c&H0000E5FF&}YEARS{\c&H00FFFFFF&},
+Dialogue: 0,0:00:03.32,0:00:04.10,CenterBold,,0,0,0,,YET YOU {\c&H0000E5FF&}MISSED{\c&H00FFFFFF&}
+Dialogue: 0,0:00:04.10,0:00:05.04,CenterBold,,0,0,0,,{\c&H0000E5FF&}WHOSE{\c&H00FFFFFF&} TOTEM IT
+Dialogue: 0,0:00:05.04,0:00:05.66,CenterBold,,0,0,0,,{\c&H0000E5FF&}TRULY{\c&H00FFFFFF&} WAS.
+Dialogue: 0,0:00:06.34,0:00:07.02,CenterBold,,0,0,0,,COBB {\c&H0000E5FF&}SPINS{\c&H00FFFFFF&} IT
+Dialogue: 0,0:00:07.02,0:00:07.52,CenterBold,,0,0,0,,AT THE {\c&H0000E5FF&}END{\c&H00FFFFFF&},
+Dialogue: 0,0:00:07.82,0:00:08.38,CenterBold,,0,0,0,,{\c&H0000E5FF&}BUT{\c&H00FFFFFF&} THE TOP
+Dialogue: 0,0:00:08.38,0:00:09.50,CenterBold,,0,0,0,,WAS {\c&H0000E5FF&}MOUSE{\c&H00FFFFFF&} TOTEM,
+Dialogue: 0,0:00:09.80,0:00:10.82,CenterBold,,0,0,0,,A {\c&H0000E5FF&}CONSTANT{\c&H00FFFFFF&} REMINDER
+Dialogue: 0,0:00:10.82,0:00:11.90,CenterBold,,0,0,0,,OF HER {\c&H0000E5FF&}DELUSION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:12.42,0:00:13.28,CenterBold,,0,0,0,,COBB {\c&H0000E5FF&}NEVER{\c&H00FFFFFF&} USED
+Dialogue: 0,0:00:13.28,0:00:14.26,CenterBold,,0,0,0,,IT TO {\c&H0000E5FF&}CONFIRM{\c&H00FFFFFF&} REALITY.
+Dialogue: 0,0:00:14.88,0:00:15.36,CenterBold,,0,0,0,,LOOK {\c&H0000E5FF&}CLOSELY{\c&H00FFFFFF&},
+Dialogue: 0,0:00:15.80,0:00:16.64,CenterBold,,0,0,0,,HIS REAL {\c&H0000E5FF&}TOTEM{\c&H00FFFFFF&}
+Dialogue: 0,0:00:16.64,0:00:17.62,CenterBold,,0,0,0,,IS FAR MORE {\c&H0000E5FF&}SUBTLE{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:18.22,0:00:18.92,CenterBold,,0,0,0,,COBB ONLY {\c&H0000E5FF&}WEARS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:18.92,0:00:19.54,CenterBold,,0,0,0,,HIS {\c&H0000E5FF&}WEDDING{\c&H00FFFFFF&} RING
+Dialogue: 0,0:00:19.54,0:00:20.22,CenterBold,,0,0,0,,WHEN HE IS {\c&H0000E5FF&}DREAMING{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:20.68,0:00:21.16,CenterBold,,0,0,0,,IN {\c&H0000E5FF&}REALITY{\c&H00FFFFFF&},
+Dialogue: 0,0:00:21.46,0:00:22.14,CenterBold,,0,0,0,,HIS {\c&H0000E5FF&}FINGER{\c&H00FFFFFF&} IS BARE.
+Dialogue: 0,0:00:22.66,0:00:23.34,CenterBold,,0,0,0,,THE {\c&H0000E5FF&}FINAL{\c&H00FFFFFF&} SHOT
+Dialogue: 0,0:00:23.34,0:00:23.98,CenterBold,,0,0,0,,{\c&H0000E5FF&}SHOWS{\c&H00FFFFFF&} HIS RING
+Dialogue: 0,0:00:23.98,0:00:24.64,CenterBold,,0,0,0,,{\c&H0000E5FF&}FINGER{\c&H00FFFFFF&} EMPTY.
+Dialogue: 0,0:00:25.08,0:00:25.70,CenterBold,,0,0,0,,HE {\c&H0000E5FF&}WALKS{\c&H00FFFFFF&} AWAY
+Dialogue: 0,0:00:25.70,0:00:26.22,CenterBold,,0,0,0,,{\c&H0000E5FF&}FROM{\c&H00FFFFFF&} THE TOP,
+Dialogue: 0,0:00:26.48,0:00:27.08,CenterBold,,0,0,0,,NOT {\c&H0000E5FF&}BECAUSE{\c&H00FFFFFF&} HE
+Dialogue: 0,0:00:27.08,0:00:27.56,CenterBold,,0,0,0,,DOESN'T CARE,
+Dialogue: 0,0:00:27.56,0:00:28.38,CenterBold,,0,0,0,,BUT {\c&H0000E5FF&}BECAUSE{\c&H00FFFFFF&} HE
+Dialogue: 0,0:00:28.38,0:00:29.52,CenterBold,,0,0,0,,{\c&H0000E5FF&}ALREADY{\c&H00FFFFFF&} KNOWS HIS HOME.
+Dialogue: 0,0:00:29.94,0:00:30.70,CenterBold,,0,0,0,,WAS COBB'S RING
+Dialogue: 0,0:00:30.70,0:00:31.64,CenterBold,,0,0,0,,THE MOST {\c&H0000E5FF&}UNDERSTATED{\c&H00FFFFFF&}
+Dialogue: 0,0:00:31.64,0:00:32.68,CenterBold,,0,0,0,,TOTEM IN CINEMA {\c&H0000E5FF&}HISTORY{\c&H00FFFFFF&}?
+Dialogue: 0,0:00:33.12,0:00:33.42,CenterBold,,0,0,0,,{\c&H0000E5FF&}TELL{\c&H00FFFFFF&} ME IN
+Dialogue: 0,0:00:33.42,0:00:33.74,CenterBold,,0,0,0,,THE {\c&H0000E5FF&}COMMENTS{\c&H00FFFFFF&}.

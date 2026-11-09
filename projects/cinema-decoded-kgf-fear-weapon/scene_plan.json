@@ -1,0 +1,156 @@
+{
+  "topic_id": "cinema-decoded-kgf-fear-weapon",
+  "title": "KGF: Chapter 1 — How Rocky Turns Fear into His Most Powerful Weapon",
+  "movie": "KGF: Chapter 1 (2018)",
+  "director": "Prashanth Neel",
+  "total_duration": 46.44,
+  "fps": 30,
+  "resolution": "1080x1920",
+  "audio_master": "audio/kgf_fear_weapon_mixed_audio.m4a",
+  "subtitle_file": "kgf_subtitles.ass",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "beat": "Beat 01 — The Hook / The Gold Mine Economy of Terror",
+      "source_clip": "output/clip_cache/kgf_the_rise_of_rocky_1080p.mp4",
+      "start_time": 234.0,
+      "duration": 4.5,
+      "timeline_start": 0.0,
+      "timeline_end": 4.5,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "Inside the brutal gold mines of KGF, power wasn’t measured in gold—"
+    },
+    {
+      "scene_id": "scene_02",
+      "beat": "Beat 02 — Armed Incarceration Perimeter",
+      "source_clip": "output/clip_cache/kgf_rocky_enters_mines_1080p.mp4",
+      "start_time": 143.0,
+      "duration": 2.56,
+      "timeline_start": 4.5,
+      "timeline_end": 7.06,
+      "motion": "FAST_ZOOM",
+      "narration_line": "...it was measured in pure terror."
+    },
+    {
+      "scene_id": "scene_03",
+      "beat": "Beat 03 — The Monopoly on Fear / Enslaved Submission",
+      "source_clip": "output/clip_cache/kgf_the_rise_of_rocky_1080p.mp4",
+      "start_time": 8.5,
+      "duration": 4.5,
+      "timeline_start": 7.06,
+      "timeline_end": 11.56,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "Twenty thousand enslaved workers lived in total submission because Garuda held an absolute monopoly on fear."
+    },
+    {
+      "scene_id": "scene_04",
+      "beat": "Beat 04 — The Reign of Terror / Death to Defiance",
+      "source_clip": "output/clip_cache/kgf_garuda_terror_1080p.mp4",
+      "start_time": 204.5,
+      "duration": 3.94,
+      "timeline_start": 11.56,
+      "timeline_end": 15.5,
+      "motion": "FAST_ZOOM",
+      "narration_line": "Anyone who looked up was executed."
+    },
+    {
+      "scene_id": "scene_05",
+      "beat": "Beat 05 — The Fatal Mistake of Conventional Assassins",
+      "source_clip": "output/clip_cache/kgf_garuda_terror_1080p.mp4",
+      "start_time": 198.5,
+      "duration": 3.2,
+      "timeline_start": 15.5,
+      "timeline_end": 18.7,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "Every assassin sent to eliminate Garuda made the exact same mistake:"
+    },
+    {
+      "scene_id": "scene_06",
+      "beat": "Beat 06 — Impenetrable Physical Armor",
+      "source_clip": "output/clip_cache/kgf_garuda_terror_1080p.mp4",
+      "start_time": 218.5,
+      "duration": 2.8,
+      "timeline_start": 18.7,
+      "timeline_end": 21.5,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "...they tried to fight him with weapons."
+    },
+    {
+      "scene_id": "scene_07",
+      "beat": "Beat 07 — Rocky's Psychological Decoding",
+      "source_clip": "output/clip_cache/kgf_garuda_terror_1080p.mp4",
+      "start_time": 213.0,
+      "duration": 3.0,
+      "timeline_start": 21.5,
+      "timeline_end": 24.5,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "Rocky understood something deeper."
+    },
+    {
+      "scene_id": "scene_08",
+      "beat": "Beat 08 — The Illusion of Inescapable Oppression",
+      "source_clip": "output/clip_cache/kgf_rocky_enters_mines_1080p.mp4",
+      "start_time": 203.0,
+      "duration": 2.78,
+      "timeline_start": 24.5,
+      "timeline_end": 27.28,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "A dictator only rules as long as the oppressed believe defiance is impossible."
+    },
+    {
+      "scene_id": "scene_09",
+      "beat": "Beat 09 — Refusing to Bow",
+      "source_clip": "output/clip_cache/kgf_the_rise_of_rocky_1080p.mp4",
+      "start_time": 217.5,
+      "duration": 5.22,
+      "timeline_start": 27.28,
+      "timeline_end": 32.5,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "So in a world where survival meant dropping to your knees, Rocky refused to bow."
+    },
+    {
+      "scene_id": "scene_10",
+      "beat": "Beat 10 — Shattering Garuda's Invincibility",
+      "source_clip": "output/clip_cache/kgf_rocky_enters_mines_1080p.mp4",
+      "start_time": 218.0,
+      "duration": 3.2,
+      "timeline_start": 32.5,
+      "timeline_end": 35.7,
+      "motion": "FAST_ZOOM",
+      "narration_line": "Every strike he delivered wasn't to prove his physical strength—"
+    },
+    {
+      "scene_id": "scene_11",
+      "beat": "Beat 11 — The Myth Destroyed in the Dirt",
+      "source_clip": "output/clip_cache/kgf_rocky_enters_mines_1080p.mp4",
+      "start_time": 243.5,
+      "duration": 2.8,
+      "timeline_start": 35.7,
+      "timeline_end": 38.5,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "...it was to shatter the illusion of Garuda's invincibility."
+    },
+    {
+      "scene_id": "scene_12",
+      "beat": "Beat 12 — The Awakening of the Oppressed",
+      "source_clip": "output/clip_cache/kgf_the_rise_of_rocky_1080p.mp4",
+      "start_time": 118.0,
+      "duration": 3.5,
+      "timeline_start": 38.5,
+      "timeline_end": 42.0,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "Rocky didn’t just enter KGF to kill a tyrant."
+    },
+    {
+      "scene_id": "scene_13",
+      "beat": "Beat 13 — Making Fear Change Sides",
+      "source_clip": "output/clip_cache/kgf_the_rise_of_rocky_1080p.mp4",
+      "start_time": 169.0,
+      "duration": 4.44,
+      "timeline_start": 42.0,
+      "timeline_end": 46.44,
+      "motion": "SLOW_PUSH_IN",
+      "narration_line": "He entered an empire built on fear, and made fear change sides."
+    }
+  ]
+}

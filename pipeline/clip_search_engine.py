@@ -353,7 +353,7 @@ def _search_yt_dlp_candidates(
     """Fall back search using yt-dlp JSON dump."""
     search_cmd = [
         "yt-dlp",
-        "--extractor-args", "youtube:player_client=tv_embedded",
+        "--extractor-args", "youtube:player_client=android",
         "--default-search", f"ytsearch{max_results}",
         "--dump-json",
         "--no-playlist",
@@ -553,7 +553,7 @@ def search_and_acquire_clip(
                 output_template = str(CLIP_CACHE_DIR / f"{video_id}.%(ext)s")
                 download_cmd = [
                     "yt-dlp",
-                    "--extractor-args", "youtube:player_client=tv_embedded",
+                    "--extractor-args", "youtube:player_client=android",
                     "-f", "bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080]/best",
                     "--merge-output-format", "mp4",
                     "-o", output_template,
@@ -566,7 +566,7 @@ def search_and_acquire_clip(
                 if dl_res.returncode != 0:
                     fallback_dl = [
                         "yt-dlp",
-                        "--extractor-args", "youtube:player_client=tv_embedded",
+                        "--extractor-args", "youtube:player_client=android",
                         "-f", "b[height<=1080]/bv*[height<=1080]+ba/b",
                         "-o", output_template,
                         "--no-playlist",

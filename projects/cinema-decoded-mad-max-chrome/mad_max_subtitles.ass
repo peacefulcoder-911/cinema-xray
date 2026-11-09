@@ -1,0 +1,56 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,5,60,60,960,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.82,CenterBold,,0,0,0,,WHY WOULD SOMEONE
+Dialogue: 0,0:00:00.82,0:00:02.06,CenterBold,,0,0,0,,SPRAY {\c&H0000E5FF&}SILVER{\c&H00FFFFFF&} {\c&H0000E5FF&}PAINT{\c&H00FFFFFF&}
+Dialogue: 0,0:00:02.06,0:00:02.68,CenterBold,,0,0,0,,INTO THEIR MOUTH
+Dialogue: 0,0:00:02.68,0:00:03.72,CenterBold,,0,0,0,,JUST BEFORE {\c&H0000E5FF&}DYING?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:04.42,0:00:04.80,CenterBold,,0,0,0,,IN THE WASTELAND
+Dialogue: 0,0:00:04.80,0:00:05.52,CenterBold,,0,0,0,,OF MAD MAX,
+Dialogue: 0,0:00:05.80,0:00:06.60,CenterBold,,0,0,0,,THE WARBOYS DON'T
+Dialogue: 0,0:00:06.60,0:00:07.44,CenterBold,,0,0,0,,FEAR {\c&H0000E5FF&}DEATH,{\c&H00FFFFFF&} THEY
+Dialogue: 0,0:00:07.44,0:00:09.02,CenterBold,,0,0,0,,{\c&H0000E5FF&}WORSHIP{\c&H00FFFFFF&} IT. CONDITIONED
+Dialogue: 0,0:00:09.02,0:00:09.84,CenterBold,,0,0,0,,UNDER {\c&H0000E5FF&}IMMORTAN{\c&H00FFFFFF&} {\c&H0000E5FF&}JOE,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.18,0:00:10.74,CenterBold,,0,0,0,,THEY {\c&H0000E5FF&}BELIEVE{\c&H00FFFFFF&} {\c&H0000E5FF&}DYING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.74,0:00:11.32,CenterBold,,0,0,0,,IN HIS SERVICE
+Dialogue: 0,0:00:11.32,0:00:12.70,CenterBold,,0,0,0,,GUARANTEES ETERNAL GLORY
+Dialogue: 0,0:00:12.70,0:00:14.12,CenterBold,,0,0,0,,IN {\c&H0000E5FF&}VALHALLA.{\c&H00FFFFFF&} THE
+Dialogue: 0,0:00:14.12,0:00:14.90,CenterBold,,0,0,0,,{\c&H0000E5FF&}CHROME{\c&H00FFFFFF&} SPRAY ISN'T
+Dialogue: 0,0:00:14.90,0:00:15.94,CenterBold,,0,0,0,,MADNESS. TO THE
+Dialogue: 0,0:00:15.94,0:00:17.18,CenterBold,,0,0,0,,WARBOYS, MACHINES ARE
+Dialogue: 0,0:00:17.18,0:00:18.10,CenterBold,,0,0,0,,IMMORTAL, AND {\c&H0000E5FF&}CHROME{\c&H00FFFFFF&}
+Dialogue: 0,0:00:18.10,0:00:19.00,CenterBold,,0,0,0,,IS SACRED {\c&H0000E5FF&}METAL.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:19.60,0:00:20.08,CenterBold,,0,0,0,,BY PAINTING THEIR
+Dialogue: 0,0:00:20.08,0:00:20.88,CenterBold,,0,0,0,,MOUTH {\c&H0000E5FF&}SILVER,{\c&H00FFFFFF&} THEY
+Dialogue: 0,0:00:20.88,0:00:21.64,CenterBold,,0,0,0,,TURN FROM MORTAL
+Dialogue: 0,0:00:21.64,0:00:22.74,CenterBold,,0,0,0,,FLESH INTO MECHANICAL
+Dialogue: 0,0:00:22.74,0:00:24.38,CenterBold,,0,0,0,,{\c&H0000E5FF&}WEAPONS.{\c&H00FFFFFF&} THEIR DESPERATE
+Dialogue: 0,0:00:24.38,0:00:25.40,CenterBold,,0,0,0,,CRY, {\c&H0000E5FF&}WITNESS{\c&H00FFFFFF&} {\c&H0000E5FF&}ME,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:25.64,0:00:26.80,CenterBold,,0,0,0,,TRANSFORMS SUICIDE INTO
+Dialogue: 0,0:00:26.80,0:00:27.64,CenterBold,,0,0,0,,A CELEBRATED PUBLIC
+Dialogue: 0,0:00:27.64,0:00:29.62,CenterBold,,0,0,0,,PERFORMANCE. {\c&H0000E5FF&}IMMORTAN{\c&H00FFFFFF&} JOE'S
+Dialogue: 0,0:00:29.62,0:00:30.48,CenterBold,,0,0,0,,TRUE POWER ISN'T
+Dialogue: 0,0:00:30.48,0:00:31.24,CenterBold,,0,0,0,,{\c&H0000E5FF&}WEAPONS{\c&H00FFFFFF&} OR WATER,
+Dialogue: 0,0:00:31.80,0:00:33.18,CenterBold,,0,0,0,,IT'S PSYCHOLOGICAL {\c&H0000E5FF&}ENSLAVEMENT.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:33.66,0:00:34.28,CenterBold,,0,0,0,,HE CONVINCED {\c&H0000E5FF&}DYING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:34.28,0:00:34.78,CenterBold,,0,0,0,,MEN THAT THEIR
+Dialogue: 0,0:00:34.78,0:00:35.90,CenterBold,,0,0,0,,EXPLOITATION WAS SUPREME
+Dialogue: 0,0:00:35.90,0:00:37.30,CenterBold,,0,0,0,,HONOR. THAT'S THE
+Dialogue: 0,0:00:37.30,0:00:38.68,CenterBold,,0,0,0,,TERRIFYING PART. {\c&H0000E5FF&}IMMORTAN{\c&H00FFFFFF&}
+Dialogue: 0,0:00:38.68,0:00:39.34,CenterBold,,0,0,0,,{\c&H0000E5FF&}JOE{\c&H00FFFFFF&} DOESN'T JUST
+Dialogue: 0,0:00:39.34,0:00:40.12,CenterBold,,0,0,0,,COMMAND AN ARMY
+Dialogue: 0,0:00:40.12,0:00:40.82,CenterBold,,0,0,0,,WILLING TO DIE
+Dialogue: 0,0:00:40.82,0:00:41.66,CenterBold,,0,0,0,,FOR HIM. HE
+Dialogue: 0,0:00:41.66,0:00:42.52,CenterBold,,0,0,0,,CREATES AN ARMY
+Dialogue: 0,0:00:42.52,0:00:43.30,CenterBold,,0,0,0,,THAT {\c&H0000E5FF&}BELIEVES{\c&H00FFFFFF&} {\c&H0000E5FF&}DYING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:43.30,0:00:43.90,CenterBold,,0,0,0,,FOR HIM IS
+Dialogue: 0,0:00:43.90,0:00:44.38,CenterBold,,0,0,0,,A {\c&H0000E5FF&}REWARD.{\c&H00FFFFFF&}

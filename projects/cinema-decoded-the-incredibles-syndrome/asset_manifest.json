@@ -1,0 +1,71 @@
+{
+  "project_id": "cinema-decoded-the-incredibles-syndrome",
+  "movie": "The Incredibles (2004)",
+  "director": "Brad Bird",
+  "lead_actor": "Jason Lee (Syndrome) / Craig T. Nelson (Mr. Incredible)",
+  "assets": [
+    {
+      "beat_id": "beat_01_hook_syndrome_contradiction",
+      "clip_file": "output/clip_cache/incredibles_syndrome_island_reveal_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=kBUI2cvwhm8",
+      "resolution": "1920x1080",
+      "start_sec": 22.0,
+      "duration": 6.20,
+      "description": "Adult Syndrome floating down in rocket boots, sneering with immense arrogance."
+    },
+    {
+      "beat_id": "beat_02a_childhood_fanaticism",
+      "clip_file": "output/clip_cache/incredibles_incrediboy_intro_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=9-LiOj-saa0",
+      "resolution": "1920x1080",
+      "start_sec": 12.0,
+      "duration": 5.30,
+      "description": "Young Buddy in his homemade mask and rocket boots grinning eagerly up at Mr. Incredible."
+    },
+    {
+      "beat_id": "beat_02b_defining_rejection",
+      "clip_file": "output/clip_cache/incredibles_mr_incredible_rejection_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=-VGtQoxYbrc",
+      "resolution": "1920x1080",
+      "start_sec": 32.0,
+      "duration": 6.00,
+      "description": "Mr. Incredible looking sternly down: 'I work alone', as Buddy's face falls in heartbreak."
+    },
+    {
+      "beat_id": "beat_03_tech_omnidroid_rise",
+      "clip_file": "output/clip_cache/incredibles_omnidroid_battle_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=W_PBXAN3rVw",
+      "resolution": "2560x1440",
+      "start_sec": 95.0,
+      "duration": 11.50,
+      "description": "The massive Omnidroid with glowing red eye menacingly overpowering Mr. Incredible with mechanical brutality."
+    },
+    {
+      "beat_id": "beat_04_manifesto_contradiction",
+      "clip_file": "output/clip_cache/incredibles_syndrome_philosophy_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=j6cgIWoUrg0",
+      "resolution": "1920x804",
+      "start_sec": 12.0,
+      "duration": 5.00,
+      "description": "Syndrome speaking in intense dramatic close-up, delivering his famous manifesto."
+    },
+    {
+      "beat_id": "beat_05_staged_savior_spectacle",
+      "clip_file": "output/clip_cache/incredibles_syndrome_hero_act_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=uoaX1Ms0nRo",
+      "resolution": "1258x720",
+      "start_sec": 8.0,
+      "duration": 12.20,
+      "description": "Syndrome hovering over Metroville with his wrist remote, shooting the Omnidroid, triumphantly waving to the cheering crowd."
+    },
+    {
+      "beat_id": "beat_06_final_psychological_payoff",
+      "clip_file": "output/clip_cache/incredibles_syndrome_island_reveal_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=kBUI2cvwhm8",
+      "resolution": "1920x1080",
+      "start_sec": 148.0,
+      "duration": 6.45,
+      "description": "Syndrome laughing with manic pride, glowing with zero-point energy, the portrait of a rejected boy demanding worship."
+    }
+  ]
+}

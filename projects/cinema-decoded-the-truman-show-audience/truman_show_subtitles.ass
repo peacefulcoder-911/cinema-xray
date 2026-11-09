@@ -1,0 +1,64 @@
+[Script Info]
+Title: Cinema X-Ray Center Bold Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,10,4,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.99,0:00:01.04,CenterBold,,0,0,0,,{\c&H0000E5FF&}MILLIONS{\c&H00FFFFFF&} OF PEOPLE
+Dialogue: 0,0:00:01.04,0:00:01.82,CenterBold,,0,0,0,,KNOW {\c&H0000E5FF&}TRUMAN{\c&H00FFFFFF&} IS
+Dialogue: 0,0:00:01.82,0:00:02.46,CenterBold,,0,0,0,,BEING {\c&H0000E5FF&}WATCHED{\c&H00FFFFFF&},
+Dialogue: 0,0:00:02.78,0:00:04.04,CenterBold,,0,0,0,,BUT {\c&H0000E5FF&}ALMOST{\c&H00FFFFFF&} NOBODY
+Dialogue: 0,0:00:04.04,0:00:05.16,CenterBold,,0,0,0,,{\c&H0000E5FF&}TRIES{\c&H00FFFFFF&} TO STOP IT.
+Dialogue: 0,0:00:05.76,0:00:06.64,CenterBold,,0,0,0,,EVERY {\c&H0000E5FF&}NEIGHBOUR{\c&H00FFFFFF&},
+Dialogue: 0,0:00:06.98,0:00:07.40,CenterBold,,0,0,0,,{\c&H0000E5FF&}CONVERSATION{\c&H00FFFFFF&},
+Dialogue: 0,0:00:07.88,0:00:08.68,CenterBold,,0,0,0,,AND {\c&H0000E5FF&}COINCIDENCE{\c&H00FFFFFF&} IN
+Dialogue: 0,0:00:08.68,0:00:09.86,CenterBold,,0,0,0,,{\c&H0000E5FF&}SEAHAVEN{\c&H00FFFFFF&} IS STAGED
+Dialogue: 0,0:00:09.86,0:00:10.64,CenterBold,,0,0,0,,BY A {\c&H0000E5FF&}BILLION{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.64,0:00:11.92,CenterBold,,0,0,0,,-DOLLAR {\c&H0000E5FF&}TELEVISION{\c&H00FFFFFF&} BROADCAST.
+Dialogue: 0,0:00:12.54,0:00:13.92,CenterBold,,0,0,0,,YET TRUMAN {\c&H0000E5FF&}GENUINELY{\c&H00FFFFFF&}
+Dialogue: 0,0:00:13.92,0:00:14.90,CenterBold,,0,0,0,,{\c&H0000E5FF&}BELIEVES{\c&H00FFFFFF&} HIS LIFE
+Dialogue: 0,0:00:14.90,0:00:15.56,CenterBold,,0,0,0,,IS {\c&H0000E5FF&}ORDINARY{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:16.48,0:00:17.26,CenterBold,,0,0,0,,{\c&H0000E5FF&}UNREALOUTSIDE{\c&H00FFFFFF&} THE DOME,
+Dialogue: 0,0:00:17.76,0:00:18.48,CenterBold,,0,0,0,,{\c&H0000E5FF&}MILLIONS{\c&H00FFFFFF&} OF VIEWERS
+Dialogue: 0,0:00:18.48,0:00:20.04,CenterBold,,0,0,0,,WATCH HIS DEEPEST {\c&H0000E5FF&}HEARTBREAKS{\c&H00FFFFFF&},
+Dialogue: 0,0:00:20.62,0:00:21.46,CenterBold,,0,0,0,,PRIVATE {\c&H0000E5FF&}ANXIETIES{\c&H00FFFFFF&},
+Dialogue: 0,0:00:21.74,0:00:22.66,CenterBold,,0,0,0,,AND DAILY {\c&H0000E5FF&}ROUTINES{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:23.28,0:00:24.24,CenterBold,,0,0,0,,{\c&H0000E5FF&}THEY{\c&H00FFFFFF&} FEEL REAL
+Dialogue: 0,0:00:24.24,0:00:25.94,CenterBold,,0,0,0,,{\c&H0000E5FF&}AFFECTION{\c&H00FFFFFF&} FOR HIM—AND
+Dialogue: 0,0:00:25.94,0:00:26.72,CenterBold,,0,0,0,,THEY {\c&H0000E5FF&}NEVER{\c&H00FFFFFF&} TURN
+Dialogue: 0,0:00:26.72,0:00:27.54,CenterBold,,0,0,0,,THE {\c&H0000E5FF&}TELEVISION{\c&H00FFFFFF&} OFF.
+Dialogue: 0,0:00:28.24,0:00:29.12,CenterBold,,0,0,0,,{\c&H0000E5FF&}THAT{\c&H00FFFFFF&} IS THE
+Dialogue: 0,0:00:29.12,0:00:30.44,CenterBold,,0,0,0,,FILM'S CHILLING {\c&H0000E5FF&}CONTRADICTION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:31.24,0:00:32.46,CenterBold,,0,0,0,,THEIR {\c&H0000E5FF&}ENTERTAINMENT{\c&H00FFFFFF&} REQUIRES
+Dialogue: 0,0:00:32.46,0:00:33.44,CenterBold,,0,0,0,,HIS {\c&H0000E5FF&}IMPRISONMENT{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:33.84,0:00:34.76,CenterBold,,0,0,0,,{\c&H0000E5FF&}THEY{\c&H00FFFFFF&} CAN WEEP
+Dialogue: 0,0:00:34.76,0:00:35.42,CenterBold,,0,0,0,,FOR HIS {\c&H0000E5FF&}PAIN{\c&H00FFFFFF&}
+Dialogue: 0,0:00:35.42,0:00:37.12,CenterBold,,0,0,0,,WHILE SILENTLY {\c&H0000E5FF&}DEMANDING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:37.12,0:00:37.86,CenterBold,,0,0,0,,THAT THE {\c&H0000E5FF&}CAMERAS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:37.86,0:00:38.44,CenterBold,,0,0,0,,KEEP {\c&H0000E5FF&}ROLLING{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:39.52,0:00:40.22,CenterBold,,0,0,0,,{\c&H0000E5FF&}TRUMAN{\c&H00FFFFFF&} THINKS THE
+Dialogue: 0,0:00:40.22,0:00:41.10,CenterBold,,0,0,0,,{\c&H0000E5FF&}ENTIRE{\c&H00FFFFFF&} WORLD IS
+Dialogue: 0,0:00:41.10,0:00:41.68,CenterBold,,0,0,0,,{\c&H0000E5FF&}WATCHING{\c&H00FFFFFF&} HIM.
+Dialogue: 0,0:00:42.40,0:00:43.06,CenterBold,,0,0,0,,BUT HE DOESN'T
+Dialogue: 0,0:00:43.06,0:00:43.78,CenterBold,,0,0,0,,{\c&H0000E5FF&}REALIZE{\c&H00FFFFFF&} THAT THE
+Dialogue: 0,0:00:43.78,0:00:44.68,CenterBold,,0,0,0,,PEOPLE {\c&H0000E5FF&}WATCHING{\c&H00FFFFFF&} HAVE
+Dialogue: 0,0:00:44.68,0:00:45.40,CenterBold,,0,0,0,,{\c&H0000E5FF&}BECOME{\c&H00FFFFFF&} PART OF
+Dialogue: 0,0:00:45.40,0:00:46.00,CenterBold,,0,0,0,,THE {\c&H0000E5FF&}REASON{\c&H00FFFFFF&} HE
+Dialogue: 0,0:00:46.00,0:00:46.80,CenterBold,,0,0,0,,{\c&H0000E5FF&}CANNOT{\c&H00FFFFFF&} ESCAPE.
+Dialogue: 0,0:00:47.70,0:00:48.16,CenterBold,,0,0,0,,AND THAT'S WHAT
+Dialogue: 0,0:00:48.16,0:00:48.70,CenterBold,,0,0,0,,{\c&H0000E5FF&}MAKES{\c&H00FFFFFF&} THE FILM
+Dialogue: 0,0:00:48.70,0:00:49.46,CenterBold,,0,0,0,,SO {\c&H0000E5FF&}UNCOMFORTABLE{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:50.32,0:00:50.82,CenterBold,,0,0,0,,{\c&H0000E5FF&}SOMETIMES{\c&H00FFFFFF&},
+Dialogue: 0,0:00:51.26,0:00:52.26,CenterBold,,0,0,0,,CARING ABOUT SOMEONE'S
+Dialogue: 0,0:00:52.26,0:00:53.12,CenterBold,,0,0,0,,{\c&H0000E5FF&}STORY{\c&H00FFFFFF&} ISN'T THE
+Dialogue: 0,0:00:53.12,0:00:53.90,CenterBold,,0,0,0,,SAME AS {\c&H0000E5FF&}CARING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:53.90,0:00:54.60,CenterBold,,0,0,0,,ABOUT THEIR {\c&H0000E5FF&}FREEDOM{\c&H00FFFFFF&}.

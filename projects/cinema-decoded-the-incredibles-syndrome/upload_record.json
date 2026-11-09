@@ -1,0 +1,73 @@
+{
+  "status": "SCHEDULED",
+  "slot": "NIGHT",
+  "publish_at_iso": "2026-11-10T15:00:00Z",
+  "local_time_desc": "08:30 PM IST (Tuesday, Nov 10, 2026)",
+  "video_id": "30B8u0FEePE",
+  "youtube_url": "https://youtu.be/30B8u0FEePE",
+  "title": "The Villain Who Only Wanted To Be Loved #shorts",
+  "uploaded_at": "2026-11-09T03:55:36.266705+00:00",
+  "video_file": "/Users/vinaybt/Downloads/cinema-xray/output/final_video/cinema_xray_the_incredibles_8k.mp4",
+  "thumbnail_file": "/Users/vinaybt/Downloads/cinema-xray/output/thumbnails_short/the_incredibles_syndrome_thumb.jpg",
+  "video_size_mb": 129.44,
+  "youtube_response": {
+    "kind": "youtube#video",
+    "etag": "Rdny2vCkcBXiRpiG01yVe-CA4eI",
+    "id": "30B8u0FEePE",
+    "snippet": {
+      "publishedAt": "2026-11-09T03:55:07Z",
+      "channelId": "UCglv3tAGqrOIoY03wCTVxgg",
+      "title": "The Villain Who Only Wanted To Be Loved #shorts",
+      "description": "In Pixar's 2004 classic 'The Incredibles', Syndrome claims his mission is democratic: 'When everyone's super, no one will be.'\n\nBut look closely at his actual plan. He didn't build weapons to abolish heroes\u2014he staged a catastrophic robot invasion just so he could swoop in and play the savior.\n\nHis greatest invention wasn't zero-point energy or the Omnidroid. It was an elaborate mechanism to force the world to give him the admiration he was denied as a boy.\n\n\ud83c\udfac Film: The Incredibles (2004)\n\ud83d\udc64 Director: Brad Bird\n\ud83c\udfe2 Studio: Pixar / Walt Disney Pictures\n\ud83c\udfa5 Series: Cinema Decoded\n\n#TheIncredibles #Syndrome #Pixar #AnimationAnalysis #CinemaDecoded #FilmAnalysis #MrIncredible #Shorts",
+      "thumbnails": {
+        "default": {
+          "url": "https://i9.ytimg.com/vi/30B8u0FEePE/default.jpg?sqp=CJSIxdcG&rs=AOn4CLDTuWmEYg6L5LALzOELSRjA8KrncQ",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i9.ytimg.com/vi/30B8u0FEePE/mqdefault.jpg?sqp=CJSIxdcG&rs=AOn4CLDbP3O63btDylmEyuBVs--dOUNumg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i9.ytimg.com/vi/30B8u0FEePE/hqdefault.jpg?sqp=CJSIxdcG&rs=AOn4CLCEWmbt2HiZAXsxYpiJZRgrMISBjg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Cinema X-Ray",
+      "tags": [
+        "buddy pine",
+        "cinema decoded",
+        "film analysis shorts",
+        "incrediboy",
+        "mr incredible and syndrome",
+        "pixar the incredibles",
+        "pixar villain breakdown",
+        "syndrome the incredibles",
+        "the incredibles",
+        "the incredibles 2004",
+        "the incredibles analysis",
+        "when everyones super no one will be"
+      ],
+      "categoryId": "1",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "The Villain Who Only Wanted To Be Loved #shorts",
+        "description": "In Pixar's 2004 classic 'The Incredibles', Syndrome claims his mission is democratic: 'When everyone's super, no one will be.'\n\nBut look closely at his actual plan. He didn't build weapons to abolish heroes\u2014he staged a catastrophic robot invasion just so he could swoop in and play the savior.\n\nHis greatest invention wasn't zero-point energy or the Omnidroid. It was an elaborate mechanism to force the world to give him the admiration he was denied as a boy.\n\n\ud83c\udfac Film: The Incredibles (2004)\n\ud83d\udc64 Director: Brad Bird\n\ud83c\udfe2 Studio: Pixar / Walt Disney Pictures\n\ud83c\udfa5 Series: Cinema Decoded\n\n#TheIncredibles #Syndrome #Pixar #AnimationAnalysis #CinemaDecoded #FilmAnalysis #MrIncredible #Shorts"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "status": {
+      "uploadStatus": "uploaded",
+      "privacyStatus": "private",
+      "publishAt": "2026-11-10T15:00:00Z",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "selfDeclaredMadeForKids": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "topic": "cinema-decoded-the-martian-problem-solving",
+  "title": "The Martian: How Breaking a Huge Problem Into Small Problems Saves a Life",
+  "master_8k": "/Users/vinaybt/Downloads/cinema-xray/output/final_video/cinema_xray_the_martian_8k.mp4",
+  "thumbnail": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-the-martian-problem-solving/thumbnail.jpg",
+  "total_duration": 46.533333,
+  "resolution_8k": "4320x7680",
+  "fps": "30/1",
+  "size_8k_mb": 453.27,
+  "bitrate_8k_mbps": 81.71,
+  "qc_frames_extracted": 6,
+  "checks": {
+    "aspect_ratio_9_16": true,
+    "duration_within_target": true,
+    "has_loudness_normalized_audio": true,
+    "has_center_bold_ass_subtitles": true,
+    "no_box_text_overlays": true,
+    "uses_gemini_achird_emotion_voice": true,
+    "super_resolution_8k": true
+  }
+}

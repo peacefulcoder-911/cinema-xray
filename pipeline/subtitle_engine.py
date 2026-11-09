@@ -64,7 +64,7 @@ def align_with_whisper(audio_path: str, script_text: str) -> List[Dict[str, Any]
 
     print("🎙️  Running faster-whisper acoustic word alignment...")
     model = WhisperModel('base', device='cpu', compute_type='int8')
-    segments, info = model.transcribe(audio_np, word_timestamps=True, initial_prompt=script_text)
+    segments, info = model.transcribe(audio_np, word_timestamps=True, language="en")
 
     words = []
     for segment in segments:
@@ -80,9 +80,10 @@ def align_with_whisper(audio_path: str, script_text: str) -> List[Dict[str, Any]
     if not words:
         return []
 
-    # Clamp first word start to actual sound onset so no premature display
-    if words[0]['start'] < first_sound:
-        words[0]['start'] = float(round(first_sound, 2))
+    # Clamp first word start to actual sound onset if valid and earlier than word end
+    if 0.0 <= first_sound < words[0]['end']:
+        if words[0]['start'] < first_sound:
+            words[0]['start'] = float(round(first_sound, 2))
 
     # 3. Group words into high-retention rapid cards (2-3 words)
     # Break strictly on pauses (>=0.18s), punctuation, or max duration

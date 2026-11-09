@@ -1,0 +1,62 @@
+{
+  "project_id": "cinema-decoded-the-thing-paranoia",
+  "movie": "The Thing (1982)",
+  "director": "John Carpenter",
+  "lead_actor": "Kurt Russell",
+  "assets": [
+    {
+      "beat_id": "beat_01_hook_alien_imitation",
+      "clip_file": "output/clip_cache/the_thing_kennel_mimicry_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=1V_xTqJM9Yg",
+      "resolution": "1920x1080",
+      "start_sec": 12.0,
+      "duration": 7.80,
+      "description": "The kennel scene where the organism begins morphing, horrifying the researchers."
+    },
+    {
+      "beat_id": "beat_02_outpost_isolation_enemy_inside",
+      "clip_file": "output/clip_cache/the_thing_outpost_isolation_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=F3a5X5q9d2A",
+      "resolution": "2560x1440",
+      "start_sec": 25.0,
+      "duration": 10.70,
+      "description": "Howling blizzard engulfing Outpost 31 in Antarctica, cutting inside to the tense bunker."
+    },
+    {
+      "beat_id": "beat_03_collapse_of_trust_paranoia",
+      "clip_file": "output/clip_cache/the_thing_tied_crew_standoff_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=hqVbOv5qE2U",
+      "resolution": "1920x1080",
+      "start_sec": 35.0,
+      "duration": 11.30,
+      "description": "The crew bound to the couch with ropes and copper wire, staring at each other with unadulterated suspicion."
+    },
+    {
+      "beat_id": "beat_04_macready_blood_test_execution",
+      "clip_file": "output/clip_cache/the_thing_heating_wire_test_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=0k5GjKjU_wE",
+      "resolution": "2560x1280",
+      "start_sec": 10.0,
+      "duration": 9.00,
+      "description": "MacReady heating the copper wire with a blowtorch until glowing red, advancing toward the blood petri dishes."
+    },
+    {
+      "beat_id": "beat_05_palmer_reaction_chemical_humanity",
+      "clip_file": "output/clip_cache/the_thing_palmer_reaction_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=gT8oKjT9P2A",
+      "resolution": "1920x1080",
+      "start_sec": 5.0,
+      "duration": 9.00,
+      "description": "The red hot wire touches Palmer's blood, the blood shrieks and leaps away, and Palmer mutates into a monstrosity."
+    },
+    {
+      "beat_id": "beat_06_final_snow_fire_standoff",
+      "clip_file": "output/clip_cache/the_thing_ending_snow_fire_1080p.mp4",
+      "source_url": "https://www.youtube.com/watch?v=GA4L_E_qM_4",
+      "resolution": "2560x1090",
+      "start_sec": 35.0,
+      "duration": 7.65,
+      "description": "MacReady and Childs sitting in the burning Antarctic ruins, waiting in the freezing cold, unable to trust."
+    }
+  ]
+}

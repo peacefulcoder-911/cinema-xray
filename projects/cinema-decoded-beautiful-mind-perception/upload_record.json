@@ -1,0 +1,76 @@
+{
+  "status": "SCHEDULED",
+  "slot": "AFTERNOON",
+  "publish_at_iso": "2026-11-09T09:00:00Z",
+  "local_time_desc": "02:30 PM IST (Monday, Nov 9, 2026)",
+  "video_id": "TgHAnyumz74",
+  "youtube_url": "https://youtu.be/TgHAnyumz74",
+  "title": "Why You Believed A Beautiful Mind's Biggest Lie \ud83e\udd2f #shorts",
+  "uploaded_at": "2026-11-08T20:15:13.328644+00:00",
+  "video_file": "/Users/vinaybt/Downloads/cinema-xray/output/final_video/cinema_xray_a_beautiful_mind_8k.mp4",
+  "thumbnail_file": "/Users/vinaybt/Downloads/cinema-xray/output/thumbnails_short/beautiful_mind_perception_thumb.jpg",
+  "video_size_mb": 124.54,
+  "youtube_response": {
+    "kind": "youtube#video",
+    "etag": "DYVy8F3c-xb6tLVbpPEHlavSkaY",
+    "id": "TgHAnyumz74",
+    "snippet": {
+      "publishedAt": "2026-11-08T20:14:44Z",
+      "channelId": "UCglv3tAGqrOIoY03wCTVxgg",
+      "title": "Why You Believed A Beautiful Mind's Biggest Lie \ud83e\udd2f #shorts",
+      "description": "How does Ron Howard make us believe something that never existed? In A Beautiful Mind (2001), John Nash's hallucinations aren't shot with distorted lenses, eerie lighting, or horror music. By presenting his delusions as ordinary, grounded reality, the film forces the audience to experience schizophrenia from the inside\u2014trusting his perspective completely until the horrifying hospital revelation.\n\nSubscribe to Cinema Decoded for deep cinematic breakdowns of narrative perspective, visual storytelling, and psychological film craft.\n\n#ABeautifulMind #RussellCrowe #CinemaDecoded #FilmAnalysis #MovieDetails #Cinematography #PlotTwist #PsychologicalDrama #RonHoward",
+      "thumbnails": {
+        "default": {
+          "url": "https://i9.ytimg.com/vi/TgHAnyumz74/default.jpg?sqp=CJiuw9cG&rs=AOn4CLDilvdyMUBRmE2TsEYoJxDj8pDEjQ",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i9.ytimg.com/vi/TgHAnyumz74/mqdefault.jpg?sqp=CJiuw9cG&rs=AOn4CLDIAhG89Nio8NVSvp9JrlPeYSAaTg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i9.ytimg.com/vi/TgHAnyumz74/hqdefault.jpg?sqp=CJiuw9cG&rs=AOn4CLDvrN_KBMvgpFfxXnB8C3EVW7AMmg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Cinema X-Ray",
+      "tags": [
+        "A Beautiful Mind",
+        "Cinema Decoded",
+        "Cinematography",
+        "Ed Harris",
+        "Film Analysis",
+        "John Nash",
+        "Movie Details",
+        "Movie Psychology",
+        "Paul Bettany",
+        "Plot Twist",
+        "Psychological Thriller",
+        "Ron Howard",
+        "Russell Crowe",
+        "Schizophrenia Cinema",
+        "Subjective Perspective"
+      ],
+      "categoryId": "24",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Why You Believed A Beautiful Mind's Biggest Lie \ud83e\udd2f #shorts",
+        "description": "How does Ron Howard make us believe something that never existed? In A Beautiful Mind (2001), John Nash's hallucinations aren't shot with distorted lenses, eerie lighting, or horror music. By presenting his delusions as ordinary, grounded reality, the film forces the audience to experience schizophrenia from the inside\u2014trusting his perspective completely until the horrifying hospital revelation.\n\nSubscribe to Cinema Decoded for deep cinematic breakdowns of narrative perspective, visual storytelling, and psychological film craft.\n\n#ABeautifulMind #RussellCrowe #CinemaDecoded #FilmAnalysis #MovieDetails #Cinematography #PlotTwist #PsychologicalDrama #RonHoward"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "status": {
+      "uploadStatus": "uploaded",
+      "privacyStatus": "private",
+      "publishAt": "2026-11-09T09:00:00Z",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "selfDeclaredMadeForKids": false
+    }
+  }
+}

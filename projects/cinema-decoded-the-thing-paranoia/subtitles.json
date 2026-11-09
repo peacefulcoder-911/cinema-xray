@@ -1,0 +1,525 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 47,
+  "impact_timestamps": [
+    {
+      "word": "IMAGINE",
+      "start": 0.35,
+      "end": 1.26
+    },
+    {
+      "word": "CREATURE",
+      "start": 1.26,
+      "end": 1.88
+    },
+    {
+      "word": "EXACTLY",
+      "start": 1.88,
+      "end": 2.82
+    },
+    {
+      "word": "FRIENDS",
+      "start": 2.82,
+      "end": 3.88
+    },
+    {
+      "word": "IMAGINE",
+      "start": 4.68,
+      "end": 5.6
+    },
+    {
+      "word": "WAY",
+      "start": 5.6,
+      "end": 6.24
+    },
+    {
+      "word": "HUMAN",
+      "start": 6.24,
+      "end": 7.32
+    },
+    {
+      "word": "INSIDE",
+      "start": 8.22,
+      "end": 9.46
+    },
+    {
+      "word": "ORGANISM",
+      "start": 10.02,
+      "end": 11.0
+    },
+    {
+      "word": "REPLICATES",
+      "start": 11.0,
+      "end": 12.38
+    },
+    {
+      "word": "MICROSCOPIC",
+      "start": 12.38,
+      "end": 14.06
+    },
+    {
+      "word": "DANGER",
+      "start": 14.7,
+      "end": 15.66
+    },
+    {
+      "word": "STORM",
+      "start": 15.66,
+      "end": 16.08
+    },
+    {
+      "word": "OUTSIDE",
+      "start": 16.08,
+      "end": 17.32
+    },
+    {
+      "word": "ROOM",
+      "start": 17.32,
+      "end": 17.8
+    },
+    {
+      "word": "WITH",
+      "start": 17.8,
+      "end": 18.18
+    },
+    {
+      "word": "DESTROYS",
+      "start": 19.1,
+      "end": 20.02
+    },
+    {
+      "word": "FOUNDATION",
+      "start": 20.02,
+      "end": 22.2
+    },
+    {
+      "word": "NERVOUS",
+      "start": 23.06,
+      "end": 24.06
+    },
+    {
+      "word": "DEFENSIVE",
+      "start": 24.06,
+      "end": 25.12
+    },
+    {
+      "word": "ORDINARY",
+      "start": 25.12,
+      "end": 26.58
+    },
+    {
+      "word": "MONSTER",
+      "start": 27.08,
+      "end": 28.26
+    },
+    {
+      "word": "WEARING",
+      "start": 28.26,
+      "end": 29.4
+    },
+    {
+      "word": "SURVIVE",
+      "start": 30.26,
+      "end": 30.84
+    },
+    {
+      "word": "RADY",
+      "start": 31.0,
+      "end": 31.76
+    },
+    {
+      "word": "CREW",
+      "start": 31.76,
+      "end": 32.3
+    },
+    {
+      "word": "PLUNGES",
+      "start": 32.3,
+      "end": 33.1
+    },
+    {
+      "word": "GLOWING",
+      "start": 33.1,
+      "end": 34.06
+    },
+    {
+      "word": "BLOOD",
+      "start": 34.06,
+      "end": 34.9
+    },
+    {
+      "word": "FORCING",
+      "start": 35.3,
+      "end": 36.1
+    },
+    {
+      "word": "VIOLENTLY",
+      "start": 36.1,
+      "end": 37.5
+    },
+    {
+      "word": "REVEAL",
+      "start": 37.5,
+      "end": 38.28
+    },
+    {
+      "word": "WORKS",
+      "start": 39.18,
+      "end": 40.02
+    },
+    {
+      "word": "HUMANITY",
+      "start": 40.64,
+      "end": 41.86
+    },
+    {
+      "word": "REDUCED",
+      "start": 41.86,
+      "end": 42.58
+    },
+    {
+      "word": "CHEMICAL",
+      "start": 42.58,
+      "end": 43.46
+    },
+    {
+      "word": "INNOCENT",
+      "start": 43.46,
+      "end": 44.8
+    },
+    {
+      "word": "PROVE",
+      "start": 44.8,
+      "end": 45.48
+    },
+    {
+      "word": "BEFORE",
+      "start": 45.48,
+      "end": 46.34
+    },
+    {
+      "word": "ANYONE",
+      "start": 46.34,
+      "end": 47.54
+    },
+    {
+      "word": "TERROR",
+      "start": 48.42,
+      "end": 49.14
+    },
+    {
+      "word": "JUST",
+      "start": 49.14,
+      "end": 49.7
+    },
+    {
+      "word": "IMITATE",
+      "start": 49.7,
+      "end": 51.08
+    },
+    {
+      "word": "ONCE",
+      "start": 51.68,
+      "end": 52.38
+    },
+    {
+      "word": "TRUST",
+      "start": 52.38,
+      "end": 53.02
+    },
+    {
+      "word": "EVERYONE",
+      "start": 53.58,
+      "end": 54.54
+    },
+    {
+      "word": "MONSTER",
+      "start": 54.54,
+      "end": 54.92
+    }
+  ],
+  "cards": [
+    {
+      "start": 0.35,
+      "end": 1.26,
+      "text": "IMAGINE BEING TRAPPED",
+      "highlight": "IMAGINE"
+    },
+    {
+      "start": 1.26,
+      "end": 1.88,
+      "text": "WITH A CREATURE",
+      "highlight": "CREATURE"
+    },
+    {
+      "start": 1.88,
+      "end": 2.82,
+      "text": "THAT LOOKS EXACTLY",
+      "highlight": "EXACTLY"
+    },
+    {
+      "start": 2.82,
+      "end": 3.88,
+      "text": "LIKE YOUR FRIENDS.",
+      "highlight": "FRIENDS"
+    },
+    {
+      "start": 4.68,
+      "end": 5.6,
+      "text": "NOW, IMAGINE HAVING",
+      "highlight": "IMAGINE"
+    },
+    {
+      "start": 5.6,
+      "end": 6.24,
+      "text": "NO WAY TO",
+      "highlight": "WAY"
+    },
+    {
+      "start": 6.24,
+      "end": 7.32,
+      "text": "KNOW WHO IS HUMAN.",
+      "highlight": "HUMAN"
+    },
+    {
+      "start": 8.22,
+      "end": 9.46,
+      "text": "INSIDE ALPOST -31,",
+      "highlight": "INSIDE"
+    },
+    {
+      "start": 10.02,
+      "end": 11.0,
+      "text": "AN ALIEN ORGANISM",
+      "highlight": "ORGANISM"
+    },
+    {
+      "start": 11.0,
+      "end": 12.38,
+      "text": "REPLICATES LIVING TISSUE",
+      "highlight": "REPLICATES"
+    },
+    {
+      "start": 12.38,
+      "end": 14.06,
+      "text": "WITH MICROSCOPIC PERFECTION.",
+      "highlight": "MICROSCOPIC"
+    },
+    {
+      "start": 14.7,
+      "end": 15.66,
+      "text": "THE DANGER ISN'T",
+      "highlight": "DANGER"
+    },
+    {
+      "start": 15.66,
+      "end": 16.08,
+      "text": "IN THE STORM",
+      "highlight": "STORM"
+    },
+    {
+      "start": 16.08,
+      "end": 17.32,
+      "text": "OUTSIDE, IT'S SITTING",
+      "highlight": "OUTSIDE"
+    },
+    {
+      "start": 17.32,
+      "end": 17.8,
+      "text": "IN THE ROOM",
+      "highlight": "ROOM"
+    },
+    {
+      "start": 17.8,
+      "end": 18.18,
+      "text": "WITH YOU.",
+      "highlight": "WITH"
+    },
+    {
+      "start": 19.1,
+      "end": 20.02,
+      "text": "THIS DESTROYS THE",
+      "highlight": "DESTROYS"
+    },
+    {
+      "start": 20.02,
+      "end": 22.2,
+      "text": "VERY FOUNDATION OF SURVIVAL, TRUST.",
+      "highlight": "FOUNDATION"
+    },
+    {
+      "start": 23.06,
+      "end": 24.06,
+      "text": "EVERY NERVOUS GLANCE",
+      "highlight": "NERVOUS"
+    },
+    {
+      "start": 24.06,
+      "end": 25.12,
+      "text": "AND DEFENSIVE ANSWER",
+      "highlight": "DEFENSIVE"
+    },
+    {
+      "start": 25.12,
+      "end": 26.58,
+      "text": "COULD BE ORDINARY FEAR",
+      "highlight": "ORDINARY"
+    },
+    {
+      "start": 27.08,
+      "end": 28.26,
+      "text": "OR A MONSTER",
+      "highlight": "MONSTER"
+    },
+    {
+      "start": 28.26,
+      "end": 29.4,
+      "text": "WEARING A HUMAN FACE.",
+      "highlight": "WEARING"
+    },
+    {
+      "start": 30.26,
+      "end": 30.84,
+      "text": "TO SURVIVE,",
+      "highlight": "SURVIVE"
+    },
+    {
+      "start": 31.0,
+      "end": 31.76,
+      "text": "MAC RADY TIES",
+      "highlight": "RADY"
+    },
+    {
+      "start": 31.76,
+      "end": 32.3,
+      "text": "HIS CREW DOWN",
+      "highlight": "CREW"
+    },
+    {
+      "start": 32.3,
+      "end": 33.1,
+      "text": "AND PLUNGES A",
+      "highlight": "PLUNGES"
+    },
+    {
+      "start": 33.1,
+      "end": 34.06,
+      "text": "GLOWING HOT WIRE",
+      "highlight": "GLOWING"
+    },
+    {
+      "start": 34.06,
+      "end": 34.9,
+      "text": "INTO THEIR BLOOD,",
+      "highlight": "BLOOD"
+    },
+    {
+      "start": 35.3,
+      "end": 36.1,
+      "text": "FORCING THE HIDDEN",
+      "highlight": "FORCING"
+    },
+    {
+      "start": 36.1,
+      "end": 37.5,
+      "text": "ORGANISM TO VIOLENTLY",
+      "highlight": "VIOLENTLY"
+    },
+    {
+      "start": 37.5,
+      "end": 38.28,
+      "text": "REVEAL ITSELF.",
+      "highlight": "REVEAL"
+    },
+    {
+      "start": 39.18,
+      "end": 40.02,
+      "text": "THE TEST WORKS,",
+      "highlight": "WORKS"
+    },
+    {
+      "start": 40.64,
+      "end": 41.86,
+      "text": "BUT HUMANITY HAS",
+      "highlight": "HUMANITY"
+    },
+    {
+      "start": 41.86,
+      "end": 42.58,
+      "text": "BEEN REDUCED TO",
+      "highlight": "REDUCED"
+    },
+    {
+      "start": 42.58,
+      "end": 43.46,
+      "text": "A CHEMICAL REACTION",
+      "highlight": "CHEMICAL"
+    },
+    {
+      "start": 43.46,
+      "end": 44.8,
+      "text": "WHERE INNOCENT MEN",
+      "highlight": "INNOCENT"
+    },
+    {
+      "start": 44.8,
+      "end": 45.48,
+      "text": "MUST PROVE THEY",
+      "highlight": "PROVE"
+    },
+    {
+      "start": 45.48,
+      "end": 46.34,
+      "text": "ARE HUMAN BEFORE",
+      "highlight": "BEFORE"
+    },
+    {
+      "start": 46.34,
+      "end": 47.54,
+      "text": "ANYONE WILL TRUST THEM.",
+      "highlight": "ANYONE"
+    },
+    {
+      "start": 48.42,
+      "end": 49.14,
+      "text": "THE TERROR ISN'T",
+      "highlight": "TERROR"
+    },
+    {
+      "start": 49.14,
+      "end": 49.7,
+      "text": "JUST THAT THE",
+      "highlight": "JUST"
+    },
+    {
+      "start": 49.7,
+      "end": 51.08,
+      "text": "ALIEN CAN IMITATE ANYONE,",
+      "highlight": "IMITATE"
+    },
+    {
+      "start": 51.68,
+      "end": 52.38,
+      "text": "IT'S THAT ONCE",
+      "highlight": "ONCE"
+    },
+    {
+      "start": 52.38,
+      "end": 53.02,
+      "text": "TRUST DIES,",
+      "highlight": "TRUST"
+    },
+    {
+      "start": 53.58,
+      "end": 54.54,
+      "text": "EVERYONE LOOKS LIKE",
+      "highlight": "EVERYONE"
+    },
+    {
+      "start": 54.54,
+      "end": 54.92,
+      "text": "A MONSTER.",
+      "highlight": "MONSTER"
+    }
+  ]
+}

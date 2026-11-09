@@ -1,0 +1,89 @@
+{
+  "project_id": "cinema-decoded-the-martian-problem-solving",
+  "movie": "The Martian (2015)",
+  "title": "The Martian: How Breaking a Huge Problem Into Small Problems Saves a Life",
+  "total_duration": 46.521,
+  "aspect_ratio": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "style": {
+    "composition": "70pct_active_cinematic_framing",
+    "background": "blurred_ambient_glow",
+    "dividers": "black_matte_bars",
+    "subtitles": "center_bold_highlight"
+  },
+  "beats": [
+    {
+      "beat_id": "beat_01_alone_on_mars",
+      "start": 0.0,
+      "end": 7.5,
+      "duration": 7.5,
+      "narration_line": "Mark Watney wasn't trying to solve the impossible problem of surviving Mars. He was solving smaller problems that could keep him alive one more day.",
+      "visual_description": "Vast, sweeping red desert landscape of Acidalia Planitia on Mars; a lone, tiny human figure standing outside the Ares III Hab.",
+      "required_footage": "Ares III Hab exterior / solitary Watney surveying Mars",
+      "source_file": "output/clip_cache/the_martian_alone_on_mars_1080p.mp4",
+      "source_start": 6.0,
+      "motion": "SLOW_PUSH_IN"
+    },
+    {
+      "beat_id": "beat_02_resource_calculation",
+      "start": 7.5,
+      "end": 16.0,
+      "duration": 8.5,
+      "narration_line": "Stranded alone with thirty days of food and four years until rescue, looking at the whole picture meant giving up. So Watney broke survival into pieces he could actually measure.",
+      "visual_description": "Watney in the Hab examining food ration packs, counting calories on digital notepad, planning survival window.",
+      "required_footage": "Hab interior / ration counting and calculation sequence",
+      "source_file": "output/clip_cache/the_martian_resource_planning_1080p.mp4",
+      "source_start": 2.0,
+      "motion": "SLOW_PUSH_IN"
+    },
+    {
+      "beat_id": "beat_03_botany_experiment",
+      "start": 16.0,
+      "end": 23.5,
+      "duration": 7.5,
+      "narration_line": "Food became a botany experiment. Water became a chemical reaction.",
+      "visual_description": "Watney shoveling Martian soil inside the Hab, cutting spuds, planting potatoes, green potato sprouts breaking through soil.",
+      "required_footage": "Hab farming sequence / potato planting and sprout growth",
+      "source_file": "output/clip_cache/the_martian_planting_potatoes_1080p.mp4",
+      "source_start": 4.0,
+      "motion": "SLOW_PAN_LEFT"
+    },
+    {
+      "beat_id": "beat_04_water_hydrazine",
+      "start": 23.5,
+      "end": 31.0,
+      "duration": 7.5,
+      "narration_line": "Communication became an old probe buried in the sand. He didn't need to know how he would escape.",
+      "visual_description": "Burning hydrazine with iridium catalyst, sparking flame, water vapor condensing into collection vessel.",
+      "required_footage": "Water creation experiment in the Hab / chemical setup",
+      "source_file": "output/clip_cache/the_martian_making_water_1080p.mp4",
+      "source_start": 3.0,
+      "motion": "SLOW_PUSH_IN"
+    },
+    {
+      "beat_id": "beat_05_pathfinder_communication",
+      "start": 31.0,
+      "end": 39.5,
+      "duration": 8.5,
+      "narration_line": "He only needed to solve the next calculation, the next test, the next decision. When his greenhouse blew up, he didn't panic—he recalculated.",
+      "visual_description": "Unearthing the 1997 Mars Pathfinder lander; setting up hexadecimal signs in the red dust; camera rotating to establish contact with NASA.",
+      "required_footage": "Pathfinder recovery and hex communication sequence",
+      "source_file": "output/clip_cache/the_martian_pathfinder_comms_1080p.mp4",
+      "source_start": 10.0,
+      "motion": "SLOW_PAN_LEFT"
+    },
+    {
+      "beat_id": "beat_06_final_payoff_iteration",
+      "start": 39.5,
+      "end": 46.521,
+      "duration": 7.021,
+      "narration_line": "That’s how Watney survives. Not by solving one impossible problem, but by solving enough small problems to stay alive. Sometimes, the way to overcome the impossible is to stop treating it as one problem.",
+      "visual_description": "Watney driving rover across Mars toward Schiaparelli crater; calm, focused expression inside helmet under harsh Martian sun; concluding triumph.",
+      "required_footage": "Rover journey / Ares IV preparation / Watney looking forward",
+      "source_file": "output/clip_cache/the_martian_rover_journey_1080p.mp4",
+      "source_start": 8.0,
+      "motion": "FAST_ZOOM"
+    }
+  ]
+}

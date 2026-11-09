@@ -1,0 +1,12 @@
+{
+  "project_id": "cinema-decoded-the-martian-problem-solving",
+  "movie": "The Martian (2015)",
+  "title": "The Martian: How Breaking a Huge Problem Into Small Problems Saves a Life",
+  "central_question": "How does one astronaut survive on a planet where almost everything is trying to kill him?",
+  "core_thesis": "Mark Watney doesn't solve the problem of surviving Mars all at once. He breaks survival into small, measurable engineering problems: food, water, communication, and mobility. A huge problem creates panic, but a small problem creates action.",
+  "target_duration_seconds": 50,
+  "aspect_ratio": "9:16",
+  "resolution": "4320x7680 (8K Ultra HD)",
+  "voice_model": "gemini-3.8-flash-tts (Achird)"
+}
+

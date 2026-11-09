@@ -1,0 +1,59 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,5,60,60,960,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.20,CenterBold,,0,0,0,,MARK {\c&H0000E5FF&}WATNEY{\c&H00FFFFFF&} WASN'T
+Dialogue: 0,0:00:01.20,0:00:01.84,CenterBold,,0,0,0,,TRYING TO SOLVE
+Dialogue: 0,0:00:01.84,0:00:02.96,CenterBold,,0,0,0,,THE {\c&H0000E5FF&}IMPOSSIBLE{\c&H00FFFFFF&} {\c&H0000E5FF&}PROBLEM{\c&H00FFFFFF&}
+Dialogue: 0,0:00:02.96,0:00:03.94,CenterBold,,0,0,0,,OF SURVIVING {\c&H0000E5FF&}MARS.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:04.72,0:00:05.24,CenterBold,,0,0,0,,HE WAS SOLVING
+Dialogue: 0,0:00:05.24,0:00:06.14,CenterBold,,0,0,0,,SMALLER PROBLEMS THAT
+Dialogue: 0,0:00:06.14,0:00:06.64,CenterBold,,0,0,0,,COULD KEEP HIM
+Dialogue: 0,0:00:06.64,0:00:07.32,CenterBold,,0,0,0,,ALIVE ONE MORE
+Dialogue: 0,0:00:07.32,0:00:08.78,CenterBold,,0,0,0,,DAY. STRANDED ALONE
+Dialogue: 0,0:00:08.78,0:00:09.58,CenterBold,,0,0,0,,WITH 30 DAYS
+Dialogue: 0,0:00:09.58,0:00:10.10,CenterBold,,0,0,0,,OF {\c&H0000E5FF&}FOOD{\c&H00FFFFFF&} AND
+Dialogue: 0,0:00:10.10,0:00:10.96,CenterBold,,0,0,0,,FOUR YEARS UNTIL
+Dialogue: 0,0:00:10.96,0:00:12.34,CenterBold,,0,0,0,,RESCUE, LOOKING AT
+Dialogue: 0,0:00:12.34,0:00:12.78,CenterBold,,0,0,0,,THE WHOLE PICTURE
+Dialogue: 0,0:00:12.78,0:00:13.48,CenterBold,,0,0,0,,MEANT GIVING UP.
+Dialogue: 0,0:00:14.10,0:00:14.80,CenterBold,,0,0,0,,SO {\c&H0000E5FF&}WATNEY{\c&H00FFFFFF&} BROKE
+Dialogue: 0,0:00:14.80,0:00:15.64,CenterBold,,0,0,0,,SURVIVAL INTO PIECES
+Dialogue: 0,0:00:15.64,0:00:16.38,CenterBold,,0,0,0,,HE COULD ACTUALLY
+Dialogue: 0,0:00:16.38,0:00:17.84,CenterBold,,0,0,0,,{\c&H0000E5FF&}MEASURE.{\c&H00FFFFFF&} {\c&H0000E5FF&}FOOD{\c&H00FFFFFF&} BECAME
+Dialogue: 0,0:00:17.84,0:00:18.80,CenterBold,,0,0,0,,A {\c&H0000E5FF&}BOTANY{\c&H00FFFFFF&} {\c&H0000E5FF&}EXPERIMENT.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:19.64,0:00:20.28,CenterBold,,0,0,0,,{\c&H0000E5FF&}WATER{\c&H00FFFFFF&} BECAME A
+Dialogue: 0,0:00:20.28,0:00:22.12,CenterBold,,0,0,0,,{\c&H0000E5FF&}CHEMICAL{\c&H00FFFFFF&} {\c&H0000E5FF&}REACTION.{\c&H00FFFFFF&} {\c&H0000E5FF&}COMMUNICATION{\c&H00FFFFFF&}
+Dialogue: 0,0:00:22.12,0:00:23.04,CenterBold,,0,0,0,,BECAME AN OLD
+Dialogue: 0,0:00:23.04,0:00:23.94,CenterBold,,0,0,0,,PRO BIRD IN
+Dialogue: 0,0:00:23.94,0:00:25.04,CenterBold,,0,0,0,,THE SAND. HE
+Dialogue: 0,0:00:25.04,0:00:25.46,CenterBold,,0,0,0,,DIDN'T NEED TO
+Dialogue: 0,0:00:25.46,0:00:26.04,CenterBold,,0,0,0,,KNOW HOW HE
+Dialogue: 0,0:00:26.04,0:00:27.06,CenterBold,,0,0,0,,WOULD ESCAPE. HE
+Dialogue: 0,0:00:27.06,0:00:27.56,CenterBold,,0,0,0,,ONLY NEEDED TO
+Dialogue: 0,0:00:27.56,0:00:28.08,CenterBold,,0,0,0,,SOLVE THE NEXT
+Dialogue: 0,0:00:28.08,0:00:29.34,CenterBold,,0,0,0,,{\c&H0000E5FF&}CALCULATION,{\c&H00FFFFFF&} THE NEXT
+Dialogue: 0,0:00:29.34,0:00:30.50,CenterBold,,0,0,0,,TEST. THE NEXT
+Dialogue: 0,0:00:30.50,0:00:32.10,CenterBold,,0,0,0,,DECISION. WHEN HIS
+Dialogue: 0,0:00:32.10,0:00:32.82,CenterBold,,0,0,0,,GREENHOUSE BLEW UP,
+Dialogue: 0,0:00:32.94,0:00:33.46,CenterBold,,0,0,0,,HE DIDN'T PANIC.
+Dialogue: 0,0:00:34.10,0:00:35.84,CenterBold,,0,0,0,,HE {\c&H0000E5FF&}RECALCULATED.{\c&H00FFFFFF&} THAT'S
+Dialogue: 0,0:00:35.84,0:00:36.40,CenterBold,,0,0,0,,HOW {\c&H0000E5FF&}WATNEY{\c&H00FFFFFF&} {\c&H0000E5FF&}SURVIVES.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:37.08,0:00:37.60,CenterBold,,0,0,0,,NOT BY SOLVING
+Dialogue: 0,0:00:37.60,0:00:38.70,CenterBold,,0,0,0,,ONE {\c&H0000E5FF&}IMPOSSIBLE{\c&H00FFFFFF&} {\c&H0000E5FF&}PROBLEM,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:39.08,0:00:39.66,CenterBold,,0,0,0,,BUT BY SOLVING
+Dialogue: 0,0:00:39.66,0:00:40.64,CenterBold,,0,0,0,,ENOUGH SMALL PROBLEMS
+Dialogue: 0,0:00:40.64,0:00:41.36,CenterBold,,0,0,0,,TO STAY ALIVE.
+Dialogue: 0,0:00:42.02,0:00:42.82,CenterBold,,0,0,0,,SOMETIMES THE WAY
+Dialogue: 0,0:00:42.82,0:00:43.38,CenterBold,,0,0,0,,TO {\c&H0000E5FF&}OVERCOME{\c&H00FFFFFF&} THE
+Dialogue: 0,0:00:43.38,0:00:44.46,CenterBold,,0,0,0,,{\c&H0000E5FF&}IMPOSSIBLE{\c&H00FFFFFF&} IS TO
+Dialogue: 0,0:00:44.46,0:00:45.20,CenterBold,,0,0,0,,STOP TREATING IT
+Dialogue: 0,0:00:45.20,0:00:45.86,CenterBold,,0,0,0,,AS ONE {\c&H0000E5FF&}PROBLEM.{\c&H00FFFFFF&}

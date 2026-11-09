@@ -1,0 +1,81 @@
+{
+  "project_title": "The Matrix — Why Cypher Chooses The Lie",
+  "movie": "The Matrix (1999)",
+  "scene": "Cypher & Agent Smith Restaurant Negotiation",
+  "created_at": "2026-11-09T14:26:00Z",
+  "manifest_items": [
+    {
+      "clip_id": "01_cypher_restaurant",
+      "target_filename": "assets/footage/matrix/cypher_steak/cypher_restaurant.mp4",
+      "scene_name": "Restaurant Wide Establishing",
+      "required_visual_moment": "Cypher sitting across from Agent Smith at elegant table with wine glass and violinists in background",
+      "film_timestamp_approx": "01:04:12 - 01:04:16",
+      "source_location": "The Matrix (1999) Official Home Media / Archival Clip",
+      "clip_duration_sec": 4.0,
+      "resolution": "1920x800",
+      "acquisition_status": "ACQUIRED_AND_VERIFIED",
+      "usage_rights_status": "Transformative Critical Analysis / Fair Use (Section 107 Title 17 U.S. Code)"
+    },
+    {
+      "clip_id": "02_steak_closeup",
+      "target_filename": "assets/footage/matrix/cypher_steak/steak_closeup.mp4",
+      "scene_name": "Steak Fork & Knife Slicing Macro",
+      "required_visual_moment": "Extreme close-up of steak being cut, glistening with simulated juice, pierced by fork and lifted",
+      "film_timestamp_approx": "01:04:18 - 01:04:23",
+      "source_location": "The Matrix (1999) Official Home Media / Archival Clip",
+      "clip_duration_sec": 5.0,
+      "resolution": "1920x800",
+      "acquisition_status": "ACQUIRED_AND_VERIFIED",
+      "usage_rights_status": "Transformative Critical Analysis / Fair Use (Section 107 Title 17 U.S. Code)"
+    },
+    {
+      "clip_id": "03_cypher_eating",
+      "target_filename": "assets/footage/matrix/cypher_steak/cypher_eating.mp4",
+      "scene_name": "Cypher Savoring Simulated Steak",
+      "required_visual_moment": "Cypher chewing with eyes half closed, savoring the brain sensory signals ('juicy and delicious')",
+      "film_timestamp_approx": "01:04:24 - 01:04:31",
+      "source_location": "The Matrix (1999) Official Home Media / Archival Clip",
+      "clip_duration_sec": 7.5,
+      "resolution": "1920x800",
+      "acquisition_status": "ACQUIRED_AND_VERIFIED",
+      "usage_rights_status": "Transformative Critical Analysis / Fair Use (Section 107 Title 17 U.S. Code)"
+    },
+    {
+      "clip_id": "04_smith_conversation",
+      "target_filename": "assets/footage/matrix/cypher_steak/smith_conversation.mp4",
+      "scene_name": "Agent Smith Cold Assessment",
+      "required_visual_moment": "Agent Smith in sunglasses observing Cypher intently across the table",
+      "film_timestamp_approx": "01:04:35 - 01:04:41",
+      "source_location": "The Matrix (1999) Official Home Media / Archival Clip",
+      "clip_duration_sec": 6.0,
+      "resolution": "1920x800",
+      "acquisition_status": "ACQUIRED_AND_VERIFIED",
+      "usage_rights_status": "Transformative Critical Analysis / Fair Use (Section 107 Title 17 U.S. Code)"
+    },
+    {
+      "clip_id": "05_cypher_reaction",
+      "target_filename": "assets/footage/matrix/cypher_steak/cypher_reaction.mp4",
+      "scene_name": "Cypher 'Ignorance is Bliss' Philosophy",
+      "required_visual_moment": "Cypher delivering his iconic core philosophy with wine glass and a calculating smirk",
+      "film_timestamp_approx": "01:04:48 - 01:04:54",
+      "source_location": "The Matrix (1999) Official Home Media / Archival Clip",
+      "clip_duration_sec": 6.0,
+      "resolution": "1920x800",
+      "acquisition_status": "ACQUIRED_AND_VERIFIED",
+      "usage_rights_status": "Transformative Critical Analysis / Fair Use (Section 107 Title 17 U.S. Code)"
+    },
+    {
+      "clip_id": "06_real_world_contrast",
+      "target_filename": "assets/footage/matrix/cypher_steak/real_world_contrast.mp4",
+      "scene_name": "Real World Nebuchadnezzar Protein Slop Contrast",
+      "required_visual_moment": "Stark contrast: Dozer and crew in cold, dark metal mess hall eating unappetizing grey protein gruel",
+      "film_timestamp_approx": "00:39:15 - 00:39:22",
+      "source_location": "The Matrix (1999) Official Home Media / Archival Clip",
+      "clip_duration_sec": 7.0,
+      "resolution": "1920x800",
+      "acquisition_status": "ACQUIRED_AND_VERIFIED",
+      "usage_rights_status": "Transformative Critical Analysis / Fair Use (Section 107 Title 17 U.S. Code)"
+    }
+  ]
+}
+

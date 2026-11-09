@@ -1,0 +1,76 @@
+{
+  "status": "SCHEDULED",
+  "slot": "MORNING",
+  "publish_at_iso": "2026-11-10T05:00:00Z",
+  "local_time_desc": "10:30 AM IST (Tuesday, Nov 10, 2026)",
+  "video_id": "Fbh_LbqkGto",
+  "youtube_url": "https://youtu.be/Fbh_LbqkGto",
+  "title": "Why Nobody Ever Tried to Save Truman \ud83e\udd2f #shorts",
+  "uploaded_at": "2026-11-09T03:54:41.311273+00:00",
+  "video_file": "/Users/vinaybt/Downloads/cinema-xray/output/final_video/cinema_xray_the_truman_show_8k.mp4",
+  "thumbnail_file": "/Users/vinaybt/Downloads/cinema-xray/output/thumbnails_short/truman_show_audience_thumb.jpg",
+  "video_size_mb": 181.59,
+  "youtube_response": {
+    "kind": "youtube#video",
+    "etag": "ML5bgpmiYX-AaLsfdnLh_95ZjtE",
+    "id": "Fbh_LbqkGto",
+    "snippet": {
+      "publishedAt": "2026-11-09T03:54:04Z",
+      "channelId": "UCglv3tAGqrOIoY03wCTVxgg",
+      "title": "Why Nobody Ever Tried to Save Truman \ud83e\udd2f #shorts",
+      "description": "Millions of people know Truman Burbank is living inside a manufactured television set. They watch his heartbreaks, his private grief, and his deepest fears. They feel genuine affection for him. So why does almost nobody try to help him escape?\n\nDiscover the chilling psychological contradiction at the heart of The Truman Show (1998): their entertainment requires his imprisonment. The audience weeps for Truman's pain while silently demanding that the cameras keep rolling.\n\nSubscribe to Cinema Decoded for deep psychological breakdowns of cinematic character arcs, visual grammar, and narrative craft.\n\n#TheTrumanShow #JimCarrey #CinemaDecoded #FilmAnalysis #MovieDetails #Cinematography #MediaManipulation #PeterWeir #Shorts",
+      "thumbnails": {
+        "default": {
+          "url": "https://i9.ytimg.com/vi/Fbh_LbqkGto/default.jpg?sqp=COiFxdcG&rs=AOn4CLDhK8Cznpha2EHMUigA_s1X-cSr-g",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i9.ytimg.com/vi/Fbh_LbqkGto/mqdefault.jpg?sqp=COiFxdcG&rs=AOn4CLDskKx3fuop5hSWyIj4do6e9sD50g",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i9.ytimg.com/vi/Fbh_LbqkGto/hqdefault.jpg?sqp=COiFxdcG&rs=AOn4CLAnXRjrn99YZOY0hWcwWBBpl2WUNQ",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Cinema X-Ray",
+      "tags": [
+        "Christof",
+        "Cinema Decoded",
+        "Cinema X-Ray",
+        "Ed Harris",
+        "Ending Explained",
+        "Film Analysis",
+        "Jim Carrey",
+        "Media Manipulation",
+        "Movie Details",
+        "Peter Weir",
+        "Psychological Cinema",
+        "Shorts",
+        "Surveillance Culture",
+        "The Truman Show",
+        "Truman Burbank"
+      ],
+      "categoryId": "1",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Why Nobody Ever Tried to Save Truman \ud83e\udd2f #shorts",
+        "description": "Millions of people know Truman Burbank is living inside a manufactured television set. They watch his heartbreaks, his private grief, and his deepest fears. They feel genuine affection for him. So why does almost nobody try to help him escape?\n\nDiscover the chilling psychological contradiction at the heart of The Truman Show (1998): their entertainment requires his imprisonment. The audience weeps for Truman's pain while silently demanding that the cameras keep rolling.\n\nSubscribe to Cinema Decoded for deep psychological breakdowns of cinematic character arcs, visual grammar, and narrative craft.\n\n#TheTrumanShow #JimCarrey #CinemaDecoded #FilmAnalysis #MovieDetails #Cinematography #MediaManipulation #PeterWeir #Shorts"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "status": {
+      "uploadStatus": "uploaded",
+      "privacyStatus": "private",
+      "publishAt": "2026-11-10T05:00:00Z",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "selfDeclaredMadeForKids": false
+    }
+  }
+}

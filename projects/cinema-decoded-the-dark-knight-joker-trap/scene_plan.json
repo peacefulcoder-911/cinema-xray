@@ -1,0 +1,116 @@
+{
+  "movie": "The Dark Knight (2008)",
+  "topic": "The Dark Knight — The Joker's Psychological Trap",
+  "theme": "The Impossible Dilemma",
+  "total_duration": 33.65,
+  "beats": [
+    {
+      "beat_id": "beat_01_interrogation_intro",
+      "narration_text": "Look closely at what the Joker does during this interrogation.",
+      "source_file": "assets/footage/dark_knight/joker_choice/joker_interrogation.mp4",
+      "source_start": 0.0,
+      "duration": 3.60,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "Joker sits calmly under the interrogation lamp, smiling eerily across the metal table."
+    },
+    {
+      "beat_id": "beat_02_batman_asking_questions",
+      "narration_text": "Batman thinks he's asking the questions.",
+      "source_file": "assets/footage/dark_knight/joker_choice/joker_interrogation.mp4",
+      "source_start": 3.5,
+      "duration": 2.50,
+      "motion": "SLOW_PAN_LEFT",
+      "scene_description": "Batman towers over the Joker in heavy shadow, asserting physical dominance."
+    },
+    {
+      "beat_id": "beat_03_joker_controlling",
+      "narration_text": "But the Joker is controlling the conversation.",
+      "source_file": "assets/footage/dark_knight/joker_choice/joker_closeup.mp4",
+      "source_start": 0.0,
+      "duration": 2.70,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "Extreme close-up of the Joker leaning forward, grinning as he dismantles Batman's authority."
+    },
+    {
+      "beat_id": "beat_04_danger_revealed",
+      "narration_text": "He reveals that Harvey Dent and Rachel are in danger.",
+      "source_file": "assets/footage/dark_knight/joker_choice/joker_reveals_locations.mp4",
+      "source_start": 0.0,
+      "duration": 3.30,
+      "motion": "SLOW_PAN_RIGHT",
+      "scene_description": "Joker gesticulates with handcuffed hands, calmly announcing the hostages are rigged to die."
+    },
+    {
+      "beat_id": "beat_05_two_locations",
+      "narration_text": "Then he gives Batman two locations.",
+      "source_file": "assets/footage/dark_knight/joker_choice/joker_reveals_locations.mp4",
+      "source_start": 4.3,
+      "duration": 2.60,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "Joker names the two separate locations: 250 52nd Street and Avenue X at Cicero."
+    },
+    {
+      "beat_id": "beat_06_two_ticking_clocks",
+      "narration_text": "Two people. Two ticking clocks.",
+      "source_file": "assets/footage/dark_knight/joker_choice/joker_reveals_locations.mp4",
+      "source_start": 7.5,
+      "duration": 2.50,
+      "motion": "STATIC",
+      "scene_description": "Joker locks eyes with Batman, highlighting the simultaneous countdown timers."
+    },
+    {
+      "beat_id": "beat_07_batman_must_choose",
+      "narration_text": "Batman has to choose.",
+      "source_file": "assets/footage/dark_knight/joker_choice/batman_reaction.mp4",
+      "source_start": 0.0,
+      "duration": 1.60,
+      "motion": "FAST_ZOOM",
+      "scene_description": "Shock and sudden realization register across Batman's face as the moral trap springs."
+    },
+    {
+      "beat_id": "beat_08_what_joker_wants",
+      "narration_text": "And that's exactly what the Joker wants.",
+      "source_file": "assets/footage/dark_knight/joker_choice/joker_closeup.mp4",
+      "source_start": 3.5,
+      "duration": 2.50,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "Joker bursts into manic laughter against the tiled wall, revelling in Batman's dilemma."
+    },
+    {
+      "beat_id": "beat_09_not_simply_angry",
+      "narration_text": "He isn't simply trying to make Batman angry.",
+      "source_file": "assets/footage/dark_knight/joker_choice/batman_reaction.mp4",
+      "source_start": 2.7,
+      "duration": 2.70,
+      "motion": "SLOW_PAN_LEFT",
+      "scene_description": "Batman pins Joker against the two-way mirror; physical violence cannot break Joker's psychological game."
+    },
+    {
+      "beat_id": "beat_10_moral_trap_situation",
+      "narration_text": "He's forcing Batman into a situation where even doing the right thing means someone gets hurt.",
+      "source_file": "assets/footage/dark_knight/joker_choice/joker_closeup.mp4",
+      "source_start": 1.0,
+      "duration": 6.00,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "Joker's face close-up: You have nothing to threaten me with. The moral bind is total."
+    },
+    {
+      "beat_id": "beat_11_trap_isnt_the_room",
+      "narration_text": "The real trap isn't the room.",
+      "source_file": "assets/footage/dark_knight/joker_choice/batman_leaves.mp4",
+      "source_start": 0.0,
+      "duration": 2.10,
+      "motion": "FAST_ZOOM",
+      "scene_description": "Batman breaks away from the interrogation room, slamming open the heavy security door."
+    },
+    {
+      "beat_id": "beat_12_its_the_choice",
+      "narration_text": "It's the choice.",
+      "source_file": "assets/footage/dark_knight/joker_choice/batman_leaves.mp4",
+      "source_start": 3.2,
+      "duration": 1.55,
+      "motion": "SLOW_PUSH_IN",
+      "scene_description": "Batman sprints through the GCPD bullpen into the night; held final frame with concluding text card."
+    }
+  ]
+}

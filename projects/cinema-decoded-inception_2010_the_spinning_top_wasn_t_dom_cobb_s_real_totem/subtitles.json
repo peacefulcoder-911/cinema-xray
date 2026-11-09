@@ -1,0 +1,404 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 36,
+  "impact_timestamps": [
+    {
+      "word": "STARED",
+      "start": 0.28,
+      "end": 1.12
+    },
+    {
+      "word": "INCEPTION",
+      "start": 1.12,
+      "end": 2.4
+    },
+    {
+      "word": "YEARS",
+      "start": 2.4,
+      "end": 3.08
+    },
+    {
+      "word": "MISSED",
+      "start": 3.46,
+      "end": 4.2
+    },
+    {
+      "word": "WHOSE",
+      "start": 4.2,
+      "end": 5.04
+    },
+    {
+      "word": "TRULY",
+      "start": 5.04,
+      "end": 5.78
+    },
+    {
+      "word": "SPINS",
+      "start": 6.32,
+      "end": 7.04
+    },
+    {
+      "word": "END",
+      "start": 7.04,
+      "end": 7.56
+    },
+    {
+      "word": "BUT",
+      "start": 7.9,
+      "end": 8.44
+    },
+    {
+      "word": "MOUSE",
+      "start": 8.44,
+      "end": 9.54
+    },
+    {
+      "word": "CONSTANT",
+      "start": 9.82,
+      "end": 10.78
+    },
+    {
+      "word": "DELUSION",
+      "start": 10.78,
+      "end": 12.02
+    },
+    {
+      "word": "NEVER",
+      "start": 12.5,
+      "end": 13.46
+    },
+    {
+      "word": "CONFIRM",
+      "start": 13.46,
+      "end": 14.42
+    },
+    {
+      "word": "CLOSELY",
+      "start": 14.94,
+      "end": 15.52
+    },
+    {
+      "word": "TOTEM",
+      "start": 16.0,
+      "end": 16.86
+    },
+    {
+      "word": "SUBTLE",
+      "start": 16.86,
+      "end": 17.86
+    },
+    {
+      "word": "WEARS",
+      "start": 18.54,
+      "end": 19.46
+    },
+    {
+      "word": "WEDDING",
+      "start": 19.46,
+      "end": 20.12
+    },
+    {
+      "word": "DREAMING",
+      "start": 20.12,
+      "end": 20.88
+    },
+    {
+      "word": "REALITY",
+      "start": 21.38,
+      "end": 21.98
+    },
+    {
+      "word": "FINGER",
+      "start": 22.26,
+      "end": 22.98
+    },
+    {
+      "word": "FINAL",
+      "start": 23.56,
+      "end": 24.36
+    },
+    {
+      "word": "SHOWS",
+      "start": 24.36,
+      "end": 25.04
+    },
+    {
+      "word": "FINGER",
+      "start": 25.04,
+      "end": 25.72
+    },
+    {
+      "word": "WALKS",
+      "start": 26.16,
+      "end": 26.88
+    },
+    {
+      "word": "FROM",
+      "start": 26.88,
+      "end": 27.46
+    },
+    {
+      "word": "BECAUSE",
+      "start": 27.8,
+      "end": 28.54
+    },
+    {
+      "word": "DOESNT",
+      "start": 28.54,
+      "end": 29.0
+    },
+    {
+      "word": "BECAUSE",
+      "start": 29.0,
+      "end": 29.98
+    },
+    {
+      "word": "ALREADY",
+      "start": 29.98,
+      "end": 31.26
+    },
+    {
+      "word": "COBBS",
+      "start": 31.7,
+      "end": 32.6
+    },
+    {
+      "word": "UNDERSTATED",
+      "start": 32.6,
+      "end": 33.8
+    },
+    {
+      "word": "HISTORY",
+      "start": 33.8,
+      "end": 34.98
+    },
+    {
+      "word": "TELL",
+      "start": 35.52,
+      "end": 35.92
+    },
+    {
+      "word": "COMMENTS",
+      "start": 35.92,
+      "end": 36.26
+    }
+  ],
+  "cards": [
+    {
+      "start": 0.28,
+      "end": 1.12,
+      "text": "YOU'VE STARED AT",
+      "highlight": "STARED"
+    },
+    {
+      "start": 1.12,
+      "end": 2.4,
+      "text": "INCEPTION SPINNING TOP",
+      "highlight": "INCEPTION"
+    },
+    {
+      "start": 2.4,
+      "end": 3.08,
+      "text": "FOR YEARS,",
+      "highlight": "YEARS"
+    },
+    {
+      "start": 3.46,
+      "end": 4.2,
+      "text": "YET YOU MISSED",
+      "highlight": "MISSED"
+    },
+    {
+      "start": 4.2,
+      "end": 5.04,
+      "text": "WHOSE TOTEM IT",
+      "highlight": "WHOSE"
+    },
+    {
+      "start": 5.04,
+      "end": 5.78,
+      "text": "TRULY WAS.",
+      "highlight": "TRULY"
+    },
+    {
+      "start": 6.32,
+      "end": 7.04,
+      "text": "COBB SPINS IT",
+      "highlight": "SPINS"
+    },
+    {
+      "start": 7.04,
+      "end": 7.56,
+      "text": "AT THE END,",
+      "highlight": "END"
+    },
+    {
+      "start": 7.9,
+      "end": 8.44,
+      "text": "BUT THE TOP",
+      "highlight": "BUT"
+    },
+    {
+      "start": 8.44,
+      "end": 9.54,
+      "text": "WAS MOUSE TOTEM,",
+      "highlight": "MOUSE"
+    },
+    {
+      "start": 9.82,
+      "end": 10.78,
+      "text": "A CONSTANT REMINDER",
+      "highlight": "CONSTANT"
+    },
+    {
+      "start": 10.78,
+      "end": 12.02,
+      "text": "OF HER DELUSION.",
+      "highlight": "DELUSION"
+    },
+    {
+      "start": 12.5,
+      "end": 13.46,
+      "text": "COBB NEVER USED",
+      "highlight": "NEVER"
+    },
+    {
+      "start": 13.46,
+      "end": 14.42,
+      "text": "IT TO CONFIRM REALITY.",
+      "highlight": "CONFIRM"
+    },
+    {
+      "start": 14.94,
+      "end": 15.52,
+      "text": "LOOK CLOSELY,",
+      "highlight": "CLOSELY"
+    },
+    {
+      "start": 16.0,
+      "end": 16.86,
+      "text": "HIS REAL TOTEM",
+      "highlight": "TOTEM"
+    },
+    {
+      "start": 16.86,
+      "end": 17.86,
+      "text": "IS FAR MORE SUBTLE.",
+      "highlight": "SUBTLE"
+    },
+    {
+      "start": 18.54,
+      "end": 19.46,
+      "text": "COBB ONLY WEARS",
+      "highlight": "WEARS"
+    },
+    {
+      "start": 19.46,
+      "end": 20.12,
+      "text": "HIS WEDDING RING",
+      "highlight": "WEDDING"
+    },
+    {
+      "start": 20.12,
+      "end": 20.88,
+      "text": "WHEN HE IS DREAMING.",
+      "highlight": "DREAMING"
+    },
+    {
+      "start": 21.38,
+      "end": 21.98,
+      "text": "IN REALITY,",
+      "highlight": "REALITY"
+    },
+    {
+      "start": 22.26,
+      "end": 22.98,
+      "text": "HIS FINGER IS BARE.",
+      "highlight": "FINGER"
+    },
+    {
+      "start": 23.56,
+      "end": 24.36,
+      "text": "THE FINAL SHOT",
+      "highlight": "FINAL"
+    },
+    {
+      "start": 24.36,
+      "end": 25.04,
+      "text": "SHOWS HIS RING",
+      "highlight": "SHOWS"
+    },
+    {
+      "start": 25.04,
+      "end": 25.72,
+      "text": "FINGER EMPTY.",
+      "highlight": "FINGER"
+    },
+    {
+      "start": 26.16,
+      "end": 26.88,
+      "text": "HE WALKS AWAY",
+      "highlight": "WALKS"
+    },
+    {
+      "start": 26.88,
+      "end": 27.46,
+      "text": "FROM THE TOP,",
+      "highlight": "FROM"
+    },
+    {
+      "start": 27.8,
+      "end": 28.54,
+      "text": "NOT BECAUSE HE",
+      "highlight": "BECAUSE"
+    },
+    {
+      "start": 28.54,
+      "end": 29.0,
+      "text": "DOESN'T CARE,",
+      "highlight": "DOESNT"
+    },
+    {
+      "start": 29.0,
+      "end": 29.98,
+      "text": "BUT BECAUSE HE",
+      "highlight": "BECAUSE"
+    },
+    {
+      "start": 29.98,
+      "end": 31.26,
+      "text": "ALREADY KNOWS HE'S HOME.",
+      "highlight": "ALREADY"
+    },
+    {
+      "start": 31.7,
+      "end": 32.6,
+      "text": "WAS COBB'S RING",
+      "highlight": "COBBS"
+    },
+    {
+      "start": 32.6,
+      "end": 33.8,
+      "text": "THE MOST UNDERSTATED",
+      "highlight": "UNDERSTATED"
+    },
+    {
+      "start": 33.8,
+      "end": 34.98,
+      "text": "TOTEM IN CINEMA HISTORY?",
+      "highlight": "HISTORY"
+    },
+    {
+      "start": 35.52,
+      "end": 35.92,
+      "text": "TELL ME IN",
+      "highlight": "TELL"
+    },
+    {
+      "start": 35.92,
+      "end": 36.26,
+      "text": "THE COMMENTS.",
+      "highlight": "COMMENTS"
+    }
+  ]
+}

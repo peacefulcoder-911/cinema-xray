@@ -1,0 +1,950 @@
+[
+  {
+    "word": "What",
+    "start": 0.0,
+    "end": 0.24,
+    "probability": 0.836
+  },
+  {
+    "word": "if",
+    "start": 0.24,
+    "end": 0.36,
+    "probability": 0.989
+  },
+  {
+    "word": "becoming",
+    "start": 0.36,
+    "end": 0.6,
+    "probability": 0.967
+  },
+  {
+    "word": "smarter",
+    "start": 0.6,
+    "end": 1.02,
+    "probability": 0.996
+  },
+  {
+    "word": "actually",
+    "start": 1.02,
+    "end": 1.54,
+    "probability": 0.944
+  },
+  {
+    "word": "made",
+    "start": 1.54,
+    "end": 1.72,
+    "probability": 0.997
+  },
+  {
+    "word": "your",
+    "start": 1.72,
+    "end": 1.86,
+    "probability": 0.994
+  },
+  {
+    "word": "life",
+    "start": 1.86,
+    "end": 2.0,
+    "probability": 0.998
+  },
+  {
+    "word": "more",
+    "start": 2.0,
+    "end": 2.18,
+    "probability": 0.997
+  },
+  {
+    "word": "dangerous?",
+    "start": 2.18,
+    "end": 2.48,
+    "probability": 0.996
+  },
+  {
+    "word": "Eddie",
+    "start": 3.14,
+    "end": 3.28,
+    "probability": 0.852
+  },
+  {
+    "word": "Mora",
+    "start": 3.28,
+    "end": 3.54,
+    "probability": 0.576
+  },
+  {
+    "word": "begins",
+    "start": 3.54,
+    "end": 3.86,
+    "probability": 0.981
+  },
+  {
+    "word": "as",
+    "start": 3.86,
+    "end": 4.14,
+    "probability": 0.992
+  },
+  {
+    "word": "an",
+    "start": 4.14,
+    "end": 4.28,
+    "probability": 0.991
+  },
+  {
+    "word": "unmotivated",
+    "start": 4.28,
+    "end": 4.94,
+    "probability": 0.983
+  },
+  {
+    "word": "writer",
+    "start": 4.94,
+    "end": 5.28,
+    "probability": 0.94
+  },
+  {
+    "word": "struggling",
+    "start": 5.28,
+    "end": 5.78,
+    "probability": 0.936
+  },
+  {
+    "word": "with",
+    "start": 5.78,
+    "end": 6.04,
+    "probability": 0.995
+  },
+  {
+    "word": "direction",
+    "start": 6.04,
+    "end": 6.48,
+    "probability": 0.988
+  },
+  {
+    "word": "and",
+    "start": 6.48,
+    "end": 6.7,
+    "probability": 0.996
+  },
+  {
+    "word": "creative",
+    "start": 6.7,
+    "end": 7.08,
+    "probability": 0.999
+  },
+  {
+    "word": "paralysis.",
+    "start": 7.08,
+    "end": 7.56,
+    "probability": 0.987
+  },
+  {
+    "word": "Then,",
+    "start": 8.0,
+    "end": 8.24,
+    "probability": 0.986
+  },
+  {
+    "word": "a",
+    "start": 8.46,
+    "end": 8.54,
+    "probability": 0.985
+  },
+  {
+    "word": "single",
+    "start": 8.54,
+    "end": 8.78,
+    "probability": 0.998
+  },
+  {
+    "word": "pill",
+    "start": 8.78,
+    "end": 9.0,
+    "probability": 0.954
+  },
+  {
+    "word": "of",
+    "start": 9.0,
+    "end": 9.2,
+    "probability": 0.995
+  },
+  {
+    "word": "NZT48",
+    "start": 9.2,
+    "end": 10.18,
+    "probability": 0.836
+  },
+  {
+    "word": "changes",
+    "start": 10.18,
+    "end": 10.52,
+    "probability": 0.994
+  },
+  {
+    "word": "everything.",
+    "start": 10.52,
+    "end": 11.08,
+    "probability": 0.997
+  },
+  {
+    "word": "Suddenly,",
+    "start": 11.58,
+    "end": 11.92,
+    "probability": 0.989
+  },
+  {
+    "word": "his",
+    "start": 12.1,
+    "end": 12.2,
+    "probability": 0.992
+  },
+  {
+    "word": "mind",
+    "start": 12.2,
+    "end": 12.42,
+    "probability": 0.999
+  },
+  {
+    "word": "operates",
+    "start": 12.42,
+    "end": 12.88,
+    "probability": 0.998
+  },
+  {
+    "word": "at",
+    "start": 12.88,
+    "end": 13.08,
+    "probability": 0.987
+  },
+  {
+    "word": "total",
+    "start": 13.08,
+    "end": 13.42,
+    "probability": 0.985
+  },
+  {
+    "word": "cognitive",
+    "start": 13.42,
+    "end": 13.82,
+    "probability": 0.988
+  },
+  {
+    "word": "clarity.",
+    "start": 13.82,
+    "end": 14.22,
+    "probability": 0.997
+  },
+  {
+    "word": "He",
+    "start": 14.52,
+    "end": 14.68,
+    "probability": 0.994
+  },
+  {
+    "word": "finishes",
+    "start": 14.68,
+    "end": 14.96,
+    "probability": 0.993
+  },
+  {
+    "word": "his",
+    "start": 14.96,
+    "end": 15.16,
+    "probability": 0.996
+  },
+  {
+    "word": "book",
+    "start": 15.16,
+    "end": 15.32,
+    "probability": 0.993
+  },
+  {
+    "word": "in",
+    "start": 15.32,
+    "end": 15.5,
+    "probability": 0.832
+  },
+  {
+    "word": "days,",
+    "start": 15.5,
+    "end": 15.78,
+    "probability": 0.981
+  },
+  {
+    "word": "masters",
+    "start": 16.08,
+    "end": 16.3,
+    "probability": 0.714
+  },
+  {
+    "word": "foreign",
+    "start": 16.3,
+    "end": 16.54,
+    "probability": 0.651
+  },
+  {
+    "word": "languages,",
+    "start": 16.54,
+    "end": 16.98,
+    "probability": 0.99
+  },
+  {
+    "word": "and",
+    "start": 17.48,
+    "end": 17.56,
+    "probability": 0.99
+  },
+  {
+    "word": "turns",
+    "start": 17.56,
+    "end": 17.72,
+    "probability": 0.988
+  },
+  {
+    "word": "thousands",
+    "start": 17.72,
+    "end": 18.28,
+    "probability": 0.979
+  },
+  {
+    "word": "into",
+    "start": 18.28,
+    "end": 18.64,
+    "probability": 0.989
+  },
+  {
+    "word": "millions",
+    "start": 18.64,
+    "end": 19.06,
+    "probability": 0.992
+  },
+  {
+    "word": "on",
+    "start": 19.06,
+    "end": 19.32,
+    "probability": 0.984
+  },
+  {
+    "word": "Wall",
+    "start": 19.32,
+    "end": 19.48,
+    "probability": 0.964
+  },
+  {
+    "word": "Street.",
+    "start": 19.48,
+    "end": 19.7,
+    "probability": 0.958
+  },
+  {
+    "word": "Yet,",
+    "start": 20.22,
+    "end": 20.38,
+    "probability": 0.997
+  },
+  {
+    "word": "as",
+    "start": 20.46,
+    "end": 20.62,
+    "probability": 0.991
+  },
+  {
+    "word": "his",
+    "start": 20.62,
+    "end": 20.7,
+    "probability": 0.992
+  },
+  {
+    "word": "ambition",
+    "start": 20.7,
+    "end": 21.04,
+    "probability": 0.993
+  },
+  {
+    "word": "grows,",
+    "start": 21.04,
+    "end": 21.4,
+    "probability": 0.998
+  },
+  {
+    "word": "a",
+    "start": 21.68,
+    "end": 21.74,
+    "probability": 0.994
+  },
+  {
+    "word": "critical",
+    "start": 21.74,
+    "end": 22.06,
+    "probability": 0.998
+  },
+  {
+    "word": "contradiction",
+    "start": 22.06,
+    "end": 22.5,
+    "probability": 0.994
+  },
+  {
+    "word": "emerges.",
+    "start": 22.5,
+    "end": 23.06,
+    "probability": 0.997
+  },
+  {
+    "word": "His",
+    "start": 23.6,
+    "end": 23.74,
+    "probability": 0.996
+  },
+  {
+    "word": "abilities",
+    "start": 23.74,
+    "end": 24.1,
+    "probability": 0.938
+  },
+  {
+    "word": "expand",
+    "start": 24.1,
+    "end": 24.5,
+    "probability": 0.998
+  },
+  {
+    "word": "far",
+    "start": 24.5,
+    "end": 24.92,
+    "probability": 0.958
+  },
+  {
+    "word": "faster",
+    "start": 24.92,
+    "end": 25.28,
+    "probability": 0.991
+  },
+  {
+    "word": "than",
+    "start": 25.28,
+    "end": 25.4,
+    "probability": 0.996
+  },
+  {
+    "word": "his",
+    "start": 25.4,
+    "end": 25.52,
+    "probability": 0.997
+  },
+  {
+    "word": "ability",
+    "start": 25.52,
+    "end": 25.86,
+    "probability": 0.998
+  },
+  {
+    "word": "to",
+    "start": 25.86,
+    "end": 26.06,
+    "probability": 0.999
+  },
+  {
+    "word": "manage",
+    "start": 26.06,
+    "end": 26.3,
+    "probability": 0.997
+  },
+  {
+    "word": "the",
+    "start": 26.3,
+    "end": 26.5,
+    "probability": 0.993
+  },
+  {
+    "word": "consequences.",
+    "start": 26.5,
+    "end": 27.1,
+    "probability": 0.997
+  },
+  {
+    "word": "Eddie",
+    "start": 27.1,
+    "end": 27.9,
+    "probability": 0.11
+  },
+  {
+    "word": "can",
+    "start": 27.9,
+    "end": 28.12,
+    "probability": 0.983
+  },
+  {
+    "word": "outthink",
+    "start": 28.12,
+    "end": 28.5,
+    "probability": 0.677
+  },
+  {
+    "word": "financial",
+    "start": 28.5,
+    "end": 28.86,
+    "probability": 0.783
+  },
+  {
+    "word": "titans,",
+    "start": 28.86,
+    "end": 29.26,
+    "probability": 0.711
+  },
+  {
+    "word": "yet",
+    "start": 29.46,
+    "end": 29.64,
+    "probability": 0.984
+  },
+  {
+    "word": "he",
+    "start": 29.64,
+    "end": 29.82,
+    "probability": 0.987
+  },
+  {
+    "word": "borrows",
+    "start": 29.82,
+    "end": 30.24,
+    "probability": 0.643
+  },
+  {
+    "word": "cash",
+    "start": 30.24,
+    "end": 30.5,
+    "probability": 0.998
+  },
+  {
+    "word": "from",
+    "start": 30.5,
+    "end": 30.68,
+    "probability": 0.995
+  },
+  {
+    "word": "a",
+    "start": 30.68,
+    "end": 30.76,
+    "probability": 0.99
+  },
+  {
+    "word": "violent",
+    "start": 30.76,
+    "end": 31.06,
+    "probability": 0.994
+  },
+  {
+    "word": "loan",
+    "start": 31.06,
+    "end": 31.26,
+    "probability": 0.89
+  },
+  {
+    "word": "shark.",
+    "start": 31.26,
+    "end": 31.5,
+    "probability": 0.995
+  },
+  {
+    "word": "He",
+    "start": 32.0,
+    "end": 32.14,
+    "probability": 0.981
+  },
+  {
+    "word": "sees",
+    "start": 32.14,
+    "end": 32.34,
+    "probability": 0.987
+  },
+  {
+    "word": "endless",
+    "start": 32.34,
+    "end": 32.66,
+    "probability": 0.99
+  },
+  {
+    "word": "possibilities,",
+    "start": 32.66,
+    "end": 33.28,
+    "probability": 0.992
+  },
+  {
+    "word": "yet",
+    "start": 33.64,
+    "end": 33.8,
+    "probability": 0.994
+  },
+  {
+    "word": "his",
+    "start": 33.8,
+    "end": 33.96,
+    "probability": 0.995
+  },
+  {
+    "word": "survival",
+    "start": 33.96,
+    "end": 34.22,
+    "probability": 0.987
+  },
+  {
+    "word": "becomes",
+    "start": 34.22,
+    "end": 34.54,
+    "probability": 0.988
+  },
+  {
+    "word": "trapped",
+    "start": 34.54,
+    "end": 34.9,
+    "probability": 0.971
+  },
+  {
+    "word": "by",
+    "start": 34.9,
+    "end": 35.1,
+    "probability": 0.999
+  },
+  {
+    "word": "chemical",
+    "start": 35.1,
+    "end": 35.42,
+    "probability": 0.997
+  },
+  {
+    "word": "dependence.",
+    "start": 35.42,
+    "end": 35.88,
+    "probability": 0.968
+  },
+  {
+    "word": "Being",
+    "start": 36.62,
+    "end": 36.84,
+    "probability": 0.989
+  },
+  {
+    "word": "able",
+    "start": 36.84,
+    "end": 37.02,
+    "probability": 1.0
+  },
+  {
+    "word": "to",
+    "start": 37.02,
+    "end": 37.14,
+    "probability": 0.996
+  },
+  {
+    "word": "see",
+    "start": 37.14,
+    "end": 37.3,
+    "probability": 0.996
+  },
+  {
+    "word": "more",
+    "start": 37.3,
+    "end": 37.5,
+    "probability": 0.978
+  },
+  {
+    "word": "options",
+    "start": 37.5,
+    "end": 37.82,
+    "probability": 0.992
+  },
+  {
+    "word": "doesn't",
+    "start": 37.82,
+    "end": 38.26,
+    "probability": 0.929
+  },
+  {
+    "word": "automatically",
+    "start": 38.26,
+    "end": 38.66,
+    "probability": 0.998
+  },
+  {
+    "word": "mean",
+    "start": 38.66,
+    "end": 38.98,
+    "probability": 0.999
+  },
+  {
+    "word": "knowing",
+    "start": 38.98,
+    "end": 39.3,
+    "probability": 0.998
+  },
+  {
+    "word": "which",
+    "start": 39.3,
+    "end": 39.62,
+    "probability": 0.99
+  },
+  {
+    "word": "ones",
+    "start": 39.62,
+    "end": 39.76,
+    "probability": 0.994
+  },
+  {
+    "word": "are",
+    "start": 39.76,
+    "end": 39.88,
+    "probability": 0.994
+  },
+  {
+    "word": "worth",
+    "start": 39.88,
+    "end": 40.12,
+    "probability": 0.999
+  },
+  {
+    "word": "choosing.",
+    "start": 40.12,
+    "end": 40.44,
+    "probability": 0.988
+  },
+  {
+    "word": "NZT",
+    "start": 41.04,
+    "end": 41.36,
+    "probability": 0.548
+  },
+  {
+    "word": "gives",
+    "start": 41.36,
+    "end": 41.56,
+    "probability": 0.961
+  },
+  {
+    "word": "Eddie",
+    "start": 41.56,
+    "end": 41.76,
+    "probability": 0.994
+  },
+  {
+    "word": "a",
+    "start": 41.76,
+    "end": 41.94,
+    "probability": 0.995
+  },
+  {
+    "word": "more",
+    "start": 41.94,
+    "end": 42.08,
+    "probability": 0.966
+  },
+  {
+    "word": "powerful",
+    "start": 42.08,
+    "end": 42.5,
+    "probability": 0.988
+  },
+  {
+    "word": "mind,",
+    "start": 42.5,
+    "end": 42.88,
+    "probability": 0.995
+  },
+  {
+    "word": "but",
+    "start": 43.22,
+    "end": 43.42,
+    "probability": 0.998
+  },
+  {
+    "word": "it",
+    "start": 43.42,
+    "end": 43.6,
+    "probability": 0.961
+  },
+  {
+    "word": "doesn't",
+    "start": 43.6,
+    "end": 43.84,
+    "probability": 0.995
+  },
+  {
+    "word": "automatically",
+    "start": 43.84,
+    "end": 44.2,
+    "probability": 0.989
+  },
+  {
+    "word": "give",
+    "start": 44.2,
+    "end": 44.46,
+    "probability": 0.998
+  },
+  {
+    "word": "him",
+    "start": 44.46,
+    "end": 44.62,
+    "probability": 0.998
+  },
+  {
+    "word": "a",
+    "start": 44.62,
+    "end": 44.76,
+    "probability": 0.992
+  },
+  {
+    "word": "better",
+    "start": 44.76,
+    "end": 44.92,
+    "probability": 0.999
+  },
+  {
+    "word": "understanding",
+    "start": 44.92,
+    "end": 45.42,
+    "probability": 0.998
+  },
+  {
+    "word": "of",
+    "start": 45.42,
+    "end": 45.62,
+    "probability": 0.987
+  },
+  {
+    "word": "what",
+    "start": 45.62,
+    "end": 45.74,
+    "probability": 0.995
+  },
+  {
+    "word": "to",
+    "start": 45.74,
+    "end": 45.84,
+    "probability": 0.995
+  },
+  {
+    "word": "do",
+    "start": 45.84,
+    "end": 45.96,
+    "probability": 0.998
+  },
+  {
+    "word": "with",
+    "start": 45.96,
+    "end": 46.1,
+    "probability": 0.993
+  },
+  {
+    "word": "it.",
+    "start": 46.1,
+    "end": 46.24,
+    "probability": 0.995
+  },
+  {
+    "word": "Because",
+    "start": 46.56,
+    "end": 46.8,
+    "probability": 0.977
+  },
+  {
+    "word": "intelligence",
+    "start": 46.8,
+    "end": 47.26,
+    "probability": 0.984
+  },
+  {
+    "word": "can",
+    "start": 47.26,
+    "end": 47.5,
+    "probability": 0.996
+  },
+  {
+    "word": "help",
+    "start": 47.5,
+    "end": 47.64,
+    "probability": 0.997
+  },
+  {
+    "word": "you",
+    "start": 47.64,
+    "end": 47.74,
+    "probability": 0.996
+  },
+  {
+    "word": "get",
+    "start": 47.74,
+    "end": 47.84,
+    "probability": 0.992
+  },
+  {
+    "word": "what",
+    "start": 47.84,
+    "end": 47.98,
+    "probability": 0.996
+  },
+  {
+    "word": "you",
+    "start": 47.98,
+    "end": 48.1,
+    "probability": 0.999
+  },
+  {
+    "word": "want,",
+    "start": 48.1,
+    "end": 48.36,
+    "probability": 0.998
+  },
+  {
+    "word": "wisdom",
+    "start": 48.78,
+    "end": 49.16,
+    "probability": 0.842
+  },
+  {
+    "word": "helps",
+    "start": 49.16,
+    "end": 49.5,
+    "probability": 0.984
+  },
+  {
+    "word": "you",
+    "start": 49.5,
+    "end": 49.62,
+    "probability": 0.992
+  },
+  {
+    "word": "decide",
+    "start": 49.62,
+    "end": 49.88,
+    "probability": 0.998
+  },
+  {
+    "word": "whether",
+    "start": 49.88,
+    "end": 50.22,
+    "probability": 0.989
+  },
+  {
+    "word": "you",
+    "start": 50.22,
+    "end": 50.44,
+    "probability": 0.989
+  },
+  {
+    "word": "should",
+    "start": 50.44,
+    "end": 50.54,
+    "probability": 0.941
+  },
+  {
+    "word": "want",
+    "start": 50.54,
+    "end": 50.74,
+    "probability": 0.986
+  },
+  {
+    "word": "it.",
+    "start": 50.74,
+    "end": 50.92,
+    "probability": 0.993
+  }
+]

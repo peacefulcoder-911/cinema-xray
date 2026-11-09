@@ -1,0 +1,97 @@
+{
+  "project_id": "cinema-decoded-the-incredibles-syndrome",
+  "title": "The Incredibles — Why Syndrome's Greatest Invention Wasn't His Technology. It Was His Revenge.",
+  "movie": "The Incredibles (2004)",
+  "director": "Brad Bird",
+  "lead_actor": "Jason Lee (Syndrome) / Craig T. Nelson (Mr. Incredible)",
+  "total_duration": 52.65,
+  "video_format": "SHORT_45_SEC",
+  "framing": "70% Active Cinematic Framing (1080x1344) with Ambient Blur Backdrop",
+  "resolution_target": "8K Ultra HD (4320x7680)",
+  "beats": [
+    {
+      "beat_id": "beat_01_hook_syndrome_contradiction",
+      "chapter_name": "The Core Contradiction",
+      "narration_text": "Syndrome says nobody should be special. But his entire life is spent trying to prove that he is.",
+      "start_time": 0.00,
+      "end_time": 6.20,
+      "duration": 6.20,
+      "source_file": "output/clip_cache/incredibles_syndrome_island_reveal_1080p.mp4",
+      "source_start": 22.0,
+      "motion": "SLOW_PUSH_IN",
+      "visual_description": "Adult Syndrome floating down in rocket boots, sneering with immense arrogance."
+    },
+    {
+      "beat_id": "beat_02a_childhood_fanaticism",
+      "chapter_name": "Incrediboy",
+      "narration_text": "As a boy named Buddy Pine, he idolized Mr. Incredible, begging to be his sidekick.",
+      "start_time": 6.20,
+      "end_time": 11.50,
+      "duration": 5.30,
+      "source_file": "output/clip_cache/incredibles_incrediboy_intro_1080p.mp4",
+      "source_start": 12.0,
+      "motion": "SLOW_PAN_LEFT",
+      "visual_description": "Young Buddy in his homemade mask and rocket boots grinning eagerly up at Mr. Incredible."
+    },
+    {
+      "beat_id": "beat_02b_defining_rejection",
+      "chapter_name": "I Work Alone",
+      "narration_text": "But when he was rejected and told he wasn't special, that humiliation became his identity.",
+      "start_time": 11.50,
+      "end_time": 17.50,
+      "duration": 6.00,
+      "source_file": "output/clip_cache/incredibles_mr_incredible_rejection_1080p.mp4",
+      "source_start": 32.0,
+      "motion": "SLOW_PUSH_IN",
+      "visual_description": "Mr. Incredible looking sternly down: 'I work alone', as Buddy's face falls in heartbreak."
+    },
+    {
+      "beat_id": "beat_03_tech_omnidroid_rise",
+      "chapter_name": "Reinventing Power",
+      "narration_text": "Without natural powers, Buddy used technology to reinvent himself as Syndrome. He built zero-point energy and the lethal Omnidroid—not to stand beside superheroes, but to eliminate them.",
+      "start_time": 17.50,
+      "end_time": 29.00,
+      "duration": 11.50,
+      "source_file": "output/clip_cache/incredibles_omnidroid_battle_1080p.mp4",
+      "source_start": 95.0,
+      "motion": "FAST_ZOOM",
+      "visual_description": "The massive Omnidroid with glowing red eye menacingly overpowering Mr. Incredible with mechanical brutality."
+    },
+    {
+      "beat_id": "beat_04_manifesto_contradiction",
+      "chapter_name": "The False Manifesto",
+      "narration_text": "His famous philosophy claimed: 'When everyone's super, no one will be.'",
+      "start_time": 29.00,
+      "end_time": 34.00,
+      "duration": 5.00,
+      "source_file": "output/clip_cache/incredibles_syndrome_philosophy_1080p.mp4",
+      "source_start": 12.0,
+      "motion": "SLOW_PUSH_IN",
+      "visual_description": "Syndrome speaking in intense dramatic close-up, delivering his famous manifesto."
+    },
+    {
+      "beat_id": "beat_05_staged_savior_spectacle",
+      "chapter_name": "The Staged Savior",
+      "narration_text": "Yet look at what he actually did. He staged a catastrophic attack on the city just to swoop in and play the savior. He wasn't abolishing heroes. He was engineering a world where he was the only hero left to worship.",
+      "start_time": 34.00,
+      "end_time": 46.20,
+      "duration": 12.20,
+      "source_file": "output/clip_cache/incredibles_syndrome_hero_act_1080p.mp4",
+      "source_start": 8.0,
+      "motion": "SLOW_PAN_RIGHT",
+      "visual_description": "Syndrome hovering over Metroville with his wrist remote, shooting the Omnidroid, triumphantly waving to the cheering crowd."
+    },
+    {
+      "beat_id": "beat_06_final_psychological_payoff",
+      "chapter_name": "The Final Truth",
+      "narration_text": "Syndrome doesn't want a world without heroes. He wants a world where everyone finally sees him as one.",
+      "start_time": 46.20,
+      "end_time": 52.65,
+      "duration": 6.45,
+      "source_file": "output/clip_cache/incredibles_syndrome_island_reveal_1080p.mp4",
+      "source_start": 148.0,
+      "motion": "SLOW_PUSH_IN",
+      "visual_description": "Syndrome laughing with manic pride, glowing with zero-point energy, the portrait of a rejected boy demanding worship."
+    }
+  ]
+}

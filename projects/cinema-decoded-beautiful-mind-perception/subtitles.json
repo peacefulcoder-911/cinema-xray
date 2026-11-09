@@ -1,0 +1,878 @@
+[
+  {
+    "word": "A",
+    "start": 0.0,
+    "end": 0.26,
+    "probability": 0.908
+  },
+  {
+    "word": "beautiful",
+    "start": 0.26,
+    "end": 0.52,
+    "probability": 0.94
+  },
+  {
+    "word": "mind",
+    "start": 0.52,
+    "end": 0.76,
+    "probability": 0.949
+  },
+  {
+    "word": "does",
+    "start": 0.76,
+    "end": 1.02,
+    "probability": 0.996
+  },
+  {
+    "word": "something",
+    "start": 1.02,
+    "end": 1.38,
+    "probability": 0.997
+  },
+  {
+    "word": "unusual.",
+    "start": 1.38,
+    "end": 1.82,
+    "probability": 0.999
+  },
+  {
+    "word": "It",
+    "start": 2.46,
+    "end": 2.52,
+    "probability": 0.996
+  },
+  {
+    "word": "makes",
+    "start": 2.52,
+    "end": 2.64,
+    "probability": 0.998
+  },
+  {
+    "word": "you",
+    "start": 2.64,
+    "end": 2.78,
+    "probability": 0.99
+  },
+  {
+    "word": "believe",
+    "start": 2.78,
+    "end": 3.04,
+    "probability": 0.999
+  },
+  {
+    "word": "in",
+    "start": 3.04,
+    "end": 3.34,
+    "probability": 0.977
+  },
+  {
+    "word": "the",
+    "start": 3.34,
+    "end": 3.46,
+    "probability": 0.999
+  },
+  {
+    "word": "same",
+    "start": 3.46,
+    "end": 3.64,
+    "probability": 0.993
+  },
+  {
+    "word": "reality",
+    "start": 3.64,
+    "end": 4.16,
+    "probability": 0.997
+  },
+  {
+    "word": "that",
+    "start": 4.16,
+    "end": 4.4,
+    "probability": 0.951
+  },
+  {
+    "word": "it's",
+    "start": 4.4,
+    "end": 4.62,
+    "probability": 0.659
+  },
+  {
+    "word": "main",
+    "start": 4.62,
+    "end": 4.76,
+    "probability": 0.927
+  },
+  {
+    "word": "character",
+    "start": 4.76,
+    "end": 5.18,
+    "probability": 0.998
+  },
+  {
+    "word": "believes",
+    "start": 5.18,
+    "end": 5.56,
+    "probability": 0.988
+  },
+  {
+    "word": "in.",
+    "start": 5.56,
+    "end": 5.82,
+    "probability": 0.99
+  },
+  {
+    "word": "From",
+    "start": 6.3,
+    "end": 6.42,
+    "probability": 0.993
+  },
+  {
+    "word": "the",
+    "start": 6.42,
+    "end": 6.54,
+    "probability": 0.963
+  },
+  {
+    "word": "moment",
+    "start": 6.54,
+    "end": 6.74,
+    "probability": 0.985
+  },
+  {
+    "word": "John",
+    "start": 6.74,
+    "end": 7.0,
+    "probability": 0.8
+  },
+  {
+    "word": "Nash",
+    "start": 7.0,
+    "end": 7.26,
+    "probability": 0.985
+  },
+  {
+    "word": "arrives",
+    "start": 7.26,
+    "end": 7.68,
+    "probability": 0.988
+  },
+  {
+    "word": "at",
+    "start": 7.68,
+    "end": 7.86,
+    "probability": 0.992
+  },
+  {
+    "word": "Princeton,",
+    "start": 7.86,
+    "end": 8.3,
+    "probability": 0.997
+  },
+  {
+    "word": "the",
+    "start": 8.62,
+    "end": 8.66,
+    "probability": 0.984
+  },
+  {
+    "word": "camera",
+    "start": 8.66,
+    "end": 8.98,
+    "probability": 0.985
+  },
+  {
+    "word": "locks",
+    "start": 8.98,
+    "end": 9.22,
+    "probability": 0.979
+  },
+  {
+    "word": "onto",
+    "start": 9.22,
+    "end": 9.6,
+    "probability": 0.6
+  },
+  {
+    "word": "his",
+    "start": 9.6,
+    "end": 9.86,
+    "probability": 0.995
+  },
+  {
+    "word": "subjective",
+    "start": 9.86,
+    "end": 10.32,
+    "probability": 0.997
+  },
+  {
+    "word": "perspective.",
+    "start": 10.32,
+    "end": 10.9,
+    "probability": 0.998
+  },
+  {
+    "word": "The",
+    "start": 11.42,
+    "end": 11.6,
+    "probability": 0.995
+  },
+  {
+    "word": "film",
+    "start": 11.6,
+    "end": 11.78,
+    "probability": 0.998
+  },
+  {
+    "word": "doesn't",
+    "start": 11.78,
+    "end": 12.04,
+    "probability": 0.995
+  },
+  {
+    "word": "use",
+    "start": 12.04,
+    "end": 12.28,
+    "probability": 0.991
+  },
+  {
+    "word": "warped",
+    "start": 12.28,
+    "end": 12.62,
+    "probability": 0.958
+  },
+  {
+    "word": "lenses",
+    "start": 12.62,
+    "end": 12.92,
+    "probability": 0.996
+  },
+  {
+    "word": "or",
+    "start": 12.92,
+    "end": 13.3,
+    "probability": 0.946
+  },
+  {
+    "word": "spooky",
+    "start": 13.3,
+    "end": 13.56,
+    "probability": 0.989
+  },
+  {
+    "word": "music.",
+    "start": 13.56,
+    "end": 14.02,
+    "probability": 0.999
+  },
+  {
+    "word": "His",
+    "start": 14.42,
+    "end": 14.6,
+    "probability": 0.992
+  },
+  {
+    "word": "roommate",
+    "start": 14.6,
+    "end": 14.82,
+    "probability": 0.967
+  },
+  {
+    "word": "Charles",
+    "start": 14.82,
+    "end": 15.2,
+    "probability": 0.873
+  },
+  {
+    "word": "isn't",
+    "start": 15.2,
+    "end": 15.6,
+    "probability": 0.908
+  },
+  {
+    "word": "framed",
+    "start": 15.6,
+    "end": 15.82,
+    "probability": 0.996
+  },
+  {
+    "word": "as",
+    "start": 15.82,
+    "end": 16.0,
+    "probability": 0.998
+  },
+  {
+    "word": "a",
+    "start": 16.0,
+    "end": 16.1,
+    "probability": 0.992
+  },
+  {
+    "word": "ghost.",
+    "start": 16.1,
+    "end": 16.36,
+    "probability": 0.987
+  },
+  {
+    "word": "He",
+    "start": 16.84,
+    "end": 16.9,
+    "probability": 0.991
+  },
+  {
+    "word": "shares",
+    "start": 16.9,
+    "end": 17.1,
+    "probability": 0.995
+  },
+  {
+    "word": "drinks,",
+    "start": 17.1,
+    "end": 17.5,
+    "probability": 0.992
+  },
+  {
+    "word": "gives",
+    "start": 17.84,
+    "end": 17.94,
+    "probability": 0.954
+  },
+  {
+    "word": "advice,",
+    "start": 17.94,
+    "end": 18.36,
+    "probability": 0.997
+  },
+  {
+    "word": "and",
+    "start": 18.38,
+    "end": 18.66,
+    "probability": 0.995
+  },
+  {
+    "word": "feels",
+    "start": 18.66,
+    "end": 19.1,
+    "probability": 0.962
+  },
+  {
+    "word": "completely",
+    "start": 19.1,
+    "end": 19.6,
+    "probability": 0.998
+  },
+  {
+    "word": "grounded.",
+    "start": 19.6,
+    "end": 19.96,
+    "probability": 0.998
+  },
+  {
+    "word": "When",
+    "start": 20.56,
+    "end": 20.8,
+    "probability": 0.823
+  },
+  {
+    "word": "a",
+    "start": 20.8,
+    "end": 20.9,
+    "probability": 0.995
+  },
+  {
+    "word": "secret",
+    "start": 20.9,
+    "end": 21.16,
+    "probability": 0.952
+  },
+  {
+    "word": "agent",
+    "start": 21.16,
+    "end": 21.44,
+    "probability": 0.996
+  },
+  {
+    "word": "recruits",
+    "start": 21.44,
+    "end": 21.88,
+    "probability": 0.994
+  },
+  {
+    "word": "Nash",
+    "start": 21.88,
+    "end": 22.1,
+    "probability": 0.983
+  },
+  {
+    "word": "for",
+    "start": 22.1,
+    "end": 22.32,
+    "probability": 0.996
+  },
+  {
+    "word": "Cold",
+    "start": 22.32,
+    "end": 22.56,
+    "probability": 0.683
+  },
+  {
+    "word": "War",
+    "start": 22.56,
+    "end": 22.8,
+    "probability": 0.985
+  },
+  {
+    "word": "code",
+    "start": 22.8,
+    "end": 23.06,
+    "probability": 0.849
+  },
+  {
+    "word": "breaking,",
+    "start": 23.06,
+    "end": 23.44,
+    "probability": 0.621
+  },
+  {
+    "word": "the",
+    "start": 23.84,
+    "end": 23.9,
+    "probability": 0.985
+  },
+  {
+    "word": "film",
+    "start": 23.9,
+    "end": 24.08,
+    "probability": 0.999
+  },
+  {
+    "word": "frames",
+    "start": 24.08,
+    "end": 24.4,
+    "probability": 0.982
+  },
+  {
+    "word": "it",
+    "start": 24.4,
+    "end": 24.52,
+    "probability": 0.997
+  },
+  {
+    "word": "as",
+    "start": 24.52,
+    "end": 24.66,
+    "probability": 0.997
+  },
+  {
+    "word": "a",
+    "start": 24.66,
+    "end": 24.8,
+    "probability": 0.989
+  },
+  {
+    "word": "grounded",
+    "start": 24.8,
+    "end": 25.24,
+    "probability": 0.994
+  },
+  {
+    "word": "espionage",
+    "start": 25.24,
+    "end": 25.82,
+    "probability": 0.665
+  },
+  {
+    "word": "thriller.",
+    "start": 25.82,
+    "end": 26.06,
+    "probability": 0.944
+  },
+  {
+    "word": "Because",
+    "start": 26.68,
+    "end": 26.92,
+    "probability": 0.96
+  },
+  {
+    "word": "the",
+    "start": 26.92,
+    "end": 27.08,
+    "probability": 0.987
+  },
+  {
+    "word": "story",
+    "start": 27.08,
+    "end": 27.28,
+    "probability": 0.996
+  },
+  {
+    "word": "feels",
+    "start": 27.28,
+    "end": 27.54,
+    "probability": 0.979
+  },
+  {
+    "word": "coherent,",
+    "start": 27.54,
+    "end": 28.06,
+    "probability": 0.98
+  },
+  {
+    "word": "we",
+    "start": 28.32,
+    "end": 28.48,
+    "probability": 0.996
+  },
+  {
+    "word": "trust",
+    "start": 28.48,
+    "end": 28.74,
+    "probability": 0.936
+  },
+  {
+    "word": "it",
+    "start": 28.74,
+    "end": 28.86,
+    "probability": 0.984
+  },
+  {
+    "word": "completely.",
+    "start": 28.86,
+    "end": 29.28,
+    "probability": 0.993
+  },
+  {
+    "word": "Then",
+    "start": 30.02,
+    "end": 30.22,
+    "probability": 0.629
+  },
+  {
+    "word": "comes",
+    "start": 30.22,
+    "end": 30.48,
+    "probability": 0.981
+  },
+  {
+    "word": "the",
+    "start": 30.48,
+    "end": 30.58,
+    "probability": 0.908
+  },
+  {
+    "word": "shock.",
+    "start": 30.58,
+    "end": 30.76,
+    "probability": 0.982
+  },
+  {
+    "word": "The",
+    "start": 31.38,
+    "end": 31.46,
+    "probability": 0.968
+  },
+  {
+    "word": "roommate,",
+    "start": 31.46,
+    "end": 31.72,
+    "probability": 0.874
+  },
+  {
+    "word": "the",
+    "start": 32.1,
+    "end": 32.2,
+    "probability": 0.98
+  },
+  {
+    "word": "agent,",
+    "start": 32.2,
+    "end": 32.56,
+    "probability": 0.994
+  },
+  {
+    "word": "the",
+    "start": 32.82,
+    "end": 32.88,
+    "probability": 0.989
+  },
+  {
+    "word": "conspiracy.",
+    "start": 32.88,
+    "end": 33.32,
+    "probability": 0.971
+  },
+  {
+    "word": "None",
+    "start": 34.12,
+    "end": 34.32,
+    "probability": 0.992
+  },
+  {
+    "word": "of",
+    "start": 34.32,
+    "end": 34.46,
+    "probability": 0.997
+  },
+  {
+    "word": "them",
+    "start": 34.46,
+    "end": 34.64,
+    "probability": 0.997
+  },
+  {
+    "word": "exists",
+    "start": 34.64,
+    "end": 35.04,
+    "probability": 0.681
+  },
+  {
+    "word": "at",
+    "start": 35.04,
+    "end": 35.24,
+    "probability": 0.38
+  },
+  {
+    "word": "outside",
+    "start": 35.24,
+    "end": 35.52,
+    "probability": 0.934
+  },
+  {
+    "word": "Nash's",
+    "start": 35.52,
+    "end": 35.92,
+    "probability": 0.946
+  },
+  {
+    "word": "mind.",
+    "start": 35.92,
+    "end": 36.14,
+    "probability": 0.996
+  },
+  {
+    "word": "It",
+    "start": 36.72,
+    "end": 36.78,
+    "probability": 0.964
+  },
+  {
+    "word": "forces",
+    "start": 36.78,
+    "end": 36.98,
+    "probability": 0.957
+  },
+  {
+    "word": "you",
+    "start": 36.98,
+    "end": 37.16,
+    "probability": 0.991
+  },
+  {
+    "word": "to",
+    "start": 37.16,
+    "end": 37.26,
+    "probability": 0.984
+  },
+  {
+    "word": "mentally",
+    "start": 37.26,
+    "end": 37.68,
+    "probability": 0.996
+  },
+  {
+    "word": "rewind",
+    "start": 37.68,
+    "end": 38.16,
+    "probability": 0.966
+  },
+  {
+    "word": "every",
+    "start": 38.16,
+    "end": 38.68,
+    "probability": 0.99
+  },
+  {
+    "word": "earlier",
+    "start": 38.68,
+    "end": 39.06,
+    "probability": 0.98
+  },
+  {
+    "word": "scene.",
+    "start": 39.06,
+    "end": 39.36,
+    "probability": 0.994
+  },
+  {
+    "word": "The",
+    "start": 40.14,
+    "end": 40.26,
+    "probability": 0.994
+  },
+  {
+    "word": "cleverest",
+    "start": 40.26,
+    "end": 40.62,
+    "probability": 0.963
+  },
+  {
+    "word": "part",
+    "start": 40.62,
+    "end": 40.82,
+    "probability": 0.999
+  },
+  {
+    "word": "isn't",
+    "start": 40.82,
+    "end": 41.14,
+    "probability": 0.989
+  },
+  {
+    "word": "that",
+    "start": 41.14,
+    "end": 41.26,
+    "probability": 0.993
+  },
+  {
+    "word": "Nash",
+    "start": 41.26,
+    "end": 41.52,
+    "probability": 0.997
+  },
+  {
+    "word": "cannot",
+    "start": 41.52,
+    "end": 41.7,
+    "probability": 0.912
+  },
+  {
+    "word": "distinguish",
+    "start": 41.7,
+    "end": 42.26,
+    "probability": 0.997
+  },
+  {
+    "word": "what",
+    "start": 42.26,
+    "end": 42.56,
+    "probability": 0.991
+  },
+  {
+    "word": "he",
+    "start": 42.56,
+    "end": 42.7,
+    "probability": 0.993
+  },
+  {
+    "word": "experiences",
+    "start": 42.7,
+    "end": 43.2,
+    "probability": 0.964
+  },
+  {
+    "word": "from",
+    "start": 43.2,
+    "end": 43.44,
+    "probability": 0.988
+  },
+  {
+    "word": "reality.",
+    "start": 43.44,
+    "end": 43.98,
+    "probability": 0.994
+  },
+  {
+    "word": "It's",
+    "start": 44.48,
+    "end": 44.68,
+    "probability": 0.982
+  },
+  {
+    "word": "that",
+    "start": 44.68,
+    "end": 44.76,
+    "probability": 0.987
+  },
+  {
+    "word": "the",
+    "start": 44.76,
+    "end": 44.9,
+    "probability": 0.991
+  },
+  {
+    "word": "film",
+    "start": 44.9,
+    "end": 45.28,
+    "probability": 0.998
+  },
+  {
+    "word": "makes",
+    "start": 45.28,
+    "end": 45.58,
+    "probability": 0.991
+  },
+  {
+    "word": "us",
+    "start": 45.58,
+    "end": 45.76,
+    "probability": 0.985
+  },
+  {
+    "word": "trust",
+    "start": 45.76,
+    "end": 46.12,
+    "probability": 0.911
+  },
+  {
+    "word": "his",
+    "start": 46.12,
+    "end": 46.34,
+    "probability": 0.77
+  },
+  {
+    "word": "perspective",
+    "start": 46.34,
+    "end": 46.88,
+    "probability": 0.996
+  },
+  {
+    "word": "before",
+    "start": 46.88,
+    "end": 47.42,
+    "probability": 0.688
+  },
+  {
+    "word": "we",
+    "start": 47.42,
+    "end": 47.64,
+    "probability": 0.994
+  },
+  {
+    "word": "realize",
+    "start": 47.64,
+    "end": 48.06,
+    "probability": 0.869
+  },
+  {
+    "word": "we",
+    "start": 48.06,
+    "end": 48.28,
+    "probability": 0.992
+  },
+  {
+    "word": "should",
+    "start": 48.28,
+    "end": 48.42,
+    "probability": 0.996
+  },
+  {
+    "word": "question",
+    "start": 48.42,
+    "end": 48.74,
+    "probability": 0.997
+  },
+  {
+    "word": "it.",
+    "start": 48.74,
+    "end": 48.92,
+    "probability": 0.995
+  }
+]

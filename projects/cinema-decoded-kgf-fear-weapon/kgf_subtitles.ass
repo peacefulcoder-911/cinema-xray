@@ -1,0 +1,58 @@
+[Script Info]
+Title: Cinema X-Ray Center Bold Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,10,4,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.27,0:00:01.10,CenterBold,,0,0,0,,{\c&H0000E5FF&}INSIDE{\c&H00FFFFFF&} THE BRUTAL
+Dialogue: 0,0:00:01.10,0:00:02.38,CenterBold,,0,0,0,,GOLD {\c&H0000E5FF&}MINES{\c&H00FFFFFF&} OF KGF,
+Dialogue: 0,0:00:02.78,0:00:03.58,CenterBold,,0,0,0,,POWER WASN’T {\c&H0000E5FF&}MEASURED{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.58,0:00:04.64,CenterBold,,0,0,0,,IN GOLD—IT WAS
+Dialogue: 0,0:00:04.64,0:00:05.60,CenterBold,,0,0,0,,{\c&H0000E5FF&}MEASURED{\c&H00FFFFFF&} IN PURE
+Dialogue: 0,0:00:05.60,0:00:07.06,CenterBold,,0,0,0,,{\c&H0000E5FF&}TERROR{\c&H00FFFFFF&}. TWENTY
+Dialogue: 0,0:00:07.06,0:00:08.24,CenterBold,,0,0,0,,{\c&H0000E5FF&}THOUSAND{\c&H00FFFFFF&} ENSLAVED WORKERS
+Dialogue: 0,0:00:08.24,0:00:09.00,CenterBold,,0,0,0,,{\c&H0000E5FF&}LIVED{\c&H00FFFFFF&} IN TOTAL
+Dialogue: 0,0:00:09.00,0:00:10.52,CenterBold,,0,0,0,,{\c&H0000E5FF&}SUBMISSION{\c&H00FFFFFF&} BECAUSE GARUDA
+Dialogue: 0,0:00:10.52,0:00:11.50,CenterBold,,0,0,0,,HELD AN {\c&H0000E5FF&}ABSOLUTE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.50,0:00:12.74,CenterBold,,0,0,0,,{\c&H0000E5FF&}MONOPOLY{\c&H00FFFFFF&} ON FEAR.
+Dialogue: 0,0:00:13.66,0:00:14.26,CenterBold,,0,0,0,,{\c&H0000E5FF&}ANYONE{\c&H00FFFFFF&} WHO LOOKED
+Dialogue: 0,0:00:14.26,0:00:15.12,CenterBold,,0,0,0,,UP WAS {\c&H0000E5FF&}EXECUTED{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:15.86,0:00:16.78,CenterBold,,0,0,0,,EVERY {\c&H0000E5FF&}ASSASSIN{\c&H00FFFFFF&} SENT
+Dialogue: 0,0:00:16.78,0:00:17.58,CenterBold,,0,0,0,,TO {\c&H0000E5FF&}ELIMINATE{\c&H00FFFFFF&} GARUDA
+Dialogue: 0,0:00:17.58,0:00:18.28,CenterBold,,0,0,0,,MADE THE {\c&H0000E5FF&}EXACT{\c&H00FFFFFF&}
+Dialogue: 0,0:00:18.28,0:00:18.84,CenterBold,,0,0,0,,SAME {\c&H0000E5FF&}MISTAKE{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:19.42,0:00:19.96,CenterBold,,0,0,0,,THEY {\c&H0000E5FF&}TRIED{\c&H00FFFFFF&} TO
+Dialogue: 0,0:00:19.96,0:00:20.84,CenterBold,,0,0,0,,FIGHT HIM WITH {\c&H0000E5FF&}WEAPONS{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:21.84,0:00:22.76,CenterBold,,0,0,0,,{\c&H0000E5FF&}ROCKY{\c&H00FFFFFF&} UNDERSTOOD SOMETHING
+Dialogue: 0,0:00:22.76,0:00:24.12,CenterBold,,0,0,0,,DEEPER—A {\c&H0000E5FF&}DICTATOR{\c&H00FFFFFF&}
+Dialogue: 0,0:00:24.12,0:00:25.02,CenterBold,,0,0,0,,ONLY {\c&H0000E5FF&}RULES{\c&H00FFFFFF&} AS
+Dialogue: 0,0:00:25.02,0:00:25.46,CenterBold,,0,0,0,,{\c&H0000E5FF&}LONG{\c&H00FFFFFF&} AS THE
+Dialogue: 0,0:00:25.46,0:00:26.56,CenterBold,,0,0,0,,{\c&H0000E5FF&}OPPRESSED{\c&H00FFFFFF&} BELIEVE DEFIANCE
+Dialogue: 0,0:00:26.56,0:00:27.28,CenterBold,,0,0,0,,IS {\c&H0000E5FF&}IMPOSSIBLE{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:27.28,0:00:28.40,CenterBold,,0,0,0,,{\c&H0000E5FF&}SO{\c&H00FFFFFF&} IN A
+Dialogue: 0,0:00:28.40,0:00:29.26,CenterBold,,0,0,0,,WORLD WHERE {\c&H0000E5FF&}SURVIVAL{\c&H00FFFFFF&}
+Dialogue: 0,0:00:29.26,0:00:30.12,CenterBold,,0,0,0,,MEANT {\c&H0000E5FF&}DROPPING{\c&H00FFFFFF&} TO
+Dialogue: 0,0:00:30.12,0:00:30.54,CenterBold,,0,0,0,,YOUR {\c&H0000E5FF&}KNEES{\c&H00FFFFFF&},
+Dialogue: 0,0:00:31.18,0:00:32.22,CenterBold,,0,0,0,,ROCKY {\c&H0000E5FF&}REFUSED{\c&H00FFFFFF&} TO BOW.
+Dialogue: 0,0:00:33.02,0:00:33.66,CenterBold,,0,0,0,,EVERY {\c&H0000E5FF&}STRIKE{\c&H00FFFFFF&} HE
+Dialogue: 0,0:00:33.66,0:00:34.44,CenterBold,,0,0,0,,{\c&H0000E5FF&}DELIVERED{\c&H00FFFFFF&} WASN’T TO
+Dialogue: 0,0:00:34.44,0:00:35.04,CenterBold,,0,0,0,,PROVE HIS {\c&H0000E5FF&}PHYSICAL{\c&H00FFFFFF&}
+Dialogue: 0,0:00:35.04,0:00:36.14,CenterBold,,0,0,0,,STRENGTH—IT WAS TO
+Dialogue: 0,0:00:36.14,0:00:36.58,CenterBold,,0,0,0,,{\c&H0000E5FF&}SHATTER{\c&H00FFFFFF&} THE
+Dialogue: 0,0:00:36.58,0:00:38.38,CenterBold,,0,0,0,,ILLUSION OF GARUDA'S {\c&H0000E5FF&}INVINCIBILITY{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:38.98,0:00:39.94,CenterBold,,0,0,0,,{\c&H0000E5FF&}ROCKY{\c&H00FFFFFF&} DIDN’T JUST
+Dialogue: 0,0:00:39.94,0:00:40.72,CenterBold,,0,0,0,,{\c&H0000E5FF&}ENTER{\c&H00FFFFFF&} KGF TO
+Dialogue: 0,0:00:40.72,0:00:41.24,CenterBold,,0,0,0,,KILL A {\c&H0000E5FF&}TYRANT{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:41.72,0:00:42.38,CenterBold,,0,0,0,,HE {\c&H0000E5FF&}ENTERED{\c&H00FFFFFF&} AN
+Dialogue: 0,0:00:42.38,0:00:43.40,CenterBold,,0,0,0,,{\c&H0000E5FF&}EMPIRE{\c&H00FFFFFF&} BUILT ON FEAR,
+Dialogue: 0,0:00:44.02,0:00:44.58,CenterBold,,0,0,0,,AND {\c&H0000E5FF&}MADE{\c&H00FFFFFF&} FEAR
+Dialogue: 0,0:00:44.58,0:00:45.36,CenterBold,,0,0,0,,{\c&H0000E5FF&}CHANGE{\c&H00FFFFFF&} SIDES.

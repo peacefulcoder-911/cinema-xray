@@ -1,0 +1,54 @@
+{
+  "project_id": "cinema-decoded-mad-max-chrome",
+  "audio": {
+    "voice_model": "gemini-3.8-flash-tts (Achird)",
+    "tempo_multiplier": 1.12,
+    "loudness_standard": "EBU R128 (-14.0 LUFS, TP -1.5 dB, LRA 11)",
+    "sample_rate": 24000,
+    "duration_sec": 45.016,
+    "file_path": "projects/cinema-decoded-mad-max-chrome/audio/mad_max_chrome_achird_fast.wav"
+  },
+  "subtitles": {
+    "alignment_engine": "faster-whisper",
+    "total_cards": 44,
+    "style": "CenterBold (Arial Black, 76pt, yellow focus highlighting, bottom-center anchored at y=960)",
+    "ass_path": "projects/cinema-decoded-mad-max-chrome/mad_max_subtitles.ass",
+    "json_path": "projects/cinema-decoded-mad-max-chrome/subtitles.json"
+  },
+  "source_footage": [
+    {
+      "source_id": "mad_max_witness_me",
+      "youtube_id": "x2CeDY9Ywhs",
+      "resolution": "1920x1080",
+      "fps": 23.976,
+      "local_path": "output/clip_cache/mad_max_witness_me_1080p.mp4",
+      "used_intervals": [
+        {"start": 0.5, "end": 4.5, "target_beat": "beat_01"},
+        {"start": 18.0, "end": 25.0, "target_beat": "beat_04"},
+        {"start": 23.5, "end": 30.516, "target_beat": "beat_06"}
+      ]
+    },
+    {
+      "source_id": "mad_max_immortan_joe_citadel",
+      "youtube_id": "mMQ_R-L4TQQ",
+      "resolution": "1920x1080",
+      "fps": 25.0,
+      "local_path": "output/clip_cache/mad_max_immortan_joe_citadel_1080p.mp4",
+      "used_intervals": [
+        {"start": 32.0, "end": 41.5, "target_beat": "beat_02"}
+      ]
+    },
+    {
+      "source_id": "mad_max_chase_valhalla",
+      "youtube_id": "1jXFCtBab1k",
+      "resolution": "1920x1080",
+      "fps": 23.976,
+      "local_path": "output/clip_cache/mad_max_chase_valhalla_1080p.mp4",
+      "used_intervals": [
+        {"start": 42.0, "end": 50.0, "target_beat": "beat_03"},
+        {"start": 145.0, "end": 154.5, "target_beat": "beat_05"}
+      ]
+    }
+  ]
+}
+

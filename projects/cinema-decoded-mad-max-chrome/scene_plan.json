@@ -1,0 +1,90 @@
+{
+  "project_id": "cinema-decoded-mad-max-chrome",
+  "movie": "Mad Max: Fury Road (2015)",
+  "title": "Why the War Boys Spray Their Mouths with Chrome Before They Die",
+  "total_duration": 45.016,
+  "aspect_ratio": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "style": {
+    "composition": "70pct_active_cinematic_framing",
+    "background": "blurred_ambient_glow",
+    "dividers": "black_matte_bars",
+    "subtitles": "center_bold_highlight"
+  },
+  "beats": [
+    {
+      "beat_id": "beat_01_chrome_ritual",
+      "start": 0.0,
+      "end": 4.0,
+      "duration": 4.0,
+      "narration_line": "Why would someone spray silver paint into their mouth just before dying?",
+      "visual_description": "Extreme close-up of Morsov spraying aerosol chrome directly across his open mouth and teeth.",
+      "source_file": "output/clip_cache/mad_max_witness_me_1080p.mp4",
+      "source_start": 0.5,
+      "source_end": 4.5,
+      "motion": "SLOW_PUSH_IN"
+    },
+    {
+      "beat_id": "beat_02_immortan_joe_worship",
+      "start": 4.0,
+      "end": 13.5,
+      "duration": 9.5,
+      "narration_line": "In the wasteland of Mad Max, the War Boys don’t fear death—they worship it. Conditioned under Immortan Joe, they believe dying in his service guarantees eternal glory in Valhalla.",
+      "visual_description": "Immortan Joe standing atop the Citadel balcony in transparent armor, thousands of pale War Boys looking up in divine reverence.",
+      "source_file": "output/clip_cache/mad_max_immortan_joe_citadel_1080p.mp4",
+      "source_start": 32.0,
+      "source_end": 41.5,
+      "motion": "SLOW_PUSH_IN"
+    },
+    {
+      "beat_id": "beat_03_machines_sacred_metal",
+      "start": 13.5,
+      "end": 21.5,
+      "duration": 8.0,
+      "narration_line": "The chrome spray isn't madness. To the War Boys, machines are immortal, and chrome is sacred metal. By painting their mouths silver, they turn from mortal flesh into mechanical weapons.",
+      "visual_description": "War Boys holding the chrome V8 steering wheel idol inside the roaring vehicle, silver teeth shining in harsh desert sunlight.",
+      "source_file": "output/clip_cache/mad_max_chase_valhalla_1080p.mp4",
+      "source_start": 42.0,
+      "source_end": 50.0,
+      "motion": "SLOW_PAN_LEFT"
+    },
+    {
+      "beat_id": "beat_04_witness_me_performance",
+      "start": 21.5,
+      "end": 28.5,
+      "duration": 7.0,
+      "narration_line": "Their desperate cry—'Witness me'—transforms suicide into a celebrated public performance.",
+      "visual_description": "Morsov raising twin explosive thundersticks, shouting 'Witness me!', other War Boys screaming back 'Witness!'.",
+      "source_file": "output/clip_cache/mad_max_witness_me_1080p.mp4",
+      "source_start": 18.0,
+      "source_end": 25.0,
+      "motion": "FAST_ZOOM"
+    },
+    {
+      "beat_id": "beat_05_psychological_enslavement",
+      "start": 28.5,
+      "end": 38.0,
+      "duration": 9.5,
+      "narration_line": "Immortan Joe’s true power isn’t weapons or water. It’s psychological enslavement. He convinced dying men that their exploitation was supreme honor.",
+      "visual_description": "Colossal armada of spiked war machines charging across desert sand dunes, young soldiers swaying on poles into destruction.",
+      "source_file": "output/clip_cache/mad_max_chase_valhalla_1080p.mp4",
+      "source_start": 145.0,
+      "source_end": 154.5,
+      "motion": "SLOW_PUSH_IN"
+    },
+    {
+      "beat_id": "beat_06_dying_as_reward",
+      "start": 38.0,
+      "end": 45.016,
+      "duration": 7.016,
+      "narration_line": "That’s the terrifying part. Immortan Joe doesn’t just command an army willing to die for him. He creates an army that believes dying for him is a reward.",
+      "visual_description": "Morsov leaping into the enemy vehicle, massive fiery explosion consuming the screen, final frame of ecstatic chrome-covered smile.",
+      "source_file": "output/clip_cache/mad_max_witness_me_1080p.mp4",
+      "source_start": 23.5,
+      "source_end": 30.516,
+      "motion": "FAST_ZOOM"
+    }
+  ]
+}
+

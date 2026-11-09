@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "movie": "The Matrix (1999)",
+  "topic": "The Matrix \u2014 Why Cypher Chooses The Lie",
+  "resolution_target": "8K UHD (4320x7680)",
+  "aspect_ratio": "9:16 Vertical",
+  "fps": 30,
+  "master_8k": {
+    "path": "/Users/vinaybt/Downloads/cinema-xray/output/final_video/cinema_xray_the_matrix_cypher_8k.mp4",
+    "width": 4320,
+    "height": 7680,
+    "fps": "30/1",
+    "duration": 46.4,
+    "size_mb": 63.14
+  },
+  "delivery_1080p": {
+    "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-the-matrix-cypher/out/cinema_decoded_matrix_cypher_1080p.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "duration": 46.4,
+    "size_mb": 17.01
+  },
+  "qc_frames": [
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-the-matrix-cypher/qc_frames/qc_frame_02s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-the-matrix-cypher/qc_frames/qc_frame_10s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-the-matrix-cypher/qc_frames/qc_frame_20s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-the-matrix-cypher/qc_frames/qc_frame_24s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-the-matrix-cypher/qc_frames/qc_frame_32s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-the-matrix-cypher/qc_frames/qc_frame_42s.jpg"
+  ],
+  "typography": {
+    "style": "CenterBold Electric Gold",
+    "font": "Arial Black",
+    "size": 76,
+    "box_overlays": false,
+    "readability": "100% Mobile Optimized"
+  },
+  "audio": {
+    "voiceover": "Achird Emotion-Directed Studio",
+    "dialogue_insert": "Cypher Authentic: 'Ignorance is bliss'",
+    "sound_bed": "Restrained Dark Atmospheric Sub-Bass (-22dB)",
+    "loudness": "-14 LUFS (EBU R128 Compliant)"
+  }
+}

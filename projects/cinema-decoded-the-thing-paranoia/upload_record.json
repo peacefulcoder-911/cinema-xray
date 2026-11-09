@@ -1,0 +1,76 @@
+{
+  "status": "SCHEDULED",
+  "slot": "AFTERNOON",
+  "publish_at_iso": "2026-11-10T09:00:00Z",
+  "local_time_desc": "02:30 PM IST (Tuesday, Nov 10, 2026)",
+  "video_id": "6mxdhfU8SPA",
+  "youtube_url": "https://youtu.be/6mxdhfU8SPA",
+  "title": "Why The Thing's Blood Test is Pure Psychological Terror \ud83e\ude78 #shorts",
+  "uploaded_at": "2026-11-09T03:55:06.842268+00:00",
+  "video_file": "/Users/vinaybt/Downloads/cinema-xray/output/final_video/cinema_xray_the_thing_8k.mp4",
+  "thumbnail_file": "/Users/vinaybt/Downloads/cinema-xray/output/thumbnails_short/the_thing_paranoia_thumb.jpg",
+  "video_size_mb": 119.25,
+  "youtube_response": {
+    "kind": "youtube#video",
+    "etag": "dA0Ki6ftCiWEp6Uhrz3WHUq7SXQ",
+    "id": "6mxdhfU8SPA",
+    "snippet": {
+      "publishedAt": "2026-11-09T03:54:41Z",
+      "channelId": "UCglv3tAGqrOIoY03wCTVxgg",
+      "title": "Why The Thing's Blood Test is Pure Psychological Terror \ud83e\ude78 #shorts",
+      "description": "Why does a simple petri dish and a heated wire become the most terrifying scene in horror cinema? In John Carpenter's The Thing (1982), the real monster isn't just the alien organism\u2014it's the complete destruction of human trust. When an enemy can imitate your closest friends with microscopic perfection, cooperation becomes lethal and every innocent man must prove his species before receiving mercy.\n\nDiscover the profound psychological horror of Outpost 31: once trust disappears, everyone starts looking like a monster.\n\nSubscribe to Cinema Decoded for deep psychological breakdowns of cinematic character arcs, visual grammar, and narrative craft.\n\n#TheThing #JohnCarpenter #KurtRussell #CinemaDecoded #FilmAnalysis #HorrorCinema #MovieDetails #Cinematography #MacReady #Shorts",
+      "thumbnails": {
+        "default": {
+          "url": "https://i9.ytimg.com/vi/6mxdhfU8SPA/default.jpg?sqp=COiFxdcG&rs=AOn4CLC52NrRtu0pc5q085qVCVWrIQSEzg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i9.ytimg.com/vi/6mxdhfU8SPA/mqdefault.jpg?sqp=COiFxdcG&rs=AOn4CLAEP0Yt8AbU_mIgxt-KSepdpFFv7Q",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i9.ytimg.com/vi/6mxdhfU8SPA/hqdefault.jpg?sqp=COiFxdcG&rs=AOn4CLC5EpI-VmEWxfPHFj5aQ7kkZ-4mww",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Cinema X-Ray",
+      "tags": [
+        "Blood Test Scene",
+        "Cinema Decoded",
+        "Cinematography",
+        "Ending Explained",
+        "Film Analysis",
+        "Horror Movies",
+        "John Carpenter",
+        "Kurt Russell",
+        "MacReady",
+        "Movie Psychology",
+        "Paranoia Cinema",
+        "Practical Effects",
+        "Shorts",
+        "The Thing",
+        "The Thing 1982"
+      ],
+      "categoryId": "1",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Why The Thing's Blood Test is Pure Psychological Terror \ud83e\ude78 #shorts",
+        "description": "Why does a simple petri dish and a heated wire become the most terrifying scene in horror cinema? In John Carpenter's The Thing (1982), the real monster isn't just the alien organism\u2014it's the complete destruction of human trust. When an enemy can imitate your closest friends with microscopic perfection, cooperation becomes lethal and every innocent man must prove his species before receiving mercy.\n\nDiscover the profound psychological horror of Outpost 31: once trust disappears, everyone starts looking like a monster.\n\nSubscribe to Cinema Decoded for deep psychological breakdowns of cinematic character arcs, visual grammar, and narrative craft.\n\n#TheThing #JohnCarpenter #KurtRussell #CinemaDecoded #FilmAnalysis #HorrorCinema #MovieDetails #Cinematography #MacReady #Shorts"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "status": {
+      "uploadStatus": "uploaded",
+      "privacyStatus": "private",
+      "publishAt": "2026-11-10T09:00:00Z",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "selfDeclaredMadeForKids": false
+    }
+  }
+}
