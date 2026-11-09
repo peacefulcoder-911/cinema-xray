@@ -128,10 +128,17 @@ STRICT RULES:
 - Zero generic filler ("Hey guys", "In this video", "Mind-blowing", "Crazy").
 - Output ONLY the 5 numbered lines, nothing else.
 """
-        models = ["gemini-3.8-flash", "gemini-2.5-flash", "gemini-3.5-flash", "gemini-flash-latest"]
+        models = [
+            "gemini-3.5-flash-lite",
+            "gemini-3.1-flash-lite",
+            "gemini-3-flash-preview",
+            "gemini-3.8-flash",
+            "gemini-3.5-flash",
+            "gemini-flash-latest"
+        ]
         for m in models:
             try:
-                timeout_ms = 12000 if "3.8" in m else 45000
+                timeout_ms = 45000
                 resp = self.client.models.generate_content(
                     model=m,
                     contents=[prompt],
@@ -263,10 +270,17 @@ Approved Opening Hook: "{best_hook}"
 
 Write the full prompt now. Output pure markdown with no intro or outro comments."""
 
-        models = ["gemini-3.8-flash", "gemini-2.5-flash", "gemini-3.5-flash", "gemini-flash-latest"]
+        models = [
+            "gemini-3.5-flash-lite",
+            "gemini-3.1-flash-lite",
+            "gemini-3-flash-preview",
+            "gemini-3.8-flash",
+            "gemini-3.5-flash",
+            "gemini-flash-latest"
+        ]
         for m in models:
             try:
-                timeout_ms = 12000 if "3.8" in m else 90000
+                timeout_ms = 90000
                 resp = self.client.models.generate_content(
                     model=m,
                     contents=[types.Content(role="user", parts=[types.Part.from_text(text=user_prompt)])],
