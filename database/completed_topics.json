@@ -14,10 +14,11 @@
       "category_lens": "Film Scene Analysis",
       "youtube_video_id": "NiyntmuTyL8",
       "youtube_url": "https://youtu.be/NiyntmuTyL8",
-      "scheduled_slot": "ANY",
-      "scheduled_time_iso": null,
+      "scheduled_slot": "NOV11_MORNING",
+      "scheduled_time_iso": "2026-11-11T05:00:00Z",
       "status": "COMPLETED",
-      "created_at": "2026-11-10 20:11:51"
+      "created_at": "2026-11-10 20:11:51",
+      "release_day": "Nov 11"
     },
     {
       "id": 26,
@@ -30,10 +31,11 @@
       "category_lens": "Film Scene Analysis",
       "youtube_video_id": "xWrRWnMOD-I",
       "youtube_url": "https://youtu.be/xWrRWnMOD-I",
-      "scheduled_slot": "ANY",
-      "scheduled_time_iso": null,
+      "scheduled_slot": "NOV11_EVENING",
+      "scheduled_time_iso": "2026-11-11T15:00:00Z",
       "status": "COMPLETED",
-      "created_at": "2026-11-10 17:39:08"
+      "created_at": "2026-11-10 17:39:08",
+      "release_day": "Nov 11"
     },
     {
       "id": 25,
@@ -62,10 +64,11 @@
       "category_lens": "Trailer Detail Investigation",
       "youtube_video_id": "ufEtNYrJRro",
       "youtube_url": "https://youtu.be/ufEtNYrJRro",
-      "scheduled_slot": "ANY",
-      "scheduled_time_iso": null,
+      "scheduled_slot": "NOV12_MORNING",
+      "scheduled_time_iso": "2026-11-12T05:00:00Z",
       "status": "COMPLETED",
-      "created_at": "2026-11-10 16:01:28"
+      "created_at": "2026-11-10 16:01:28",
+      "release_day": "Nov 12"
     },
     {
       "id": 23,
@@ -94,10 +97,11 @@
       "category_lens": "Film Scene Analysis",
       "youtube_video_id": "WBpqmTwD_UE",
       "youtube_url": "https://youtu.be/WBpqmTwD_UE",
-      "scheduled_slot": "ANY",
-      "scheduled_time_iso": null,
+      "scheduled_slot": "NOV12_EVENING",
+      "scheduled_time_iso": "2026-11-12T15:00:00Z",
       "status": "COMPLETED",
-      "created_at": "2026-11-10 12:03:43"
+      "created_at": "2026-11-10 12:03:43",
+      "release_day": "Nov 12"
     },
     {
       "id": 20,
