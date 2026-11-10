@@ -1,8 +1,24 @@
 {
   "database_version": "1.0",
-  "total_completed": 19,
-  "last_updated": "2026-11-10T15:10:44.763200",
+  "total_completed": 20,
+  "last_updated": "2026-11-10T18:38:52.622879",
   "topics": [
+    {
+      "id": 21,
+      "topic_slug": "neo_choice_architect_control_loop",
+      "movie_name": "The Matrix Reloaded (2003)",
+      "film_cluster": "Cinematic Psychology & Visual Storytelling",
+      "title": "Neo's 'Choice': The Architect's Ultimate Control Loop",
+      "hook": "You think Neo defied the Matrix by saving Trinity, but the system calculated his exact move.",
+      "core_thesis": "The Architect reveals that Neo's seemingly defiant 'choice' to save Trinity, rather than reboot the Matrix, is not an act of free will breaking the system, but the final, anticipated variable in the Matrix's sophisticated control mechanism.",
+      "category_lens": "Film Scene Analysis",
+      "youtube_video_id": "WBpqmTwD_UE",
+      "youtube_url": "https://youtu.be/WBpqmTwD_UE",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
+      "status": "COMPLETED",
+      "created_at": "2026-11-10 12:03:43"
+    },
     {
       "id": 20,
       "topic_slug": "matrix_reloaded_smith_virus_v2",

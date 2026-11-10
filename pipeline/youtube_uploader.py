@@ -208,6 +208,13 @@ def upload_video(
                 time.sleep(wait_time)
             else:
                 raise
+        except (OSError, ConnectionError) as e:
+            retry_count += 1
+            if retry_count > max_retries:
+                raise
+            wait_time = 2 ** retry_count
+            print(f"[YouTube Upload] Transient socket/pipe glitch ({e}). Resuming chunk upload in {wait_time}s (attempt {retry_count}/{max_retries})...")
+            time.sleep(wait_time)
 
     video_id = response.get("id")
     video_url = f"https://youtu.be/{video_id}"
