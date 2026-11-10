@@ -1,0 +1,61 @@
+{
+  "project": "Fight Club \u2014 Tyler Durden Was Hiding in Plain Sight",
+  "movie": "Fight Club (1999)",
+  "duration": 47.5,
+  "master_8k_path": "/Users/vinaybt/Downloads/cinema-xray/output/final_video/cinema_xray_fight_club_tyler_hidden_8k.mp4",
+  "delivery_1080p_path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-fight-club-tyler-hidden/out/cinema_decoded_fight_club_tyler_hidden_1080p.mp4",
+  "thumbnail_path": "/Users/vinaybt/Downloads/cinema-xray/output/thumbnails_short/fight_club_tyler_hidden_thumb.jpg",
+  "youtube_url": "https://youtu.be/tpAlRsPhPdE",
+  "youtube_id": "tpAlRsPhPdE",
+  "qc_frames": [
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-fight-club-tyler-hidden/qc_frames/qc_frame_01_2s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-fight-club-tyler-hidden/qc_frames/qc_frame_02_7s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-fight-club-tyler-hidden/qc_frames/qc_frame_03_13s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-fight-club-tyler-hidden/qc_frames/qc_frame_04_19s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-fight-club-tyler-hidden/qc_frames/qc_frame_05_27s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-fight-club-tyler-hidden/qc_frames/qc_frame_06_34s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-fight-club-tyler-hidden/qc_frames/qc_frame_07_40s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-fight-club-tyler-hidden/qc_frames/qc_frame_08_45s.jpg"
+  ],
+  "timing_summary": {
+    "stages": [
+      {
+        "stage": "1. Scene Slicing & 70% Cinematic Framing (Ambient Blur + Motion)",
+        "duration_seconds": 57.32,
+        "percentage": 25.6
+      },
+      {
+        "stage": "2. Visual Clips Concatenation",
+        "duration_seconds": 9.81,
+        "percentage": 4.4
+      },
+      {
+        "stage": "3. 1080p Master Assembly with Subtitle Burn-in & Audio",
+        "duration_seconds": 30.41,
+        "percentage": 13.6
+      },
+      {
+        "stage": "4. Hardware-Accelerated 8K Ultra HD Super-Resolution (4320x7680 @ 85 Mbps)",
+        "duration_seconds": 110.38,
+        "percentage": 49.3
+      },
+      {
+        "stage": "5. High-CTR Vertical Thumbnail Generation & QC Extraction",
+        "duration_seconds": 1.29,
+        "percentage": 0.6
+      },
+      {
+        "stage": "6. Direct Unlisted YouTube Upload",
+        "duration_seconds": 14.62,
+        "percentage": 6.5
+      },
+      {
+        "stage": "7. Topic Database Registration",
+        "duration_seconds": 0.02,
+        "percentage": 0.0
+      }
+    ],
+    "total_duration_seconds": 223.86,
+    "total_duration_minutes": 3.73
+  }
+}

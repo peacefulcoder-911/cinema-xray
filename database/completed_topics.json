@@ -1,8 +1,24 @@
 {
   "database_version": "1.0",
-  "total_completed": 22,
-  "last_updated": "2026-11-10T21:31:28.224007",
+  "total_completed": 23,
+  "last_updated": "2026-11-10T22:12:17.007200",
   "topics": [
+    {
+      "id": 25,
+      "topic_slug": "fight_club_tyler_hidden_appearances",
+      "movie_name": "Fight Club (1999)",
+      "film_cluster": "Cinematic Psychology & Visual Storytelling",
+      "title": "Tyler Durden Was Hiding In Plain Sight",
+      "hook": "Tyler Durden appears in Fight Club before the narrator even meets him.",
+      "core_thesis": "David Fincher placed four single-frame subliminal flashes of Tyler Durden into the narrator's daily life before their official airplane introduction.",
+      "category_lens": "Film Scene Analysis",
+      "youtube_video_id": "tpAlRsPhPdE",
+      "youtube_url": "https://youtu.be/tpAlRsPhPdE",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
+      "status": "COMPLETED",
+      "created_at": "2026-11-10 16:42:17"
+    },
     {
       "id": 24,
       "topic_slug": "spiderman_brand_new_day_dna_paradox",
