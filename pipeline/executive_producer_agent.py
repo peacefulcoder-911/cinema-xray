@@ -272,19 +272,28 @@ Followed by all 11 exact sections:
 Use this narration EXACTLY as provided.
 Do not rewrite, paraphrase, shorten, expand, or regenerate the script.
 ### APPROVED NARRATION
-"[The 40-52 second narration, ~95-115 words total, broken into 7-9 clear sentences. Sentence 1 MUST be the approved hook: '{best_hook}'. The narration MUST end with an engaging comment prompt question.]"
+"[The 50-55 second narration, strictly 125-138 words total, broken into 8-10 clear, impactful sentences. Sentence 1 MUST be the approved hook: '{best_hook}'. The narration MUST deeply explain the specific subtle visual or narrative detail that viewers completely missed in the scene, why ordinary viewers misunderstood it, and how this detail exposes the central psychological discovery. The narration MUST end with an engaging comment prompt debate question.]"
 Preserve the narration order and wording.
+
+### NARRATION PERFORMANCE DIRECTIVES
+Include explicit delivery guidance for ElevenLabs Liam:
+- Tone: Measured, clinical, authoritative documentary pacing.
+- Cadence: ~145-150 words per minute.
+- Emotional Arc: Calm observational curiosity escalating into psychological revelation.
+- Breath Pauses: Mark 0.2s pause points for dramatic weight.
 
 ---
 ## 2. CREATIVE DIRECTION
 ### Visual identity
-(Deep blacks, controlled shadows, high contrast, industrial/atmospheric warehouse lighting, sharp subject separation, subtle film grain.)
+Deep blacks, controlled shadows, high contrast, industrial/atmospheric cinematic lighting, sharp subject separation, subtle film grain.
 ### Visual principle
-**Every narration line must have a visually meaningful counterpart.**
+**Every narration line must have a 100% full-motion, live-action film video counterpart. NO STATIC IMAGE SLIDESHOWS. NO ARTIFICIAL SPLIT-SCREEN CARDS.**
 
 ---
-## 3. SENTENCE-LEVEL VISUAL STORYTELLING
-(Break down the narration sentence-by-sentence into SHOT 1 — THE HOOK, SHOT 2, SHOT 3, SHOT 4, SHOT 5, SHOT 6 — THE PAYOFF, SHOT 7 — COMMENT PROMPT. Each shot must have Narration:, Visual direction:, and specific typography/graphic callouts like WHY DOES A SALVAGE CREW HAVE ALIEN WEAPONS?, NOT POWER. PAYROLL., etc.)
+## 3. SENTENCE-LEVEL VISUAL STORYTELLING (FULL MOTION VIDEO & DYNAMIC IN-VIDEO FREEZE)
+(Break down the narration sentence-by-sentence into SHOT 1 — THE HOOK, SHOT 2, SHOT 3, SHOT 4, SHOT 5, SHOT 6 — THE PAYOFF, SHOT 7 — COMMENT PROMPT. 
+Every single shot MUST be real, dynamic 1080p movie footage playing in continuous motion.
+At the crucial evidence reveal moment, specify the SUDDEN IN-VIDEO FREEZE POINT: the live-action video is playing at full speed, suddenly freezes mid-motion on the exact physical detail for 2.0 seconds while the narrator explains it, and immediately cuts back into live-action motion.)
 
 ---
 ## 4. FOOTAGE RESEARCH AND ACQUISITION
