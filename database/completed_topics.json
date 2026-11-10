@@ -1,8 +1,24 @@
 {
   "database_version": "1.0",
-  "total_completed": 20,
-  "last_updated": "2026-11-10T18:38:52.622879",
+  "total_completed": 21,
+  "last_updated": "2026-11-10T18:58:50.207974",
   "topics": [
+    {
+      "id": 23,
+      "topic_slug": "peter_parker_independence_cost",
+      "movie_name": "Spider-Man: Brand New Day (2008-2010)",
+      "film_cluster": "Cinematic Psychology & Visual Storytelling",
+      "title": "THE PSYCHOLOGICAL LOBOTOMY OF PETER PARKER",
+      "hook": "You never asked why Peter smiles as a single man, and the answer is pure psychological horror",
+      "core_thesis": "THE PSYCHOLOGICAL LOBOTOMY OF PETER PARKER",
+      "category_lens": "Film Scene Analysis",
+      "youtube_video_id": "NsoYtcZ1fpo",
+      "youtube_url": "https://youtu.be/NsoYtcZ1fpo",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
+      "status": "COMPLETED",
+      "created_at": "2026-11-10 13:28:50"
+    },
     {
       "id": 21,
       "topic_slug": "neo_choice_architect_control_loop",
