@@ -1,9 +1,9 @@
 """
 Cinema X-Ray: Acoustic Subtitle Engine
 Generates millisecond-locked ASS subtitles with faster-whisper forced alignment,
-instant pause clearing (>=0.18s), 2-3 word grouping, and electric gold keyword styling.
+instant pause clearing (>=0.18s), 2-3 word grouping, and Arc Reactor Cyan HUD keyword styling.
 Supports:
-  - SHORT_45_SEC: Vertical 1080x1920 Center Bold Stroke (Alignment=5, 76pt, Outline 10, Shadow 4).
+  - SHORT_45_SEC: Vertical 1080x1920 Arc Reactor Cyan HUD (Alignment=2, Futura 74pt, MarginV 360, Outline 8, Shadow 3).
   - LONG_5_6_MIN: Horizontal 1920x1080 Widescreen Lower-Third (Alignment=2, 52pt, MarginV 65, Outline 6, Shadow 3).
 """
 
@@ -267,10 +267,10 @@ Style: WidescreenXRay,Arial Black,52,&H00FFFFFF,&H000000FF,&H00000000,&H80000000
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     else:
-        # SHORT_45_SEC: Exact Pristine Center Bold Style (1080x1920)
-        style_name = "CenterBold"
+        # SHORT_45_SEC: Arc Reactor Cyan HUD Style (1080x1920)
+        style_name = "ArcReactorCyanHUD"
         ass_header = """[Script Info]
-Title: Cinema X-Ray Center Bold Subtitles
+Title: Cinema Decoded Arc Reactor Cyan HUD Subtitles
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
@@ -280,7 +280,7 @@ PlayResY: 1920
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: CenterBold,Arial Black,76,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,10,4,5,60,60,0,1
+Style: ArcReactorCyanHUD,Futura,74,&H00FFFFFF,&H000000FF,&H000A0A0A,&H80000000,-1,0,0,0,100,100,3,0,1,8,3,2,60,60,360,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -293,9 +293,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         raw_text = item["text"].upper()
         highlight_word = item.get("highlight", "").upper().strip(",.!?\"'")
 
-        # Electric Gold highlight (\c&H0000E5FF&) with pure white reset (\c&H00FFFFFF&)
+        # Arc Reactor Cyan highlight (\c&H00FFFF00&) with pure white reset (\c&H00FFFFFF&)
         if highlight_word and highlight_word in raw_text:
-            colored_word = f"{{\\c&H0000E5FF&}}{highlight_word}{{\\c&H00FFFFFF&}}"
+            colored_word = f"{{\\c&H00FFFF00&}}{highlight_word}{{\\c&H00FFFFFF&}}"
             styled_text = raw_text.replace(highlight_word, colored_word, 1)
         else:
             styled_text = raw_text

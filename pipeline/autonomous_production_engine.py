@@ -5,7 +5,7 @@ End-to-end autonomous video production pipeline for Cinema Decoded YouTube Short
 Connects:
 1. Executive Producer & Lead Writer Agent (Gemini + youtube-agent-skill hookscore)
 2. Audio Generator (Gemini TTS 'Achird' single-take, linear normalized, zero whoosh/drone)
-3. Subtitle Engine (CenterBold ASS subtitles with gold keyword highlights)
+3. Subtitle Engine (Arc Reactor Cyan HUD ASS subtitles with vivid Stark cyan highlights)
 4. Footage Acquisition & Scene Planner (yt-dlp clip search or local asset cache)
 5. 70% Cinematic Visual Compositor (1080x1344 active framing, ambient blur, motion, callouts)
 6. 1080p Master Assembly & Burn-in
@@ -276,7 +276,7 @@ class AutonomousProductionEngine:
         output_mp4: str,
         total_duration: float
     ) -> str:
-        """Concatenates video clips, synchronizes master Achird audio, and burns in CenterBold subtitles."""
+        """Concatenates video clips, synchronizes master Achird audio, and burns in Arc Reactor Cyan HUD subtitles."""
         os.makedirs(os.path.dirname(output_mp4), exist_ok=True)
         temp_dir = Path(output_mp4).parent / "temp_assembly"
         temp_dir.mkdir(parents=True, exist_ok=True)
@@ -479,8 +479,8 @@ class AutonomousProductionEngine:
         actual_audio_dur = verify_audio_file(master_audio_path, video_format="SHORT_45_SEC")
         print(f"✅ Studio voiceover ready: {actual_audio_dur:.2f}s (Static linear normalization, -1.0 dBFS)")
 
-        # STAGE 3: Subtitle Generation (CenterBold ASS)
-        print("\n📝 STAGE 3: Generating CenterBold Synchronized Subtitles...")
+        # STAGE 3: Subtitle Generation (Arc Reactor Cyan HUD ASS)
+        print("\n📝 STAGE 3: Generating Arc Reactor Cyan HUD Synchronized Subtitles...")
         subtitles_json_path = str(proj_dir / "subtitles.json")
         ass_path = str(proj_dir / "subtitles.ass")
         if not (os.path.exists(ass_path) and os.path.getsize(ass_path) > 500):
@@ -562,7 +562,7 @@ class AutonomousProductionEngine:
         (proj_dir / "scene_plan.json").write_text(json.dumps(scene_plan, indent=2), encoding="utf-8")
 
         # STAGE 5: 1080p Master Assembly
-        print("\n🎞️  STAGE 5: Assembling 1080p Delivery Master with CenterBold Subtitles...")
+        print("\n🎞️  STAGE 5: Assembling 1080p Delivery Master with Arc Reactor Cyan HUD Subtitles...")
         master_1080p = str(proj_dir / "out" / f"cinema_decoded_{topic_slug}_1080p.mp4")
         if not (os.path.exists(master_1080p) and os.path.getsize(master_1080p) > 1000000):
             self.assemble_final_1080p(

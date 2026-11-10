@@ -4,7 +4,7 @@ Cinema X-Ray Daily Autonomous Batch Runner & YouTube Scheduler
 Orchestrates autonomous Short production:
 1. Queries TopicDatabase to prevent topic duplication.
 2. Directs Gemini to generate unique, high-retention cinematic breakdowns.
-3. Generates studio Achird voiceover & acoustic-locked CenterBold subtitles (Alignment: 5).
+3. Generates studio Achird voiceover & acoustic-locked Arc Reactor Cyan HUD subtitles (Alignment: 2, Futura 74pt).
 4. Composites video in 70% canvas with blurred ambient background.
 5. Uploads to YouTube with Morning, Afternoon, or Night publishAt scheduling.
 6. Commits completed topics to SQLite & JSON database.
@@ -444,12 +444,12 @@ def produce_single_short(
     dur = generate_achird_audio(candidate.script_text, str(audio_path), video_format="SHORT_45_SEC")
     print(f"🎙️ Mastered Voiceover: {dur:.2f}s (Normalized to -14 LUFS)")
 
-    # 3. CenterBold Subtitles (Alignment: 5)
-    ass_path = TEMP_DIR / f"{topic_slug}_centerbold.ass"
+    # 3. Arc Reactor Cyan HUD Subtitles (Alignment: 2)
+    ass_path = TEMP_DIR / f"{topic_slug}_arc_reactor_cyan_hud.ass"
     sub_json = OUTPUT_DIR / "script" / f"{topic_slug}_subtitles.json"
     cards = generate_timed_subtitles(str(audio_path), candidate.script_text, dur, str(sub_json), video_format="SHORT_45_SEC")
     build_ass_subtitles(cards, str(ass_path), video_format="SHORT_45_SEC")
-    print(f"💬 Subtitles Aligned: {len(cards)} cards centered at Y=960 (Alignment 5)")
+    print(f"💬 Subtitles Aligned: {len(cards)} cards in Arc Reactor Cyan HUD style (Alignment 2, MarginV 360)")
 
     # 4. Video Slicing (70% Canvas with Ambient Blurred Letterbox)
     source_file = Path(film_entry["file"])

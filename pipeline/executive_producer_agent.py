@@ -239,7 +239,7 @@ Preserve the narration order and wording.
 
 ---
 ## 7. CAPTIONS AND GRAPHICS
-(CenterBold high-contrast synchronized subtitles, gold highlighted phrases, restrained placement.)
+(Arc Reactor Cyan HUD high-contrast synchronized subtitles, Futura 74pt lower-third, vivid Stark cyan highlighted phrases, restrained placement.)
 
 ---
 ## 8. TECHNICAL IMPLEMENTATION
