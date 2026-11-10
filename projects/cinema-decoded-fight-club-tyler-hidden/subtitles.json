@@ -1,0 +1,437 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 39,
+  "impact_timestamps": [
+    {
+      "word": "APPEARS",
+      "start": 0.0,
+      "end": 0.84
+    },
+    {
+      "word": "FIGHT",
+      "start": 0.84,
+      "end": 1.42
+    },
+    {
+      "word": "NARRATOR",
+      "start": 1.42,
+      "end": 2.18
+    },
+    {
+      "word": "MEETS",
+      "start": 2.18,
+      "end": 2.98
+    },
+    {
+      "word": "FILM",
+      "start": 3.12,
+      "end": 3.7
+    },
+    {
+      "word": "ALMOST",
+      "start": 3.7,
+      "end": 4.18
+    },
+    {
+      "word": "NOTICE",
+      "start": 4.18,
+      "end": 5.18
+    },
+    {
+      "word": "CLOSELY",
+      "start": 8.46,
+      "end": 9.58
+    },
+    {
+      "word": "BACKGROUND",
+      "start": 9.58,
+      "end": 10.06
+    },
+    {
+      "word": "SUPPORT",
+      "start": 10.62,
+      "end": 11.34
+    },
+    {
+      "word": "SCENES",
+      "start": 11.34,
+      "end": 12.02
+    },
+    {
+      "word": "FLASHES",
+      "start": 12.46,
+      "end": 13.32
+    },
+    {
+      "word": "SCREEN",
+      "start": 13.32,
+      "end": 14.02
+    },
+    {
+      "word": "SINGLE",
+      "start": 14.02,
+      "end": 14.84
+    },
+    {
+      "word": "APPEARS",
+      "start": 15.4,
+      "end": 15.98
+    },
+    {
+      "word": "AGAIN",
+      "start": 15.98,
+      "end": 16.66
+    },
+    {
+      "word": "NARRATORS",
+      "start": 16.66,
+      "end": 17.96
+    },
+    {
+      "word": "ALMOST",
+      "start": 18.34,
+      "end": 18.82
+    },
+    {
+      "word": "VISUAL",
+      "start": 18.82,
+      "end": 19.5
+    },
+    {
+      "word": "FIRST",
+      "start": 23.12,
+      "end": 23.9
+    },
+    {
+      "word": "MOMENTS",
+      "start": 24.3,
+      "end": 24.94
+    },
+    {
+      "word": "MEANINGLESS",
+      "start": 24.94,
+      "end": 25.88
+    },
+    {
+      "word": "AFTER",
+      "start": 26.22,
+      "end": 26.78
+    },
+    {
+      "word": "REVEAL",
+      "start": 26.78,
+      "end": 27.3
+    },
+    {
+      "word": "EVERYTHING",
+      "start": 27.68,
+      "end": 28.4
+    },
+    {
+      "word": "SUDDENLY",
+      "start": 28.4,
+      "end": 29.74
+    },
+    {
+      "word": "INTRODUCED",
+      "start": 29.74,
+      "end": 30.82
+    },
+    {
+      "word": "HIDING",
+      "start": 31.26,
+      "end": 31.68
+    },
+    {
+      "word": "PLAIN",
+      "start": 31.68,
+      "end": 32.32
+    },
+    {
+      "word": "ENTIRE",
+      "start": 32.32,
+      "end": 33.36
+    },
+    {
+      "word": "FINCHER",
+      "start": 37.06,
+      "end": 38.06
+    },
+    {
+      "word": "SHOWING",
+      "start": 38.06,
+      "end": 38.5
+    },
+    {
+      "word": "ANSWER",
+      "start": 38.5,
+      "end": 39.2
+    },
+    {
+      "word": "THERE",
+      "start": 39.2,
+      "end": 39.72
+    },
+    {
+      "word": "QUESTION",
+      "start": 39.72,
+      "end": 40.32
+    },
+    {
+      "word": "BIGGEST",
+      "start": 40.82,
+      "end": 41.44
+    },
+    {
+      "word": "FIGHT",
+      "start": 41.44,
+      "end": 42.08
+    },
+    {
+      "word": "HIDING",
+      "start": 42.08,
+      "end": 42.76
+    },
+    {
+      "word": "EARLIEST",
+      "start": 42.76,
+      "end": 43.66
+    }
+  ],
+  "cards": [
+    {
+      "start": 0.0,
+      "end": 0.84,
+      "text": "TYLER DURDON APPEARS",
+      "highlight": "APPEARS"
+    },
+    {
+      "start": 0.84,
+      "end": 1.42,
+      "text": "IN FIGHT CLUB",
+      "highlight": "FIGHT"
+    },
+    {
+      "start": 1.42,
+      "end": 2.18,
+      "text": "BEFORE THE NARRATOR",
+      "highlight": "NARRATOR"
+    },
+    {
+      "start": 2.18,
+      "end": 2.98,
+      "text": "EVEN MEETS HIM,",
+      "highlight": "MEETS"
+    },
+    {
+      "start": 3.12,
+      "end": 3.7,
+      "text": "AND THE FILM",
+      "highlight": "FILM"
+    },
+    {
+      "start": 3.7,
+      "end": 4.18,
+      "text": "GIVES YOU ALMOST",
+      "highlight": "ALMOST"
+    },
+    {
+      "start": 4.18,
+      "end": 5.18,
+      "text": "NO TIME TO NOTICE.",
+      "highlight": "NOTICE"
+    },
+    {
+      "start": 8.46,
+      "end": 9.58,
+      "text": "LOOK CLOSELY AT",
+      "highlight": "CLOSELY"
+    },
+    {
+      "start": 9.58,
+      "end": 10.06,
+      "text": "THE BACKGROUND.",
+      "highlight": "BACKGROUND"
+    },
+    {
+      "start": 10.62,
+      "end": 11.34,
+      "text": "DURING THE SUPPORT",
+      "highlight": "SUPPORT"
+    },
+    {
+      "start": 11.34,
+      "end": 12.02,
+      "text": "GROUP SCENES,",
+      "highlight": "SCENES"
+    },
+    {
+      "start": 12.46,
+      "end": 13.32,
+      "text": "TYLER FLASHES ON",
+      "highlight": "FLASHES"
+    },
+    {
+      "start": 13.32,
+      "end": 14.02,
+      "text": "SCREEN FOR JUST",
+      "highlight": "SCREEN"
+    },
+    {
+      "start": 14.02,
+      "end": 14.84,
+      "text": "A SINGLE FRAME.",
+      "highlight": "SINGLE"
+    },
+    {
+      "start": 15.4,
+      "end": 15.98,
+      "text": "THEN HE APPEARS",
+      "highlight": "APPEARS"
+    },
+    {
+      "start": 15.98,
+      "end": 16.66,
+      "text": "AGAIN IN THE",
+      "highlight": "AGAIN"
+    },
+    {
+      "start": 16.66,
+      "end": 17.96,
+      "text": "NARRATORS EVERYDAY LIFE,",
+      "highlight": "NARRATORS"
+    },
+    {
+      "start": 18.34,
+      "end": 18.82,
+      "text": "ALMOST LIKE A",
+      "highlight": "ALMOST"
+    },
+    {
+      "start": 18.82,
+      "end": 19.5,
+      "text": "VISUAL GLITCH.",
+      "highlight": "VISUAL"
+    },
+    {
+      "start": 23.12,
+      "end": 23.9,
+      "text": "AT FIRST,",
+      "highlight": "FIRST"
+    },
+    {
+      "start": 24.3,
+      "end": 24.94,
+      "text": "THESE MOMENTS SEEMED",
+      "highlight": "MOMENTS"
+    },
+    {
+      "start": 24.94,
+      "end": 25.88,
+      "text": "COMPLETELY MEANINGLESS,",
+      "highlight": "MEANINGLESS"
+    },
+    {
+      "start": 26.22,
+      "end": 26.78,
+      "text": "BUT AFTER THE",
+      "highlight": "AFTER"
+    },
+    {
+      "start": 26.78,
+      "end": 27.3,
+      "text": "BIG REVEAL,",
+      "highlight": "REVEAL"
+    },
+    {
+      "start": 27.68,
+      "end": 28.4,
+      "text": "EVERYTHING CHANGES.",
+      "highlight": "EVERYTHING"
+    },
+    {
+      "start": 28.4,
+      "end": 29.74,
+      "text": "TYLER WASN'T SUDDENLY",
+      "highlight": "SUDDENLY"
+    },
+    {
+      "start": 29.74,
+      "end": 30.82,
+      "text": "INTRODUCED INTO THE STORY.",
+      "highlight": "INTRODUCED"
+    },
+    {
+      "start": 31.26,
+      "end": 31.68,
+      "text": "HE WAS HIDING",
+      "highlight": "HIDING"
+    },
+    {
+      "start": 31.68,
+      "end": 32.32,
+      "text": "IN PLAIN SIGHT",
+      "highlight": "PLAIN"
+    },
+    {
+      "start": 32.32,
+      "end": 33.36,
+      "text": "THE ENTIRE TIME.",
+      "highlight": "ENTIRE"
+    },
+    {
+      "start": 37.06,
+      "end": 38.06,
+      "text": "DAVID FINCHER WAS",
+      "highlight": "FINCHER"
+    },
+    {
+      "start": 38.06,
+      "end": 38.5,
+      "text": "SHOWING YOU THE",
+      "highlight": "SHOWING"
+    },
+    {
+      "start": 38.5,
+      "end": 39.2,
+      "text": "ANSWER BEFORE YOU",
+      "highlight": "ANSWER"
+    },
+    {
+      "start": 39.2,
+      "end": 39.72,
+      "text": "EVEN KNEW THERE",
+      "highlight": "THERE"
+    },
+    {
+      "start": 39.72,
+      "end": 40.32,
+      "text": "WAS A QUESTION.",
+      "highlight": "QUESTION"
+    },
+    {
+      "start": 40.82,
+      "end": 41.44,
+      "text": "THE BIGGEST TWIST",
+      "highlight": "BIGGEST"
+    },
+    {
+      "start": 41.44,
+      "end": 42.08,
+      "text": "IN FIGHT CLUB",
+      "highlight": "FIGHT"
+    },
+    {
+      "start": 42.08,
+      "end": 42.76,
+      "text": "WAS HIDING IN",
+      "highlight": "HIDING"
+    },
+    {
+      "start": 42.76,
+      "end": 43.66,
+      "text": "ITS EARLIEST FRAMES.",
+      "highlight": "EARLIEST"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[Script Info]
+Title: Cinema Decoded Arc Reactor Cyan HUD Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ArcReactorCyanHUD,Futura,74,&H00FFFFFF,&H000000FF,&H000A0A0A,&H80000000,-1,0,0,0,100,100,3,0,1,8,3,2,60,60,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.84,ArcReactorCyanHUD,,0,0,0,,TYLER DURDON {\c&H00FFFF00&}APPEARS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:00.84,0:00:01.42,ArcReactorCyanHUD,,0,0,0,,IN {\c&H00FFFF00&}FIGHT{\c&H00FFFFFF&} CLUB
+Dialogue: 0,0:00:01.42,0:00:02.18,ArcReactorCyanHUD,,0,0,0,,BEFORE THE {\c&H00FFFF00&}NARRATOR{\c&H00FFFFFF&}
+Dialogue: 0,0:00:02.18,0:00:02.98,ArcReactorCyanHUD,,0,0,0,,EVEN {\c&H00FFFF00&}MEETS{\c&H00FFFFFF&} HIM,
+Dialogue: 0,0:00:03.12,0:00:03.70,ArcReactorCyanHUD,,0,0,0,,AND THE {\c&H00FFFF00&}FILM{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.70,0:00:04.18,ArcReactorCyanHUD,,0,0,0,,GIVES YOU {\c&H00FFFF00&}ALMOST{\c&H00FFFFFF&}
+Dialogue: 0,0:00:04.18,0:00:05.18,ArcReactorCyanHUD,,0,0,0,,NO TIME TO {\c&H00FFFF00&}NOTICE{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:08.46,0:00:09.58,ArcReactorCyanHUD,,0,0,0,,LOOK {\c&H00FFFF00&}CLOSELY{\c&H00FFFFFF&} AT
+Dialogue: 0,0:00:09.58,0:00:10.06,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}BACKGROUND{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:10.62,0:00:11.34,ArcReactorCyanHUD,,0,0,0,,DURING THE {\c&H00FFFF00&}SUPPORT{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.34,0:00:12.02,ArcReactorCyanHUD,,0,0,0,,GROUP {\c&H00FFFF00&}SCENES{\c&H00FFFFFF&},
+Dialogue: 0,0:00:12.46,0:00:13.32,ArcReactorCyanHUD,,0,0,0,,TYLER {\c&H00FFFF00&}FLASHES{\c&H00FFFFFF&} ON
+Dialogue: 0,0:00:13.32,0:00:14.02,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}SCREEN{\c&H00FFFFFF&} FOR JUST
+Dialogue: 0,0:00:14.02,0:00:14.84,ArcReactorCyanHUD,,0,0,0,,A {\c&H00FFFF00&}SINGLE{\c&H00FFFFFF&} FRAME.
+Dialogue: 0,0:00:15.40,0:00:15.98,ArcReactorCyanHUD,,0,0,0,,THEN HE {\c&H00FFFF00&}APPEARS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:15.98,0:00:16.66,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}AGAIN{\c&H00FFFFFF&} IN THE
+Dialogue: 0,0:00:16.66,0:00:17.96,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}NARRATORS{\c&H00FFFFFF&} EVERYDAY LIFE,
+Dialogue: 0,0:00:18.34,0:00:18.82,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}ALMOST{\c&H00FFFFFF&} LIKE A
+Dialogue: 0,0:00:18.82,0:00:19.50,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}VISUAL{\c&H00FFFFFF&} GLITCH.
+Dialogue: 0,0:00:23.12,0:00:23.90,ArcReactorCyanHUD,,0,0,0,,AT {\c&H00FFFF00&}FIRST{\c&H00FFFFFF&},
+Dialogue: 0,0:00:24.30,0:00:24.94,ArcReactorCyanHUD,,0,0,0,,THESE {\c&H00FFFF00&}MOMENTS{\c&H00FFFFFF&} SEEMED
+Dialogue: 0,0:00:24.94,0:00:25.88,ArcReactorCyanHUD,,0,0,0,,COMPLETELY {\c&H00FFFF00&}MEANINGLESS{\c&H00FFFFFF&},
+Dialogue: 0,0:00:26.22,0:00:26.78,ArcReactorCyanHUD,,0,0,0,,BUT {\c&H00FFFF00&}AFTER{\c&H00FFFFFF&} THE
+Dialogue: 0,0:00:26.78,0:00:27.30,ArcReactorCyanHUD,,0,0,0,,BIG {\c&H00FFFF00&}REVEAL{\c&H00FFFFFF&},
+Dialogue: 0,0:00:27.68,0:00:28.40,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}EVERYTHING{\c&H00FFFFFF&} CHANGES.
+Dialogue: 0,0:00:28.40,0:00:29.74,ArcReactorCyanHUD,,0,0,0,,TYLER WASN'T {\c&H00FFFF00&}SUDDENLY{\c&H00FFFFFF&}
+Dialogue: 0,0:00:29.74,0:00:30.82,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}INTRODUCED{\c&H00FFFFFF&} INTO THE STORY.
+Dialogue: 0,0:00:31.26,0:00:31.68,ArcReactorCyanHUD,,0,0,0,,HE WAS {\c&H00FFFF00&}HIDING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:31.68,0:00:32.32,ArcReactorCyanHUD,,0,0,0,,IN {\c&H00FFFF00&}PLAIN{\c&H00FFFFFF&} SIGHT
+Dialogue: 0,0:00:32.32,0:00:33.36,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}ENTIRE{\c&H00FFFFFF&} TIME.
+Dialogue: 0,0:00:37.06,0:00:38.06,ArcReactorCyanHUD,,0,0,0,,DAVID {\c&H00FFFF00&}FINCHER{\c&H00FFFFFF&} WAS
+Dialogue: 0,0:00:38.06,0:00:38.50,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}SHOWING{\c&H00FFFFFF&} YOU THE
+Dialogue: 0,0:00:38.50,0:00:39.20,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}ANSWER{\c&H00FFFFFF&} BEFORE YOU
+Dialogue: 0,0:00:39.20,0:00:39.72,ArcReactorCyanHUD,,0,0,0,,EVEN KNEW {\c&H00FFFF00&}THERE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:39.72,0:00:40.32,ArcReactorCyanHUD,,0,0,0,,WAS A {\c&H00FFFF00&}QUESTION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:40.82,0:00:41.44,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}BIGGEST{\c&H00FFFFFF&} TWIST
+Dialogue: 0,0:00:41.44,0:00:42.08,ArcReactorCyanHUD,,0,0,0,,IN {\c&H00FFFF00&}FIGHT{\c&H00FFFFFF&} CLUB
+Dialogue: 0,0:00:42.08,0:00:42.76,ArcReactorCyanHUD,,0,0,0,,WAS {\c&H00FFFF00&}HIDING{\c&H00FFFFFF&} IN
+Dialogue: 0,0:00:42.76,0:00:43.66,ArcReactorCyanHUD,,0,0,0,,ITS {\c&H00FFFF00&}EARLIEST{\c&H00FFFFFF&} FRAMES.
