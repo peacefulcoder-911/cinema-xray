@@ -1,21 +1,22 @@
-# PROJECT: WHIPLASH — THE CARNEGIE HALL EXECUTION
+# PROJECT: WHIPLASH — THE CARNEGIE HALL TRAP
 
 ## YOUR ROLE
-Act as a world-class cinematic video editor, sound designer, and senior executive producer for Cinema Decoded, specializing in high-end psychological video essays for vertical short-form platforms.
-The central discovery: **Fletcher's invitation to Carnegie Hall was never a second chance; it was deliberate career sabotage designed to publicly humiliate Andrew for testifying against him.**
-Do not turn this into a general movie explanation. Focus entirely on the immediate tactical betrayal in the finale and the psychological power dynamic of the drum kit.
+Act as a world-class cinematic video editor and lead storyteller for Cinema Decoded. Your mission is to transform the provided psychological thesis into a 50-second, high-impact vertical video essay (9:16) for intelligent film fans. 
+The central discovery: **Fletcher’s invitation to Carnegie Hall was never redemption; it was career sabotage and public execution until Andrew turned the trap into his own weapon.**
+Do not turn this into a general movie explanation. Focus strictly on the psychological warfare between Fletcher and Andrew during the final performance.
 
 ---
 ## 1. NON-NEGOTIABLE SCRIPT
 Use this narration EXACTLY as provided.
 Do not rewrite, paraphrase, shorten, expand, or regenerate the script.
 ### APPROVED NARRATION
-"You thought Fletcher’s Carnegie Hall invitation was redemption, but it was actually a meticulously planned public execution. Notice what happens the moment Andrew steps up to the kit. Fletcher calls a chart they’ve never practiced, ensuring complete professional collapse in front of the industry elite. He didn’t bring Andrew back to greatness. He brought him back to destroy him on stage. But Andrew doesn't break. He absorbs the trap, takes the tempo, and turns a public humiliation into an unstoppable hostile takeover. Which movie villain had the most psychological control over the protagonist? Tell me in the comments."
+"You think Fletcher’s invitation to Carnegie Hall was redemption, but it was actually a calculated execution. Look closely at Fletcher’s face when Andrew walks onto that stage. There is no pride in those eyes—only cold, vindictive payback for the lawsuit that ruined his career. He hands Andrew the wrong chart on purpose, setting him up for total public humiliation in front of the entire jazz elite. The trap was set. But Fletcher miscalculated. Andrew doesn't leave the stage in shame. He steals the tempo, steps into the spotlight, and forces Fletcher to follow his lead. Which film villain has the most satisfying downfall? Tell me in the comments."
+Preserve the narration order and wording.
 
 ---
 ## 2. CREATIVE DIRECTION
 ### Visual identity
-Deep blacks, controlled stage lighting, harsh spotlight isolation, high contrast, warm amber key lights, sharp subject separation, sweat and drumhead texture close-ups, subtle 35mm film grain.
+Deep blacks, controlled shadows, high-contrast warm stage lighting, stark amber spotlighting on brass instruments, sharp subject separation, subtle 35mm film grain.
 ### Visual principle
 **Every narration line must have a visually meaningful counterpart.**
 
@@ -23,100 +24,98 @@ Deep blacks, controlled stage lighting, harsh spotlight isolation, high contrast
 ## 3. SENTENCE-LEVEL VISUAL STORYTELLING
 
 ### SHOT 1 — THE HOOK (0–5s)
-- **Narration:** You thought Fletcher’s Carnegie Hall invitation was redemption, but it was actually a meticulously planned public execution.
-- **Visual direction:** Slow push-in on Fletcher (J.K. Simmons) standing on the Carnegie Hall podium, holding his baton in silhouette against harsh stage lights. High contrast, desaturated background.
-- **Typography / Graphic Callout:** A METICULOUSLY PLANNED EXECUTION.
+- **Narration:** You think Fletcher’s invitation to Carnegie Hall was redemption, but it was actually a calculated execution.
+- **Visual direction:** Slow push-in on Andrew walking onto the darkened Carnegie Hall stage. Desaturated color grade shifting into harsh warm overhead spotlight.
+- **Typography/Graphic:** CALCULATED EXECUTION (Cyan HUD overlay, center-screen, 0.8s fade out).
 
-### SHOT 2 — THE SETUP (5–12s)
-- **Narration:** Notice what happens the moment Andrew steps up to the kit.
-- **Visual direction:** Medium shot of Andrew (Miles Teller) sitting down at the Ludwig drum kit, tightening his sticks, looking up with fragile confidence. Shallow depth of field.
-- **Typography / Graphic Callout:** THE TRAP IS SET.
+### SHOT 2 (5–12s)
+- **Narration:** Look closely at Fletcher’s face when Andrew walks onto that stage.
+- **Visual direction:** Extreme tight macro rack-focus on J.K. Simmons' (Fletcher) eyes, narrowing from behind the music stand.
+- **Typography/Graphic:** NO REDEMPTION (Bottom third, Stark Cyan).
 
-### SHOT 3 — THE BETRAYAL (12–22s)
-- **Narration:** Fletcher calls a chart they’ve never practiced, ensuring complete professional collapse in front of the industry elite.
-- **Visual direction:** Close-up on Fletcher leaning in close to Andrew, whispering the false song title with a cold, malicious smile. Cut to wide shot of the grand auditorium filled with tuxedo-clad critics.
-- **Typography / Graphic Callout:** THE WRONG CHART.
+### SHOT 3 (12–20s)
+- **Narration:** There is no pride in those eyes—only cold, vindictive payback for the lawsuit that ruined his career.
+- **Visual direction:** Quick match-cut to archival courtroom deposition flash-frame (desaturated cyan tint), cutting instantly back to Fletcher's tight, unblinking glare.
+- **Typography/Graphic:** COLD PAYBACK (Stark cyan highlighted phrase).
 
-### SHOT 4 — THE INTENT (22–32s)
-- **Narration:** He didn’t bring Andrew back to greatness. He brought him back to destroy him on stage.
-- **Visual direction:** Rack focus from Fletcher's gloating eyes back to Andrew’s face, catching the sudden realization of betrayal. High-contrast side lighting highlighting jaw tension.
-- **Typography / Graphic Callout:** NOT REDEMPTION. DESTRUCTION.
+### SHOT 4 (20–30s)
+- **Narration:** He hands Andrew the wrong chart on purpose, setting him up for total public humiliation in front of the entire jazz elite.
+- **Visual direction:** Low-angle tracking shot of Fletcher sliding the folder across the music stand, lips curled in a slight, silent smirk.
+- **Typography/Graphic:** THE WRONG CHART (Bold HUD overlay).
 
-### SHOT 5 — THE TURN (32–42s)
-- **Narration:** But Andrew doesn't break. He absorbs the trap, takes the tempo, and turns a public humiliation into an unstoppable hostile takeover.
-- **Visual direction:** Rapid-fire matching close-ups: hands gripping drumsticks, foot hitting the bass pedal, sweat flying off cymbals. Aggressive, rhythm-synced cuts matching the building cadence.
-- **Typography / Graphic Callout:** THE HOSTILE TAKEOVER.
+### SHOT 5 (30–38s)
+- **Narration:** The trap was set. But Fletcher miscalculated.
+- **Visual direction:** Rapid rhythmic montage: sweat dripping onto a snare drum, Andrew’s wide, hyper-focused eyes locked onto Fletcher.
+- **Typography/Graphic:** THE TRAP (Pulsing cyan display).
 
-### SHOT 6 — THE PAYOFF (42–47s)
-- **Narration:** He didn’t just survive. He stole the room.
-- **Visual direction:** Low-angle hero shot of Andrew locking eyes with Fletcher, initiating the rogue drum solo without Fletcher's cue. Fletcher's expression shifts from triumph to sheer shock.
-- **Typography / Graphic Callout:** THE DRUMMER TAKES CONTROL.
+### SHOT 6 — THE PAYOFF (38–46s)
+- **Narration:** Andrew doesn't leave the stage in shame. He steals the tempo, steps into the spotlight, and forces Fletcher to follow his lead.
+- **Visual direction:** Explosive dynamic camera movement—orbiting Andrew as sticks blur against drum heads, cutting to Fletcher’s stunned, wide-eyed realization.
+- **Typography/Graphic:** SEIZING THE TEMPO (High-contrast center title).
 
-### SHOT 7 — COMMENT PROMPT (47–50s)
-- **Narration:** Which movie villain had the most psychological control over the protagonist? Tell me in the comments.
-- **Visual direction:** Slow pull-back on Andrew mid-solo under blinding white spotlights, fading to deep Cinema Decoded black slate.
-- **Typography / Graphic Callout:** TELL ME IN THE COMMENTS.
+### SHOT 7 — COMMENT PROMPT (46–50s)
+- **Narration:** Which film villain has the most satisfying downfall? Tell me in the comments.
+- **Visual direction:** Final lingering close-up on Andrew's triumphant nod, cutting to a clean, dark-graded end-card plate.
+- **Typography/Graphic:** TELL ME IN THE COMMENTS (Futura bold, lower third).
 
 ---
 ## 4. FOOTAGE RESEARCH AND ACQUISITION
-- **Scene 1:** Carnegie Hall Finale (Act 3 climax, approximately 01:38:00 to 01:44:00).
-- **Required Assets:** 
-  - `WHIPLASH_FINALE_FLETCHER_WHISPER.mp4`
-  - `WHIPLASH_ANDREW_KIT_SIT_DOWN.mp4`
-  - `WHIPLASH_CROWD_AUDITORIUM_WIDE.mp4`
-  - `WHIPLASH_DRUM_SOLO_MACRO_SHOTS.mp4`
-- **Directory Path:** `/assets/master_footage/whiplash/carnegie_hall_climax/`
+- **Primary Source:** *Whiplash* (2014), directed by Damien Chazelle.
+- **Key Scenes:** 
+  - Carnegie Hall arrival sequence (Timestamp: 01:35:10 - 01:36:40).
+  - The wrong chart confrontation (Timestamp: 01:38:00 - 01:39:30).
+  - The final "Caravan" drum solo climax (Timestamp: 01:41:00 - 01:45:05).
+- **Asset Path:** `/volumes/vault/cinema_decoded/footage/whiplash_carnegie_master_prores.mov`
 
 ---
 ## 5. MOTION AND EDITING
-- **Pacing:** Strict adherence to spoken rhythm. Cuts land precisely on the beat during the drum sequence.
-- **Camera Moves:** Controlled, heavy push-ins during psychological realizations. Snap zooms locked to Fletcher's dialogue beats.
-- **Transitions:** Pure hard cuts. No optical wipes or digital distortion.
+- Controlled push-ins on dialogue beats.
+- Sharp match cuts synchronized precisely to the snare drum hits in the final sequence.
+- Vertical 9:16 reframing centered strictly on actors' eyes and instrument interactions using motion-tracked bounding boxes.
 
 ---
 ## 6. AUDIO GENERATION — STRICT RESTRICTIONS
-- **Voice Profile:** Confident documentary voice, measured cadence, authoritative tone (Match Achird profile).
-- **Sound Design:** 
-  - Clean isolated snare drum hits and cymbal crashes boosted slightly beneath the narration during the turn.
-  - Room tone of Carnegie Hall layered low under dialogue.
-- **ABSOLUTELY PROHIBITED SOUND EFFECTS:** ZERO whooshes, swooshes, risers, sweeps, or transition impacts. Clean acoustic space only.
-- **Master Audio:** Silence floor <= -65 dB. Dialogue normalized to -14 LUFS.
+- **Voice Profile:** Confident documentary voice, Achird profile. Measured, rhythmic, authoritative cadence.
+- **Music:** Sparse, tense ambient sub-bass drone building into crisp, isolated theatrical drum transients.
+- **ABSOLUTELY PROHIBITED SOUND EFFECTS:** ZERO whooshes, zero swooshes, zero risers, zero sweeps, zero transition impacts. 
+- **Audio Cleanliness:** Silence floor <= -65 dB. Dialogue mixed cleanly at -3 dB over balanced cinematic room tone.
 
 ---
 ## 7. CAPTIONS AND GRAPHICS
-- **Style:** CenterBold high-contrast synchronized subtitles.
-- **Color Palette:** Pure white text with gold (#D4AF37) highlights for key thematic words (*EXECUTION*, *BETRAYAL*, *TAKEOVER*).
-- **Placement:** Exact vertical center-safe zone for 9:16 aspect ratio, avoiding TikTok/Reels UI obstruction zones.
+- **Style:** Arc Reactor Cyan HUD high-contrast synchronized subtitles.
+- **Font:** Futura 74pt lower-third.
+- **Highlighting:** Key psychological and investigative words highlighted in vivid Stark cyan.
+- **Placement:** Lower-middle third, strict margin boundaries to avoid platform UI overlaps.
 
 ---
 ## 8. TECHNICAL IMPLEMENTATION
-Workflow sequence: 
-`APPROVED NARRATION` -> `SENTENCE PARSER` -> `SCENE JSON` -> `TIMING ENGINE` -> `FOOTAGE MAPPING` -> `CLEAN AUDIO GENERATION` -> `CAPTION GENERATION` -> `REMOTION / FFMPEG 8K RENDERING` -> `QUALITY CONTROL`.
+Workflow: 
+APPROVED NARRATION -> SENTENCE PARSER -> SCENE JSON -> TIMING ENGINE -> FOOTAGE MAPPING -> CLEAN AUDIO GENERATION -> CAPTION GENERATION -> REMOTION / FFMPEG 8K RENDERING -> QUALITY CONTROL.
 
 ---
 ## 9. RENDER REQUIREMENTS
-- **Primary Master:** 8K Vertical Master (4320x7680) @ 30 FPS, Apple ProRes 422 HQ.
-- **Delivery Copy:** 1080p Web Deliverable (1080x1920) @ 30 FPS, H.265 / MP4, 20 Mbps CBR.
+- 8K Vertical Master: 4320x7680 @ 30 FPS (ProRes 422 HQ).
+- 1080p Delivery Copy: 1080x1920 @ 30 FPS (H.265, high bitrate MP4).
 
 ---
 ## 10. FINAL QUALITY CONTROL
-- [ ] Story check: Does the script debunk the surface-level redemption narrative immediately?
-- [ ] Visual check: Do all 7 shots map cleanly to the sentence-level breakdown?
-- [ ] Audio check: Are there zero prohibited whooshes or risers? Is the silence floor below -65 dB?
-- [ ] Technical check: Is resolution verified at true 8K master output?
+- **Story:** Does the hook instantly reframe the Carnegie Hall scene? Yes.
+- **Visuals:** Are there zero generic B-roll shots? Yes. Every shot maps precisely to the narration line.
+- **Audio:** Is the silence floor maintained below -65 dB? Are all prohibited swooshes/whooshes eliminated? Yes.
+- **Technical:** Are dimensions strictly 9:16 vertical 8K/1080p masters? Yes.
 
 ---
 ## 11. FINAL DELIVERABLES
-1. `whiplash_carnegie_8k_master.mov`
-2. `whiplash_carnegie_1080p_vertical.mp4`
-3. `whiplash_isolated_voiceover.wav`
-4. `whiplash_stems_dialogue_sfx.zip`
-5. `whiplash_srt_captions.srt`
-6. `whiplash_json_timeline_data.json`
-7. `whiplash_thumbnail_concept_01.png`
-8. `whiplash_thumbnail_concept_02.png`
-9. `qc_audio_spectrum_report.txt`
-10. `execution_manifest.md`
+1. 8K Master ProRes 4320x7680 file.
+2. 1080p Web-Ready MP4 file.
+3. Isolated Voiceover Audio Track (WAV, 24-bit/48kHz).
+4. Isolated Cinematic Score & Sound Effects Track.
+5. Exact Timed SRT Subtitle File with Cyan Formatting Tags.
+6. Scene-by-Scene JSON Timing Manifest.
+7. Color Grade Look-Up Table (.cube) profile for Whiplash Dark Stage aesthetic.
+8. Thumbnail Graphic (9:16 vertical plate featuring Fletcher’s glaring eyes).
+9. QA Compliance Audit Sheet confirming zero prohibited sound effects.
+10. Final Executive Producer Sign-Off Log.
 
 ## FINAL CREATIVE STANDARD
 High contrast. Immersive visuals. Precise storytelling. True 8K output verification. No whoosh sounds.
