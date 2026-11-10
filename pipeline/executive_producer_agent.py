@@ -287,13 +287,12 @@ Include explicit delivery guidance for ElevenLabs Liam:
 ### Visual identity
 Deep blacks, controlled shadows, high contrast, industrial/atmospheric cinematic lighting, sharp subject separation, subtle film grain.
 ### Visual principle
-**Every narration line must have a 100% full-motion, live-action film video counterpart. NO STATIC IMAGE SLIDESHOWS. NO ARTIFICIAL SPLIT-SCREEN CARDS.**
+**Every narration line must have a 100% full-motion, live-action cinematic film counterpart with authentic camera motion (push-in, pan, or tracking).**
 
 ---
-## 3. SENTENCE-LEVEL VISUAL STORYTELLING (FULL MOTION VIDEO & DYNAMIC IN-VIDEO FREEZE)
+## 3. SENTENCE-LEVEL VISUAL STORYTELLING
 (Break down the narration sentence-by-sentence into SHOT 1 — THE HOOK, SHOT 2, SHOT 3, SHOT 4, SHOT 5, SHOT 6 — THE PAYOFF, SHOT 7 — COMMENT PROMPT. 
-Every single shot MUST be real, dynamic 1080p movie footage playing in continuous motion.
-At the crucial evidence reveal moment, specify the SUDDEN IN-VIDEO FREEZE POINT: the live-action video is playing at full speed, suddenly freezes mid-motion on the exact physical detail for 2.0 seconds while the narrator explains it, and immediately cuts back into live-action motion.)
+Every single shot MUST be real, dynamic 1080p movie footage playing in continuous live-action motion. Specify the exact visual action, framing, and camera motion for each beat.)
 
 ---
 ## 4. FOOTAGE RESEARCH AND ACQUISITION
@@ -305,7 +304,7 @@ At the crucial evidence reveal moment, specify the SUDDEN IN-VIDEO FREEZE POINT:
 
 ---
 ## 6. AUDIO GENERATION — STRICT RESTRICTIONS
-(Confident documentary voice, Achird, absolutely prohibited sound effects: ZERO whooshes, swooshes, risers, sweeps, transition impacts. Silence floor <= -65 dB.)
+(ElevenLabs Liam studio narration, VCgLBmBjldJmfphyB8sZ, mastered to EBU R128 -14 LUFS / -1.0 dBFS True Peak. Absolutely prohibited sound effects: ZERO whooshes, swooshes, risers, sweeps, transition impacts. Silence floor <= -65 dB.)
 
 ---
 ## 7. CAPTIONS AND GRAPHICS

@@ -23,13 +23,12 @@ Example lines from top videos:
 - Direct, crisp closing debate: "Which Marvel villain had the most believable motive? Tell me in the comments."
 
 ## Format & Rhythm
-- Format: 50–55 second YouTube Shorts, 9:16 vertical.
-- Word count: 125–138 words (delivered at ~145–150 WPM for maximum weight and clarity).
+- Format: 45–55 second YouTube Shorts, 9:16 vertical.
+- Word count: 110–135 words (delivered at ~145–150 WPM for maximum weight and clarity).
 - Structure:
   1. Hook (0–6s): Immediate counter-intuitive paradox or observational command.
-  2. The Turn / Context (6–16s): The specific scene setup focusing strictly on the overlooked visual detail viewers missed.
-  3. The Evidence / Turning Point (16–30s): The exact mechanics, dialogue, or physical prop that completely reframes the scene.
-  4. The Sudden Freeze Point (30–35s): The live-action video freezes mid-motion to lock viewer focus on the smoking gun detail.
-  5. The System / Psychological Revelation (35–48s): The core thesis—why this completely inverts the movie's logic.
-  6. The Debate Close (48–53s): A sharp, polarizing analytical question for the comments.
+  2. The Turn / Context (6–18s): The specific scene setup focusing strictly on the overlooked detail viewers missed.
+  3. The Evidence / Turning Point (18–32s): The exact mechanics, dialogue, or physical prop that reframes the scene.
+  4. The Psychological Revelation (32–46s): The core thesis—why this completely inverts the movie's logic.
+  5. The Debate Close (46–52s): A sharp, polarizing analytical question for the comments.
 
