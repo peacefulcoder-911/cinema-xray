@@ -144,26 +144,32 @@ class AutonomousProductionEngine:
         """
         movie_clean = re.sub(r"\s*\(\d{4}\)", "", movie_name).strip()
         slug_m = sanitize_slug(movie_clean)
+        slug_no_the = re.sub(r"^the_", "", slug_m)
 
         # 1. Local assets directory
-        local_dir = REPO_ROOT / "assets" / "footage" / slug_m
-        if local_dir.exists():
-            mp4s = sorted(list(local_dir.rglob("*.mp4")))
-            if mp4s:
-                print(f"🎬 Found local footage in: {local_dir} ({len(mp4s)} clips)")
-                return mp4s[0]
+        for cand in [slug_m, slug_no_the]:
+            local_dir = REPO_ROOT / "assets" / "footage" / cand
+            if local_dir.exists():
+                mp4s = sorted(list(local_dir.rglob("*.mp4")))
+                curated = [p for p in mp4s if "raw_sources" not in str(p)]
+                if curated:
+                    print(f"🎬 Found {len(curated)} curated local clips in: {local_dir}")
+                    return curated
+                elif mp4s:
+                    print(f"🎬 Found {len(mp4s)} local clips in: {local_dir}")
+                    return mp4s
 
         # 1b. Check direct assets/footage/*.mp4 for matching film title
-        for f in (REPO_ROOT / "assets" / "footage").glob("*.mp4"):
-            if slug_m in f.stem.lower():
-                print(f"🎬 Found matched local footage in: {f}")
-                return f
+        direct_matches = [f for f in (REPO_ROOT / "assets" / "footage").glob("*.mp4") if slug_m in f.stem.lower() or slug_no_the in f.stem.lower()]
+        if direct_matches:
+            print(f"🎬 Found matched local footage in assets/footage: {len(direct_matches)} clips")
+            return direct_matches
 
         # 2. Check clip cache for matched filename
-        for f in CLIP_CACHE_DIR.glob("*.mp4"):
-            if slug_m in f.stem or topic_slug in f.stem:
-                print(f"🎬 Found cached footage in: {f}")
-                return f
+        cached_matches = [f for f in CLIP_CACHE_DIR.glob("*.mp4") if slug_m in f.stem or slug_no_the in f.stem or topic_slug in f.stem]
+        if cached_matches:
+            print(f"🎬 Found cached footage: {len(cached_matches)} clips")
+            return cached_matches
 
         # 3. Use clip_search_engine via yt-dlp
         print(f"🔍 Searching YouTube for verified 1080p footage: {movie_clean} - {scene_description}...")
@@ -178,7 +184,7 @@ class AutonomousProductionEngine:
             )
             if clip_info and clip_info.file_path and clip_info.file_path.exists():
                 print(f"✅ Downloaded & cached footage to: {clip_info.file_path}")
-                return clip_info.file_path
+                return [clip_info.file_path]
         except Exception as e:
             print(f"⚠️ Clip search engine note: {e}")
 
@@ -195,15 +201,16 @@ class AutonomousProductionEngine:
             )
             if clip_info and clip_info.file_path and clip_info.file_path.exists():
                 print(f"✅ Downloaded & cached footage via broader query: {clip_info.file_path}")
-                return clip_info.file_path
+                return [clip_info.file_path]
         except Exception as e:
             print(f"⚠️ Broader clip search note: {e}")
 
         # 4. Check if any existing mp4 in clip_cache matches this specific movie
-        for cached_f in sorted(list(CLIP_CACHE_DIR.glob("*.mp4")), key=lambda p: p.stat().st_size, reverse=True):
-            if slug_m in cached_f.stem.lower() or topic_slug in cached_f.stem.lower():
-                print(f"🎬 Found matched cached footage in: {cached_f}")
-                return cached_f
+        all_cached = sorted(list(CLIP_CACHE_DIR.glob("*.mp4")), key=lambda p: p.stat().st_size, reverse=True)
+        fallback_cached = [f for f in all_cached if slug_m in f.stem.lower() or slug_no_the in f.stem.lower() or topic_slug in f.stem.lower()]
+        if fallback_cached:
+            print(f"🎬 Found matched cached footage in fallback search: {len(fallback_cached)} clips")
+            return fallback_cached
 
         raise FileNotFoundError(
             f"No authentic footage could be acquired for '{movie_name}'. "
@@ -502,9 +509,10 @@ class AutonomousProductionEngine:
 
         # STAGE 4: Footage Acquisition & Beat Slicing
         print("\n🎬 STAGE 4: Acquiring Footage & Slicing 70% Cinematic Beats...")
-        source_footage = self.acquire_footage_for_topic(movie_title, scene_desc, topic_slug)
-        src_dur = probe_media_duration(source_footage)
-        print(f"📼 Source footage ready: {source_footage} (duration: {src_dur:.2f}s)")
+        footage_clips = self.acquire_footage_for_topic(movie_title, scene_desc, topic_slug)
+        if not isinstance(footage_clips, list):
+            footage_clips = [footage_clips]
+        print(f"📼 Source footage pool: {len(footage_clips)} clips available")
 
         # Parse Graphic Callouts from Brief
         callouts = self.parse_shot_callouts_from_brief(brief_text)
@@ -518,20 +526,30 @@ class AutonomousProductionEngine:
 
         motions = ["SLOW_PUSH_IN", "SLOW_PAN_LEFT", "SLOW_PUSH_IN", "SLOW_PAN_RIGHT", "FAST_ZOOM", "SLOW_PUSH_IN", "SLOW_PAN_LEFT"]
 
-        print(f"✂️  Slicing {num_beats} beats matching narration cadence...")
+        print(f"✂️  Slicing {num_beats} beats matching narration cadence across {len(footage_clips)} clips...")
         for i in range(num_beats):
             idx = i + 1
             curr_dur = beat_dur if idx < num_beats else round(actual_audio_dur - (beat_dur * (num_beats - 1)), 2)
+
+            # Cycle through available clips for maximum visual variety
+            src_clip = Path(footage_clips[i % len(footage_clips)])
+            src_dur = probe_media_duration(src_clip)
+
             # Safe start offset within source video
-            offset_start = (i * (src_dur - curr_dur) / num_beats) if src_dur > curr_dur + 5.0 else (i * 2.5)
-            offset_start = max(0.0, min(offset_start, src_dur - curr_dur))
+            if len(footage_clips) > 1:
+                # If we have multiple clips, start near beginning with safety margin
+                max_offset = max(0.0, src_dur - curr_dur)
+                offset_start = min(0.5, max_offset / 2.0) if max_offset > 0 else 0.0
+            else:
+                offset_start = (i * (src_dur - curr_dur) / num_beats) if src_dur > curr_dur + 5.0 else (i * 2.5)
+                offset_start = max(0.0, min(offset_start, max(0.0, src_dur - curr_dur)))
 
             motion = motions[i % len(motions)]
             callout = callouts.get(idx)
             out_clip = str(proj_dir / "clips" / f"beat_{idx:02d}.mp4")
 
             self.render_70pct_clip_clean(
-                src_video=str(source_footage),
+                src_video=str(src_clip),
                 start_sec=offset_start,
                 duration=curr_dur,
                 out_path=out_clip,
@@ -543,6 +561,7 @@ class AutonomousProductionEngine:
                 "beat_id": f"beat_{idx:02d}",
                 "start": round(i * beat_dur, 2),
                 "duration": curr_dur,
+                "source_clip": str(src_clip),
                 "motion": motion,
                 "has_callout": callout is not None
             })
