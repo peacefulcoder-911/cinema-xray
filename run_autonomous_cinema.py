@@ -22,12 +22,18 @@ Usage:
   python3 run_autonomous_cinema.py --list-catalog
 """
 
+import os
 import sys
 import json
 import argparse
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent
+venv_python = REPO_ROOT / ".venv" / "bin" / "python3"
+if venv_python.exists() and sys.executable != str(venv_python):
+    import subprocess
+    sys.exit(subprocess.call([str(venv_python)] + sys.argv))
+
 sys.path.insert(0, str(REPO_ROOT))
 
 from pipeline.autonomous_production_engine import AutonomousProductionEngine
