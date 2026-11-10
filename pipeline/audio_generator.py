@@ -46,13 +46,24 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
     """Invokes Gemini TTS for Achird voice and saves raw 24kHz mono PCM WAV."""
     client = _get_api_client()
     models_to_try = [
-        "gemini-3.8-flash-tts",
         "gemini-3.1-flash-tts-preview",
+        "gemini-3.8-flash-tts",
         "gemini-2.5-flash-preview-tts",
         "gemini-3.8-flash-lite-tts"
     ]
 
-    prompt_content = script_text.strip()
+    # Condition model with explicit Director's Note to eliminate erratic pitch swings ("ups and downs")
+    clean_text = " ".join(script_text.strip().split())
+    prompt_content = f"""Read the following transcript based on the audio profile and director's note.
+
+# Audio Profile
+A grounded, calm cinematic documentary narrator. Effortless, steady, and natural speaking voice. Zero theatrical pressure, no dramatic acting, just a smooth, authentic speaking voice.
+
+# Director's note
+Style: Flat affect, minimal pitch variation, steady and grounded delivery. Zero theatrical acting. Calm, conversational. Pace: Fast, energetic, no dead air between sentences. Sentences connect smoothly. Accent: American (General).
+
+## Transcript:
+{clean_text}"""
 
     contents = [
         types.Content(
@@ -62,7 +73,7 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
     ]
 
     config = types.GenerateContentConfig(
-        temperature=0.7,
+        temperature=0.2,
         response_modalities=["AUDIO"],
         speech_config=types.SpeechConfig(
             voice_config=types.VoiceConfig(
@@ -76,7 +87,7 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
         try:
             print(f"[Gemini TTS] Connecting to {m} (Achird)...")
             resp = client.models.generate_content(model=m, contents=contents, config=config)
-            if resp.candidates and resp.candidates[0].content.parts:
+            if resp.candidates and resp.candidates[0].content and resp.candidates[0].content.parts:
                 part = resp.candidates[0].content.parts[0]
                 if part.inline_data and part.inline_data.data:
                     raw_data = part.inline_data.data
@@ -99,7 +110,7 @@ def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
         print("[Audio Generator] Synthesizing via edge-tts neural voiceover (en-US-ChristopherNeural)...")
         temp_mp3 = temp_wav_path + ".mp3"
         async def _run_edge():
-            comm = edge_tts.Communicate(script_text, voice="en-US-ChristopherNeural")
+            comm = edge_tts.Communicate(clean_text, voice="en-US-ChristopherNeural", rate="+10%")
             await comm.save(temp_mp3)
         asyncio.run(_run_edge())
         if os.path.exists(temp_mp3) and os.path.getsize(temp_mp3) > 1000:
