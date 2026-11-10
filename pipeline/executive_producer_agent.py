@@ -78,6 +78,67 @@ class ExecutiveProducerAgent:
         # Fallback to first scene if all completed
         return cat_data["scenes"][0]
 
+    def ideate_topic_for_movie(self, movie: str, scene: Optional[str] = None) -> Dict[str, Any]:
+        """
+        Uses Gemini to identify a high-tension psychological paradox or hidden detail in the film.
+        Returns a topic dict compatible with catalog entries.
+        """
+        prompt = f"""You are the Executive Producer for Cinema Decoded, an elite cinema breakdown channel.
+Analyze the film: "{movie}".
+"""
+        if scene:
+            prompt += f"""Focus specifically on the scene or concept: "{scene}".
+Identify the hidden psychological twist, paradox, or detail most viewers completely misunderstand.
+"""
+        else:
+            prompt += """Identify the single most compelling hidden detail, character paradox, or psychological twist that audiences completely misunderstand in this movie.
+"""
+        prompt += """
+Return ONLY a valid JSON object with the following fields:
+{
+  "movie": "Full Movie Title with Year (e.g. The Matrix Reloaded (2003))",
+  "director": "Director Name(s)",
+  "theme": "Core Theme (e.g. The Illusion of Choice)",
+  "topic": "Punchy Curiosity-Gap Title (under 60 chars)",
+  "core_thesis": "One single-sentence revelatory thesis that reframes the movie or scene.",
+  "scene_description": "Precise description of the scene and visual moments needed for footage.",
+  "topic_slug": "lowercase_underscore_slug_max_40_chars"
+}
+Do not include markdown code fence formatting. Just the JSON object.
+"""
+        model_names = ["gemini-2.5-flash", "gemini-1.5-flash", "gemini-2.5-pro"]
+        for model in model_names:
+            try:
+                response = self.client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        temperature=0.7,
+                        response_mime_type="application/json"
+                    )
+                )
+                txt = response.text.strip()
+                data = json.loads(txt)
+                if not data.get("topic_slug"):
+                    data["topic_slug"] = re.sub(r"[^a-z0-9]+", "_", f"{movie}_{data.get('topic', 'scene')}".lower()).strip("_")[:40]
+                print(f"[Executive Producer Agent] Ideated topic for '{movie}' using {model}: {data.get('topic')}")
+                return data
+            except Exception as e:
+                print(f"[Executive Producer Agent] Ideation attempt with {model} failed: {e}")
+                continue
+
+        clean_name = re.sub(r"[^a-zA-Z0-9\s]", "", movie).strip()
+        slug = re.sub(r"\s+", "_", clean_name.lower())[:30]
+        return {
+            "movie": movie,
+            "director": "Cinema Master",
+            "theme": "The Psychological Paradox",
+            "topic": scene or f"The Hidden Truth Behind {movie}",
+            "core_thesis": f"The pivotal scene in {movie} reveals an intentional psychological contradiction hidden in plain sight.",
+            "scene_description": scene or f"Key scene from {movie}",
+            "topic_slug": slug
+        }
+
     def score_hook(self, hook_text: str) -> Dict[str, Any]:
         """Scores a hook line using the YouTube Agent Skill hookscore.py tool."""
         clean_hook = hook_text.strip().strip('"').strip("'")

@@ -394,7 +394,9 @@ class AutonomousProductionEngine:
         scene: Optional[str] = None,
         brief_file: Optional[Union[str, Path]] = None,
         dry_run: bool = False,
-        upscale_8k: bool = True
+        upscale_8k: bool = True,
+        upload_youtube: bool = False,
+        privacy_status: str = "unlisted"
     ) -> Dict[str, Any]:
         """
         Executes the entire autonomous pipeline end-to-end.
@@ -419,18 +421,11 @@ class AutonomousProductionEngine:
                     from pipeline.executive_producer_agent import CATALOG_PATH
                     cat_scenes = json.loads(CATALOG_PATH.read_text(encoding="utf-8")).get("scenes", [])
                     matched = next((s for s in cat_scenes if movie.lower() in s.get("movie", "").lower()), None)
-                    if matched:
+                    if matched and (not scene or scene.lower() in matched.get("topic", "").lower()):
                         topic = matched
-                    elif scene:
-                        topic = {
-                            "topic_slug": sanitize_slug(f"{movie}_{scene}"),
-                            "movie": movie,
-                            "director": "Cinema Master",
-                            "theme": "The Psychological Trap",
-                            "topic": scene,
-                            "core_thesis": scene,
-                            "scene_description": scene
-                        }
+                    else:
+                        print(f"🎬 Ideating dynamic cinematic breakdown for film: '{movie}' (scene: '{scene}')...")
+                        topic = self.ep_agent.ideate_topic_for_movie(movie=movie, scene=scene)
                 if not topic:
                     topic = self.ep_agent.pick_next_topic()
 
@@ -625,8 +620,43 @@ class AutonomousProductionEngine:
             for qcf in qc_frames:
                 shutil.copyfile(qcf, str(art_dir / f"qc_{topic_slug}_{Path(qcf).name}"))
 
-        # STAGE 8: Register Completed Topic in Database
-        print("\n💾 STAGE 8: Registering Topic in Database & Deduplication Gatekeeper...")
+        # STAGE 8: YouTube Upload (Optional / Automated)
+        yt_id = None
+        yt_url = None
+        if upload_youtube and not dry_run:
+            print("\n🚀 STAGE 8: Publishing to YouTube...")
+            try:
+                from pipeline.youtube_uploader import upload_video
+                upload_target = final_8k_repo if (final_8k_repo and final_8k_repo.exists()) else Path(master_1080p)
+                yt_title = f"{movie_title} — {meta.get('headline', topic.get('topic', 'Analysis'))} #Shorts"[:100]
+                yt_desc = (
+                    f"{meta.get('central_discovery', scene_desc)}\n\n"
+                    f"🎬 Film: {movie_title}\n"
+                    f"🎙️ Narration: ElevenLabs Liam (Cinema Decoded Lead Voice)\n"
+                    f"📐 Resolution: 8K Super-Resolution (4320x7680) Master\n\n"
+                    f"#CinemaDecoded #FilmAnalysis #Shorts #MovieExplained"
+                )
+                yt_tags = ["Cinema Decoded", "Cinema X-Ray", movie_title, "Film Analysis", "Movie Explained", "Shorts"]
+                yt_res = upload_video(
+                    file_path=upload_target,
+                    title=yt_title,
+                    description=yt_desc,
+                    tags=yt_tags,
+                    privacy_status=privacy_status
+                )
+                yt_id = yt_res.get("id")
+                yt_url = yt_res.get("url")
+                print("=" * 70)
+                print("✅ YOUTUBE UPLOAD COMPLETE!")
+                print(f"   Video ID: {yt_id}")
+                print(f"   URL:      {yt_url}")
+                print(f"   Privacy:  {privacy_status}")
+                print("=" * 70)
+            except Exception as e:
+                print(f"⚠️ YouTube upload error: {e}")
+
+        # STAGE 9: Register Completed Topic in Database
+        print("\n💾 STAGE 9: Registering Topic in Database & Deduplication Gatekeeper...")
         self.topic_db.add_completed_topic(
             topic_slug=topic_slug,
             movie_name=movie_title,
@@ -636,7 +666,9 @@ class AutonomousProductionEngine:
             core_thesis=meta.get("central_discovery", scene_desc),
             category_lens="Film Scene Analysis",
             scheduled_slot="ANY",
-            scheduled_time_iso=None
+            scheduled_time_iso=None,
+            youtube_video_id=yt_id,
+            youtube_url=yt_url
         )
 
         total_time_sec = round(time.time() - start_time, 2)
@@ -644,6 +676,8 @@ class AutonomousProductionEngine:
         print(f"🎉 PRODUCTION COMPLETED SUCCESSFULLY IN {total_time_sec:.2f}s ({total_time_sec/60:.2f}m)!")
         print(f"   8K Master: {final_8k_repo}")
         print(f"   1080p Delivery: {master_1080p}")
+        if yt_url:
+            print(f"   YouTube: {yt_url} ({privacy_status})")
         print("=" * 70)
 
         return {
@@ -659,6 +693,8 @@ class AutonomousProductionEngine:
             "delivery_1080p_size_mb": size_1080_mb,
             "thumbnail_path": thumb_global,
             "qc_frames": qc_frames,
+            "youtube_id": yt_id,
+            "youtube_url": yt_url,
             "total_time_seconds": total_time_sec
         }
 

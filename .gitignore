@@ -58,3 +58,7 @@ youtube_token.json
 output/thumbnails_long/
 output/thumbnails_short/
 output/publish_packages/
+downloaded_artifacts/
+downloaded_ci_run_*/
+downloaded_ci_run_*.zip
+cookies.txt

@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       movie:
-        description: 'Specific film title (Leave empty to auto-pick next from catalog)'
+        description: 'Specific film title (e.g. "The Matrix Reloaded", "Whiplash" - leave empty for catalog auto-pick)'
         required: false
         default: ''
         type: string
       scene:
-        description: 'Specific scene or psychological concept (Leave empty for auto-pick)'
+        description: 'Specific scene or psychological concept (Optional - leave empty for auto-ideation)'
         required: false
         default: ''
         type: string
@@ -18,6 +18,20 @@ on:
         required: false
         default: true
         type: boolean
+      upload_youtube:
+        description: 'Publish directly to YouTube (Default: true)'
+        required: false
+        default: true
+        type: boolean
+      privacy_status:
+        description: 'YouTube privacy status'
+        required: false
+        default: 'unlisted'
+        type: choice
+        options:
+          - 'unlisted'
+          - 'public'
+          - 'private'
 
 concurrency:
   group: cinema-xray-production
@@ -58,6 +72,46 @@ jobs:
           python -m pip install --upgrade pip
           pip install --no-cache-dir -r requirements.txt
 
+      - name: Hydrate YouTube Credentials from Secrets
+        env:
+          YOUTUBE_CLIENT_SECRETS_CONTENT: ${{ secrets.YOUTUBE_CLIENT_SECRETS_JSON }}
+          YOUTUBE_TOKEN_CONTENT: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+        run: |
+          mkdir -p credentials config
+          if [ -n "$YOUTUBE_CLIENT_SECRETS_CONTENT" ]; then
+            printf "%s" "$YOUTUBE_CLIENT_SECRETS_CONTENT" > credentials/client_secrets.json
+            cp credentials/client_secrets.json config/client_secrets.json
+            echo "✅ client_secrets.json restored"
+          else
+            echo "⚠️ YOUTUBE_CLIENT_SECRETS_JSON secret not found in repository settings."
+          fi
+
+          if [ -n "$YOUTUBE_TOKEN_CONTENT" ]; then
+            printf "%s" "$YOUTUBE_TOKEN_CONTENT" > credentials/token.json
+            cp credentials/token.json config/youtube_token.json
+            echo "✅ token.json restored"
+          else
+            echo "⚠️ YOUTUBE_TOKEN_JSON secret not found in repository settings."
+          fi
+
+          # Fast pre-flight check for YouTube token freshness
+          python3 -c "
+          from pathlib import Path
+          from google.oauth2.credentials import Credentials
+          from google.auth.transport.requests import Request
+          p = Path('credentials/token.json')
+          if p.exists() and p.stat().st_size > 10:
+              try:
+                  c = Credentials.from_authorized_user_file(str(p))
+                  if c.expired and c.refresh_token:
+                      c.refresh(Request())
+                      print('✅ Pre-Flight Auth: YouTube Token refreshed & valid!')
+                  elif c.valid:
+                      print('✅ Pre-Flight Auth: YouTube Token is valid!')
+              except Exception as e:
+                  print(f'⚠️ Pre-Flight Auth Warning: {e}')
+          "
+
       - name: Execute Autonomous Production Pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -70,15 +124,26 @@ jobs:
             echo "$YOUTUBE_COOKIES" > cookies.txt
             echo "✅ Configured YouTube authentication cookies"
           fi
-          CMD_ARGS="--auto"
-          if [ -n "${{ inputs.movie }}" ] && [ -n "${{ inputs.scene }}" ]; then
-            CMD_ARGS="--movie '${{ inputs.movie }}' --scene '${{ inputs.scene }}'"
+
+          CMD_ARGS=""
+          if [ -n "${{ inputs.movie }}" ]; then
+            CMD_ARGS="--movie '${{ inputs.movie }}'"
+            if [ -n "${{ inputs.scene }}" ]; then
+              CMD_ARGS="$CMD_ARGS --scene '${{ inputs.scene }}'"
+            fi
+          else
+            CMD_ARGS="--auto"
           fi
 
           if [ "${{ inputs.upscale_8k }}" == "false" ]; then
             CMD_ARGS="$CMD_ARGS --no-8k"
           fi
 
+          if [ "${{ inputs.upload_youtube }}" == "true" ]; then
+            CMD_ARGS="$CMD_ARGS --upload-youtube --privacy '${{ inputs.privacy_status }}'"
+          fi
+
+          echo "Command to execute: python3 run_autonomous_cinema.py $CMD_ARGS"
           eval python3 run_autonomous_cinema.py $CMD_ARGS
           rm -f cookies.txt
 
@@ -95,6 +160,35 @@ jobs:
             projects/*/qc_frames/*.jpg
           if-no-files-found: warn
           retention-days: 14
+
+      - name: Publish Summary to GitHub Job Summary
+        if: always()
+        run: |
+          echo "## 🎬 Cinema Decoded Production Summary" >> $GITHUB_STEP_SUMMARY
+          python3 -c "
+          import json, os
+          from pathlib import Path
+          summary = []
+          p = Path('database/completed_topics.json')
+          if p.exists():
+              try:
+                  data = json.loads(p.read_text())
+                  topics = data.get('topics', [])
+                  if topics:
+                      latest = topics[-1]
+                      summary.append(f\"- **Movie**: {latest.get('movie_name', 'N/A')}\")
+                      summary.append(f\"- **Title**: {latest.get('title', 'N/A')}\")
+                      summary.append(f\"- **Core Thesis**: {latest.get('core_thesis', 'N/A')}\")
+                      yt = latest.get('youtube_url')
+                      if yt:
+                          summary.append(f\"- **YouTube Link**: [{yt}]({yt})\")
+                      else:
+                          summary.append(\"- **YouTube Link**: Upload skipped or pending\")
+              except Exception as e:
+                  summary.append(f'Summary note: {e}')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+              f.write('\n'.join(summary) + '\n')
+          "
 
       - name: GitOps Commit & Push Updated Topics Database
         run: |
@@ -117,4 +211,3 @@ jobs:
           else
             echo "Database unchanged."
           fi
-

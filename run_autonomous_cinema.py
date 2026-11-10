@@ -107,6 +107,18 @@ def main():
         help="Skip 8K upscaling (output 1080p delivery only for quick testing)."
     )
     parser.add_argument(
+        "--upload-youtube",
+        action="store_true",
+        help="Upload the rendered master video to YouTube upon completion."
+    )
+    parser.add_argument(
+        "--privacy",
+        type=str,
+        default="unlisted",
+        choices=["unlisted", "public", "private"],
+        help="YouTube privacy status (default: unlisted)."
+    )
+    parser.add_argument(
         "--list-catalog",
         action="store_true",
         help="List all catalog topics with completion status."
@@ -125,21 +137,28 @@ def main():
         res = engine.produce(
             brief_file=args.brief,
             dry_run=args.dry_run,
-            upscale_8k=not args.no_8k
+            upscale_8k=not args.no_8k,
+            upload_youtube=args.upload_youtube,
+            privacy_status=args.privacy
         )
-    elif args.movie and args.scene:
-        print(f"▶️  Executing production for film: {args.movie} — {args.scene}")
+    elif args.movie:
+        scene_info = f" — {args.scene}" if args.scene else " (Autonomous Scene Analysis)"
+        print(f"▶️  Executing production for film: {args.movie}{scene_info}")
         res = engine.produce(
             movie=args.movie,
             scene=args.scene,
             dry_run=args.dry_run,
-            upscale_8k=not args.no_8k
+            upscale_8k=not args.no_8k,
+            upload_youtube=args.upload_youtube,
+            privacy_status=args.privacy
         )
     elif args.auto:
         print("▶️  Executing autonomous production for next catalog topic...")
         res = engine.produce(
             dry_run=args.dry_run,
-            upscale_8k=not args.no_8k
+            upscale_8k=not args.no_8k,
+            upload_youtube=args.upload_youtube,
+            privacy_status=args.privacy
         )
     else:
         parser.print_help()
@@ -151,6 +170,8 @@ def main():
         print(f"   8K Master: {res.get('master_8k_path')}")
         print(f"   1080p Delivery: {res.get('delivery_1080p_path')}")
         print(f"   Thumbnail: {res.get('thumbnail_path')}")
+        if res.get("youtube_url"):
+            print(f"   YouTube URL: {res.get('youtube_url')} ({args.privacy})")
 
 
 if __name__ == "__main__":
