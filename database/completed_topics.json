@@ -1,8 +1,24 @@
 {
   "database_version": "1.0",
-  "total_completed": 24,
-  "last_updated": "2026-11-10T23:09:08.503201",
+  "total_completed": 25,
+  "last_updated": "2026-11-11T01:41:51.298915",
   "topics": [
+    {
+      "id": 27,
+      "topic_slug": "doctor_strange_broken_watch_loss",
+      "movie_name": "Doctor Strange (2016)",
+      "film_cluster": "Marvel Cinematic Storytelling",
+      "title": "The Watch That Reveals Doctor Strange's Biggest Loss",
+      "hook": "There's a small detail in Doctor Strange that reveals how much Stephen Strange lost.",
+      "core_thesis": "The shattered Jaeger-LeCoultre watch symbolizes Stephen Strange's tragic paradox: he can bend and manipulate cosmic time, but can never repair the relationship and past he threw away.",
+      "category_lens": "Film Scene Analysis",
+      "youtube_video_id": "NiyntmuTyL8",
+      "youtube_url": "https://youtu.be/NiyntmuTyL8",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
+      "status": "COMPLETED",
+      "created_at": "2026-11-10 20:11:51"
+    },
     {
       "id": 26,
       "topic_slug": "iron_man_cheeseburger_detail",

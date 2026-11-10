@@ -1,0 +1,60 @@
+{
+  "project": "The Watch That Reveals Doctor Strange's Biggest Loss",
+  "movie": "Doctor Strange (2016)",
+  "status": "PASSED_STRICT_QC",
+  "timestamp": "2026-11-11T01:41:35Z",
+  "delivery_file": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-doctor-strange-watch/out/cinema_decoded_doctor_strange_watch_1080p.mp4",
+  "master_8k_file": "/Users/vinaybt/Downloads/cinema-xray/output/final_video/cinema_xray_doctor_strange_watch_8k.mp4",
+  "duration_seconds": 49.0,
+  "resolution": "1080x1920",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "sample_rate": "44100",
+  "audio_loudness_lufs": -15.4,
+  "audio_true_peak_dbfs": -1.0,
+  "forbidden_sfx_count": 0,
+  "whoosh_count": 0,
+  "swoosh_count": 0,
+  "riser_count": 0,
+  "qc_frames_extracted": [
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-doctor-strange-watch/qc_frames/qc_frame_01_1s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-doctor-strange-watch/qc_frames/qc_frame_02_5s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-doctor-strange-watch/qc_frames/qc_frame_03_10s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-doctor-strange-watch/qc_frames/qc_frame_04_16s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-doctor-strange-watch/qc_frames/qc_frame_05_22s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-doctor-strange-watch/qc_frames/qc_frame_06_28s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-doctor-strange-watch/qc_frames/qc_frame_07_34s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-doctor-strange-watch/qc_frames/qc_frame_08_42s.jpg"
+  ],
+  "execution_summary": {
+    "stages": [
+      {
+        "stage": "1. Scene Slicing & 70% Cinematic Framing (Ambient Blur + Motion)",
+        "duration_seconds": 56.02,
+        "percentage": 27.6
+      },
+      {
+        "stage": "2. Visual Clips Concatenation",
+        "duration_seconds": 7.71,
+        "percentage": 3.8
+      },
+      {
+        "stage": "3. 1080p Master Assembly with Subtitle Burn-in & Audio",
+        "duration_seconds": 23.6,
+        "percentage": 11.6
+      },
+      {
+        "stage": "4. Hardware-Accelerated 8K Ultra HD Super-Resolution (4320x7680 @ 85 Mbps)",
+        "duration_seconds": 114.16,
+        "percentage": 56.3
+      },
+      {
+        "stage": "5. High-CTR Vertical Thumbnail Generation & QC Extraction",
+        "duration_seconds": 1.06,
+        "percentage": 0.5
+      }
+    ],
+    "total_duration_seconds": 202.66,
+    "total_duration_minutes": 3.38
+  }
+}

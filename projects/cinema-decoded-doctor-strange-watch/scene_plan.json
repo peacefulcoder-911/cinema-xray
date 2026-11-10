@@ -1,0 +1,136 @@
+{
+  "project_title": "The Watch That Reveals Doctor Strange's Biggest Loss",
+  "movie": "Doctor Strange (2016)",
+  "aspect_ratio": "9:16",
+  "resolution_master": "4320x7680",
+  "resolution_delivery": "1080x1920",
+  "fps": 30,
+  "total_duration": 49.00,
+  "framing_standard": "70% Active Cinematic Framing (1080x1344) with Soft Ambient Blur Backdrop (boxblur=35:5) and Matte Dividers at Y=287, Y=1632",
+  "audio_standard": "EBU R128 (-14.0 LUFS, -1.0 dBFS True Peak), ElevenLabs Liam narration, subtle mystic orchestral score",
+  "negative_constraints": "Zero whoosh, swoosh, risers, sweeps, or artificial transition SFX",
+  "beats": [
+    {
+      "beat_id": "01_hook_watch_intro",
+      "name": "Hook: The Watch in Darkness",
+      "source_file": "assets/footage/doctor_strange_watch/strange_watch_crash.mp4",
+      "source_start": 19.0,
+      "duration": 4.50,
+      "motion": "SLOW_PUSH_IN",
+      "callout": "DOCTOR STRANGE (2016)",
+      "callout_y": 340,
+      "narrative_focus": "Hook: A subtle detail reveals Stephen Strange's deepest emotional struggle."
+    },
+    {
+      "beat_id": "02_operating_room_christine",
+      "name": "Old Stephen: Surgeon at the Peak",
+      "source_file": "assets/footage/doctor_strange_watch/strange_surgery_opening.mp4",
+      "source_start": 45.0,
+      "duration": 4.00,
+      "motion": "SLOW_PAN_RIGHT",
+      "callout": "AT THE PEAK OF HIS ARROGANCE",
+      "callout_y": 340,
+      "narrative_focus": "Stephen Strange in the operating room with Christine Palmer before his fall."
+    },
+    {
+      "beat_id": "03_watch_winder_drawer",
+      "name": "The Watch Winder Selection",
+      "source_file": "assets/footage/doctor_strange_watch/strange_watch_crash.mp4",
+      "source_start": 16.0,
+      "duration": 3.00,
+      "motion": "SLOW_PUSH_IN",
+      "callout": "A GIFT FROM CHRISTINE",
+      "callout_y": 340,
+      "narrative_focus": "Stephen selecting the Jaeger-LeCoultre timepiece from his rotating winder drawer."
+    },
+    {
+      "beat_id": "04_engraving_inscription",
+      "name": "The Engraved Promise",
+      "source_file": "assets/footage/doctor_strange_watch/strange_watch_crash.mp4",
+      "source_start": 25.5,
+      "duration": 3.50,
+      "motion": "SLOW_PUSH_IN",
+      "callout": "THE HIDDEN INSCRIPTION",
+      "callout_y": 340,
+      "narrative_focus": "Close-up of the engraved text: Time will tell how much I love you."
+    },
+    {
+      "beat_id": "05_wrist_fasten_pre_crash",
+      "name": "Strapping On the Timepiece",
+      "source_file": "assets/footage/doctor_strange_watch/strange_watch_crash.mp4",
+      "source_start": 29.5,
+      "duration": 2.34,
+      "motion": "STATIC",
+      "callout": "BEFORE THE CRASH",
+      "callout_y": 340,
+      "narrative_focus": "Stephen strapping the watch onto his intact wrist before stepping out to his car."
+    },
+    {
+      "beat_id": "06_huracan_tumbling_crash",
+      "name": "The Fatal Impact",
+      "source_file": "assets/footage/doctor_strange_watch/strange_watch_crash.mp4",
+      "source_start": 158.0,
+      "duration": 4.66,
+      "motion": "FAST_ZOOM",
+      "callout": "THE ACCIDENT",
+      "callout_y": 340,
+      "narrative_focus": "Speeding Lamborghini Huracán tumbling catastrophically into the river."
+    },
+    {
+      "beat_id": "07_destroyed_hands_aftermath",
+      "name": "Destroyed Hands & Emotional Distance",
+      "source_file": "assets/footage/doctor_strange_watch/strange_hands_christine_fight.mp4",
+      "source_start": 12.0,
+      "duration": 4.82,
+      "motion": "SLOW_PAN_LEFT",
+      "callout": "EVERYTHING COLLAPSES",
+      "callout_y": 340,
+      "narrative_focus": "External pins in hands, bitter collapse of career and bond with Christine."
+    },
+    {
+      "beat_id": "08_fractured_crystal_face",
+      "name": "The Fractured Crystal",
+      "source_file": "assets/footage/doctor_strange_watch/strange_ending_broken_watch.mp4",
+      "source_start": 17.0,
+      "duration": 4.18,
+      "motion": "SLOW_PUSH_IN",
+      "callout": "HE CANNOT LET IT GO",
+      "callout_y": 340,
+      "narrative_focus": "Close-up macro of the shattered crystal dial Stephen preserves."
+    },
+    {
+      "beat_id": "09_strap_on_scarred_wrist",
+      "name": "Putting On What Remains",
+      "source_file": "assets/footage/doctor_strange_watch/strange_ending_broken_watch.mp4",
+      "source_start": 24.0,
+      "duration": 4.47,
+      "motion": "SLOW_PUSH_IN",
+      "callout": "THE SHATTERED GLASS",
+      "callout_y": 340,
+      "narrative_focus": "Fastening the fractured watch onto scarred trembling wrist."
+    },
+    {
+      "beat_id": "10_person_he_lost_christine",
+      "name": "The Person He Lost",
+      "source_file": "assets/footage/doctor_strange_watch/strange_hands_christine_fight.mp4",
+      "source_start": 38.0,
+      "duration": 6.53,
+      "motion": "SLOW_PAN_RIGHT",
+      "callout": "THE PERSON HE LOST",
+      "callout_y": 340,
+      "narrative_focus": "The memory of Christine and the love he pushed away."
+    },
+    {
+      "beat_id": "11_sanctum_window_revelation",
+      "name": "Master of Time, Prisoner of Memory",
+      "source_file": "assets/footage/doctor_strange_watch/strange_ending_broken_watch.mp4",
+      "source_start": 38.0,
+      "duration": 7.00,
+      "motion": "SLOW_PUSH_IN",
+      "callout": "TIME CAN NEVER FIX THE PAST",
+      "callout_y": 340,
+      "narrative_focus": "Cloak of Levitation at Sanctum Sanctorum window: the one thing time cannot repair."
+    }
+  ]
+}
+
