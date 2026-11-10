@@ -4,7 +4,7 @@ Cinema Decoded: Autonomous Production Engine
 End-to-end autonomous video production pipeline for Cinema Decoded YouTube Shorts.
 Connects:
 1. Executive Producer & Lead Writer Agent (Gemini + youtube-agent-skill hookscore)
-2. Audio Generator (Gemini TTS 'Achird' single-take, linear normalized, zero whoosh/drone)
+2. Audio Generator (ElevenLabs Liam / Gemini TTS single-take, linear normalized, zero whoosh/drone)
 3. Subtitle Engine (Arc Reactor Cyan HUD ASS subtitles with vivid Stark cyan highlights)
 4. Footage Acquisition & Scene Planner (yt-dlp clip search or local asset cache)
 5. 70% Cinematic Visual Compositor (1080x1344 active framing, ambient blur, motion, callouts)
@@ -471,8 +471,8 @@ class AutonomousProductionEngine:
         (proj_dir / "script.txt").write_text(script_text, encoding="utf-8")
         print(f"✅ Brief saved to: {proj_dir / 'brief.md'}")
 
-        # STAGE 2: Studio Voiceover (Achird Gemini TTS, Single-Take, Linear Normalized)
-        print("\n🎙️  STAGE 2: Generating Studio Voiceover (Achird)...")
+        # STAGE 2: Studio Voiceover (ElevenLabs Liam / Gemini TTS, Single-Take, Linear Normalized)
+        print("\n🎙️  STAGE 2: Generating Studio Voiceover (ElevenLabs Liam)...")
         master_audio_path = str(proj_dir / "audio" / "master_audio.wav")
         if not (os.path.exists(master_audio_path) and os.path.getsize(master_audio_path) > 10000):
             generate_achird_audio(script_text, master_audio_path)

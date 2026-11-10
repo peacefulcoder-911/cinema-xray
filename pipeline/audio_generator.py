@@ -1,8 +1,9 @@
 """
 Cinema X-Ray: Studio Audio Generator
-Synthesizes studio-quality 'Achird' voiceover via Gemini TTS with broadcast loudness normalization.
+Synthesizes studio-quality voiceover via ElevenLabs (Liam - Viral Short-Form Storyteller),
+with resilient fallback to Gemini TTS and Edge-TTS, and broadcast loudness normalization.
 Supports:
-  - SHORT_45_SEC: Single-shot high-retention Achird delivery (~40-52s).
+  - SHORT_45_SEC: Single-shot high-retention delivery (~40-52s).
   - LONG_5_6_MIN: Chapter-safe partitioned synthesis (5 chapters) with 0.30s acoustic breaths.
 Mastered via FFmpeg EBU R128 Loudness Normalization (I=-14 LUFS, TP=-1.5 dB, LRA=11).
 """
@@ -13,10 +14,14 @@ import json
 import subprocess
 from pathlib import Path
 from typing import Union, Dict, Any, List
+import requests
 from google import genai
 from google.genai import types
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+ELEVENLABS_VOICE_ID = os.environ.get("ELEVENLABS_VOICE_ID", "VCgLBmBjldJmfphyB8sZ")  # Liam - Viral Short-Form Storyteller
+ELEVENLABS_MODEL_ID = "eleven_multilingual_v2"
 
 
 def _load_env():
@@ -28,7 +33,7 @@ def _load_env():
                 k, v = line.split('=', 1)
                 k_clean = k.strip()
                 v_clean = v.strip().strip('"').strip("'")
-                if k_clean in ["GEMINI_API_KEY", "GOOGLE_API_KEY"] or k_clean not in os.environ:
+                if k_clean in ["GEMINI_API_KEY", "GOOGLE_API_KEY", "ELEVENLABS_API_KEY"] or k_clean not in os.environ:
                     os.environ[k_clean] = v_clean
 _load_env()
 
@@ -41,9 +46,66 @@ def _get_api_client():
     return genai.Client(api_key=api_key, http_options=types.HttpOptions(api_version="v1beta"))
 
 
+def _synthesize_elevenlabs(script_text: str, temp_wav_path: str) -> bool:
+    """Synthesizes studio voiceover using ElevenLabs Liam voice."""
+    _load_env()
+    api_key = os.environ.get("ELEVENLABS_API_KEY")
+    if not api_key:
+        return False
+
+    url = f"https://api.elevenlabs.io/v1/text-to-speech/{ELEVENLABS_VOICE_ID}"
+    clean_text = " ".join(script_text.strip().split())
+    headers = {
+        "xi-api-key": api_key,
+        "Content-Type": "application/json"
+    }
+    payload = {
+        "text": clean_text,
+        "model_id": ELEVENLABS_MODEL_ID,
+        "voice_settings": {
+            "stability": 0.50,
+            "similarity_boost": 0.75,
+            "style": 0.35,
+            "use_speaker_boost": True
+        }
+    }
+
+    try:
+        print(f"[ElevenLabs TTS] Connecting to Liam ({ELEVENLABS_VOICE_ID})...")
+        res = requests.post(url, json=payload, headers=headers, timeout=60)
+        if res.status_code == 200:
+            os.makedirs(os.path.dirname(temp_wav_path), exist_ok=True)
+            temp_mp3 = temp_wav_path + ".mp3"
+            Path(temp_mp3).write_bytes(res.content)
+            # Transcode to 24kHz mono PCM WAV for downstream pipeline compatibility
+            cmd = [
+                "ffmpeg", "-y", "-v", "quiet",
+                "-i", temp_mp3,
+                "-ar", "24000",
+                "-ac", "1",
+                "-c:a", "pcm_s16le",
+                temp_wav_path
+            ]
+            subprocess.run(cmd, check=True)
+            if os.path.exists(temp_mp3):
+                os.remove(temp_mp3)
+            print(f"✅ Synthesized successfully via ElevenLabs (Liam - {ELEVENLABS_VOICE_ID})")
+            return True
+        else:
+            print(f"[ElevenLabs TTS] API note: {res.status_code} - {res.text[:200]}")
+            return False
+    except Exception as e:
+        print(f"[ElevenLabs TTS] Error: {e}")
+        return False
+
 
 def _synthesize_raw_tts(script_text: str, temp_wav_path: str) -> None:
-    """Invokes Gemini TTS for Achird voice and saves raw 24kHz mono PCM WAV."""
+    """Invokes ElevenLabs Liam as primary engine, falling back to Gemini TTS and Edge-TTS."""
+    # 1. Primary: ElevenLabs Liam
+    if _synthesize_elevenlabs(script_text, temp_wav_path):
+        return
+
+    # 2. Secondary: Gemini TTS
     client = _get_api_client()
     models_to_try = [
         "gemini-3.1-flash-tts-preview",

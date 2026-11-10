@@ -61,6 +61,7 @@ jobs:
       - name: Execute Autonomous Production Pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
           PYTHONUNBUFFERED: "1"
         run: |
