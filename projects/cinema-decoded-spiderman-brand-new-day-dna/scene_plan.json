@@ -1,0 +1,118 @@
+{
+  "project_title": "Spider-Man: Brand New Day — The Mutating DNA Paradox",
+  "movie": "Spider-Man: Brand New Day (2026)",
+  "total_duration": 47.04,
+  "fps": 30,
+  "resolution": {
+    "width": 1080,
+    "height": 1920
+  },
+  "source_trailer": "assets/source/spiderman_brand_new_day/spiderman_brand_new_day_official_trailer.mp4",
+  "beats": [
+    {
+      "beat_id": "01_hook_missed_line",
+      "section": "HOOK",
+      "narration": "You completely missed the most terrifying line in the new Spider-Man trailer.",
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "duration": 3.8,
+      "source_start": 0.2,
+      "motion": "SLOW_PUSH_IN",
+      "callout": "THE LINE EVERYONE MISSED",
+      "callout_y": 340,
+      "description": "Trailer opening in dark room as Peter stares at his hands in shock"
+    },
+    {
+      "beat_id": "02_evidence_30s_mark",
+      "section": "EVIDENCE",
+      "narration": "At the thirty-second mark, Peter Parker isn't fighting a villain.",
+      "start_time": 3.8,
+      "end_time": 7.3,
+      "duration": 3.5,
+      "source_start": 30.0,
+      "motion": "SLOW_PUSH_IN",
+      "callout": "TIMESTAMP 00:30",
+      "callout_y": 340,
+      "description": "Peter Parker entering Bruce Banner's university laboratory"
+    },
+    {
+      "beat_id": "03_evidence_banner_lab",
+      "section": "EVIDENCE",
+      "narration": "He's standing inside Bruce Banner's laboratory, asking a question nobody expected:",
+      "start_time": 7.3,
+      "end_time": 12.0,
+      "duration": 4.7,
+      "source_start": 33.5,
+      "motion": "SLOW_PAN_LEFT",
+      "callout": "DR. BRUCE BANNER'S LAB",
+      "callout_y": 340,
+      "description": "Bruce Banner at desk analyzing holographic genetic helix data"
+    },
+    {
+      "beat_id": "04_evidence_suppress_dna",
+      "section": "EVIDENCE",
+      "narration": "\"Dr. Banner, you found a way to suppress mutating DNA, right? Could you get rid of the bad aspects, but keep the good?\"",
+      "start_time": 12.0,
+      "end_time": 18.8,
+      "duration": 6.8,
+      "source_start": 38.2,
+      "motion": "SLOW_PUSH_IN",
+      "callout": "CAN YOU SUPPRESS MUTATING DNA?",
+      "callout_y": 340,
+      "description": "Banner turning around, looking over glasses with holographic DNA floating between them"
+    },
+    {
+      "beat_id": "05_investigation_holographic_alert",
+      "section": "INVESTIGATION",
+      "narration": "Look closely at Banner’s holographic monitor. Flashing in the corner is a medical alert: \"Retroviral Acceleration.\"",
+      "start_time": 18.8,
+      "end_time": 25.4,
+      "duration": 6.6,
+      "source_start": 34.0,
+      "motion": "FAST_ZOOM",
+      "callout": "ALERT: RETROVIRAL ACCELERATION",
+      "callout_y": 340,
+      "description": "Close-up punch into the holographic DNA helix with the medical alert nodes"
+    },
+    {
+      "beat_id": "06_investigation_veins",
+      "section": "INVESTIGATION",
+      "narration": "And in the opening seconds, look at Peter’s forearm: black microscopic veins pulsing beneath his skin.",
+      "start_time": 25.4,
+      "end_time": 31.8,
+      "duration": 6.4,
+      "source_start": 2.0,
+      "motion": "SLOW_PUSH_IN",
+      "callout": "CELLULAR METAMORPHOSIS",
+      "callout_y": 340,
+      "description": "Extreme close-up of Peter's forearm, black veins pulsing under skin"
+    },
+    {
+      "beat_id": "07_interpretation_comic_origin",
+      "section": "INTERPRETATION",
+      "narration": "This isn't superhero fatigue. Marvel is adapting the legendary comic storyline where Peter's radioactive spider-bite begins to mutate his cellular biology, slowly destroying his body from the inside out.",
+      "start_time": 31.8,
+      "end_time": 41.2,
+      "duration": 9.4,
+      "source_start": 8.5,
+      "motion": "SLOW_PAN_RIGHT",
+      "callout": "THE MUTATION DISEASE (1971)",
+      "callout_y": 340,
+      "description": "Peter staggering against the wall, pupil dilation with spider-sense pulses"
+    },
+    {
+      "beat_id": "08_payoff_power_curse",
+      "section": "PAYOFF",
+      "narration": "Peter gave up his identity to save the world. Now, the very power that makes him Spider-Man might be the thing killing him.",
+      "start_time": 41.2,
+      "end_time": 47.04,
+      "duration": 5.84,
+      "source_start": 104.0,
+      "motion": "SLOW_PUSH_IN",
+      "callout": "THE CURSE OF SPIDER-MAN",
+      "callout_y": 340,
+      "description": "Spider-Man leaping off skyscraper into the freezing winter blizzard"
+    }
+  ]
+}
+

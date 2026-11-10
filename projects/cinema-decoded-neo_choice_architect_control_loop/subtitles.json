@@ -1,0 +1,470 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 42,
+  "impact_timestamps": [
+    {
+      "word": "THINK",
+      "start": 0.0,
+      "end": 0.56
+    },
+    {
+      "word": "DEFIED",
+      "start": 0.56,
+      "end": 1.36
+    },
+    {
+      "word": "TRINITY",
+      "start": 1.36,
+      "end": 2.22
+    },
+    {
+      "word": "SYSTEM",
+      "start": 2.64,
+      "end": 3.16
+    },
+    {
+      "word": "CALCULATED",
+      "start": 3.16,
+      "end": 4.76
+    },
+    {
+      "word": "CLOSELY",
+      "start": 5.22,
+      "end": 5.94
+    },
+    {
+      "word": "ARCHITECTS",
+      "start": 5.94,
+      "end": 6.82
+    },
+    {
+      "word": "STANDS",
+      "start": 6.82,
+      "end": 7.62
+    },
+    {
+      "word": "WHITE",
+      "start": 7.62,
+      "end": 8.36
+    },
+    {
+      "word": "SINGLE",
+      "start": 8.9,
+      "end": 9.72
+    },
+    {
+      "word": "ALREADY",
+      "start": 9.72,
+      "end": 10.6
+    },
+    {
+      "word": "REACTIONS",
+      "start": 10.6,
+      "end": 11.74
+    },
+    {
+      "word": "ARCHITECT",
+      "start": 12.3,
+      "end": 13.14
+    },
+    {
+      "word": "ABOUT",
+      "start": 13.14,
+      "end": 13.7
+    },
+    {
+      "word": "BECAUSE",
+      "start": 13.7,
+      "end": 14.42
+    },
+    {
+      "word": "OPTIONS",
+      "start": 14.42,
+      "end": 15.36
+    },
+    {
+      "word": "EXACT",
+      "start": 15.36,
+      "end": 15.98
+    },
+    {
+      "word": "DESTINATION",
+      "start": 15.98,
+      "end": 16.86
+    },
+    {
+      "word": "PROPHECY",
+      "start": 17.42,
+      "end": 18.14
+    },
+    {
+      "word": "ISNT",
+      "start": 18.14,
+      "end": 18.76
+    },
+    {
+      "word": "GLITCH",
+      "start": 18.76,
+      "end": 19.2
+    },
+    {
+      "word": "DESIGNED",
+      "start": 19.2,
+      "end": 19.82
+    },
+    {
+      "word": "HUMANITY",
+      "start": 19.82,
+      "end": 20.68
+    },
+    {
+      "word": "PRESSURE",
+      "start": 21.16,
+      "end": 22.14
+    },
+    {
+      "word": "BUILT",
+      "start": 22.62,
+      "end": 23.0
+    },
+    {
+      "word": "MACHINES",
+      "start": 23.0,
+      "end": 23.78
+    },
+    {
+      "word": "ANOMALY",
+      "start": 23.78,
+      "end": 24.72
+    },
+    {
+      "word": "CALCULATED",
+      "start": 24.72,
+      "end": 26.04
+    },
+    {
+      "word": "CHOOSING",
+      "start": 26.5,
+      "end": 27.4
+    },
+    {
+      "word": "REBELLION",
+      "start": 27.4,
+      "end": 28.3
+    },
+    {
+      "word": "SYSTEMIC",
+      "start": 28.3,
+      "end": 29.32
+    },
+    {
+      "word": "LOVE",
+      "start": 29.32,
+      "end": 30.56
+    },
+    {
+      "word": "ULTIMATE",
+      "start": 30.56,
+      "end": 31.42
+    },
+    {
+      "word": "SYSTEM",
+      "start": 31.42,
+      "end": 32.14
+    },
+    {
+      "word": "HUMANITY",
+      "start": 32.14,
+      "end": 32.98
+    },
+    {
+      "word": "LOCKED",
+      "start": 32.98,
+      "end": 34.1
+    },
+    {
+      "word": "SYSTEM",
+      "start": 34.5,
+      "end": 35.28
+    },
+    {
+      "word": "HISTORY",
+      "start": 35.28,
+      "end": 35.98
+    },
+    {
+      "word": "DECEPTIVE",
+      "start": 35.98,
+      "end": 36.82
+    },
+    {
+      "word": "MECHANISM",
+      "start": 36.82,
+      "end": 37.56
+    },
+    {
+      "word": "TELL",
+      "start": 38.08,
+      "end": 38.46
+    },
+    {
+      "word": "COMMENTS",
+      "start": 38.46,
+      "end": 38.84
+    }
+  ],
+  "cards": [
+    {
+      "start": 0.0,
+      "end": 0.56,
+      "text": "YOU THINK NEO",
+      "highlight": "THINK"
+    },
+    {
+      "start": 0.56,
+      "end": 1.36,
+      "text": "DEFIED THE MATRIX",
+      "highlight": "DEFIED"
+    },
+    {
+      "start": 1.36,
+      "end": 2.22,
+      "text": "BY SAVING TRINITY,",
+      "highlight": "TRINITY"
+    },
+    {
+      "start": 2.64,
+      "end": 3.16,
+      "text": "BUT THE SYSTEM",
+      "highlight": "SYSTEM"
+    },
+    {
+      "start": 3.16,
+      "end": 4.76,
+      "text": "CALCULATED HIS EXACT MOVE.",
+      "highlight": "CALCULATED"
+    },
+    {
+      "start": 5.22,
+      "end": 5.94,
+      "text": "LOOK CLOSELY AT",
+      "highlight": "CLOSELY"
+    },
+    {
+      "start": 5.94,
+      "end": 6.82,
+      "text": "THE ARCHITECT'S MONITORS",
+      "highlight": "ARCHITECTS"
+    },
+    {
+      "start": 6.82,
+      "end": 7.62,
+      "text": "AS NEO STANDS",
+      "highlight": "STANDS"
+    },
+    {
+      "start": 7.62,
+      "end": 8.36,
+      "text": "IN THE WHITE ROOM.",
+      "highlight": "WHITE"
+    },
+    {
+      "start": 8.9,
+      "end": 9.72,
+      "text": "EVERY SINGLE SCREEN",
+      "highlight": "SINGLE"
+    },
+    {
+      "start": 9.72,
+      "end": 10.6,
+      "text": "IS ALREADY PLAYING",
+      "highlight": "ALREADY"
+    },
+    {
+      "start": 10.6,
+      "end": 11.74,
+      "text": "NEO'S FUTURE REACTIONS.",
+      "highlight": "REACTIONS"
+    },
+    {
+      "start": 12.3,
+      "end": 13.14,
+      "text": "THE ARCHITECT DOESN'T",
+      "highlight": "ARCHITECT"
+    },
+    {
+      "start": 13.14,
+      "end": 13.7,
+      "text": "CARE ABOUT THE",
+      "highlight": "ABOUT"
+    },
+    {
+      "start": 13.7,
+      "end": 14.42,
+      "text": "TWO DOORS BECAUSE",
+      "highlight": "BECAUSE"
+    },
+    {
+      "start": 14.42,
+      "end": 15.36,
+      "text": "BOTH OPTIONS LEAD",
+      "highlight": "OPTIONS"
+    },
+    {
+      "start": 15.36,
+      "end": 15.98,
+      "text": "TO THE EXACT",
+      "highlight": "EXACT"
+    },
+    {
+      "start": 15.98,
+      "end": 16.86,
+      "text": "SAME DESTINATION.",
+      "highlight": "DESTINATION"
+    },
+    {
+      "start": 17.42,
+      "end": 18.14,
+      "text": "THE PROPHECY OF",
+      "highlight": "PROPHECY"
+    },
+    {
+      "start": 18.14,
+      "end": 18.76,
+      "text": "THE ONE ISN'T",
+      "highlight": "ISNT"
+    },
+    {
+      "start": 18.76,
+      "end": 19.2,
+      "text": "A GLITCH IN",
+      "highlight": "GLITCH"
+    },
+    {
+      "start": 19.2,
+      "end": 19.82,
+      "text": "THE CODE DESIGNED",
+      "highlight": "DESIGNED"
+    },
+    {
+      "start": 19.82,
+      "end": 20.68,
+      "text": "TO FREE HUMANITY.",
+      "highlight": "HUMANITY"
+    },
+    {
+      "start": 21.16,
+      "end": 22.14,
+      "text": "IT'S A PRESSURE VALVE,",
+      "highlight": "PRESSURE"
+    },
+    {
+      "start": 22.62,
+      "end": 23.0,
+      "text": "BUILT BY THE",
+      "highlight": "BUILT"
+    },
+    {
+      "start": 23.0,
+      "end": 23.78,
+      "text": "MACHINES TO HARVEST",
+      "highlight": "MACHINES"
+    },
+    {
+      "start": 23.78,
+      "end": 24.72,
+      "text": "HUMAN ANOMALY AND",
+      "highlight": "ANOMALY"
+    },
+    {
+      "start": 24.72,
+      "end": 26.04,
+      "text": "FORCE A CALCULATED REBOOT.",
+      "highlight": "CALCULATED"
+    },
+    {
+      "start": 26.5,
+      "end": 27.4,
+      "text": "CHOOSING TRINITY FEELS",
+      "highlight": "CHOOSING"
+    },
+    {
+      "start": 27.4,
+      "end": 28.3,
+      "text": "LIKE REBELLION AGAINST",
+      "highlight": "REBELLION"
+    },
+    {
+      "start": 28.3,
+      "end": 29.32,
+      "text": "A SYSTEMIC CONTROL.",
+      "highlight": "SYSTEMIC"
+    },
+    {
+      "start": 29.32,
+      "end": 30.56,
+      "text": "BUT LOVE IS",
+      "highlight": "LOVE"
+    },
+    {
+      "start": 30.56,
+      "end": 31.42,
+      "text": "THE ULTIMATE VARIABLE",
+      "highlight": "ULTIMATE"
+    },
+    {
+      "start": 31.42,
+      "end": 32.14,
+      "text": "THE SYSTEM USES",
+      "highlight": "SYSTEM"
+    },
+    {
+      "start": 32.14,
+      "end": 32.98,
+      "text": "TO KEEP HUMANITY",
+      "highlight": "HUMANITY"
+    },
+    {
+      "start": 32.98,
+      "end": 34.1,
+      "text": "LOCKED INSIDE THE CAGE.",
+      "highlight": "LOCKED"
+    },
+    {
+      "start": 34.5,
+      "end": 35.28,
+      "text": "WHICH SYSTEM IN",
+      "highlight": "SYSTEM"
+    },
+    {
+      "start": 35.28,
+      "end": 35.98,
+      "text": "CINEMA HISTORY HAD",
+      "highlight": "HISTORY"
+    },
+    {
+      "start": 35.98,
+      "end": 36.82,
+      "text": "THE MOST DECEPTIVE",
+      "highlight": "DECEPTIVE"
+    },
+    {
+      "start": 36.82,
+      "end": 37.56,
+      "text": "CONTROL MECHANISM?",
+      "highlight": "MECHANISM"
+    },
+    {
+      "start": 38.08,
+      "end": 38.46,
+      "text": "TELL ME IN",
+      "highlight": "TELL"
+    },
+    {
+      "start": 38.46,
+      "end": 38.84,
+      "text": "THE COMMENTS.",
+      "highlight": "COMMENTS"
+    }
+  ]
+}

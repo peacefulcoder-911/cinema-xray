@@ -1,0 +1,459 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 41,
+  "impact_timestamps": [
+    {
+      "word": "NEVER",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "SMILES",
+      "start": 0.66,
+      "end": 1.38
+    },
+    {
+      "word": "SINGLE",
+      "start": 1.38,
+      "end": 2.38
+    },
+    {
+      "word": "ANSWER",
+      "start": 2.84,
+      "end": 3.32
+    },
+    {
+      "word": "PSYCHOLOGICAL",
+      "start": 3.32,
+      "end": 4.8
+    },
+    {
+      "word": "CLOSELY",
+      "start": 5.38,
+      "end": 6.04
+    },
+    {
+      "word": "APARTMENT",
+      "start": 6.04,
+      "end": 7.0
+    },
+    {
+      "word": "NOTICES",
+      "start": 7.34,
+      "end": 8.48
+    },
+    {
+      "word": "MATTRESS",
+      "start": 8.88,
+      "end": 9.48
+    },
+    {
+      "word": "FLOOR",
+      "start": 9.48,
+      "end": 9.88
+    },
+    {
+      "word": "LINGERING",
+      "start": 10.1,
+      "end": 10.5
+    },
+    {
+      "word": "PHANTOM",
+      "start": 10.5,
+      "end": 11.46
+    },
+    {
+      "word": "CANNOT",
+      "start": 11.46,
+      "end": 12.08
+    },
+    {
+      "word": "THINKS",
+      "start": 12.62,
+      "end": 13.22
+    },
+    {
+      "word": "ISOLATION",
+      "start": 13.22,
+      "end": 14.4
+    },
+    {
+      "word": "PRICE",
+      "start": 14.4,
+      "end": 14.92
+    },
+    {
+      "word": "KEEPING",
+      "start": 14.92,
+      "end": 15.66
+    },
+    {
+      "word": "SHADOWS",
+      "start": 15.66,
+      "end": 16.68
+    },
+    {
+      "word": "HAPPENS",
+      "start": 17.24,
+      "end": 18.2
+    },
+    {
+      "word": "CROSSES",
+      "start": 18.58,
+      "end": 19.18
+    },
+    {
+      "word": "PATHS",
+      "start": 19.18,
+      "end": 19.96
+    },
+    {
+      "word": "WATSON",
+      "start": 19.96,
+      "end": 20.64
+    },
+    {
+      "word": "THERE",
+      "start": 21.2,
+      "end": 21.66
+    },
+    {
+      "word": "HISTORY",
+      "start": 21.66,
+      "end": 22.3
+    },
+    {
+      "word": "EYES",
+      "start": 22.5,
+      "end": 22.98
+    },
+    {
+      "word": "UNBEARABLE",
+      "start": 22.98,
+      "end": 24.12
+    },
+    {
+      "word": "SUFFOCATING",
+      "start": 24.36,
+      "end": 25.08
+    },
+    {
+      "word": "UNIVERSE",
+      "start": 25.54,
+      "end": 26.3
+    },
+    {
+      "word": "MARRIAGE",
+      "start": 26.3,
+      "end": 26.94
+    },
+    {
+      "word": "COULD",
+      "start": 27.16,
+      "end": 27.44
+    },
+    {
+      "word": "PURGE",
+      "start": 27.44,
+      "end": 28.2
+    },
+    {
+      "word": "DEVOTION",
+      "start": 28.2,
+      "end": 29.34
+    },
+    {
+      "word": "BELIEVES",
+      "start": 29.34,
+      "end": 30.48
+    },
+    {
+      "word": "FREEDOM",
+      "start": 30.48,
+      "end": 31.2
+    },
+    {
+      "word": "REALITY",
+      "start": 31.72,
+      "end": 32.2
+    },
+    {
+      "word": "LIVING",
+      "start": 32.52,
+      "end": 32.94
+    },
+    {
+      "word": "INSIDE",
+      "start": 32.94,
+      "end": 34.24
+    },
+    {
+      "word": "SMILING",
+      "start": 34.48,
+      "end": 35.5
+    },
+    {
+      "word": "INVISIBLE",
+      "start": 35.72,
+      "end": 36.92
+    },
+    {
+      "word": "VICTORY",
+      "start": 36.92,
+      "end": 37.88
+    },
+    {
+      "word": "LIKE",
+      "start": 37.88,
+      "end": 38.56
+    }
+  ],
+  "cards": [
+    {
+      "start": 0.0,
+      "end": 0.66,
+      "text": "YOU NEVER ASKED",
+      "highlight": "NEVER"
+    },
+    {
+      "start": 0.66,
+      "end": 1.38,
+      "text": "WHY PETER SMILES",
+      "highlight": "SMILES"
+    },
+    {
+      "start": 1.38,
+      "end": 2.38,
+      "text": "AS A SINGLE MAN,",
+      "highlight": "SINGLE"
+    },
+    {
+      "start": 2.84,
+      "end": 3.32,
+      "text": "AND THE ANSWER",
+      "highlight": "ANSWER"
+    },
+    {
+      "start": 3.32,
+      "end": 4.8,
+      "text": "IS PURE PSYCHOLOGICAL HORROR.",
+      "highlight": "PSYCHOLOGICAL"
+    },
+    {
+      "start": 5.38,
+      "end": 6.04,
+      "text": "LOOK CLOSELY AT",
+      "highlight": "CLOSELY"
+    },
+    {
+      "start": 6.04,
+      "end": 7.0,
+      "text": "HIS SOLITARY APARTMENT,",
+      "highlight": "APARTMENT"
+    },
+    {
+      "start": 7.34,
+      "end": 8.48,
+      "text": "RENT NOTICES PILING UP,",
+      "highlight": "NOTICES"
+    },
+    {
+      "start": 8.88,
+      "end": 9.48,
+      "text": "A MATTRESS ON",
+      "highlight": "MATTRESS"
+    },
+    {
+      "start": 9.48,
+      "end": 9.88,
+      "text": "THE FLOOR,",
+      "highlight": "FLOOR"
+    },
+    {
+      "start": 10.1,
+      "end": 10.5,
+      "text": "AND A LINGERING",
+      "highlight": "LINGERING"
+    },
+    {
+      "start": 10.5,
+      "end": 11.46,
+      "text": "PHANTOM ACHE HE",
+      "highlight": "PHANTOM"
+    },
+    {
+      "start": 11.46,
+      "end": 12.08,
+      "text": "CANNOT NAME.",
+      "highlight": "CANNOT"
+    },
+    {
+      "start": 12.62,
+      "end": 13.22,
+      "text": "HE THINKS THIS",
+      "highlight": "THINKS"
+    },
+    {
+      "start": 13.22,
+      "end": 14.4,
+      "text": "GRUELING ISOLATION IS",
+      "highlight": "ISOLATION"
+    },
+    {
+      "start": 14.4,
+      "end": 14.92,
+      "text": "THE PRICE OF",
+      "highlight": "PRICE"
+    },
+    {
+      "start": 14.92,
+      "end": 15.66,
+      "text": "KEEPING LOVED ONES",
+      "highlight": "KEEPING"
+    },
+    {
+      "start": 15.66,
+      "end": 16.68,
+      "text": "SAFE FROM THE SHADOWS.",
+      "highlight": "SHADOWS"
+    },
+    {
+      "start": 17.24,
+      "end": 18.2,
+      "text": "BUT NOTICE WHAT HAPPENS,",
+      "highlight": "HAPPENS"
+    },
+    {
+      "start": 18.58,
+      "end": 19.18,
+      "text": "WHEN HE CROSSES",
+      "highlight": "CROSSES"
+    },
+    {
+      "start": 19.18,
+      "end": 19.96,
+      "text": "PATHS WITH MARY",
+      "highlight": "PATHS"
+    },
+    {
+      "start": 19.96,
+      "end": 20.64,
+      "text": "JANE WATSON.",
+      "highlight": "WATSON"
+    },
+    {
+      "start": 21.2,
+      "end": 21.66,
+      "text": "THERE IS NO",
+      "highlight": "THERE"
+    },
+    {
+      "start": 21.66,
+      "end": 22.3,
+      "text": "SHARED HISTORY,",
+      "highlight": "HISTORY"
+    },
+    {
+      "start": 22.5,
+      "end": 22.98,
+      "text": "YET THEIR EYES",
+      "highlight": "EYES"
+    },
+    {
+      "start": 22.98,
+      "end": 24.12,
+      "text": "LOCK WITH AN UNBEARABLE,",
+      "highlight": "UNBEARABLE"
+    },
+    {
+      "start": 24.36,
+      "end": 25.08,
+      "text": "SUFFOCATING WEIGHT.",
+      "highlight": "SUFFOCATING"
+    },
+    {
+      "start": 25.54,
+      "end": 26.3,
+      "text": "THE UNIVERSE ERASED",
+      "highlight": "UNIVERSE"
+    },
+    {
+      "start": 26.3,
+      "end": 26.94,
+      "text": "THEIR MARRIAGE,",
+      "highlight": "MARRIAGE"
+    },
+    {
+      "start": 27.16,
+      "end": 27.44,
+      "text": "BUT IT COULD",
+      "highlight": "COULD"
+    },
+    {
+      "start": 27.44,
+      "end": 28.2,
+      "text": "NOT PURGE THE",
+      "highlight": "PURGE"
+    },
+    {
+      "start": 28.2,
+      "end": 29.34,
+      "text": "MUSCLE MEMORY OF DEVOTION.",
+      "highlight": "DEVOTION"
+    },
+    {
+      "start": 29.34,
+      "end": 30.48,
+      "text": "HE BELIEVES HE",
+      "highlight": "BELIEVES"
+    },
+    {
+      "start": 30.48,
+      "end": 31.2,
+      "text": "CHOSE HIS FREEDOM.",
+      "highlight": "FREEDOM"
+    },
+    {
+      "start": 31.72,
+      "end": 32.2,
+      "text": "IN REALITY,",
+      "highlight": "REALITY"
+    },
+    {
+      "start": 32.52,
+      "end": 32.94,
+      "text": "HE IS LIVING",
+      "highlight": "LIVING"
+    },
+    {
+      "start": 32.94,
+      "end": 34.24,
+      "text": "INSIDE AN ERASED LIFE,",
+      "highlight": "INSIDE"
+    },
+    {
+      "start": 34.48,
+      "end": 35.5,
+      "text": "SMILING THROUGH A QUIET,",
+      "highlight": "SMILING"
+    },
+    {
+      "start": 35.72,
+      "end": 36.92,
+      "text": "INVISIBLE LOBOTOMY WHERE",
+      "highlight": "INVISIBLE"
+    },
+    {
+      "start": 36.92,
+      "end": 37.88,
+      "text": "EVERY VICTORY TASTES",
+      "highlight": "VICTORY"
+    },
+    {
+      "start": 37.88,
+      "end": 38.56,
+      "text": "LIKE ASH.",
+      "highlight": "LIKE"
+    }
+  ]
+}

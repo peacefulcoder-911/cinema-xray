@@ -1,0 +1,437 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 39,
+  "impact_timestamps": [
+    {
+      "word": "ASKED",
+      "start": 0.0,
+      "end": 1.02
+    },
+    {
+      "word": "MAN",
+      "start": 1.02,
+      "end": 2.04
+    },
+    {
+      "word": "PEOPLE",
+      "start": 2.04,
+      "end": 3.06
+    },
+    {
+      "word": "SUIT",
+      "start": 3.06,
+      "end": 4.08
+    },
+    {
+      "word": "ONLY",
+      "start": 4.08,
+      "end": 5.1
+    },
+    {
+      "word": "AND",
+      "start": 5.1,
+      "end": 6.12
+    },
+    {
+      "word": "IS",
+      "start": 6.12,
+      "end": 7.14
+    },
+    {
+      "word": "JARVIS",
+      "start": 7.14,
+      "end": 8.16
+    },
+    {
+      "word": "IMPOSSIBLE",
+      "start": 8.16,
+      "end": 9.18
+    },
+    {
+      "word": "PASSENGERS",
+      "start": 9.18,
+      "end": 10.2
+    },
+    {
+      "word": "TERMINAL",
+      "start": 10.2,
+      "end": 11.23
+    },
+    {
+      "word": "THE",
+      "start": 11.23,
+      "end": 12.25
+    },
+    {
+      "word": "ARMOR",
+      "start": 12.25,
+      "end": 13.27
+    },
+    {
+      "word": "CARRY",
+      "start": 13.27,
+      "end": 14.29
+    },
+    {
+      "word": "IS",
+      "start": 14.29,
+      "end": 15.31
+    },
+    {
+      "word": "THEM,",
+      "start": 15.31,
+      "end": 16.33
+    },
+    {
+      "word": "THE",
+      "start": 16.33,
+      "end": 17.35
+    },
+    {
+      "word": "DOESN'T",
+      "start": 17.35,
+      "end": 18.37
+    },
+    {
+      "word": "FORCE.",
+      "start": 18.37,
+      "end": 19.39
+    },
+    {
+      "word": "TRUST.",
+      "start": 19.39,
+      "end": 20.41
+    },
+    {
+      "word": "THEM",
+      "start": 20.41,
+      "end": 21.43
+    },
+    {
+      "word": "EACH",
+      "start": 21.43,
+      "end": 22.45
+    },
+    {
+      "word": "A",
+      "start": 22.45,
+      "end": 23.47
+    },
+    {
+      "word": "'BARREL",
+      "start": 23.47,
+      "end": 24.49
+    },
+    {
+      "word": "DESPERATE",
+      "start": 24.49,
+      "end": 25.51
+    },
+    {
+      "word": "COLLECTIVE",
+      "start": 25.51,
+      "end": 26.53
+    },
+    {
+      "word": "REAL",
+      "start": 26.53,
+      "end": 27.55
+    },
+    {
+      "word": "THE",
+      "start": 27.55,
+      "end": 28.57
+    },
+    {
+      "word": "THE",
+      "start": 28.57,
+      "end": 29.59
+    },
+    {
+      "word": "INSPIRES",
+      "start": 29.59,
+      "end": 30.61
+    },
+    {
+      "word": "HE",
+      "start": 30.61,
+      "end": 31.64
+    },
+    {
+      "word": "PSYCHOLOGICAL",
+      "start": 31.64,
+      "end": 32.66
+    },
+    {
+      "word": "TRUST",
+      "start": 32.66,
+      "end": 33.68
+    },
+    {
+      "word": "PHYSICAL",
+      "start": 33.68,
+      "end": 34.7
+    },
+    {
+      "word": "THEM",
+      "start": 34.7,
+      "end": 35.72
+    },
+    {
+      "word": "WHICH",
+      "start": 35.72,
+      "end": 36.74
+    },
+    {
+      "word": "RESCUE",
+      "start": 36.74,
+      "end": 37.76
+    },
+    {
+      "word": "TONY",
+      "start": 37.76,
+      "end": 38.78
+    },
+    {
+      "word": "GENIUS?",
+      "start": 38.78,
+      "end": 39.8
+    }
+  ],
+  "cards": [
+    {
+      "start": 0.0,
+      "end": 1.02,
+      "text": "YOU NEVER ASKED",
+      "highlight": "ASKED"
+    },
+    {
+      "start": 1.02,
+      "end": 2.04,
+      "text": "HOW IRON MAN",
+      "highlight": "MAN"
+    },
+    {
+      "start": 2.04,
+      "end": 3.06,
+      "text": "SAVED THIRTEEN PEOPLE",
+      "highlight": "PEOPLE"
+    },
+    {
+      "start": 3.06,
+      "end": 4.08,
+      "text": "WITH A SUIT",
+      "highlight": "SUIT"
+    },
+    {
+      "start": 4.08,
+      "end": 5.1,
+      "text": "THAT COULD ONLY",
+      "highlight": "ONLY"
+    },
+    {
+      "start": 5.1,
+      "end": 6.12,
+      "text": "CARRY FOUR, AND",
+      "highlight": "AND"
+    },
+    {
+      "start": 6.12,
+      "end": 7.14,
+      "text": "THE ANSWER IS",
+      "highlight": "IS"
+    },
+    {
+      "start": 7.14,
+      "end": 8.16,
+      "text": "PURE PSYCHOLOGY. JARVIS",
+      "highlight": "JARVIS"
+    },
+    {
+      "start": 8.16,
+      "end": 9.18,
+      "text": "CALCULATES AN IMPOSSIBLE",
+      "highlight": "IMPOSSIBLE"
+    },
+    {
+      "start": 9.18,
+      "end": 10.2,
+      "text": "EQUATION: THIRTEEN PASSENGERS",
+      "highlight": "PASSENGERS"
+    },
+    {
+      "start": 10.2,
+      "end": 11.23,
+      "text": "FALLING AT TERMINAL",
+      "highlight": "TERMINAL"
+    },
+    {
+      "start": 11.23,
+      "end": 12.25,
+      "text": "VELOCITY, AND THE",
+      "highlight": "THE"
+    },
+    {
+      "start": 12.25,
+      "end": 13.27,
+      "text": "MARK 42 ARMOR",
+      "highlight": "ARMOR"
+    },
+    {
+      "start": 13.27,
+      "end": 14.29,
+      "text": "CAN ONLY CARRY",
+      "highlight": "CARRY"
+    },
+    {
+      "start": 14.29,
+      "end": 15.31,
+      "text": "FOUR. TONY IS",
+      "highlight": "IS"
+    },
+    {
+      "start": 15.31,
+      "end": 16.33,
+      "text": "FREE-FALLING TOWARDS THEM,",
+      "highlight": "THEM,"
+    },
+    {
+      "start": 16.33,
+      "end": 17.35,
+      "text": "*NOT* INSIDE THE",
+      "highlight": "THE"
+    },
+    {
+      "start": 17.35,
+      "end": 18.37,
+      "text": "SUIT. HE DOESN'T",
+      "highlight": "DOESN'T"
+    },
+    {
+      "start": 18.37,
+      "end": 19.39,
+      "text": "USE BRUTE FORCE.",
+      "highlight": "FORCE."
+    },
+    {
+      "start": 19.39,
+      "end": 20.41,
+      "text": "HE COMMANDS TRUST.",
+      "highlight": "TRUST."
+    },
+    {
+      "start": 20.41,
+      "end": 21.43,
+      "text": "HE TELLS THEM",
+      "highlight": "THEM"
+    },
+    {
+      "start": 21.43,
+      "end": 22.45,
+      "text": "TO GRAB EACH",
+      "highlight": "EACH"
+    },
+    {
+      "start": 22.45,
+      "end": 23.47,
+      "text": "OTHER, FORMING A",
+      "highlight": "A"
+    },
+    {
+      "start": 23.47,
+      "end": 24.49,
+      "text": "HUMAN CHAIN\u2014THE 'BARREL",
+      "highlight": "'BARREL"
+    },
+    {
+      "start": 24.49,
+      "end": 25.51,
+      "text": "OF MONKEYS'\u2014A DESPERATE",
+      "highlight": "DESPERATE"
+    },
+    {
+      "start": 25.51,
+      "end": 26.53,
+      "text": "GAMBLE ON COLLECTIVE",
+      "highlight": "COLLECTIVE"
+    },
+    {
+      "start": 26.53,
+      "end": 27.55,
+      "text": "ACTION. THE REAL",
+      "highlight": "REAL"
+    },
+    {
+      "start": 27.55,
+      "end": 28.57,
+      "text": "HERO ISN'T THE",
+      "highlight": "THE"
+    },
+    {
+      "start": 28.57,
+      "end": 29.59,
+      "text": "ARMOR, BUT THE",
+      "highlight": "THE"
+    },
+    {
+      "start": 29.59,
+      "end": 30.61,
+      "text": "MAN WHO INSPIRES",
+      "highlight": "INSPIRES"
+    },
+    {
+      "start": 30.61,
+      "end": 31.64,
+      "text": "IMPOSSIBLE COOPERATION. HE",
+      "highlight": "HE"
+    },
+    {
+      "start": 31.64,
+      "end": 32.66,
+      "text": "BUILDS A PSYCHOLOGICAL",
+      "highlight": "PSYCHOLOGICAL"
+    },
+    {
+      "start": 32.66,
+      "end": 33.68,
+      "text": "CHAIN OF TRUST",
+      "highlight": "TRUST"
+    },
+    {
+      "start": 33.68,
+      "end": 34.7,
+      "text": "*BEFORE* THE PHYSICAL",
+      "highlight": "PHYSICAL"
+    },
+    {
+      "start": 34.7,
+      "end": 35.72,
+      "text": "ONE, GUIDING THEM",
+      "highlight": "THEM"
+    },
+    {
+      "start": 35.72,
+      "end": 36.74,
+      "text": "TO SAFETY. WHICH",
+      "highlight": "WHICH"
+    },
+    {
+      "start": 36.74,
+      "end": 37.76,
+      "text": "IRON MAN RESCUE",
+      "highlight": "RESCUE"
+    },
+    {
+      "start": 37.76,
+      "end": 38.78,
+      "text": "TRULY SHOWCASES TONY",
+      "highlight": "TONY"
+    },
+    {
+      "start": 38.78,
+      "end": 39.8,
+      "text": "STARK'S GENIUS?",
+      "highlight": "GENIUS?"
+    }
+  ]
+}

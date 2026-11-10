@@ -1,0 +1,62 @@
+[Script Info]
+Title: Cinema Decoded Arc Reactor Cyan HUD Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ArcReactorCyanHUD,Futura,74,&H00FFFFFF,&H000000FF,&H000A0A0A,&H80000000,-1,0,0,0,100,100,3,0,1,8,3,2,60,60,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.04,ArcReactorCyanHUD,,0,0,0,,YOU {\c&H00FFFF00&}COMPLETELY{\c&H00FFFFFF&} MISSED
+Dialogue: 0,0:00:01.04,0:00:01.90,ArcReactorCyanHUD,,0,0,0,,THE MOST {\c&H00FFFF00&}TERRIFYING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.90,0:00:02.54,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}LINE{\c&H00FFFFFF&} IN THE
+Dialogue: 0,0:00:02.54,0:00:03.48,ArcReactorCyanHUD,,0,0,0,,NEW SPIDER -MAN {\c&H00FFFF00&}TRAILER{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:04.04,0:00:05.16,ArcReactorCyanHUD,,0,0,0,,AT THE {\c&H00FFFF00&}32ND{\c&H00FFFFFF&} MARK,
+Dialogue: 0,0:00:05.48,0:00:06.48,ArcReactorCyanHUD,,0,0,0,,PETER {\c&H00FFFF00&}PARKER{\c&H00FFFFFF&} ISN'T
+Dialogue: 0,0:00:06.48,0:00:07.16,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}FIGHTING{\c&H00FFFFFF&} A VILLAIN.
+Dialogue: 0,0:00:07.56,0:00:08.48,ArcReactorCyanHUD,,0,0,0,,HE'S {\c&H00FFFF00&}STANDING{\c&H00FFFFFF&} INSIDE
+Dialogue: 0,0:00:08.48,0:00:09.52,ArcReactorCyanHUD,,0,0,0,,BRUCE BANNER'S {\c&H00FFFF00&}LABORATORY{\c&H00FFFFFF&},
+Dialogue: 0,0:00:09.88,0:00:10.60,ArcReactorCyanHUD,,0,0,0,,ASKING A {\c&H00FFFF00&}QUESTION{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.60,0:00:12.74,ArcReactorCyanHUD,,0,0,0,,NOBODY {\c&H00FFFF00&}EXPECTED{\c&H00FFFFFF&}. DR. BANNER,
+Dialogue: 0,0:00:13.08,0:00:13.46,ArcReactorCyanHUD,,0,0,0,,YOU {\c&H00FFFF00&}FOUND{\c&H00FFFFFF&} A
+Dialogue: 0,0:00:13.46,0:00:13.94,ArcReactorCyanHUD,,0,0,0,,WAY TO {\c&H00FFFF00&}SUPPRESS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:13.94,0:00:15.16,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}MUTATING{\c&H00FFFFFF&} DNA, RIGHT?
+Dialogue: 0,0:00:15.64,0:00:16.00,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}COULD{\c&H00FFFFFF&} YOU GET
+Dialogue: 0,0:00:16.00,0:00:16.32,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}RID{\c&H00FFFFFF&} OF THE
+Dialogue: 0,0:00:16.32,0:00:17.08,ArcReactorCyanHUD,,0,0,0,,BAD {\c&H00FFFF00&}ASPECTS{\c&H00FFFFFF&} TO
+Dialogue: 0,0:00:17.08,0:00:17.62,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}KEEP{\c&H00FFFFFF&} THE GOOD?
+Dialogue: 0,0:00:18.18,0:00:18.88,ArcReactorCyanHUD,,0,0,0,,LOOK {\c&H00FFFF00&}CLOSELY{\c&H00FFFFFF&} AT
+Dialogue: 0,0:00:18.88,0:00:20.14,ArcReactorCyanHUD,,0,0,0,,BANNER'S {\c&H00FFFF00&}HOLOGRAPHIC{\c&H00FFFFFF&} MONITOR.
+Dialogue: 0,0:00:20.62,0:00:21.16,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}FLASHING{\c&H00FFFFFF&} IN THE
+Dialogue: 0,0:00:21.16,0:00:21.70,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}CORNER{\c&H00FFFFFF&} IS A
+Dialogue: 0,0:00:21.70,0:00:22.30,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}MEDICAL{\c&H00FFFFFF&} ALERT.
+Dialogue: 0,0:00:23.00,0:00:24.04,ArcReactorCyanHUD,,0,0,0,,RETROVIRAL {\c&H00FFFF00&}ACCELERATION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:24.62,0:00:25.06,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}AND{\c&H00FFFFFF&} IN THE
+Dialogue: 0,0:00:25.06,0:00:25.74,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}OPENING{\c&H00FFFFFF&} SECONDS,
+Dialogue: 0,0:00:26.16,0:00:27.14,ArcReactorCyanHUD,,0,0,0,,LOOK AT PETER'S {\c&H00FFFF00&}FOREARM{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:27.14,0:00:28.64,ArcReactorCyanHUD,,0,0,0,,BLACK {\c&H00FFFF00&}MICROSCOPIC{\c&H00FFFFFF&} VEINS
+Dialogue: 0,0:00:28.64,0:00:29.84,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}PULSING{\c&H00FFFFFF&} BENEATH HIS SKIN.
+Dialogue: 0,0:00:30.46,0:00:31.64,ArcReactorCyanHUD,,0,0,0,,THIS ISN'T {\c&H00FFFF00&}SUPERHERO{\c&H00FFFFFF&} FATIGUE.
+Dialogue: 0,0:00:32.18,0:00:33.06,ArcReactorCyanHUD,,0,0,0,,MARVEL IS {\c&H00FFFF00&}ADAPTING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:33.06,0:00:33.96,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}LEGENDARY{\c&H00FFFFFF&} COMIC
+Dialogue: 0,0:00:33.96,0:00:35.06,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}STORYLINE{\c&H00FFFFFF&} WHERE PETER'S
+Dialogue: 0,0:00:35.06,0:00:36.10,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}RADIOACTIVE{\c&H00FFFFFF&} SPIDER BITE
+Dialogue: 0,0:00:36.10,0:00:37.00,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}BEGINS{\c&H00FFFFFF&} TO MUTATE
+Dialogue: 0,0:00:37.00,0:00:38.12,ArcReactorCyanHUD,,0,0,0,,HIS {\c&H00FFFF00&}CELLULAR{\c&H00FFFFFF&} BIOLOGY,
+Dialogue: 0,0:00:38.44,0:00:39.48,ArcReactorCyanHUD,,0,0,0,,SLOWLY {\c&H00FFFF00&}DESTROYING{\c&H00FFFFFF&} HIS
+Dialogue: 0,0:00:39.48,0:00:40.06,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}BODY{\c&H00FFFFFF&} FROM THE
+Dialogue: 0,0:00:40.06,0:00:40.66,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}INSIDE{\c&H00FFFFFF&} OUT.
+Dialogue: 0,0:00:41.12,0:00:41.72,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}PETER{\c&H00FFFFFF&} GAVE UP
+Dialogue: 0,0:00:41.72,0:00:42.40,ArcReactorCyanHUD,,0,0,0,,HIS {\c&H00FFFF00&}IDENTITY{\c&H00FFFFFF&} TO
+Dialogue: 0,0:00:42.40,0:00:43.70,ArcReactorCyanHUD,,0,0,0,,SAVE THE {\c&H00FFFF00&}WORLD{\c&H00FFFFFF&}. NOW,
+Dialogue: 0,0:00:43.90,0:00:44.48,ArcReactorCyanHUD,,0,0,0,,THE VERY {\c&H00FFFF00&}POWER{\c&H00FFFFFF&}
+Dialogue: 0,0:00:44.48,0:00:44.92,ArcReactorCyanHUD,,0,0,0,,THAT {\c&H00FFFF00&}MAKES{\c&H00FFFFFF&} HIM
+Dialogue: 0,0:00:44.92,0:00:45.64,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}SPIDER{\c&H00FFFFFF&} -MAN MIGHT
+Dialogue: 0,0:00:45.64,0:00:46.12,ArcReactorCyanHUD,,0,0,0,,BE THE {\c&H00FFFF00&}THING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:46.12,0:00:46.66,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}KILLING{\c&H00FFFFFF&} HIM.

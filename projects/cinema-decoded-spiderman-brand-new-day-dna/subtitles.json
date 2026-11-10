@@ -1,0 +1,525 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 47,
+  "impact_timestamps": [
+    {
+      "word": "COMPLETELY",
+      "start": 0.0,
+      "end": 1.04
+    },
+    {
+      "word": "TERRIFYING",
+      "start": 1.04,
+      "end": 1.9
+    },
+    {
+      "word": "LINE",
+      "start": 1.9,
+      "end": 2.54
+    },
+    {
+      "word": "TRAILER",
+      "start": 2.54,
+      "end": 3.48
+    },
+    {
+      "word": "32ND",
+      "start": 4.04,
+      "end": 5.16
+    },
+    {
+      "word": "PARKER",
+      "start": 5.48,
+      "end": 6.48
+    },
+    {
+      "word": "FIGHTING",
+      "start": 6.48,
+      "end": 7.16
+    },
+    {
+      "word": "STANDING",
+      "start": 7.56,
+      "end": 8.48
+    },
+    {
+      "word": "LABORATORY",
+      "start": 8.48,
+      "end": 9.52
+    },
+    {
+      "word": "QUESTION",
+      "start": 9.88,
+      "end": 10.6
+    },
+    {
+      "word": "EXPECTED",
+      "start": 10.6,
+      "end": 12.74
+    },
+    {
+      "word": "FOUND",
+      "start": 13.08,
+      "end": 13.46
+    },
+    {
+      "word": "SUPPRESS",
+      "start": 13.46,
+      "end": 13.94
+    },
+    {
+      "word": "MUTATING",
+      "start": 13.94,
+      "end": 15.16
+    },
+    {
+      "word": "COULD",
+      "start": 15.64,
+      "end": 16.0
+    },
+    {
+      "word": "RID",
+      "start": 16.0,
+      "end": 16.32
+    },
+    {
+      "word": "ASPECTS",
+      "start": 16.32,
+      "end": 17.08
+    },
+    {
+      "word": "KEEP",
+      "start": 17.08,
+      "end": 17.62
+    },
+    {
+      "word": "CLOSELY",
+      "start": 18.18,
+      "end": 18.88
+    },
+    {
+      "word": "HOLOGRAPHIC",
+      "start": 18.88,
+      "end": 20.14
+    },
+    {
+      "word": "FLASHING",
+      "start": 20.62,
+      "end": 21.16
+    },
+    {
+      "word": "CORNER",
+      "start": 21.16,
+      "end": 21.7
+    },
+    {
+      "word": "MEDICAL",
+      "start": 21.7,
+      "end": 22.3
+    },
+    {
+      "word": "ACCELERATION",
+      "start": 23.0,
+      "end": 24.04
+    },
+    {
+      "word": "AND",
+      "start": 24.62,
+      "end": 25.06
+    },
+    {
+      "word": "OPENING",
+      "start": 25.06,
+      "end": 25.74
+    },
+    {
+      "word": "FOREARM",
+      "start": 26.16,
+      "end": 27.14
+    },
+    {
+      "word": "MICROSCOPIC",
+      "start": 27.14,
+      "end": 28.64
+    },
+    {
+      "word": "PULSING",
+      "start": 28.64,
+      "end": 29.84
+    },
+    {
+      "word": "SUPERHERO",
+      "start": 30.46,
+      "end": 31.64
+    },
+    {
+      "word": "ADAPTING",
+      "start": 32.18,
+      "end": 33.06
+    },
+    {
+      "word": "LEGENDARY",
+      "start": 33.06,
+      "end": 33.96
+    },
+    {
+      "word": "STORYLINE",
+      "start": 33.96,
+      "end": 35.06
+    },
+    {
+      "word": "RADIOACTIVE",
+      "start": 35.06,
+      "end": 36.1
+    },
+    {
+      "word": "BEGINS",
+      "start": 36.1,
+      "end": 37.0
+    },
+    {
+      "word": "CELLULAR",
+      "start": 37.0,
+      "end": 38.12
+    },
+    {
+      "word": "DESTROYING",
+      "start": 38.44,
+      "end": 39.48
+    },
+    {
+      "word": "BODY",
+      "start": 39.48,
+      "end": 40.06
+    },
+    {
+      "word": "INSIDE",
+      "start": 40.06,
+      "end": 40.66
+    },
+    {
+      "word": "PETER",
+      "start": 41.12,
+      "end": 41.72
+    },
+    {
+      "word": "IDENTITY",
+      "start": 41.72,
+      "end": 42.4
+    },
+    {
+      "word": "WORLD",
+      "start": 42.4,
+      "end": 43.7
+    },
+    {
+      "word": "POWER",
+      "start": 43.9,
+      "end": 44.48
+    },
+    {
+      "word": "MAKES",
+      "start": 44.48,
+      "end": 44.92
+    },
+    {
+      "word": "SPIDER",
+      "start": 44.92,
+      "end": 45.64
+    },
+    {
+      "word": "THING",
+      "start": 45.64,
+      "end": 46.12
+    },
+    {
+      "word": "KILLING",
+      "start": 46.12,
+      "end": 46.66
+    }
+  ],
+  "cards": [
+    {
+      "start": 0.0,
+      "end": 1.04,
+      "text": "YOU COMPLETELY MISSED",
+      "highlight": "COMPLETELY"
+    },
+    {
+      "start": 1.04,
+      "end": 1.9,
+      "text": "THE MOST TERRIFYING",
+      "highlight": "TERRIFYING"
+    },
+    {
+      "start": 1.9,
+      "end": 2.54,
+      "text": "LINE IN THE",
+      "highlight": "LINE"
+    },
+    {
+      "start": 2.54,
+      "end": 3.48,
+      "text": "NEW SPIDER -MAN TRAILER.",
+      "highlight": "TRAILER"
+    },
+    {
+      "start": 4.04,
+      "end": 5.16,
+      "text": "AT THE 32ND MARK,",
+      "highlight": "32ND"
+    },
+    {
+      "start": 5.48,
+      "end": 6.48,
+      "text": "PETER PARKER ISN'T",
+      "highlight": "PARKER"
+    },
+    {
+      "start": 6.48,
+      "end": 7.16,
+      "text": "FIGHTING A VILLAIN.",
+      "highlight": "FIGHTING"
+    },
+    {
+      "start": 7.56,
+      "end": 8.48,
+      "text": "HE'S STANDING INSIDE",
+      "highlight": "STANDING"
+    },
+    {
+      "start": 8.48,
+      "end": 9.52,
+      "text": "BRUCE BANNER'S LABORATORY,",
+      "highlight": "LABORATORY"
+    },
+    {
+      "start": 9.88,
+      "end": 10.6,
+      "text": "ASKING A QUESTION",
+      "highlight": "QUESTION"
+    },
+    {
+      "start": 10.6,
+      "end": 12.74,
+      "text": "NOBODY EXPECTED. DR. BANNER,",
+      "highlight": "EXPECTED"
+    },
+    {
+      "start": 13.08,
+      "end": 13.46,
+      "text": "YOU FOUND A",
+      "highlight": "FOUND"
+    },
+    {
+      "start": 13.46,
+      "end": 13.94,
+      "text": "WAY TO SUPPRESS",
+      "highlight": "SUPPRESS"
+    },
+    {
+      "start": 13.94,
+      "end": 15.16,
+      "text": "MUTATING DNA, RIGHT?",
+      "highlight": "MUTATING"
+    },
+    {
+      "start": 15.64,
+      "end": 16.0,
+      "text": "COULD YOU GET",
+      "highlight": "COULD"
+    },
+    {
+      "start": 16.0,
+      "end": 16.32,
+      "text": "RID OF THE",
+      "highlight": "RID"
+    },
+    {
+      "start": 16.32,
+      "end": 17.08,
+      "text": "BAD ASPECTS TO",
+      "highlight": "ASPECTS"
+    },
+    {
+      "start": 17.08,
+      "end": 17.62,
+      "text": "KEEP THE GOOD?",
+      "highlight": "KEEP"
+    },
+    {
+      "start": 18.18,
+      "end": 18.88,
+      "text": "LOOK CLOSELY AT",
+      "highlight": "CLOSELY"
+    },
+    {
+      "start": 18.88,
+      "end": 20.14,
+      "text": "BANNER'S HOLOGRAPHIC MONITOR.",
+      "highlight": "HOLOGRAPHIC"
+    },
+    {
+      "start": 20.62,
+      "end": 21.16,
+      "text": "FLASHING IN THE",
+      "highlight": "FLASHING"
+    },
+    {
+      "start": 21.16,
+      "end": 21.7,
+      "text": "CORNER IS A",
+      "highlight": "CORNER"
+    },
+    {
+      "start": 21.7,
+      "end": 22.3,
+      "text": "MEDICAL ALERT.",
+      "highlight": "MEDICAL"
+    },
+    {
+      "start": 23.0,
+      "end": 24.04,
+      "text": "RETROVIRAL ACCELERATION.",
+      "highlight": "ACCELERATION"
+    },
+    {
+      "start": 24.62,
+      "end": 25.06,
+      "text": "AND IN THE",
+      "highlight": "AND"
+    },
+    {
+      "start": 25.06,
+      "end": 25.74,
+      "text": "OPENING SECONDS,",
+      "highlight": "OPENING"
+    },
+    {
+      "start": 26.16,
+      "end": 27.14,
+      "text": "LOOK AT PETER'S FOREARM.",
+      "highlight": "FOREARM"
+    },
+    {
+      "start": 27.14,
+      "end": 28.64,
+      "text": "BLACK MICROSCOPIC VEINS",
+      "highlight": "MICROSCOPIC"
+    },
+    {
+      "start": 28.64,
+      "end": 29.84,
+      "text": "PULSING BENEATH HIS SKIN.",
+      "highlight": "PULSING"
+    },
+    {
+      "start": 30.46,
+      "end": 31.64,
+      "text": "THIS ISN'T SUPERHERO FATIGUE.",
+      "highlight": "SUPERHERO"
+    },
+    {
+      "start": 32.18,
+      "end": 33.06,
+      "text": "MARVEL IS ADAPTING",
+      "highlight": "ADAPTING"
+    },
+    {
+      "start": 33.06,
+      "end": 33.96,
+      "text": "THE LEGENDARY COMIC",
+      "highlight": "LEGENDARY"
+    },
+    {
+      "start": 33.96,
+      "end": 35.06,
+      "text": "STORYLINE WHERE PETER'S",
+      "highlight": "STORYLINE"
+    },
+    {
+      "start": 35.06,
+      "end": 36.1,
+      "text": "RADIOACTIVE SPIDER BITE",
+      "highlight": "RADIOACTIVE"
+    },
+    {
+      "start": 36.1,
+      "end": 37.0,
+      "text": "BEGINS TO MUTATE",
+      "highlight": "BEGINS"
+    },
+    {
+      "start": 37.0,
+      "end": 38.12,
+      "text": "HIS CELLULAR BIOLOGY,",
+      "highlight": "CELLULAR"
+    },
+    {
+      "start": 38.44,
+      "end": 39.48,
+      "text": "SLOWLY DESTROYING HIS",
+      "highlight": "DESTROYING"
+    },
+    {
+      "start": 39.48,
+      "end": 40.06,
+      "text": "BODY FROM THE",
+      "highlight": "BODY"
+    },
+    {
+      "start": 40.06,
+      "end": 40.66,
+      "text": "INSIDE OUT.",
+      "highlight": "INSIDE"
+    },
+    {
+      "start": 41.12,
+      "end": 41.72,
+      "text": "PETER GAVE UP",
+      "highlight": "PETER"
+    },
+    {
+      "start": 41.72,
+      "end": 42.4,
+      "text": "HIS IDENTITY TO",
+      "highlight": "IDENTITY"
+    },
+    {
+      "start": 42.4,
+      "end": 43.7,
+      "text": "SAVE THE WORLD. NOW,",
+      "highlight": "WORLD"
+    },
+    {
+      "start": 43.9,
+      "end": 44.48,
+      "text": "THE VERY POWER",
+      "highlight": "POWER"
+    },
+    {
+      "start": 44.48,
+      "end": 44.92,
+      "text": "THAT MAKES HIM",
+      "highlight": "MAKES"
+    },
+    {
+      "start": 44.92,
+      "end": 45.64,
+      "text": "SPIDER -MAN MIGHT",
+      "highlight": "SPIDER"
+    },
+    {
+      "start": 45.64,
+      "end": 46.12,
+      "text": "BE THE THING",
+      "highlight": "THING"
+    },
+    {
+      "start": 46.12,
+      "end": 46.66,
+      "text": "KILLING HIM.",
+      "highlight": "KILLING"
+    }
+  ]
+}

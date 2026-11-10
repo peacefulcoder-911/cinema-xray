@@ -1,0 +1,62 @@
+{
+  "project": "Spider-Man: Brand New Day \u2014 The Mutating DNA Paradox",
+  "movie": "Spider-Man: Brand New Day (2026)",
+  "source_trailer": "Sony Pictures Entertainment (Official 4K Trailer)",
+  "duration": 47.04,
+  "master_8k_path": "/Users/vinaybt/Downloads/cinema-xray/output/final_video/cinema_xray_spiderman_brand_new_day_dna_8k.mp4",
+  "delivery_1080p_path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-spiderman-brand-new-day-dna/out/cinema_decoded_spiderman_brand_new_day_dna_1080p.mp4",
+  "thumbnail_path": "/Users/vinaybt/Downloads/cinema-xray/output/thumbnails_short/spiderman_brand_new_day_dna_thumb.jpg",
+  "youtube_url": "https://youtu.be/ufEtNYrJRro",
+  "youtube_id": "ufEtNYrJRro",
+  "qc_frames": [
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-spiderman-brand-new-day-dna/qc_frames/qc_frame_01_2s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-spiderman-brand-new-day-dna/qc_frames/qc_frame_02_7s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-spiderman-brand-new-day-dna/qc_frames/qc_frame_03_14s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-spiderman-brand-new-day-dna/qc_frames/qc_frame_04_21s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-spiderman-brand-new-day-dna/qc_frames/qc_frame_05_28s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-spiderman-brand-new-day-dna/qc_frames/qc_frame_06_35s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-spiderman-brand-new-day-dna/qc_frames/qc_frame_07_41s.jpg",
+    "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-spiderman-brand-new-day-dna/qc_frames/qc_frame_08_45s.jpg"
+  ],
+  "timing_summary": {
+    "stages": [
+      {
+        "stage": "1. Scene Slicing & 70% Cinematic Framing (Ambient Blur + Motion)",
+        "duration_seconds": 47.78,
+        "percentage": 4.2
+      },
+      {
+        "stage": "2. Visual Clips Concatenation",
+        "duration_seconds": 9.11,
+        "percentage": 0.8
+      },
+      {
+        "stage": "3. 1080p Master Assembly with Subtitle Burn-in & Audio",
+        "duration_seconds": 28.25,
+        "percentage": 2.5
+      },
+      {
+        "stage": "4. Hardware-Accelerated 8K Ultra HD Super-Resolution (4320x7680 @ 85 Mbps)",
+        "duration_seconds": 1030.13,
+        "percentage": 90.6
+      },
+      {
+        "stage": "5. High-CTR Vertical Thumbnail Generation & QC Extraction",
+        "duration_seconds": 1.48,
+        "percentage": 0.1
+      },
+      {
+        "stage": "6. Direct Unlisted YouTube Upload",
+        "duration_seconds": 20.25,
+        "percentage": 1.8
+      },
+      {
+        "stage": "7. Topic Database Registration",
+        "duration_seconds": 0.03,
+        "percentage": 0.0
+      }
+    ],
+    "total_duration_seconds": 1137.02,
+    "total_duration_minutes": 18.95
+  }
+}

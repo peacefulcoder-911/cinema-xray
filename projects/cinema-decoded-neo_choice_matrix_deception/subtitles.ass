@@ -1,0 +1,48 @@
+[Script Info]
+Title: Cinema Decoded Arc Reactor Cyan HUD Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ArcReactorCyanHUD,Futura,74,&H00FFFFFF,&H000000FF,&H000A0A0A,&H80000000,-1,0,0,0,100,100,3,0,1,8,3,2,60,60,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.97,ArcReactorCyanHUD,,0,0,0,,THE FILM {\c&H00FFFF00&}TELLS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:00.97,0:00:01.94,ArcReactorCyanHUD,,0,0,0,,YOU NEO {\c&H00FFFF00&}IS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.94,0:00:02.91,ArcReactorCyanHUD,,0,0,0,,JUST ANOTHER {\c&H00FFFF00&}VARIABLE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:02.91,0:00:03.88,ArcReactorCyanHUD,,0,0,0,,IN AN {\c&H00FFFF00&}EQUATION{\c&H00FFFFFF&},
+Dialogue: 0,0:00:03.88,0:00:04.85,ArcReactorCyanHUD,,0,0,0,,YET WE {\c&H00FFFF00&}IGNORE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:04.85,0:00:05.82,ArcReactorCyanHUD,,0,0,0,,THE MATH. {\c&H00FFFF00&}LOOK{\c&H00FFFFFF&}
+Dialogue: 0,0:00:05.82,0:00:06.79,ArcReactorCyanHUD,,0,0,0,,CLOSELY AT {\c&H00FFFF00&}THE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:06.79,0:00:07.76,ArcReactorCyanHUD,,0,0,0,,MONITORS IN {\c&H00FFFF00&}THE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:07.76,0:00:08.73,ArcReactorCyanHUD,,0,0,0,,ARCHITECT'S CHAMBER. {\c&H00FFFF00&}EVERY{\c&H00FFFFFF&}
+Dialogue: 0,0:00:08.73,0:00:09.70,ArcReactorCyanHUD,,0,0,0,,MONITOR ISN'T {\c&H00FFFF00&}SHOWING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:09.70,0:00:10.67,ArcReactorCyanHUD,,0,0,0,,A DIFFERENT {\c&H00FFFF00&}TIMELINE;{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.67,0:00:11.64,ArcReactorCyanHUD,,0,0,0,,THEY ARE {\c&H00FFFF00&}DISPLAYING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.64,0:00:12.60,ArcReactorCyanHUD,,0,0,0,,THE EXACT {\c&H00FFFF00&}PSYCHOLOGICAL{\c&H00FFFFFF&}
+Dialogue: 0,0:00:12.60,0:00:13.57,ArcReactorCyanHUD,,0,0,0,,REACTIONS OF {\c&H00FFFF00&}EVERY{\c&H00FFFFFF&}
+Dialogue: 0,0:00:13.57,0:00:14.54,ArcReactorCyanHUD,,0,0,0,,PREDECESSOR WHO {\c&H00FFFF00&}FACED{\c&H00FFFFFF&}
+Dialogue: 0,0:00:14.54,0:00:15.51,ArcReactorCyanHUD,,0,0,0,,THIS EXACT {\c&H00FFFF00&}CHOICE{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:15.51,0:00:16.48,ArcReactorCyanHUD,,0,0,0,,THE ARCHITECT {\c&H00FFFF00&}DOESN'T{\c&H00FFFFFF&}
+Dialogue: 0,0:00:16.48,0:00:17.45,ArcReactorCyanHUD,,0,0,0,,FEAR NEO'S {\c&H00FFFF00&}REBELLION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:17.45,0:00:18.42,ArcReactorCyanHUD,,0,0,0,,HE RELIES {\c&H00FFFF00&}ON{\c&H00FFFFFF&}
+Dialogue: 0,0:00:18.42,0:00:19.39,ArcReactorCyanHUD,,0,0,0,,IT. YOUR {\c&H00FFFF00&}CHOICE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:19.39,0:00:20.36,ArcReactorCyanHUD,,0,0,0,,TO SAVE {\c&H00FFFF00&}TRINITY{\c&H00FFFFFF&},
+Dialogue: 0,0:00:20.36,0:00:21.33,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}YOUR{\c&H00FFFFFF&} DEFIANCE, YOUR
+Dialogue: 0,0:00:21.33,0:00:22.30,ArcReactorCyanHUD,,0,0,0,,LOVE—THEY AREN'T {\c&H00FFFF00&}ANOMALIES{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:22.30,0:00:23.27,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}THE{\c&H00FFFFFF&}Y ARE THE
+Dialogue: 0,0:00:23.27,0:00:24.24,ArcReactorCyanHUD,,0,0,0,,PRESSURE VALVE. {\c&H00FFFF00&}THE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:24.24,0:00:25.21,ArcReactorCyanHUD,,0,0,0,,SYSTEM DOESN'T {\c&H00FFFF00&}SURVIVE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:25.21,0:00:26.18,ArcReactorCyanHUD,,0,0,0,,DESPITE HUMAN {\c&H00FFFF00&}EMOTION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:26.18,0:00:27.15,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}IT{\c&H00FFFFFF&} REQUIRES IT.
+Dialogue: 0,0:00:27.15,0:00:28.12,ArcReactorCyanHUD,,0,0,0,,IS FREE {\c&H00FFFF00&}WILL{\c&H00FFFFFF&}
+Dialogue: 0,0:00:28.12,0:00:29.09,ArcReactorCyanHUD,,0,0,0,,JUST A {\c&H00FFFF00&}FEATURE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:29.09,0:00:30.06,ArcReactorCyanHUD,,0,0,0,,BUILT INTO {\c&H00FFFF00&}THE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:30.06,0:00:31.03,ArcReactorCyanHUD,,0,0,0,,CODE? TELL {\c&H00FFFF00&}ME{\c&H00FFFFFF&}
+Dialogue: 0,0:00:31.03,0:00:32.00,ArcReactorCyanHUD,,0,0,0,,IN THE {\c&H00FFFF00&}COMMENTS{\c&H00FFFFFF&}.

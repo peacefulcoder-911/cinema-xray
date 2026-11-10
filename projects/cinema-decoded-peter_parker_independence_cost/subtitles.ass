@@ -1,0 +1,56 @@
+[Script Info]
+Title: Cinema Decoded Arc Reactor Cyan HUD Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ArcReactorCyanHUD,Futura,74,&H00FFFFFF,&H000000FF,&H000A0A0A,&H80000000,-1,0,0,0,100,100,3,0,1,8,3,2,60,60,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.66,ArcReactorCyanHUD,,0,0,0,,YOU {\c&H00FFFF00&}NEVER{\c&H00FFFFFF&} ASKED
+Dialogue: 0,0:00:00.66,0:00:01.38,ArcReactorCyanHUD,,0,0,0,,WHY PETER {\c&H00FFFF00&}SMILES{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.38,0:00:02.38,ArcReactorCyanHUD,,0,0,0,,AS A {\c&H00FFFF00&}SINGLE{\c&H00FFFFFF&} MAN,
+Dialogue: 0,0:00:02.84,0:00:03.32,ArcReactorCyanHUD,,0,0,0,,AND THE {\c&H00FFFF00&}ANSWER{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.32,0:00:04.80,ArcReactorCyanHUD,,0,0,0,,IS PURE {\c&H00FFFF00&}PSYCHOLOGICAL{\c&H00FFFFFF&} HORROR.
+Dialogue: 0,0:00:05.38,0:00:06.04,ArcReactorCyanHUD,,0,0,0,,LOOK {\c&H00FFFF00&}CLOSELY{\c&H00FFFFFF&} AT
+Dialogue: 0,0:00:06.04,0:00:07.00,ArcReactorCyanHUD,,0,0,0,,HIS SOLITARY {\c&H00FFFF00&}APARTMENT{\c&H00FFFFFF&},
+Dialogue: 0,0:00:07.34,0:00:08.48,ArcReactorCyanHUD,,0,0,0,,RENT {\c&H00FFFF00&}NOTICES{\c&H00FFFFFF&} PILING UP,
+Dialogue: 0,0:00:08.88,0:00:09.48,ArcReactorCyanHUD,,0,0,0,,A {\c&H00FFFF00&}MATTRESS{\c&H00FFFFFF&} ON
+Dialogue: 0,0:00:09.48,0:00:09.88,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}FLOOR{\c&H00FFFFFF&},
+Dialogue: 0,0:00:10.10,0:00:10.50,ArcReactorCyanHUD,,0,0,0,,AND A {\c&H00FFFF00&}LINGERING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.50,0:00:11.46,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}PHANTOM{\c&H00FFFFFF&} ACHE HE
+Dialogue: 0,0:00:11.46,0:00:12.08,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}CANNOT{\c&H00FFFFFF&} NAME.
+Dialogue: 0,0:00:12.62,0:00:13.22,ArcReactorCyanHUD,,0,0,0,,HE {\c&H00FFFF00&}THINKS{\c&H00FFFFFF&} THIS
+Dialogue: 0,0:00:13.22,0:00:14.40,ArcReactorCyanHUD,,0,0,0,,GRUELING {\c&H00FFFF00&}ISOLATION{\c&H00FFFFFF&} IS
+Dialogue: 0,0:00:14.40,0:00:14.92,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}PRICE{\c&H00FFFFFF&} OF
+Dialogue: 0,0:00:14.92,0:00:15.66,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}KEEPING{\c&H00FFFFFF&} LOVED ONES
+Dialogue: 0,0:00:15.66,0:00:16.68,ArcReactorCyanHUD,,0,0,0,,SAFE FROM THE {\c&H00FFFF00&}SHADOWS{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:17.24,0:00:18.20,ArcReactorCyanHUD,,0,0,0,,BUT NOTICE WHAT {\c&H00FFFF00&}HAPPENS{\c&H00FFFFFF&},
+Dialogue: 0,0:00:18.58,0:00:19.18,ArcReactorCyanHUD,,0,0,0,,WHEN HE {\c&H00FFFF00&}CROSSES{\c&H00FFFFFF&}
+Dialogue: 0,0:00:19.18,0:00:19.96,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}PATHS{\c&H00FFFFFF&} WITH MARY
+Dialogue: 0,0:00:19.96,0:00:20.64,ArcReactorCyanHUD,,0,0,0,,JANE {\c&H00FFFF00&}WATSON{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:21.20,0:00:21.66,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}THERE{\c&H00FFFFFF&} IS NO
+Dialogue: 0,0:00:21.66,0:00:22.30,ArcReactorCyanHUD,,0,0,0,,SHARED {\c&H00FFFF00&}HISTORY{\c&H00FFFFFF&},
+Dialogue: 0,0:00:22.50,0:00:22.98,ArcReactorCyanHUD,,0,0,0,,YET THEIR {\c&H00FFFF00&}EYES{\c&H00FFFFFF&}
+Dialogue: 0,0:00:22.98,0:00:24.12,ArcReactorCyanHUD,,0,0,0,,LOCK WITH AN {\c&H00FFFF00&}UNBEARABLE{\c&H00FFFFFF&},
+Dialogue: 0,0:00:24.36,0:00:25.08,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}SUFFOCATING{\c&H00FFFFFF&} WEIGHT.
+Dialogue: 0,0:00:25.54,0:00:26.30,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}UNIVERSE{\c&H00FFFFFF&} ERASED
+Dialogue: 0,0:00:26.30,0:00:26.94,ArcReactorCyanHUD,,0,0,0,,THEIR {\c&H00FFFF00&}MARRIAGE{\c&H00FFFFFF&},
+Dialogue: 0,0:00:27.16,0:00:27.44,ArcReactorCyanHUD,,0,0,0,,BUT IT {\c&H00FFFF00&}COULD{\c&H00FFFFFF&}
+Dialogue: 0,0:00:27.44,0:00:28.20,ArcReactorCyanHUD,,0,0,0,,NOT {\c&H00FFFF00&}PURGE{\c&H00FFFFFF&} THE
+Dialogue: 0,0:00:28.20,0:00:29.34,ArcReactorCyanHUD,,0,0,0,,MUSCLE MEMORY OF {\c&H00FFFF00&}DEVOTION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:29.34,0:00:30.48,ArcReactorCyanHUD,,0,0,0,,HE {\c&H00FFFF00&}BELIEVES{\c&H00FFFFFF&} HE
+Dialogue: 0,0:00:30.48,0:00:31.20,ArcReactorCyanHUD,,0,0,0,,CHOSE HIS {\c&H00FFFF00&}FREEDOM{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:31.72,0:00:32.20,ArcReactorCyanHUD,,0,0,0,,IN {\c&H00FFFF00&}REALITY{\c&H00FFFFFF&},
+Dialogue: 0,0:00:32.52,0:00:32.94,ArcReactorCyanHUD,,0,0,0,,HE IS {\c&H00FFFF00&}LIVING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:32.94,0:00:34.24,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}INSIDE{\c&H00FFFFFF&} AN ERASED LIFE,
+Dialogue: 0,0:00:34.48,0:00:35.50,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}SMILING{\c&H00FFFFFF&} THROUGH A QUIET,
+Dialogue: 0,0:00:35.72,0:00:36.92,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}INVISIBLE{\c&H00FFFFFF&} LOBOTOMY WHERE
+Dialogue: 0,0:00:36.92,0:00:37.88,ArcReactorCyanHUD,,0,0,0,,EVERY {\c&H00FFFF00&}VICTORY{\c&H00FFFFFF&} TASTES
+Dialogue: 0,0:00:37.88,0:00:38.56,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}LIKE{\c&H00FFFFFF&} ASH.

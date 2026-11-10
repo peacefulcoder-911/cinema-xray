@@ -1,0 +1,54 @@
+[Script Info]
+Title: Cinema Decoded Arc Reactor Cyan HUD Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ArcReactorCyanHUD,Futura,74,&H00FFFFFF,&H000000FF,&H000A0A0A,&H80000000,-1,0,0,0,100,100,3,0,1,8,3,2,60,60,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.02,ArcReactorCyanHUD,,0,0,0,,YOU NEVER {\c&H00FFFF00&}ASKED{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.02,0:00:02.04,ArcReactorCyanHUD,,0,0,0,,HOW IRON {\c&H00FFFF00&}MAN{\c&H00FFFFFF&}
+Dialogue: 0,0:00:02.04,0:00:03.06,ArcReactorCyanHUD,,0,0,0,,SAVED THIRTEEN {\c&H00FFFF00&}PEOPLE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.06,0:00:04.08,ArcReactorCyanHUD,,0,0,0,,WITH A {\c&H00FFFF00&}SUIT{\c&H00FFFFFF&}
+Dialogue: 0,0:00:04.08,0:00:05.10,ArcReactorCyanHUD,,0,0,0,,THAT COULD {\c&H00FFFF00&}ONLY{\c&H00FFFFFF&}
+Dialogue: 0,0:00:05.10,0:00:06.12,ArcReactorCyanHUD,,0,0,0,,CARRY FOUR, {\c&H00FFFF00&}AND{\c&H00FFFFFF&}
+Dialogue: 0,0:00:06.12,0:00:07.14,ArcReactorCyanHUD,,0,0,0,,THE ANSWER {\c&H00FFFF00&}IS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:07.14,0:00:08.16,ArcReactorCyanHUD,,0,0,0,,PURE PSYCHOLOGY. {\c&H00FFFF00&}JARVIS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:08.16,0:00:09.18,ArcReactorCyanHUD,,0,0,0,,CALCULATES AN {\c&H00FFFF00&}IMPOSSIBLE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:09.18,0:00:10.20,ArcReactorCyanHUD,,0,0,0,,EQUATION: THIRTEEN {\c&H00FFFF00&}PASSENGERS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.20,0:00:11.23,ArcReactorCyanHUD,,0,0,0,,FALLING AT {\c&H00FFFF00&}TERMINAL{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.23,0:00:12.25,ArcReactorCyanHUD,,0,0,0,,VELOCITY, AND {\c&H00FFFF00&}THE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:12.25,0:00:13.27,ArcReactorCyanHUD,,0,0,0,,MARK 42 {\c&H00FFFF00&}ARMOR{\c&H00FFFFFF&}
+Dialogue: 0,0:00:13.27,0:00:14.29,ArcReactorCyanHUD,,0,0,0,,CAN ONLY {\c&H00FFFF00&}CARRY{\c&H00FFFFFF&}
+Dialogue: 0,0:00:14.29,0:00:15.31,ArcReactorCyanHUD,,0,0,0,,FOUR. TONY {\c&H00FFFF00&}IS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:15.31,0:00:16.33,ArcReactorCyanHUD,,0,0,0,,FREE-FALLING TOWARDS {\c&H00FFFF00&}THEM{\c&H00FFFFFF&},
+Dialogue: 0,0:00:16.33,0:00:17.35,ArcReactorCyanHUD,,0,0,0,,*NOT* INSIDE {\c&H00FFFF00&}THE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:17.35,0:00:18.37,ArcReactorCyanHUD,,0,0,0,,SUIT. HE {\c&H00FFFF00&}DOESN'T{\c&H00FFFFFF&}
+Dialogue: 0,0:00:18.37,0:00:19.39,ArcReactorCyanHUD,,0,0,0,,USE BRUTE {\c&H00FFFF00&}FORCE{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:19.39,0:00:20.41,ArcReactorCyanHUD,,0,0,0,,HE COMMANDS {\c&H00FFFF00&}TRUST{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:20.41,0:00:21.43,ArcReactorCyanHUD,,0,0,0,,HE TELLS {\c&H00FFFF00&}THEM{\c&H00FFFFFF&}
+Dialogue: 0,0:00:21.43,0:00:22.45,ArcReactorCyanHUD,,0,0,0,,TO GRAB {\c&H00FFFF00&}EACH{\c&H00FFFFFF&}
+Dialogue: 0,0:00:22.45,0:00:23.47,ArcReactorCyanHUD,,0,0,0,,OTHER, FORMING {\c&H00FFFF00&}A{\c&H00FFFFFF&}
+Dialogue: 0,0:00:23.47,0:00:24.49,ArcReactorCyanHUD,,0,0,0,,HUMAN CHAIN—THE '{\c&H00FFFF00&}BARREL{\c&H00FFFFFF&}
+Dialogue: 0,0:00:24.49,0:00:25.51,ArcReactorCyanHUD,,0,0,0,,OF MONKEYS'—A {\c&H00FFFF00&}DESPERATE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:25.51,0:00:26.53,ArcReactorCyanHUD,,0,0,0,,GAMBLE ON {\c&H00FFFF00&}COLLECTIVE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:26.53,0:00:27.55,ArcReactorCyanHUD,,0,0,0,,ACTION. THE {\c&H00FFFF00&}REAL{\c&H00FFFFFF&}
+Dialogue: 0,0:00:27.55,0:00:28.57,ArcReactorCyanHUD,,0,0,0,,HERO ISN'T {\c&H00FFFF00&}THE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:28.57,0:00:29.59,ArcReactorCyanHUD,,0,0,0,,ARMOR, BUT {\c&H00FFFF00&}THE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:29.59,0:00:30.61,ArcReactorCyanHUD,,0,0,0,,MAN WHO {\c&H00FFFF00&}INSPIRES{\c&H00FFFFFF&}
+Dialogue: 0,0:00:30.61,0:00:31.64,ArcReactorCyanHUD,,0,0,0,,IMPOSSIBLE COOPERATION. {\c&H00FFFF00&}HE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:31.64,0:00:32.66,ArcReactorCyanHUD,,0,0,0,,BUILDS A {\c&H00FFFF00&}PSYCHOLOGICAL{\c&H00FFFFFF&}
+Dialogue: 0,0:00:32.66,0:00:33.68,ArcReactorCyanHUD,,0,0,0,,CHAIN OF {\c&H00FFFF00&}TRUST{\c&H00FFFFFF&}
+Dialogue: 0,0:00:33.68,0:00:34.70,ArcReactorCyanHUD,,0,0,0,,*BEFORE* THE {\c&H00FFFF00&}PHYSICAL{\c&H00FFFFFF&}
+Dialogue: 0,0:00:34.70,0:00:35.72,ArcReactorCyanHUD,,0,0,0,,ONE, GUIDING {\c&H00FFFF00&}THEM{\c&H00FFFFFF&}
+Dialogue: 0,0:00:35.72,0:00:36.74,ArcReactorCyanHUD,,0,0,0,,TO SAFETY. {\c&H00FFFF00&}WHICH{\c&H00FFFFFF&}
+Dialogue: 0,0:00:36.74,0:00:37.76,ArcReactorCyanHUD,,0,0,0,,IRON MAN {\c&H00FFFF00&}RESCUE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:37.76,0:00:38.78,ArcReactorCyanHUD,,0,0,0,,TRULY SHOWCASES {\c&H00FFFF00&}TONY{\c&H00FFFFFF&}
+Dialogue: 0,0:00:38.78,0:00:39.80,ArcReactorCyanHUD,,0,0,0,,STARK'S {\c&H00FFFF00&}GENIUS{\c&H00FFFFFF&}?

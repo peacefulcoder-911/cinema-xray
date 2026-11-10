@@ -1,0 +1,57 @@
+[Script Info]
+Title: Cinema Decoded Arc Reactor Cyan HUD Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ArcReactorCyanHUD,Futura,74,&H00FFFFFF,&H000000FF,&H000A0A0A,&H80000000,-1,0,0,0,100,100,3,0,1,8,3,2,60,60,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.56,ArcReactorCyanHUD,,0,0,0,,YOU {\c&H00FFFF00&}THINK{\c&H00FFFFFF&} NEO
+Dialogue: 0,0:00:00.56,0:00:01.36,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}DEFIED{\c&H00FFFFFF&} THE MATRIX
+Dialogue: 0,0:00:01.36,0:00:02.22,ArcReactorCyanHUD,,0,0,0,,BY SAVING {\c&H00FFFF00&}TRINITY{\c&H00FFFFFF&},
+Dialogue: 0,0:00:02.64,0:00:03.16,ArcReactorCyanHUD,,0,0,0,,BUT THE {\c&H00FFFF00&}SYSTEM{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.16,0:00:04.76,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}CALCULATED{\c&H00FFFFFF&} HIS EXACT MOVE.
+Dialogue: 0,0:00:05.22,0:00:05.94,ArcReactorCyanHUD,,0,0,0,,LOOK {\c&H00FFFF00&}CLOSELY{\c&H00FFFFFF&} AT
+Dialogue: 0,0:00:05.94,0:00:06.82,ArcReactorCyanHUD,,0,0,0,,THE ARCHITECT'S MONITORS
+Dialogue: 0,0:00:06.82,0:00:07.62,ArcReactorCyanHUD,,0,0,0,,AS NEO {\c&H00FFFF00&}STANDS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:07.62,0:00:08.36,ArcReactorCyanHUD,,0,0,0,,IN THE {\c&H00FFFF00&}WHITE{\c&H00FFFFFF&} ROOM.
+Dialogue: 0,0:00:08.90,0:00:09.72,ArcReactorCyanHUD,,0,0,0,,EVERY {\c&H00FFFF00&}SINGLE{\c&H00FFFFFF&} SCREEN
+Dialogue: 0,0:00:09.72,0:00:10.60,ArcReactorCyanHUD,,0,0,0,,IS {\c&H00FFFF00&}ALREADY{\c&H00FFFFFF&} PLAYING
+Dialogue: 0,0:00:10.60,0:00:11.74,ArcReactorCyanHUD,,0,0,0,,NEO'S FUTURE {\c&H00FFFF00&}REACTIONS{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:12.30,0:00:13.14,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}ARCHITECT{\c&H00FFFFFF&} DOESN'T
+Dialogue: 0,0:00:13.14,0:00:13.70,ArcReactorCyanHUD,,0,0,0,,CARE {\c&H00FFFF00&}ABOUT{\c&H00FFFFFF&} THE
+Dialogue: 0,0:00:13.70,0:00:14.42,ArcReactorCyanHUD,,0,0,0,,TWO DOORS {\c&H00FFFF00&}BECAUSE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:14.42,0:00:15.36,ArcReactorCyanHUD,,0,0,0,,BOTH {\c&H00FFFF00&}OPTIONS{\c&H00FFFFFF&} LEAD
+Dialogue: 0,0:00:15.36,0:00:15.98,ArcReactorCyanHUD,,0,0,0,,TO THE {\c&H00FFFF00&}EXACT{\c&H00FFFFFF&}
+Dialogue: 0,0:00:15.98,0:00:16.86,ArcReactorCyanHUD,,0,0,0,,SAME {\c&H00FFFF00&}DESTINATION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:17.42,0:00:18.14,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}PROPHECY{\c&H00FFFFFF&} OF
+Dialogue: 0,0:00:18.14,0:00:18.76,ArcReactorCyanHUD,,0,0,0,,THE ONE ISN'T
+Dialogue: 0,0:00:18.76,0:00:19.20,ArcReactorCyanHUD,,0,0,0,,A {\c&H00FFFF00&}GLITCH{\c&H00FFFFFF&} IN
+Dialogue: 0,0:00:19.20,0:00:19.82,ArcReactorCyanHUD,,0,0,0,,THE CODE {\c&H00FFFF00&}DESIGNED{\c&H00FFFFFF&}
+Dialogue: 0,0:00:19.82,0:00:20.68,ArcReactorCyanHUD,,0,0,0,,TO FREE {\c&H00FFFF00&}HUMANITY{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:21.16,0:00:22.14,ArcReactorCyanHUD,,0,0,0,,IT'S A {\c&H00FFFF00&}PRESSURE{\c&H00FFFFFF&} VALVE,
+Dialogue: 0,0:00:22.62,0:00:23.00,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}BUILT{\c&H00FFFFFF&} BY THE
+Dialogue: 0,0:00:23.00,0:00:23.78,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}MACHINES{\c&H00FFFFFF&} TO HARVEST
+Dialogue: 0,0:00:23.78,0:00:24.72,ArcReactorCyanHUD,,0,0,0,,HUMAN {\c&H00FFFF00&}ANOMALY{\c&H00FFFFFF&} AND
+Dialogue: 0,0:00:24.72,0:00:26.04,ArcReactorCyanHUD,,0,0,0,,FORCE A {\c&H00FFFF00&}CALCULATED{\c&H00FFFFFF&} REBOOT.
+Dialogue: 0,0:00:26.50,0:00:27.40,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}CHOOSING{\c&H00FFFFFF&} TRINITY FEELS
+Dialogue: 0,0:00:27.40,0:00:28.30,ArcReactorCyanHUD,,0,0,0,,LIKE {\c&H00FFFF00&}REBELLION{\c&H00FFFFFF&} AGAINST
+Dialogue: 0,0:00:28.30,0:00:29.32,ArcReactorCyanHUD,,0,0,0,,A {\c&H00FFFF00&}SYSTEMIC{\c&H00FFFFFF&} CONTROL.
+Dialogue: 0,0:00:29.32,0:00:30.56,ArcReactorCyanHUD,,0,0,0,,BUT {\c&H00FFFF00&}LOVE{\c&H00FFFFFF&} IS
+Dialogue: 0,0:00:30.56,0:00:31.42,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}ULTIMATE{\c&H00FFFFFF&} VARIABLE
+Dialogue: 0,0:00:31.42,0:00:32.14,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}SYSTEM{\c&H00FFFFFF&} USES
+Dialogue: 0,0:00:32.14,0:00:32.98,ArcReactorCyanHUD,,0,0,0,,TO KEEP {\c&H00FFFF00&}HUMANITY{\c&H00FFFFFF&}
+Dialogue: 0,0:00:32.98,0:00:34.10,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}LOCKED{\c&H00FFFFFF&} INSIDE THE CAGE.
+Dialogue: 0,0:00:34.50,0:00:35.28,ArcReactorCyanHUD,,0,0,0,,WHICH {\c&H00FFFF00&}SYSTEM{\c&H00FFFFFF&} IN
+Dialogue: 0,0:00:35.28,0:00:35.98,ArcReactorCyanHUD,,0,0,0,,CINEMA {\c&H00FFFF00&}HISTORY{\c&H00FFFFFF&} HAD
+Dialogue: 0,0:00:35.98,0:00:36.82,ArcReactorCyanHUD,,0,0,0,,THE MOST {\c&H00FFFF00&}DECEPTIVE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:36.82,0:00:37.56,ArcReactorCyanHUD,,0,0,0,,CONTROL {\c&H00FFFF00&}MECHANISM{\c&H00FFFFFF&}?
+Dialogue: 0,0:00:38.08,0:00:38.46,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}TELL{\c&H00FFFFFF&} ME IN
+Dialogue: 0,0:00:38.46,0:00:38.84,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}COMMENTS{\c&H00FFFFFF&}.

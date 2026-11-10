@@ -9,8 +9,6 @@ __pycache__/
 
 # Large Video & Audio Media
 *.mp4
-!assets/footage/*.mp4
-!assets/footage/**/*.mp4
 *.mov
 *.mkv
 *.avi
