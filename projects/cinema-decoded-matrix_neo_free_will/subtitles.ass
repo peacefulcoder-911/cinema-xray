@@ -1,0 +1,62 @@
+[Script Info]
+Title: Cinema Decoded - Was Neo Ever Really Free
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Futura,74,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,6,3,2,60,60,240,1
+Style: CyanHighlight,Futura,78,&H00FFFF00,&H000000FF,&H00000000,&H90000000,-1,0,0,0,105,105,3,0,1,8,4,2,60,60,240,1
+Style: CalloutCard,Futura,76,&H0000FFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,105,105,3,0,1,8,4,8,60,60,340,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:01.34,Default,,0,0,0,,THE MOST TERRIFYING
+Dialogue: 0,0:00:01.34,0:00:01.98,Default,,0,0,0,,MOMENT IN THE
+Dialogue: 0,0:00:01.98,0:00:04.16,Default,,0,0,0,,MATRIX? RELOADED ISN'T
+Dialogue: 0,0:00:04.16,0:00:05.10,Default,,0,0,0,,WHEN NEO DISCOVERS
+Dialogue: 0,0:00:05.10,0:00:07.16,Default,,0,0,0,,THE {\c&H00FFFF&}TRUTH{\c&HFFFFFF&}, IT'S
+Dialogue: 0,0:00:07.16,0:00:07.72,Default,,0,0,0,,WHEN HE DISCOVERS
+Dialogue: 0,0:00:07.72,0:00:08.28,Default,,0,0,0,,THAT THE {\c&H00FFFF&}TRUTH{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.28,0:00:09.10,Default,,0,0,0,,WAS ALREADY PART
+Dialogue: 0,0:00:09.10,0:00:09.66,Default,,0,0,0,,OF THE {\c&H00FFFF&}THE PLAN{\c&HFFFFFF&}.
+Dialogue: 0,0:00:12.52,0:00:13.10,Default,,0,0,0,,WHEN NEO MEETS
+Dialogue: 0,0:00:13.10,0:00:14.02,Default,,0,0,0,,THE {\c&H00FFFF&}ARCHITECT{\c&HFFFFFF&}, HE
+Dialogue: 0,0:00:14.02,0:00:15.16,Default,,0,0,0,,LEARNS SOMETHING EXTRAORDINARY.
+Dialogue: 0,0:00:17.76,0:00:18.26,Default,,0,0,0,,HE'S NOT THE
+Dialogue: 0,0:00:18.26,0:00:20.84,Default,,0,0,0,,{\c&H00FFFF&}FIRST ONE{\c&HFFFFFF&}. THE
+Dialogue: 0,0:00:20.84,0:00:21.50,Default,,0,0,0,,MATRIX HAS BEEN
+Dialogue: 0,0:00:21.50,0:00:22.98,Default,,0,0,0,,{\c&H00FFFF&}RESET BEFORE{\c&HFFFFFF&}. THE
+Dialogue: 0,0:00:22.98,0:00:23.94,Default,,0,0,0,,RESISTANCE HAS HAPPENED
+Dialogue: 0,0:00:23.94,0:00:25.10,Default,,0,0,0,,BEFORE, EVEN THE
+Dialogue: 0,0:00:25.10,0:00:26.02,Default,,0,0,0,,PROPHECY WAS DESIGNED
+Dialogue: 0,0:00:26.02,0:00:26.60,Default,,0,0,0,,TO LEAD HIM
+Dialogue: 0,0:00:26.60,0:00:28.72,Default,,0,0,0,,HERE. THINK ABOUT
+Dialogue: 0,0:00:28.72,0:00:31.94,Default,,0,0,0,,THAT. NEO BELIEVED
+Dialogue: 0,0:00:31.94,0:00:32.44,Default,,0,0,0,,HE WAS FIGHTING
+Dialogue: 0,0:00:32.44,0:00:33.00,Default,,0,0,0,,A SYSTEM THAT
+Dialogue: 0,0:00:33.00,0:00:34.42,Default,,0,0,0,,CONTROLLED HUMANITY, BUT
+Dialogue: 0,0:00:34.42,0:00:35.00,Default,,0,0,0,,THE SYSTEM HAD
+Dialogue: 0,0:00:35.00,0:00:35.92,Default,,0,0,0,,ALREADY {\c&H00FFFF&}PREDICTED{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:35.92,0:00:38.50,Default,,0,0,0,,REBELLION. AND NOW,
+Dialogue: 0,0:00:38.72,0:00:39.20,Default,,0,0,0,,HE FACES A
+Dialogue: 0,0:00:39.20,0:00:40.54,Default,,0,0,0,,CHOICE, SAVE {\c&H00FFFF&}ZION{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.54,0:00:41.46,Default,,0,0,0,,OR SAVE {\c&H00FFFF&}TRINITY{\c&HFFFFFF&}.
+Dialogue: 0,0:00:41.46,0:00:43.98,Default,,0,0,0,,FOR THE FIRST
+Dialogue: 0,0:00:43.98,0:00:44.92,Default,,0,0,0,,TIME, NEO DOESN'T
+Dialogue: 0,0:00:44.92,0:00:45.70,Default,,0,0,0,,FOLLOW THE EXPECTED
+Dialogue: 0,0:00:45.70,0:00:47.70,Default,,0,0,0,,PATH. MAYBE TRUE
+Dialogue: 0,0:00:47.70,0:00:48.50,Default,,0,0,0,,{\c&H00FFFF&}TRUE FREEDOM{\c&HFFFFFF&} BEGINS WHEN
+Dialogue: 0,0:00:48.50,0:00:49.02,Default,,0,0,0,,YOU STOP MAKING
+Dialogue: 0,0:00:49.02,0:00:49.60,Default,,0,0,0,,THE CHOICE THE
+Dialogue: 0,0:00:49.60,0:00:50.26,Default,,0,0,0,,SYSTEM EXPECTS.
+Dialogue: 1,0:00:00.80,0:00:05.20,CalloutCard,,0,0,0,,[ THE TRUTH WAS NEVER THE END. ]
+Dialogue: 1,0:00:06.80,0:00:09.80,CalloutCard,,0,0,0,,[ ALREADY PART OF THE PLAN. ]
+Dialogue: 1,0:00:17.50,0:00:20.00,CalloutCard,,0,0,0,,[ NOT THE FIRST ONE. ]
+Dialogue: 1,0:00:31.50,0:00:36.50,CalloutCard,,0,0,0,,[ EVEN THE REBELLION WAS EXPECTED. ]
+Dialogue: 1,0:00:38.50,0:00:42.50,CalloutCard,,0,0,0,,[ ZION OR TRINITY? ]
+Dialogue: 1,0:00:47.50,0:00:51.50,CalloutCard,,0,0,0,,[ TRUE FREEDOM IS AN UNEXPECTED CHOICE. ]

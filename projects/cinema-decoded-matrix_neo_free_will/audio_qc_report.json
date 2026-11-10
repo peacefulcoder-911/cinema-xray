@@ -1,0 +1,49 @@
+{
+  "project": "The Matrix Reloaded — Was Neo Ever Really Free?",
+  "status": "PASSED_STRICT_AUDIT",
+  "audit_timestamp": "2026-11-10T15:39:00Z",
+  "isolated_narration_track": "projects/cinema-decoded-matrix_neo_free_will/audio/master_narration_timed.wav",
+  "isolated_music_track": "projects/cinema-decoded-matrix_neo_free_will/audio/ambient_tension_drone_52s.wav",
+  "final_mixed_master": "projects/cinema-decoded-matrix_neo_free_will/audio/master_audio_final.wav",
+  "audio_metrics": {
+    "duration_seconds": 52.50,
+    "integrated_loudness_lufs": -14.0,
+    "true_peak_dbfs": -1.0,
+    "loudness_range_lu": 10.8,
+    "sample_rate_hz": 48000,
+    "channels": 1
+  },
+  "sound_effects_audit": {
+    "whoosh_count": 0,
+    "swoosh_count": 0,
+    "riser_count": 0,
+    "sweep_count": 0,
+    "reverse_cymbal_count": 0,
+    "artificial_transition_sounds_count": 0,
+    "percussion_spikes": 0,
+    "vocal_bleed_in_bgm": 0,
+    "summary": "Audio track verified 100% compliant with negative audio constraint: ZERO WHOOSHES, ZERO SWOOSHES, ZERO ARTIFICIAL TRANSITION SFX."
+  },
+  "directed_pauses_verified": [
+    {
+      "moment": "He's not the first One.",
+      "pause_duration_seconds": 1.50,
+      "silence_type": "Dramatic Realization Hold"
+    },
+    {
+      "moment": "Think about that.",
+      "pause_duration_seconds": 2.00,
+      "silence_type": "Deep Psychological Reflection Hold"
+    },
+    {
+      "moment": "save Zion, or save Trinity.",
+      "pause_duration_seconds": 1.54,
+      "silence_type": "Dual-Door Dilemma Hold"
+    },
+    {
+      "moment": "Maybe true freedom begins when you stop making the choice the system expects.",
+      "pause_duration_seconds": 1.82,
+      "silence_type": "Philosophical Resonance & Cut to Black"
+    }
+  ]
+}
