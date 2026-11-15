@@ -6,8 +6,9 @@ A high-retention YouTube Short breakdown of the thematic and historical title or
 
 ## Deliverables & Assets
 
-* **YouTube URL (Unlisted):** [https://youtu.be/RmhVNkJiQd8](https://youtu.be/RmhVNkJiQd8)
-* **YouTube Video ID:** `RmhVNkJiQd8`
+* **YouTube URL (Scheduled for Release):** [https://youtu.be/e0UvFyyK5-Q](https://youtu.be/e0UvFyyK5-Q)
+* **YouTube Video ID:** `e0UvFyyK5-Q`
+* **Scheduled Release Slot:** MORNING (10:30 AM IST / 05:00 UTC, Sunday Nov 15, 2026) — Auto-releasing to PUBLIC
 * **8K Ultra HD Master:** `output/godzilla-master-8k.mp4` (4320x7680 @ 85 Mbps HEVC)
 * **1080p Delivery Short:** `output/godzilla-youtube-1080p.mp4` (1080x1920 @ 30 FPS)
 * **High-CTR Thumbnail:** `output/thumbnail.jpg` (1080x1920)

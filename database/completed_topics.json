@@ -1,7 +1,7 @@
 {
   "database_version": "1.0",
   "total_completed": 28,
-  "last_updated": "2026-11-15T09:00:08.066817",
+  "last_updated": "2026-11-15T09:28:01.536221",
   "topics": [
     {
       "id": 30,
@@ -12,10 +12,10 @@
       "hook": "Have you ever wondered why the movie is called Godzilla Minus One?",
       "core_thesis": "Japan was reduced to zero after World War II; Godzilla pushes the country from zero to minus one.",
       "category_lens": "Title Explanation",
-      "youtube_video_id": "RmhVNkJiQd8",
-      "youtube_url": "https://youtu.be/RmhVNkJiQd8",
-      "scheduled_slot": "ANY",
-      "scheduled_time_iso": null,
+      "youtube_video_id": "e0UvFyyK5-Q",
+      "youtube_url": "https://youtu.be/e0UvFyyK5-Q",
+      "scheduled_slot": "MORNING",
+      "scheduled_time_iso": "2026-11-15T05:00:00Z",
       "status": "COMPLETED",
       "created_at": "2026-11-15 03:30:08"
     },

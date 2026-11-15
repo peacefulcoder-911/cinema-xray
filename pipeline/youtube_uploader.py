@@ -8,8 +8,12 @@ import os
 import sys
 import time
 import json
+import socket
 from pathlib import Path
 from datetime import datetime, timezone
+
+# Set default socket timeout for large chunk resilience
+socket.setdefaulttimeout(120)
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 from googleapiclient.errors import HttpError
@@ -113,6 +117,7 @@ def upload_video(
     category_id="1",  # 1 = Film & Animation, 24 = Entertainment
     privacy_status="unlisted",  # 'public', 'unlisted', or 'private'
     publish_at=None,
+    thumbnail_path=None,
     client_secret_path=None,
     token_path=None
 ):
@@ -127,6 +132,7 @@ def upload_video(
         category_id (str): YouTube Category ID ('1' for Film & Animation)
         privacy_status (str): 'public', 'unlisted', or 'private'
         publish_at (datetime or str): Scheduled release in ISO 8601 UTC (if scheduling)
+        thumbnail_path (str or Path): Optional custom thumbnail image file
     
     Returns:
         dict: {'id': video_id, 'url': video_url, 'status': privacy_status}
@@ -173,8 +179,8 @@ def upload_video(
         "status": status_body
     }
 
-    # Resumable media file upload with 10MB chunk size
-    chunk_size = 10 * 1024 * 1024
+    # Resumable media file upload with 4MB chunk size for network resilience
+    chunk_size = 4 * 1024 * 1024
     media = MediaFileUpload(str(file_path), chunksize=chunk_size, resumable=True, mimetype="video/mp4")
 
     print(f"[YouTube Upload] Starting upload for: {file_path.name}")
@@ -190,12 +196,13 @@ def upload_video(
 
     response = None
     retry_count = 0
-    max_retries = 5
+    max_retries = 10
 
     while response is None:
         try:
             status, response = request.next_chunk()
             if status:
+                retry_count = 0  # Reset retry count upon successful progress
                 percent = int(status.progress() * 100)
                 print(f"[YouTube Upload] Uploading... {percent}%")
         except HttpError as e:
@@ -203,8 +210,8 @@ def upload_video(
                 retry_count += 1
                 if retry_count > max_retries:
                     raise
-                wait_time = 2 ** retry_count
-                print(f"[YouTube Upload] Temporary server error ({e.resp.status}). Retrying in {wait_time}s...")
+                wait_time = min(2 ** retry_count, 60)
+                print(f"[YouTube Upload] Temporary server error ({e.resp.status}). Retrying in {wait_time}s (attempt {retry_count}/{max_retries})...")
                 time.sleep(wait_time)
             else:
                 raise
@@ -212,7 +219,7 @@ def upload_video(
             retry_count += 1
             if retry_count > max_retries:
                 raise
-            wait_time = 2 ** retry_count
+            wait_time = min(2 ** retry_count, 60)
             print(f"[YouTube Upload] Transient socket/pipe glitch ({e}). Resuming chunk upload in {wait_time}s (attempt {retry_count}/{max_retries})...")
             time.sleep(wait_time)
 
@@ -221,14 +228,29 @@ def upload_video(
     print(f"\n🎉 Video Successfully Uploaded!")
     print(f"   Video ID:  {video_id}")
     print(f"   Watch URL: {video_url}")
-    print(f"   Status:    {status_body['privacyStatus']}\n")
+    print(f"   Status:    {status_body['privacyStatus']}")
+
+    thumbnail_applied = False
+    if thumbnail_path and Path(thumbnail_path).exists():
+        try:
+            print(f"   [Thumbnail] Setting custom vertical thumbnail from: {Path(thumbnail_path).name}...")
+            thumb_media = MediaFileUpload(str(thumbnail_path), mimetype="image/jpeg")
+            service.thumbnails().set(
+                videoId=video_id,
+                media_body=thumb_media
+            ).execute()
+            thumbnail_applied = True
+            print(f"   ✅ Custom thumbnail applied successfully!")
+        except Exception as e:
+            print(f"   ⚠️ Could not set thumbnail: {e}")
 
     return {
         "id": video_id,
         "video_id": video_id,
         "url": video_url,
         "status": status_body["privacyStatus"],
-        "channel": channel_info
+        "channel": channel_info,
+        "thumbnail_set": thumbnail_applied
     }
 
 
