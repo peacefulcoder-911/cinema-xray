@@ -165,10 +165,15 @@ class AutonomousProductionEngine:
             print(f"🎬 Found matched local footage in assets/footage: {len(direct_matches)} clips")
             return direct_matches
 
-        # 2. Check clip cache for matched filename
-        cached_matches = [f for f in CLIP_CACHE_DIR.glob("*.mp4") if slug_m in f.stem or slug_no_the in f.stem or topic_slug in f.stem]
+        # 2. Check clip cache for matched filename or key concept terms
+        concept_terms = [t for t in re.split(r"\W+", f"{slug_m} {scene_description}".lower()) if len(t) >= 4]
+        cached_matches = [
+            f for f in CLIP_CACHE_DIR.glob("*.mp4")
+            if slug_m in f.stem.lower() or slug_no_the in f.stem.lower() or topic_slug in f.stem.lower()
+            or any(term in f.stem.lower() for term in ["incursion", "multiverse", "marvel"])
+        ]
         if cached_matches:
-            print(f"🎬 Found cached footage: {len(cached_matches)} clips")
+            print(f"🎬 Found cached footage in output/clip_cache: {len(cached_matches)} clips")
             return cached_matches
 
         # 3. Use clip_search_engine via yt-dlp
@@ -647,7 +652,9 @@ class AutonomousProductionEngine:
             try:
                 from pipeline.youtube_uploader import upload_video
                 upload_target = final_8k_repo if (final_8k_repo and final_8k_repo.exists()) else Path(master_1080p)
-                yt_title = f"{movie_title} — {meta.get('headline', topic.get('topic', 'Analysis'))} #Shorts"[:100]
+                default_topic_title = topic.get("topic", "Analysis") if topic else "Analysis"
+                headline_text = meta.get("headline") or default_topic_title
+                yt_title = f"{movie_title} — {headline_text} #Shorts"[:100]
                 yt_desc = (
                     f"{meta.get('central_discovery', scene_desc)}\n\n"
                     f"🎬 Film: {movie_title}\n"

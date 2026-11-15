@@ -1,8 +1,24 @@
 {
   "database_version": "1.0",
-  "total_completed": 25,
-  "last_updated": "2026-11-11T01:41:51.298915",
+  "total_completed": 26,
+  "last_updated": "2026-11-15T08:29:23.280272",
   "topics": [
+    {
+      "id": 29,
+      "topic_slug": "avengers_doomsday_incursion",
+      "movie_name": "Avengers: Doomsday",
+      "film_cluster": "Marvel Cinematic Universe (MCU)",
+      "title": "The Marvel Disaster That Could Destroy Two Universes at Once",
+      "hook": "What if saving your universe meant destroying another one?",
+      "core_thesis": "Incursions force heroes into a zero-sum catastrophe where saving one reality requires the annihilation of another.",
+      "category_lens": "Film Scene Analysis",
+      "youtube_video_id": "JbWQFkrSGeQ",
+      "youtube_url": "https://youtu.be/JbWQFkrSGeQ",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
+      "status": "COMPLETED",
+      "created_at": "2026-11-15 02:59:23"
+    },
     {
       "id": 27,
       "topic_slug": "doctor_strange_broken_watch_loss",
