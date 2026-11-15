@@ -1,8 +1,24 @@
 {
   "database_version": "1.0",
-  "total_completed": 28,
-  "last_updated": "2026-11-15T09:28:01.536221",
+  "total_completed": 29,
+  "last_updated": "2026-11-15T10:05:23.680231",
   "topics": [
+    {
+      "id": 32,
+      "topic_slug": "gta_6_two_main_characters",
+      "movie_name": "Grand Theft Auto VI",
+      "film_cluster": "Gaming & Modern Crime",
+      "title": "Why GTA 6 Has Two Main Characters",
+      "hook": "GTA 6 doesn't give you just one criminal to follow. It gives you two\u2014and they're nothing alike.",
+      "core_thesis": "Jason wants an easier life while Lucia wants a better one; their relationship is both their ultimate strength and biggest weakness.",
+      "category_lens": "Character Breakdown",
+      "youtube_video_id": "GmUd8k2G5Y0",
+      "youtube_url": "https://youtu.be/GmUd8k2G5Y0",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
+      "status": "COMPLETED",
+      "created_at": "2026-11-15 04:35:23"
+    },
     {
       "id": 30,
       "topic_slug": "godzilla_minus_one_title_meaning",

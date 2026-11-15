@@ -1,0 +1,118 @@
+{
+  "project": "cinema-decoded-gta6-character-breakdown",
+  "total_duration": 61.13,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 73.5,
+      "duration_sec": 3.91,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "NOT ONE. TWO."
+    },
+    {
+      "id": "scene_02",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 68.2,
+      "duration_sec": 3.89,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "JASON vs LUCIA"
+    },
+    {
+      "id": "scene_03",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 54.2,
+      "duration_sec": 2.21,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "JASON DUVAL"
+    },
+    {
+      "id": "scene_04",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 33.2,
+      "duration_sec": 4.99,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "callout": "CRIMINAL ENVIRONMENT • ARMY"
+    },
+    {
+      "id": "scene_05",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 10.0,
+      "duration_sec": 4.99,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "callout": "FLORIDA KEYS"
+    },
+    {
+      "id": "scene_06",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 4.0,
+      "duration_sec": 2.25,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "LUCIA CAMINOS"
+    },
+    {
+      "id": "scene_07",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 1.0,
+      "duration_sec": 6.49,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "callout": "LEARNED TO FIGHT • PRISON"
+    },
+    {
+      "id": "scene_08",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 51.0,
+      "duration_sec": 2.97,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "BUT HERE'S THE DIFFERENCE"
+    },
+    {
+      "id": "scene_09",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 18.0,
+      "duration_sec": 2.90,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "callout": "EASIER LIFE"
+    },
+    {
+      "id": "scene_10",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 37.0,
+      "duration_sec": 3.81,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "A BETTER LIFE"
+    },
+    {
+      "id": "scene_11",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 70.8,
+      "duration_sec": 2.97,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "THE PLAN GOES WRONG"
+    },
+    {
+      "id": "scene_12",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 47.0,
+      "duration_sec": 6.71,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "callout": "ACROSS LEONIDA"
+    },
+    {
+      "id": "scene_13",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 63.5,
+      "duration_sec": 3.88,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "TOGETHER OR NOTHING"
+    },
+    {
+      "id": "scene_14",
+      "source_file": "assets/footage/gta6_trailer_1.mp4",
+      "source_start": 58.0,
+      "duration_sec": 9.16,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "JASON + LUCIA"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "project": "cinema-decoded-gta6-character-breakdown",
+  "trailer_source": "output/clip_cache/gta6_trailer_1.mp4",
+  "resolution_source": "2560x1440 AV1 @ 30 FPS",
+  "total_scenes": 14,
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "narration_segment": "p01",
+      "character": "Both / Title",
+      "callout": "NOT ONE. TWO.",
+      "source_start": 73.5,
+      "duration": 3.91,
+      "description": "Grand Theft Auto VI glowing neon title logo reveal"
+    },
+    {
+      "scene_id": "scene_02",
+      "narration_segment": "p02",
+      "character": "Jason & Lucia",
+      "callout": "JASON vs LUCIA",
+      "source_start": 68.2,
+      "duration": 3.89,
+      "description": "Jason and Lucia looking at each other before the heist"
+    },
+    {
+      "scene_id": "scene_03",
+      "narration_segment": "p03",
+      "character": "Jason Duval",
+      "callout": "JASON DUVAL",
+      "source_start": 54.2,
+      "duration": 2.21,
+      "description": "Jason Duval close-up portrait in driver seat"
+    },
+    {
+      "scene_id": "scene_04",
+      "narration_segment": "p04a",
+      "character": "Jason Duval",
+      "callout": "CRIMINAL ENVIRONMENT • ARMY",
+      "source_start": 33.2,
+      "duration": 4.99,
+      "description": "Thrillbilly mud club, wild criminal environment"
+    },
+    {
+      "scene_id": "scene_05",
+      "narration_segment": "p04b",
+      "character": "Jason Duval",
+      "callout": "FLORIDA KEYS",
+      "source_start": 10.0,
+      "duration": 4.99,
+      "description": "High-speed twin-engine speedboat racing through Florida Keys waterways"
+    },
+    {
+      "scene_id": "scene_06",
+      "narration_segment": "p05",
+      "character": "Lucia Caminos",
+      "callout": "LUCIA CAMINOS",
+      "source_start": 4.0,
+      "duration": 2.25,
+      "description": "Lucia Caminos direct close-up portrait in prison uniform"
+    },
+    {
+      "scene_id": "scene_07",
+      "narration_segment": "p06",
+      "character": "Lucia Caminos",
+      "callout": "LEARNED TO FIGHT • PRISON",
+      "source_start": 1.0,
+      "duration": 6.49,
+      "description": "Leonida Department of Corrections razor wire perimeter and prison yard"
+    },
+    {
+      "scene_id": "scene_08",
+      "narration_segment": "p07",
+      "character": "Lucia Caminos",
+      "callout": "BUT HERE'S THE DIFFERENCE",
+      "source_start": 51.0,
+      "duration": 2.97,
+      "description": "Lucia standing through convertible sunroof over Vice City"
+    },
+    {
+      "scene_id": "scene_09",
+      "narration_segment": "p08a",
+      "character": "Jason Duval",
+      "callout": "EASIER LIFE",
+      "source_start": 18.0,
+      "duration": 2.90,
+      "description": "Convertible cruising relaxed down palm-lined Ocean Drive at sunset"
+    },
+    {
+      "scene_id": "scene_10",
+      "narration_segment": "p08b",
+      "character": "Lucia Caminos",
+      "callout": "A BETTER LIFE",
+      "source_start": 37.0,
+      "duration": 3.81,
+      "description": "High-rise penthouse balcony overlooking neon Vice City"
+    },
+    {
+      "scene_id": "scene_11",
+      "narration_segment": "p09",
+      "character": "Jason & Lucia",
+      "callout": "THE PLAN GOES WRONG",
+      "source_start": 70.8,
+      "duration": 2.97,
+      "description": "Jason and Lucia kicking open convenience store doors with drawn handguns"
+    },
+    {
+      "scene_id": "scene_12",
+      "narration_segment": "p10",
+      "character": "Leonida Law Enforcement",
+      "callout": "ACROSS LEONIDA",
+      "source_start": 47.0,
+      "duration": 6.71,
+      "description": "Tactical police bodycam raid and highway pursuit flashing lights"
+    },
+    {
+      "scene_id": "scene_13",
+      "narration_segment": "p11",
+      "character": "Jason & Lucia",
+      "callout": "TOGETHER OR NOTHING",
+      "source_start": 63.5,
+      "duration": 3.88,
+      "description": "Jason and Lucia in motel room confirming their team partnership"
+    },
+    {
+      "scene_id": "scene_14",
+      "narration_segment": "p12_p13",
+      "character": "Jason & Lucia",
+      "callout": "JASON + LUCIA",
+      "source_start": 58.0,
+      "duration": 9.16,
+      "description": "High-speed getaway chase into highway night, ending with GTA VI title card"
+    }
+  ]
+}
