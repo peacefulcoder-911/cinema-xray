@@ -1,0 +1,22 @@
+{
+  "project": "cinema-decoded-hunger-games-sunrise-reaping",
+  "movie": "The Hunger Games: Sunrise on the Reaping (2026)",
+  "studio": "Lionsgate Films",
+  "title": "Why Haymitch Had to Face 47 Other Tributes",
+  "youtube_id": "OxUou3fo62I",
+  "youtube_url": "https://youtu.be/OxUou3fo62I",
+  "privacy": "unlisted",
+  "duration_seconds": 65.95,
+  "target_duration_window": "65.0 - 75.0s",
+  "fps": 30,
+  "resolution_master": "4320x7680 (8K Ultra HD)",
+  "resolution_delivery": "1080x1920 (9:16 Vertical Short)",
+  "audio_loudness_lufs": -14.0,
+  "audio_true_peak_dbfs": -1.0,
+  "voice_model": "ElevenLabs Liam (VCgLBmBjldJmfphyB8sZ)",
+  "forbidden_sfx_count": 0,
+  "master_file": "output/final_video/cinema_xray_hunger_games_sunrise_reaping_8k.mp4",
+  "delivery_file": "projects/cinema-decoded-hunger-games-sunrise-reaping/output/sunrise-youtube-1080p.mp4",
+  "status": "PASS",
+  "verified_at": "2026-11-15T10:23:00+05:30"
+}

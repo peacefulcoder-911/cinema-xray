@@ -1,0 +1,30 @@
+{
+  "source_media": [
+    {
+      "file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "resolution": "2560x1440",
+      "fps": 30.0,
+      "duration": 144.18,
+      "source": "Lionsgate Official Theatrical Trailer (lYXtL5TreOE)",
+      "format": "VP9 / WebM / MP4",
+      "status": "VERIFIED_ACCURATE"
+    }
+  ],
+  "subclip_manifest": [
+    {"scene_id": "scene_01", "start": 80.0, "duration": 6.68, "label": "Arena pedestals rising (24 tribute launch tubes)"},
+    {"scene_id": "scene_02", "start": 88.0, "duration": 3.34, "label": "Cornucopia arena circle overview"},
+    {"scene_id": "scene_03", "start": 16.0, "duration": 5.62, "label": "Young Haymitch close-up in District 12"},
+    {"scene_id": "scene_04", "start": 28.0, "duration": 6.05, "label": "District Reaping glass bowls harvest drawing"},
+    {"scene_id": "scene_05", "start": 35.0, "duration": 4.17, "label": "District 12 crowd lineup / stage overview"},
+    {"scene_id": "scene_06", "start": 4.0, "duration": 4.62, "label": "Panem Capitol architecture / golden seal"},
+    {"scene_id": "scene_07", "start": 52.0, "duration": 3.19, "label": "Capitol broadcast announcement rule change decree"},
+    {"scene_id": "scene_08", "start": 58.0, "duration": 4.20, "label": "Four tribute podium slots announced"},
+    {"scene_id": "scene_09", "start": 65.0, "duration": 2.66, "label": "Four tributes standing together on stage"},
+    {"scene_id": "scene_10", "start": 70.0, "duration": 2.55, "label": "Capitol numerical broadcast telemetry"},
+    {"scene_id": "scene_11", "start": 95.0, "duration": 6.15, "label": "Tribute train arrival / 48 tributes entering"},
+    {"scene_id": "scene_12", "start": 102.0, "duration": 3.08, "label": "Doubled tribute arena scale comparison"},
+    {"scene_id": "scene_13", "start": 112.0, "duration": 4.72, "label": "Arena combat / tribute confrontation"},
+    {"scene_id": "scene_14", "start": 122.0, "duration": 6.03, "label": "Gamemaker control room / lethal forcefield traps"},
+    {"scene_id": "scene_15", "start": 134.0, "duration": 2.89, "label": "Theatrical logo title card & Haymitch stare"}
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "project": "cinema-decoded-hunger-games-sunrise-reaping",
+  "title": "Why Haymitch Had to Face 47 Other Tributes",
+  "total_duration": 65.95,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 80.0,
+      "duration_sec": 6.68,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "23 OPPONENTS"
+    },
+    {
+      "id": "scene_02",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 88.0,
+      "duration_sec": 3.34,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "47 OPPONENTS"
+    },
+    {
+      "id": "scene_03",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 16.0,
+      "duration_sec": 5.62,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "YOUNG HAYMITCH ABERNATHY"
+    },
+    {
+      "id": "scene_04",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 28.0,
+      "duration_sec": 6.05,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "callout": "1 BOY + 1 GIRL PER DISTRICT"
+    },
+    {
+      "id": "scene_05",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 35.0,
+      "duration_sec": 4.17,
+      "camera_movement": "STATIC_FOCUS",
+      "callout": "12 DISTRICTS = 24 TRIBUTES"
+    },
+    {
+      "id": "scene_06",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 4.0,
+      "duration_sec": 4.62,
+      "camera_movement": "SLOW_PAN_UP",
+      "callout": "SECOND QUARTER QUELL"
+    },
+    {
+      "id": "scene_07",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 52.0,
+      "duration_sec": 3.19,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "RULE CHANGE DECREE"
+    },
+    {
+      "id": "scene_08",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 58.0,
+      "duration_sec": 4.20,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "4 TRIBUTES PER DISTRICT"
+    },
+    {
+      "id": "scene_09",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 65.0,
+      "duration_sec": 2.66,
+      "camera_movement": "STATIC_FOCUS",
+      "callout": "2 BOYS • 2 GIRLS"
+    },
+    {
+      "id": "scene_10",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 70.0,
+      "duration_sec": 2.55,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "THE PANEM MATH"
+    },
+    {
+      "id": "scene_11",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 95.0,
+      "duration_sec": 6.15,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "12 × 4 = 48 TRIBUTES"
+    },
+    {
+      "id": "scene_12",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 102.0,
+      "duration_sec": 3.08,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "2X USUAL CAPACITY"
+    },
+    {
+      "id": "scene_13",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 112.0,
+      "duration_sec": 4.72,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "callout": "47 TRIBUTES HUNTING"
+    },
+    {
+      "id": "scene_14",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 122.0,
+      "duration_sec": 6.03,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "ENGINEERED CARNAGE"
+    },
+    {
+      "id": "scene_15",
+      "source_file": "assets/footage/hunger_games_sunrise_reaping_trailer.mp4",
+      "source_start": 134.0,
+      "duration_sec": 2.89,
+      "camera_movement": "SLOW_ZOOM_OUT",
+      "callout": "THE 50TH HUNGER GAMES"
+    }
+  ]
+}

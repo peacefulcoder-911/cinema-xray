@@ -1,8 +1,24 @@
 {
   "database_version": "1.0",
-  "total_completed": 29,
-  "last_updated": "2026-11-15T10:05:23.680231",
+  "total_completed": 30,
+  "last_updated": "2026-11-15T10:23:05.436379",
   "topics": [
+    {
+      "id": 33,
+      "topic_slug": "hunger_games_sunrise_reaping_haymitch_47_tributes",
+      "movie_name": "The Hunger Games: Sunrise on the Reaping",
+      "film_cluster": "Dystopian Sci-Fi & Franchise Lore",
+      "title": "Why Haymitch Had to Face 47 Other Tributes",
+      "hook": "Imagine entering the Hunger Games and discovering that you're not competing against 23 people. You're competing against 47.",
+      "core_thesis": "The Second Quarter Quell doubles tribute demand to 4 per district (48 total), meaning Haymitch faces 47 opponents in a game engineered for impossible survival.",
+      "category_lens": "Movie Facts & Math Explanation",
+      "youtube_video_id": "OxUou3fo62I",
+      "youtube_url": "https://youtu.be/OxUou3fo62I",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
+      "status": "COMPLETED",
+      "created_at": "2026-11-15 04:53:05"
+    },
     {
       "id": 32,
       "topic_slug": "gta_6_two_main_characters",

@@ -1,0 +1,514 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 46,
+  "impact_timestamps": [
+    {
+      "word": "ENTERING",
+      "start": 0.0,
+      "end": 1.0
+    },
+    {
+      "word": "HUNGER",
+      "start": 1.0,
+      "end": 1.74
+    },
+    {
+      "word": "DISCOVERING",
+      "start": 1.74,
+      "end": 2.56
+    },
+    {
+      "word": "COMPETING",
+      "start": 2.56,
+      "end": 3.66
+    },
+    {
+      "word": "PEOPLE",
+      "start": 3.66,
+      "end": 5.12
+    },
+    {
+      "word": "COMPETING",
+      "start": 6.2,
+      "end": 8.3
+    },
+    {
+      "word": "EXACTLY",
+      "start": 9.68,
+      "end": 11.02
+    },
+    {
+      "word": "HAPPENS",
+      "start": 11.02,
+      "end": 11.64
+    },
+    {
+      "word": "ABERNATHY",
+      "start": 11.64,
+      "end": 12.86
+    },
+    {
+      "word": "SUNRISE",
+      "start": 12.86,
+      "end": 14.08
+    },
+    {
+      "word": "NORMALLY",
+      "start": 15.28,
+      "end": 16.5
+    },
+    {
+      "word": "TRIBUTES",
+      "start": 16.5,
+      "end": 17.62
+    },
+    {
+      "word": "DISTRICT",
+      "start": 17.62,
+      "end": 18.62
+    },
+    {
+      "word": "ONE",
+      "start": 18.96,
+      "end": 19.64
+    },
+    {
+      "word": "GIRL",
+      "start": 19.64,
+      "end": 20.16
+    },
+    {
+      "word": "DISTRICTS",
+      "start": 21.16,
+      "end": 22.6
+    },
+    {
+      "word": "TRIBUTES",
+      "start": 22.72,
+      "end": 24.1
+    },
+    {
+      "word": "HAMICH",
+      "start": 25.38,
+      "end": 26.58
+    },
+    {
+      "word": "COMPETING",
+      "start": 26.58,
+      "end": 27.46
+    },
+    {
+      "word": "CALLED",
+      "start": 27.46,
+      "end": 28.24
+    },
+    {
+      "word": "QUARTER",
+      "start": 28.24,
+      "end": 29.14
+    },
+    {
+      "word": "CAPITAL",
+      "start": 30.1,
+      "end": 31.14
+    },
+    {
+      "word": "CHANGES",
+      "start": 31.14,
+      "end": 32.12
+    },
+    {
+      "word": "INSTEAD",
+      "start": 33.62,
+      "end": 34.32
+    },
+    {
+      "word": "TRIBUTES",
+      "start": 34.32,
+      "end": 35.24
+    },
+    {
+      "word": "DEMANDS",
+      "start": 35.48,
+      "end": 36.26
+    },
+    {
+      "word": "BOYS",
+      "start": 37.66,
+      "end": 38.34
+    },
+    {
+      "word": "GIRLS",
+      "start": 38.52,
+      "end": 38.88
+    },
+    {
+      "word": "MATH",
+      "start": 40.42,
+      "end": 41.26
+    },
+    {
+      "word": "MULTIPLIED",
+      "start": 43.04,
+      "end": 44.4
+    },
+    {
+      "word": "TRIBUTES",
+      "start": 44.4,
+      "end": 45.42
+    },
+    {
+      "word": "GIVES",
+      "start": 45.42,
+      "end": 46.18
+    },
+    {
+      "word": "CHILDREN",
+      "start": 46.18,
+      "end": 47.56
+    },
+    {
+      "word": "THATS",
+      "start": 48.88,
+      "end": 49.98
+    },
+    {
+      "word": "NUMBER",
+      "start": 49.98,
+      "end": 50.64
+    },
+    {
+      "word": "HAMICH",
+      "start": 51.74,
+      "end": 53.08
+    },
+    {
+      "word": "FIGHTING",
+      "start": 53.08,
+      "end": 53.82
+    },
+    {
+      "word": "SURVIVE",
+      "start": 53.82,
+      "end": 54.78
+    },
+    {
+      "word": "TRIBUTES",
+      "start": 54.78,
+      "end": 55.62
+    },
+    {
+      "word": "ENTERING",
+      "start": 56.8,
+      "end": 57.72
+    },
+    {
+      "word": "WHERE",
+      "start": 57.72,
+      "end": 58.2
+    },
+    {
+      "word": "DELIBERATELY",
+      "start": 58.2,
+      "end": 59.32
+    },
+    {
+      "word": "SURVIVAL",
+      "start": 59.32,
+      "end": 61.24
+    },
+    {
+      "word": "THATS",
+      "start": 62.66,
+      "end": 63.64
+    },
+    {
+      "word": "HUNGER",
+      "start": 63.64,
+      "end": 64.54
+    },
+    {
+      "word": "BRUTAL",
+      "start": 64.54,
+      "end": 65.52
+    }
+  ],
+  "cards": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "text": "IMAGINE ENTERING THE",
+      "highlight": "ENTERING"
+    },
+    {
+      "start": 1.0,
+      "end": 1.74,
+      "text": "HUNGER GAMES AND",
+      "highlight": "HUNGER"
+    },
+    {
+      "start": 1.74,
+      "end": 2.56,
+      "text": "DISCOVERING THAT YOU'RE",
+      "highlight": "DISCOVERING"
+    },
+    {
+      "start": 2.56,
+      "end": 3.66,
+      "text": "NOT COMPETING AGAINST",
+      "highlight": "COMPETING"
+    },
+    {
+      "start": 3.66,
+      "end": 5.12,
+      "text": "23 PEOPLE.",
+      "highlight": "PEOPLE"
+    },
+    {
+      "start": 6.2,
+      "end": 8.3,
+      "text": "YOU'RE COMPETING AGAINST 47.",
+      "highlight": "COMPETING"
+    },
+    {
+      "start": 9.68,
+      "end": 11.02,
+      "text": "THAT'S EXACTLY WHAT",
+      "highlight": "EXACTLY"
+    },
+    {
+      "start": 11.02,
+      "end": 11.64,
+      "text": "HAPPENS TO YOUNG",
+      "highlight": "HAPPENS"
+    },
+    {
+      "start": 11.64,
+      "end": 12.86,
+      "text": "HAMICH ABERNATHY AND",
+      "highlight": "ABERNATHY"
+    },
+    {
+      "start": 12.86,
+      "end": 14.08,
+      "text": "SUNRISE ON THE REAPING.",
+      "highlight": "SUNRISE"
+    },
+    {
+      "start": 15.28,
+      "end": 16.5,
+      "text": "NORMALLY, THE CAPITAL",
+      "highlight": "NORMALLY"
+    },
+    {
+      "start": 16.5,
+      "end": 17.62,
+      "text": "SELECTS TWO TRIBUTES",
+      "highlight": "TRIBUTES"
+    },
+    {
+      "start": 17.62,
+      "end": 18.62,
+      "text": "FROM EVERY DISTRICT,",
+      "highlight": "DISTRICT"
+    },
+    {
+      "start": 18.96,
+      "end": 19.64,
+      "text": "ONE BOY AND",
+      "highlight": "ONE"
+    },
+    {
+      "start": 19.64,
+      "end": 20.16,
+      "text": "ONE GIRL.",
+      "highlight": "GIRL"
+    },
+    {
+      "start": 21.16,
+      "end": 22.6,
+      "text": "WITH 12 DISTRICTS,",
+      "highlight": "DISTRICTS"
+    },
+    {
+      "start": 22.72,
+      "end": 24.1,
+      "text": "THAT MAKES 24 TRIBUTES.",
+      "highlight": "TRIBUTES"
+    },
+    {
+      "start": 25.38,
+      "end": 26.58,
+      "text": "BUT HAMICH IS",
+      "highlight": "HAMICH"
+    },
+    {
+      "start": 26.58,
+      "end": 27.46,
+      "text": "COMPETING IN SOMETHING",
+      "highlight": "COMPETING"
+    },
+    {
+      "start": 27.46,
+      "end": 28.24,
+      "text": "CALLED THE SECOND",
+      "highlight": "CALLED"
+    },
+    {
+      "start": 28.24,
+      "end": 29.14,
+      "text": "QUARTER QUAIL.",
+      "highlight": "QUARTER"
+    },
+    {
+      "start": 30.1,
+      "end": 31.14,
+      "text": "AND THE CAPITAL",
+      "highlight": "CAPITAL"
+    },
+    {
+      "start": 31.14,
+      "end": 32.12,
+      "text": "CHANGES THE RULES.",
+      "highlight": "CHANGES"
+    },
+    {
+      "start": 33.62,
+      "end": 34.32,
+      "text": "INSTEAD OF TWO",
+      "highlight": "INSTEAD"
+    },
+    {
+      "start": 34.32,
+      "end": 35.24,
+      "text": "TRIBUTES PER DISTRICT,",
+      "highlight": "TRIBUTES"
+    },
+    {
+      "start": 35.48,
+      "end": 36.26,
+      "text": "IT DEMANDS FOUR.",
+      "highlight": "DEMANDS"
+    },
+    {
+      "start": 37.66,
+      "end": 38.34,
+      "text": "TWO BOYS,",
+      "highlight": "BOYS"
+    },
+    {
+      "start": 38.52,
+      "end": 38.88,
+      "text": "TWO GIRLS.",
+      "highlight": "GIRLS"
+    },
+    {
+      "start": 40.42,
+      "end": 41.26,
+      "text": "NOW DO THE MATH.",
+      "highlight": "MATH"
+    },
+    {
+      "start": 43.04,
+      "end": 44.4,
+      "text": "12 DISTRICTS MULTIPLIED",
+      "highlight": "MULTIPLIED"
+    },
+    {
+      "start": 44.4,
+      "end": 45.42,
+      "text": "BY FOUR TRIBUTES",
+      "highlight": "TRIBUTES"
+    },
+    {
+      "start": 45.42,
+      "end": 46.18,
+      "text": "GIVES YOU 48",
+      "highlight": "GIVES"
+    },
+    {
+      "start": 46.18,
+      "end": 47.56,
+      "text": "CHILDREN ENTERING THE ARENA.",
+      "highlight": "CHILDREN"
+    },
+    {
+      "start": 48.88,
+      "end": 49.98,
+      "text": "THAT'S TWICE THE",
+      "highlight": "THATS"
+    },
+    {
+      "start": 49.98,
+      "end": 50.64,
+      "text": "USUAL NUMBER.",
+      "highlight": "NUMBER"
+    },
+    {
+      "start": 51.74,
+      "end": 53.08,
+      "text": "AND HAMICH ISN'T",
+      "highlight": "HAMICH"
+    },
+    {
+      "start": 53.08,
+      "end": 53.82,
+      "text": "JUST FIGHTING TO",
+      "highlight": "FIGHTING"
+    },
+    {
+      "start": 53.82,
+      "end": 54.78,
+      "text": "SURVIVE AGAINST THE",
+      "highlight": "SURVIVE"
+    },
+    {
+      "start": 54.78,
+      "end": 55.62,
+      "text": "OTHER TRIBUTES.",
+      "highlight": "TRIBUTES"
+    },
+    {
+      "start": 56.8,
+      "end": 57.72,
+      "text": "HE'S ENTERING A",
+      "highlight": "ENTERING"
+    },
+    {
+      "start": 57.72,
+      "end": 58.2,
+      "text": "GAME WHERE THE",
+      "highlight": "WHERE"
+    },
+    {
+      "start": 58.2,
+      "end": 59.32,
+      "text": "CAPITAL HAS DELIBERATELY",
+      "highlight": "DELIBERATELY"
+    },
+    {
+      "start": 59.32,
+      "end": 61.24,
+      "text": "MADE SURVIVAL EVEN HARDER.",
+      "highlight": "SURVIVAL"
+    },
+    {
+      "start": 62.66,
+      "end": 63.64,
+      "text": "THAT'S WHAT MAKES",
+      "highlight": "THATS"
+    },
+    {
+      "start": 63.64,
+      "end": 64.54,
+      "text": "THE 50TH HUNGER",
+      "highlight": "HUNGER"
+    },
+    {
+      "start": 64.54,
+      "end": 65.52,
+      "text": "GAMES SO BRUTAL.",
+      "highlight": "BRUTAL"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "total_duration": 65.95,
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "paragraph_id": "p01",
+      "text": "Imagine entering the Hunger Games and discovering that you're not competing against 23 people.",
+      "speech_start": 0.0,
+      "speech_end": 5.581,
+      "scene_start": 0.0,
+      "scene_end": 6.681,
+      "duration": 6.681
+    },
+    {
+      "scene_id": "scene_02",
+      "paragraph_id": "p02",
+      "text": "You're competing against 47.",
+      "speech_start": 6.681,
+      "speech_end": 8.72,
+      "scene_start": 6.681,
+      "scene_end": 10.02,
+      "duration": 3.339
+    },
+    {
+      "scene_id": "scene_03",
+      "paragraph_id": "p03",
+      "text": "That's exactly what happens to young Haymitch Abernathy in Sunrise on the Reaping.",
+      "speech_start": 10.02,
+      "speech_end": 14.435,
+      "scene_start": 10.02,
+      "scene_end": 15.635,
+      "duration": 5.615
+    },
+    {
+      "scene_id": "scene_04",
+      "paragraph_id": "p04",
+      "text": "Normally, the Capitol selects two tributes from every district: one boy and one girl.",
+      "speech_start": 15.635,
+      "speech_end": 20.581,
+      "scene_start": 15.635,
+      "scene_end": 21.681,
+      "duration": 6.046
+    },
+    {
+      "scene_id": "scene_05",
+      "paragraph_id": "p05",
+      "text": "With 12 districts, that makes 24 tributes.",
+      "speech_start": 21.681,
+      "speech_end": 24.454,
+      "scene_start": 21.681,
+      "scene_end": 25.854,
+      "duration": 4.173
+    },
+    {
+      "scene_id": "scene_06",
+      "paragraph_id": "p06",
+      "text": "But Haymitch is competing in something called the Second Quarter Quell.",
+      "speech_start": 25.854,
+      "speech_end": 29.478,
+      "scene_start": 25.854,
+      "scene_end": 30.478,
+      "duration": 4.624
+    },
+    {
+      "scene_id": "scene_07",
+      "paragraph_id": "p07",
+      "text": "And the Capitol changes the rules.",
+      "speech_start": 30.478,
+      "speech_end": 32.571,
+      "scene_start": 30.478,
+      "scene_end": 33.671,
+      "duration": 3.194
+    },
+    {
+      "scene_id": "scene_08",
+      "paragraph_id": "p08",
+      "text": "Instead of two tributes per district, it demands four.",
+      "speech_start": 33.671,
+      "speech_end": 36.772,
+      "scene_start": 33.671,
+      "scene_end": 37.872,
+      "duration": 4.201
+    },
+    {
+      "scene_id": "scene_09",
+      "paragraph_id": "p09",
+      "text": "Two boys. Two girls.",
+      "speech_start": 37.872,
+      "speech_end": 39.332,
+      "scene_start": 37.872,
+      "scene_end": 40.532,
+      "duration": 2.66
+    },
+    {
+      "scene_id": "scene_10",
+      "paragraph_id": "p10",
+      "text": "Now do the math.",
+      "speech_start": 40.532,
+      "speech_end": 41.68,
+      "scene_start": 40.532,
+      "scene_end": 43.08,
+      "duration": 2.547
+    },
+    {
+      "scene_id": "scene_11",
+      "paragraph_id": "p11",
+      "text": "12 districts multiplied by four tributes gives you 48 children entering the arena.",
+      "speech_start": 43.08,
+      "speech_end": 48.026,
+      "scene_start": 43.08,
+      "scene_end": 49.226,
+      "duration": 6.146
+    },
+    {
+      "scene_id": "scene_12",
+      "paragraph_id": "p12",
+      "text": "That's twice the usual number.",
+      "speech_start": 49.226,
+      "speech_end": 51.008,
+      "scene_start": 49.226,
+      "scene_end": 52.308,
+      "duration": 3.082
+    },
+    {
+      "scene_id": "scene_13",
+      "paragraph_id": "p13",
+      "text": "And Haymitch isn't just fighting to survive against the other tributes.",
+      "speech_start": 52.308,
+      "speech_end": 55.828,
+      "scene_start": 52.308,
+      "scene_end": 57.028,
+      "duration": 4.72
+    },
+    {
+      "scene_id": "scene_14",
+      "paragraph_id": "p14",
+      "text": "He's entering a game where the Capitol has deliberately made survival even harder.",
+      "speech_start": 57.028,
+      "speech_end": 61.759,
+      "scene_start": 57.028,
+      "scene_end": 63.059,
+      "duration": 6.032
+    },
+    {
+      "scene_id": "scene_15",
+      "paragraph_id": "p15",
+      "text": "That's what makes the 50th Hunger Games so brutal.",
+      "speech_start": 63.059,
+      "speech_end": 65.95,
+      "scene_start": 63.059,
+      "scene_end": 65.95,
+      "duration": 2.891
+    }
+  ]
+}
