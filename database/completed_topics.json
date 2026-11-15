@@ -1,8 +1,24 @@
 {
   "database_version": "1.0",
-  "total_completed": 26,
-  "last_updated": "2026-11-15T08:29:23.280272",
+  "total_completed": 28,
+  "last_updated": "2026-11-15T09:00:08.066817",
   "topics": [
+    {
+      "id": 30,
+      "topic_slug": "godzilla_minus_one_title_meaning",
+      "movie_name": "Godzilla Minus One",
+      "film_cluster": "Kaiju & Japanese Cinema",
+      "title": "Why Is Godzilla Minus One Called Minus One?",
+      "hook": "Have you ever wondered why the movie is called Godzilla Minus One?",
+      "core_thesis": "Japan was reduced to zero after World War II; Godzilla pushes the country from zero to minus one.",
+      "category_lens": "Title Explanation",
+      "youtube_video_id": "RmhVNkJiQd8",
+      "youtube_url": "https://youtu.be/RmhVNkJiQd8",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
+      "status": "COMPLETED",
+      "created_at": "2026-11-15 03:30:08"
+    },
     {
       "id": 29,
       "topic_slug": "avengers_doomsday_incursion",
@@ -20,6 +36,22 @@
       "created_at": "2026-11-15 02:59:23"
     },
     {
+      "id": 28,
+      "topic_slug": "avengers_doomsday_the_marvel_disaster_that_could_destroy_two_universes_at_once",
+      "movie_name": "AVENGERS: DOOMSDAY",
+      "film_cluster": "Cinematic Psychology & Visual Storytelling",
+      "title": "THE MARVEL DISASTER THAT COULD DESTROY TWO UNIVERSES AT ONCE",
+      "hook": "What if saving your universe meant destroying another one?\n\nIn Marvel, this nightmare has a name",
+      "core_thesis": "Explain what an incursion actually means in Marvel's multiverse\u2014and why two universes colliding could be more dangerous than any conventional supervillain.",
+      "category_lens": "Film Scene Analysis",
+      "youtube_video_id": null,
+      "youtube_url": null,
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
+      "status": "COMPLETED",
+      "created_at": "2026-11-15 02:58:41"
+    },
+    {
       "id": 27,
       "topic_slug": "doctor_strange_broken_watch_loss",
       "movie_name": "Doctor Strange (2016)",
@@ -30,11 +62,10 @@
       "category_lens": "Film Scene Analysis",
       "youtube_video_id": "NiyntmuTyL8",
       "youtube_url": "https://youtu.be/NiyntmuTyL8",
-      "scheduled_slot": "NOV11_MORNING",
-      "scheduled_time_iso": "2026-11-11T05:00:00Z",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-10 20:11:51",
-      "release_day": "Nov 11"
+      "created_at": "2026-11-10 20:11:51"
     },
     {
       "id": 26,
@@ -47,11 +78,10 @@
       "category_lens": "Film Scene Analysis",
       "youtube_video_id": "xWrRWnMOD-I",
       "youtube_url": "https://youtu.be/xWrRWnMOD-I",
-      "scheduled_slot": "NOV11_EVENING",
-      "scheduled_time_iso": "2026-11-11T15:00:00Z",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-10 17:39:08",
-      "release_day": "Nov 11"
+      "created_at": "2026-11-10 17:39:08"
     },
     {
       "id": 25,
@@ -80,11 +110,10 @@
       "category_lens": "Trailer Detail Investigation",
       "youtube_video_id": "ufEtNYrJRro",
       "youtube_url": "https://youtu.be/ufEtNYrJRro",
-      "scheduled_slot": "NOV12_MORNING",
-      "scheduled_time_iso": "2026-11-12T05:00:00Z",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-10 16:01:28",
-      "release_day": "Nov 12"
+      "created_at": "2026-11-10 16:01:28"
     },
     {
       "id": 23,
@@ -113,11 +142,10 @@
       "category_lens": "Film Scene Analysis",
       "youtube_video_id": "WBpqmTwD_UE",
       "youtube_url": "https://youtu.be/WBpqmTwD_UE",
-      "scheduled_slot": "NOV12_EVENING",
-      "scheduled_time_iso": "2026-11-12T15:00:00Z",
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
       "status": "COMPLETED",
-      "created_at": "2026-11-10 12:03:43",
-      "release_day": "Nov 12"
+      "created_at": "2026-11-10 12:03:43"
     },
     {
       "id": 20,

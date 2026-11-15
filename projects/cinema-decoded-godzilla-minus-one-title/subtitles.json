@@ -1,0 +1,393 @@
+{
+  "video_format": "SHORT_45_SEC",
+  "total_cards": 35,
+  "impact_timestamps": [
+    {
+      "word": "HAVE",
+      "start": 0.0,
+      "end": 0.5
+    },
+    {
+      "word": "WONDERED",
+      "start": 0.5,
+      "end": 1.06
+    },
+    {
+      "word": "CALLED",
+      "start": 1.06,
+      "end": 1.66
+    },
+    {
+      "word": "GODZILLA",
+      "start": 1.66,
+      "end": 2.92
+    },
+    {
+      "word": "REASON",
+      "start": 3.24,
+      "end": 4.1
+    },
+    {
+      "word": "STORY",
+      "start": 4.6,
+      "end": 5.12
+    },
+    {
+      "word": "PLACE",
+      "start": 5.12,
+      "end": 5.8
+    },
+    {
+      "word": "AFTER",
+      "start": 5.8,
+      "end": 6.72
+    },
+    {
+      "word": "WAR",
+      "start": 6.72,
+      "end": 7.22
+    },
+    {
+      "word": "WAR",
+      "start": 7.76,
+      "end": 8.22
+    },
+    {
+      "word": "ALREADY",
+      "start": 8.22,
+      "end": 9.02
+    },
+    {
+      "word": "DEVASTATED",
+      "start": 9.02,
+      "end": 9.86
+    },
+    {
+      "word": "DESTROYED",
+      "start": 10.18,
+      "end": 11.2
+    },
+    {
+      "word": "ECONOMY",
+      "start": 11.64,
+      "end": 12.74
+    },
+    {
+      "word": "PEOPLE",
+      "start": 13.18,
+      "end": 13.72
+    },
+    {
+      "word": "STRUGGLING",
+      "start": 13.72,
+      "end": 14.48
+    },
+    {
+      "word": "LIVES",
+      "start": 14.48,
+      "end": 14.94
+    },
+    {
+      "word": "OTHER",
+      "start": 15.36,
+      "end": 15.76
+    },
+    {
+      "word": "ALREADY",
+      "start": 16.28,
+      "end": 16.98
+    },
+    {
+      "word": "ZERO",
+      "start": 16.98,
+      "end": 17.42
+    },
+    {
+      "word": "GODZILLA",
+      "start": 17.72,
+      "end": 18.64
+    },
+    {
+      "word": "INSTEAD",
+      "start": 19.2,
+      "end": 19.72
+    },
+    {
+      "word": "LETTING",
+      "start": 19.72,
+      "end": 20.8
+    },
+    {
+      "word": "CAUSES",
+      "start": 21.08,
+      "end": 21.84
+    },
+    {
+      "word": "DESTRUCTION",
+      "start": 21.84,
+      "end": 22.5
+    },
+    {
+      "word": "JAPAN",
+      "start": 23.1,
+      "end": 23.84
+    },
+    {
+      "word": "MINUS",
+      "start": 23.84,
+      "end": 24.96
+    },
+    {
+      "word": "THATS",
+      "start": 25.38,
+      "end": 25.82
+    },
+    {
+      "word": "TITLE",
+      "start": 25.82,
+      "end": 26.46
+    },
+    {
+      "word": "GODZILLA",
+      "start": 26.62,
+      "end": 27.34
+    },
+    {
+      "word": "DESTROY",
+      "start": 27.34,
+      "end": 28.14
+    },
+    {
+      "word": "PUSHES",
+      "start": 28.14,
+      "end": 29.18
+    },
+    {
+      "word": "COUNTRY",
+      "start": 29.18,
+      "end": 29.74
+    },
+    {
+      "word": "EVERYTHING",
+      "start": 29.74,
+      "end": 30.76
+    },
+    {
+      "word": "DISASTER",
+      "start": 30.76,
+      "end": 32.1
+    }
+  ],
+  "cards": [
+    {
+      "start": 0.0,
+      "end": 0.5,
+      "text": "HAVE YOU EVER",
+      "highlight": "HAVE"
+    },
+    {
+      "start": 0.5,
+      "end": 1.06,
+      "text": "WONDERED WHY THE",
+      "highlight": "WONDERED"
+    },
+    {
+      "start": 1.06,
+      "end": 1.66,
+      "text": "MOVIE IS CALLED",
+      "highlight": "CALLED"
+    },
+    {
+      "start": 1.66,
+      "end": 2.92,
+      "text": "GODZILLA -1?",
+      "highlight": "GODZILLA"
+    },
+    {
+      "start": 3.24,
+      "end": 4.1,
+      "text": "HERE'S THE REASON.",
+      "highlight": "REASON"
+    },
+    {
+      "start": 4.6,
+      "end": 5.12,
+      "text": "THE STORY TAKES",
+      "highlight": "STORY"
+    },
+    {
+      "start": 5.12,
+      "end": 5.8,
+      "text": "PLACE IN JAPAN",
+      "highlight": "PLACE"
+    },
+    {
+      "start": 5.8,
+      "end": 6.72,
+      "text": "JUST AFTER WORLD",
+      "highlight": "AFTER"
+    },
+    {
+      "start": 6.72,
+      "end": 7.22,
+      "text": "WAR II.",
+      "highlight": "WAR"
+    },
+    {
+      "start": 7.76,
+      "end": 8.22,
+      "text": "THE WAR HAS",
+      "highlight": "WAR"
+    },
+    {
+      "start": 8.22,
+      "end": 9.02,
+      "text": "ALREADY LEFT THE",
+      "highlight": "ALREADY"
+    },
+    {
+      "start": 9.02,
+      "end": 9.86,
+      "text": "COUNTRY DEVASTATED.",
+      "highlight": "DEVASTATED"
+    },
+    {
+      "start": 10.18,
+      "end": 11.2,
+      "text": "ITS CITIES ARE DESTROYED.",
+      "highlight": "DESTROYED"
+    },
+    {
+      "start": 11.64,
+      "end": 12.74,
+      "text": "ITS ECONOMY IS BROKEN,",
+      "highlight": "ECONOMY"
+    },
+    {
+      "start": 13.18,
+      "end": 13.72,
+      "text": "AND PEOPLE ARE",
+      "highlight": "PEOPLE"
+    },
+    {
+      "start": 13.72,
+      "end": 14.48,
+      "text": "STRUGGLING TO REBUILD",
+      "highlight": "STRUGGLING"
+    },
+    {
+      "start": 14.48,
+      "end": 14.94,
+      "text": "THEIR LIVES.",
+      "highlight": "LIVES"
+    },
+    {
+      "start": 15.36,
+      "end": 15.76,
+      "text": "IN OTHER WORDS,",
+      "highlight": "OTHER"
+    },
+    {
+      "start": 16.28,
+      "end": 16.98,
+      "text": "JAPAN IS ALREADY",
+      "highlight": "ALREADY"
+    },
+    {
+      "start": 16.98,
+      "end": 17.42,
+      "text": "AT ZERO.",
+      "highlight": "ZERO"
+    },
+    {
+      "start": 17.72,
+      "end": 18.64,
+      "text": "THEN GODZILLA APPEARS.",
+      "highlight": "GODZILLA"
+    },
+    {
+      "start": 19.2,
+      "end": 19.72,
+      "text": "AND INSTEAD OF",
+      "highlight": "INSTEAD"
+    },
+    {
+      "start": 19.72,
+      "end": 20.8,
+      "text": "LETTING THE COUNTRY RECOVER,",
+      "highlight": "LETTING"
+    },
+    {
+      "start": 21.08,
+      "end": 21.84,
+      "text": "HE CAUSES EVEN",
+      "highlight": "CAUSES"
+    },
+    {
+      "start": 21.84,
+      "end": 22.5,
+      "text": "MORE DESTRUCTION.",
+      "highlight": "DESTRUCTION"
+    },
+    {
+      "start": 23.1,
+      "end": 23.84,
+      "text": "JAPAN GOES FROM",
+      "highlight": "JAPAN"
+    },
+    {
+      "start": 23.84,
+      "end": 24.96,
+      "text": "ZERO TO MINUS ONE.",
+      "highlight": "MINUS"
+    },
+    {
+      "start": 25.38,
+      "end": 25.82,
+      "text": "THAT'S WHERE THE",
+      "highlight": "THATS"
+    },
+    {
+      "start": 25.82,
+      "end": 26.46,
+      "text": "TITLE COMES FROM.",
+      "highlight": "TITLE"
+    },
+    {
+      "start": 26.62,
+      "end": 27.34,
+      "text": "GODZILLA DOESN'T JUST",
+      "highlight": "GODZILLA"
+    },
+    {
+      "start": 27.34,
+      "end": 28.14,
+      "text": "DESTROY A COUNTRY.",
+      "highlight": "DESTROY"
+    },
+    {
+      "start": 28.14,
+      "end": 29.18,
+      "text": "HE PUSHES A",
+      "highlight": "PUSHES"
+    },
+    {
+      "start": 29.18,
+      "end": 29.74,
+      "text": "COUNTRY THAT HAS",
+      "highlight": "COUNTRY"
+    },
+    {
+      "start": 29.74,
+      "end": 30.76,
+      "text": "ALREADY LOST EVERYTHING",
+      "highlight": "EVERYTHING"
+    },
+    {
+      "start": 30.76,
+      "end": 32.1,
+      "text": "EVEN FURTHER INTO DISASTER.",
+      "highlight": "DISASTER"
+    }
+  ]
+}

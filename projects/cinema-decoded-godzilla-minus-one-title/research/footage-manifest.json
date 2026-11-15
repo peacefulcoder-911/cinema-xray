@@ -1,0 +1,114 @@
+[
+  {
+    "asset_id": "g1_title_card_01",
+    "movie": "Godzilla Minus One",
+    "description": "Official military-stencil movie title card with -1.0 logo",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "01:37 - 01:40",
+    "narration_segment": "Have you ever wondered why the movie is called Godzilla Minus One?"
+  },
+  {
+    "asset_id": "g1_postwar_ruins_02",
+    "movie": "Godzilla Minus One",
+    "description": "Postwar ruined Tokyo environment, smoke rising over rubble",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "00:03 - 00:05",
+    "narration_segment": "Here's the reason."
+  },
+  {
+    "asset_id": "g1_historical_context_03",
+    "movie": "Godzilla Minus One",
+    "description": "Postwar Japanese setting following World War II surrender",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "00:06 - 00:09",
+    "narration_segment": "The story takes place in Japan just after World War II."
+  },
+  {
+    "asset_id": "g1_devastated_country_04",
+    "movie": "Godzilla Minus One",
+    "description": "Wide panoramic shot of incinerated city ruins and rubble",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "00:12 - 00:15",
+    "narration_segment": "The war has already left the country devastated."
+  },
+  {
+    "asset_id": "g1_cities_destroyed_05",
+    "movie": "Godzilla Minus One",
+    "description": "Destroyed streets, collapsed concrete structures, charred remains",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "00:18 - 00:20",
+    "narration_segment": "Its cities are destroyed..."
+  },
+  {
+    "asset_id": "g1_economy_broken_06",
+    "movie": "Godzilla Minus One",
+    "description": "Postwar hardship, broken infrastructure, and scarce resources",
+    "source": "Netflix Official Trailer (1080p)",
+    "source_timestamp": "00:07 - 00:09",
+    "narration_segment": "...its economy is broken..."
+  },
+  {
+    "asset_id": "g1_civilians_rebuilding_07",
+    "movie": "Godzilla Minus One",
+    "description": "Japanese civilians and survivors attempting to rebuild lives amidst rubble",
+    "source": "Netflix Official Trailer (1080p)",
+    "source_timestamp": "00:13 - 00:16",
+    "narration_segment": "...and people are struggling to rebuild their lives."
+  },
+  {
+    "asset_id": "g1_zero_baseline_08",
+    "movie": "Godzilla Minus One",
+    "description": "Devastated Tokyo baseline with animated bold numerical 0",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "00:20 - 00:23",
+    "narration_segment": "In other words, Japan is already at zero."
+  },
+  {
+    "asset_id": "g1_godzilla_reveal_09",
+    "movie": "Godzilla Minus One",
+    "description": "Godzilla rising majestically from the ocean and roaring",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "00:34 - 00:37",
+    "narration_segment": "Then Godzilla appears."
+  },
+  {
+    "asset_id": "g1_ginza_destruction_10",
+    "movie": "Godzilla Minus One",
+    "description": "Godzilla rampaging through Ginza, stomping buildings and biting commuter train",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "00:43 - 00:48",
+    "narration_segment": "And instead of letting the country recover, he causes even more destruction."
+  },
+  {
+    "asset_id": "g1_zero_to_minus_one_11",
+    "movie": "Godzilla Minus One",
+    "description": "Synchronized animated transition from 0 to -1 over atomic blast aftermath",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "00:60 - 00:64",
+    "narration_segment": "Japan goes from zero to minus one."
+  },
+  {
+    "asset_id": "g1_title_origin_12",
+    "movie": "Godzilla Minus One",
+    "description": "The title card reveal focusing on MINUS ONE with dramatic push-in",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "01:38 - 01:41",
+    "narration_segment": "That's where the title comes from."
+  },
+  {
+    "asset_id": "g1_total_annihilation_13",
+    "movie": "Godzilla Minus One",
+    "description": "Atomic breath shockwave and nuclear mushroom cloud leveling Tokyo",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "01:13 - 01:16",
+    "narration_segment": "Godzilla doesn't just destroy a country."
+  },
+  {
+    "asset_id": "g1_ending_disaster_14",
+    "movie": "Godzilla Minus One",
+    "description": "Godzilla towering over the smoking ruins of Japan in final terrifying roar",
+    "source": "Toho Official Trailer 2 (1080p)",
+    "source_timestamp": "01:44 - 01:48",
+    "narration_segment": "He pushes a country that has already lost everything even further into disaster."
+  }
+]

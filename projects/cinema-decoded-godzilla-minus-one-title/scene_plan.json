@@ -1,0 +1,164 @@
+{
+  "project": "godzilla-minus-one-title",
+  "title": "Why Is Godzilla Minus One Called Minus One?",
+  "movie": "Godzilla Minus One (2023)",
+  "format": "9:16",
+  "fps": 30,
+  "total_duration": 32.6,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "narration": "Have you ever wondered why the movie is called Godzilla Minus One?",
+      "start_sec": 0.0,
+      "duration_sec": 3.0,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 97.0,
+      "callout": "WHY MINUS ONE?",
+      "camera_movement": "SLOW_PUSH_IN",
+      "visual_description": "Movie title reveal with dramatic digital push-in on MINUS ONE"
+    },
+    {
+      "id": "scene_02",
+      "narration": "Here's the reason.",
+      "start_sec": 3.0,
+      "duration_sec": 1.3,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 3.0,
+      "callout": null,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "visual_description": "Direct cut to postwar ruined Tokyo with smoke rising"
+    },
+    {
+      "id": "scene_03",
+      "narration": "The story takes place in Japan just after World War II.",
+      "start_sec": 4.3,
+      "duration_sec": 3.2,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 6.5,
+      "callout": "AFTER WORLD WAR II",
+      "camera_movement": "SLOW_PUSH_IN",
+      "visual_description": "Postwar Japanese scorched earth setting after surrender"
+    },
+    {
+      "id": "scene_04",
+      "narration": "The war has already left the country devastated.",
+      "start_sec": 7.5,
+      "duration_sec": 2.5,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 12.0,
+      "callout": null,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "visual_description": "Panoramic shot of incinerated city ruins"
+    },
+    {
+      "id": "scene_05",
+      "narration": "Its cities are destroyed...",
+      "start_sec": 10.0,
+      "duration_sec": 1.4,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 18.0,
+      "callout": "CITIES DESTROYED",
+      "camera_movement": "FAST_ZOOM",
+      "visual_description": "Collapsed concrete structures and charred avenues"
+    },
+    {
+      "id": "scene_06",
+      "narration": "...its economy is broken...",
+      "start_sec": 11.4,
+      "duration_sec": 1.6,
+      "source_file": "assets/footage/godzilla_minus_one_netflix.mp4",
+      "source_start": 7.0,
+      "callout": null,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "visual_description": "Postwar hardship, black market shelters and broken infrastructure"
+    },
+    {
+      "id": "scene_07",
+      "narration": "...and people are struggling to rebuild their lives.",
+      "start_sec": 13.0,
+      "duration_sec": 2.2,
+      "source_file": "assets/footage/godzilla_minus_one_netflix.mp4",
+      "source_start": 13.5,
+      "callout": "TRYING TO REBUILD",
+      "camera_movement": "SLOW_PUSH_IN",
+      "visual_description": "Civilians clearing rubble and struggling to rebuild"
+    },
+    {
+      "id": "scene_08",
+      "narration": "In other words, Japan is already at zero.",
+      "start_sec": 15.2,
+      "duration_sec": 2.4,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 21.0,
+      "callout": "0",
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "visual_description": "Devastated skyline baseline with bold numerical 0"
+    },
+    {
+      "id": "scene_09",
+      "narration": "Then Godzilla appears.",
+      "start_sec": 17.6,
+      "duration_sec": 1.4,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 34.5,
+      "callout": "GODZILLA",
+      "camera_movement": "FAST_ZOOM",
+      "visual_description": "Hard cut to Godzilla rising from ocean and roaring"
+    },
+    {
+      "id": "scene_10",
+      "narration": "And instead of letting the country recover, he causes even more destruction.",
+      "start_sec": 19.0,
+      "duration_sec": 3.8,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 43.0,
+      "callout": null,
+      "camera_movement": "SLOW_PUSH_IN",
+      "visual_description": "Godzilla rampaging in Ginza, stomping buildings and biting commuter train"
+    },
+    {
+      "id": "scene_11",
+      "narration": "Japan goes from zero to minus one.",
+      "start_sec": 22.8,
+      "duration_sec": 2.3,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 60.0,
+      "callout": "0 \u2192 -1",
+      "camera_movement": "SLOW_PAN_LEFT",
+      "visual_description": "Animated transition from 0 to -1 over atomic destruction aftermath"
+    },
+    {
+      "id": "scene_12",
+      "narration": "That's where the title comes from.",
+      "start_sec": 25.1,
+      "duration_sec": 1.4,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 97.5,
+      "callout": "MINUS ONE",
+      "camera_movement": "FAST_ZOOM",
+      "visual_description": "Godzilla Minus One title card focusing on MINUS ONE"
+    },
+    {
+      "id": "scene_13",
+      "narration": "Godzilla doesn't just destroy a country.",
+      "start_sec": 26.5,
+      "duration_sec": 2.0,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 73.0,
+      "callout": null,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "visual_description": "Atomic breath shockwave and nuclear blast tearing through Tokyo"
+    },
+    {
+      "id": "scene_14",
+      "narration": "He pushes a country that has already lost everything even further into disaster.",
+      "start_sec": 28.5,
+      "duration_sec": 4.1,
+      "source_file": "assets/footage/godzilla_minus_one_trailer_02.mp4",
+      "source_start": 104.0,
+      "callout": null,
+      "camera_movement": "SLOW_PUSH_IN",
+      "visual_description": "Towering Godzilla silhouette roaring over burning ruined city"
+    }
+  ]
+}

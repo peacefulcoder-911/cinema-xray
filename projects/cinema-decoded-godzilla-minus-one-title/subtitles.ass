@@ -1,0 +1,50 @@
+[Script Info]
+Title: Cinema Decoded Arc Reactor Cyan HUD Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ArcReactorCyanHUD,Futura,74,&H00FFFFFF,&H000000FF,&H000A0A0A,&H80000000,-1,0,0,0,100,100,3,0,1,8,3,2,60,60,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.50,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}HAVE{\c&H00FFFFFF&} YOU EVER
+Dialogue: 0,0:00:00.50,0:00:01.06,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}WONDERED{\c&H00FFFFFF&} WHY THE
+Dialogue: 0,0:00:01.06,0:00:01.66,ArcReactorCyanHUD,,0,0,0,,MOVIE IS {\c&H00FFFF00&}CALLED{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.66,0:00:02.92,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}GODZILLA{\c&H00FFFFFF&} -1?
+Dialogue: 0,0:00:03.24,0:00:04.10,ArcReactorCyanHUD,,0,0,0,,HERE'S THE {\c&H00FFFF00&}REASON{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:04.60,0:00:05.12,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}STORY{\c&H00FFFFFF&} TAKES
+Dialogue: 0,0:00:05.12,0:00:05.80,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}PLACE{\c&H00FFFFFF&} IN JAPAN
+Dialogue: 0,0:00:05.80,0:00:06.72,ArcReactorCyanHUD,,0,0,0,,JUST {\c&H00FFFF00&}AFTER{\c&H00FFFFFF&} WORLD
+Dialogue: 0,0:00:06.72,0:00:07.22,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}WAR{\c&H00FFFFFF&} II.
+Dialogue: 0,0:00:07.76,0:00:08.22,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}WAR{\c&H00FFFFFF&} HAS
+Dialogue: 0,0:00:08.22,0:00:09.02,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}ALREADY{\c&H00FFFFFF&} LEFT THE
+Dialogue: 0,0:00:09.02,0:00:09.86,ArcReactorCyanHUD,,0,0,0,,COUNTRY {\c&H00FFFF00&}DEVASTATED{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:10.18,0:00:11.20,ArcReactorCyanHUD,,0,0,0,,ITS CITIES ARE {\c&H00FFFF00&}DESTROYED{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:11.64,0:00:12.74,ArcReactorCyanHUD,,0,0,0,,ITS {\c&H00FFFF00&}ECONOMY{\c&H00FFFFFF&} IS BROKEN,
+Dialogue: 0,0:00:13.18,0:00:13.72,ArcReactorCyanHUD,,0,0,0,,AND {\c&H00FFFF00&}PEOPLE{\c&H00FFFFFF&} ARE
+Dialogue: 0,0:00:13.72,0:00:14.48,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}STRUGGLING{\c&H00FFFFFF&} TO REBUILD
+Dialogue: 0,0:00:14.48,0:00:14.94,ArcReactorCyanHUD,,0,0,0,,THEIR {\c&H00FFFF00&}LIVES{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:15.36,0:00:15.76,ArcReactorCyanHUD,,0,0,0,,IN {\c&H00FFFF00&}OTHER{\c&H00FFFFFF&} WORDS,
+Dialogue: 0,0:00:16.28,0:00:16.98,ArcReactorCyanHUD,,0,0,0,,JAPAN IS {\c&H00FFFF00&}ALREADY{\c&H00FFFFFF&}
+Dialogue: 0,0:00:16.98,0:00:17.42,ArcReactorCyanHUD,,0,0,0,,AT {\c&H00FFFF00&}ZERO{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:17.72,0:00:18.64,ArcReactorCyanHUD,,0,0,0,,THEN {\c&H00FFFF00&}GODZILLA{\c&H00FFFFFF&} APPEARS.
+Dialogue: 0,0:00:19.20,0:00:19.72,ArcReactorCyanHUD,,0,0,0,,AND {\c&H00FFFF00&}INSTEAD{\c&H00FFFFFF&} OF
+Dialogue: 0,0:00:19.72,0:00:20.80,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}LETTING{\c&H00FFFFFF&} THE COUNTRY RECOVER,
+Dialogue: 0,0:00:21.08,0:00:21.84,ArcReactorCyanHUD,,0,0,0,,HE {\c&H00FFFF00&}CAUSES{\c&H00FFFFFF&} EVEN
+Dialogue: 0,0:00:21.84,0:00:22.50,ArcReactorCyanHUD,,0,0,0,,MORE {\c&H00FFFF00&}DESTRUCTION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:23.10,0:00:23.84,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}JAPAN{\c&H00FFFFFF&} GOES FROM
+Dialogue: 0,0:00:23.84,0:00:24.96,ArcReactorCyanHUD,,0,0,0,,ZERO TO {\c&H00FFFF00&}MINUS{\c&H00FFFFFF&} ONE.
+Dialogue: 0,0:00:25.38,0:00:25.82,ArcReactorCyanHUD,,0,0,0,,THAT'S WHERE THE
+Dialogue: 0,0:00:25.82,0:00:26.46,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}TITLE{\c&H00FFFFFF&} COMES FROM.
+Dialogue: 0,0:00:26.62,0:00:27.34,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}GODZILLA{\c&H00FFFFFF&} DOESN'T JUST
+Dialogue: 0,0:00:27.34,0:00:28.14,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}DESTROY{\c&H00FFFFFF&} A COUNTRY.
+Dialogue: 0,0:00:28.14,0:00:29.18,ArcReactorCyanHUD,,0,0,0,,HE {\c&H00FFFF00&}PUSHES{\c&H00FFFFFF&} A
+Dialogue: 0,0:00:29.18,0:00:29.74,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}COUNTRY{\c&H00FFFFFF&} THAT HAS
+Dialogue: 0,0:00:29.74,0:00:30.76,ArcReactorCyanHUD,,0,0,0,,ALREADY LOST {\c&H00FFFF00&}EVERYTHING{\c&H00FFFFFF&}
+Dialogue: 0,0:00:30.76,0:00:32.10,ArcReactorCyanHUD,,0,0,0,,EVEN FURTHER INTO {\c&H00FFFF00&}DISASTER{\c&H00FFFFFF&}.
