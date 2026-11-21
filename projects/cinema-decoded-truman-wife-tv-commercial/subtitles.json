@@ -1,0 +1,299 @@
+{
+  "cards": [
+    {
+      "start": 0.0,
+      "end": 0.56,
+      "text": "NOTICE HOW IN",
+      "highlight": "NOTICE"
+    },
+    {
+      "start": 0.56,
+      "end": 1.12,
+      "text": "THE TRUMAN SHOW,",
+      "highlight": "TRUMAN"
+    },
+    {
+      "start": 1.34,
+      "end": 1.78,
+      "text": "TRUMAN'S WIFE,",
+      "highlight": "TRUMANS"
+    },
+    {
+      "start": 1.84,
+      "end": 2.66,
+      "text": "MERRILL KEEPS ACTING",
+      "highlight": "MERRILL"
+    },
+    {
+      "start": 2.66,
+      "end": 3.16,
+      "text": "LIKE SHE'S IN",
+      "highlight": "LIKE"
+    },
+    {
+      "start": 3.16,
+      "end": 3.94,
+      "text": "A TV COMMERCIAL.",
+      "highlight": "COMMERCIAL"
+    },
+    {
+      "start": 4.38,
+      "end": 4.96,
+      "text": "IN THE MIDDLE",
+      "highlight": "MIDDLE"
+    },
+    {
+      "start": 4.96,
+      "end": 6.0,
+      "text": "OF SERIOUS CONVERSATIONS,",
+      "highlight": "CONVERSATIONS"
+    },
+    {
+      "start": 6.28,
+      "end": 6.94,
+      "text": "SHE RANDOMLY HOLDS",
+      "highlight": "RANDOMLY"
+    },
+    {
+      "start": 6.94,
+      "end": 7.46,
+      "text": "UP A KITCHEN",
+      "highlight": "KITCHEN"
+    },
+    {
+      "start": 7.46,
+      "end": 7.9,
+      "text": "KNIFE OR A",
+      "highlight": "KNIFE"
+    },
+    {
+      "start": 7.9,
+      "end": 8.52,
+      "text": "JAR OF COCOA,",
+      "highlight": "COCOA"
+    },
+    {
+      "start": 9.16,
+      "end": 9.62,
+      "text": "SMILES AT AN",
+      "highlight": "SMILES"
+    },
+    {
+      "start": 9.62,
+      "end": 10.62,
+      "text": "INVISIBLE CAMERA AND",
+      "highlight": "INVISIBLE"
+    },
+    {
+      "start": 10.62,
+      "end": 11.88,
+      "text": "RECITES MARKETING SLOGANS LIKE,",
+      "highlight": "MARKETING"
+    },
+    {
+      "start": 12.34,
+      "end": 12.72,
+      "text": "WHY DON'T YOU",
+      "highlight": "DONT"
+    },
+    {
+      "start": 12.72,
+      "end": 13.18,
+      "text": "LET ME FIX",
+      "highlight": "LET"
+    },
+    {
+      "start": 13.18,
+      "end": 13.62,
+      "text": "YOU SOME OF",
+      "highlight": "SOME"
+    },
+    {
+      "start": 13.62,
+      "end": 14.66,
+      "text": "THIS NEW MAKOKO DRINK?",
+      "highlight": "MAKOKO"
+    },
+    {
+      "start": 15.2,
+      "end": 15.86,
+      "text": "TRUMAN THINKS SHE'S",
+      "highlight": "TRUMAN"
+    },
+    {
+      "start": 15.86,
+      "end": 16.5,
+      "text": "LOSING HER MIND,",
+      "highlight": "LOSING"
+    },
+    {
+      "start": 16.82,
+      "end": 17.26,
+      "text": "BUT THERE'S A",
+      "highlight": "THERES"
+    },
+    {
+      "start": 17.26,
+      "end": 18.24,
+      "text": "DARK REASON FOR THIS.",
+      "highlight": "REASON"
+    },
+    {
+      "start": 18.7,
+      "end": 19.28,
+      "text": "THE TRUMAN SHOW",
+      "highlight": "TRUMAN"
+    },
+    {
+      "start": 19.28,
+      "end": 20.3,
+      "text": "AIRS 24 HOURS",
+      "highlight": "HOURS"
+    },
+    {
+      "start": 20.3,
+      "end": 20.6,
+      "text": "A DAY,",
+      "highlight": "DAY"
+    },
+    {
+      "start": 21.0,
+      "end": 22.2,
+      "text": "COMPLETELY UNINTERRUPTED.",
+      "highlight": "UNINTERRUPTED"
+    },
+    {
+      "start": 22.42,
+      "end": 23.02,
+      "text": "THAT MEANS THERE",
+      "highlight": "MEANS"
+    },
+    {
+      "start": 23.02,
+      "end": 24.2,
+      "text": "ARE ZERO COMMERCIAL BREAKS.",
+      "highlight": "COMMERCIAL"
+    },
+    {
+      "start": 24.64,
+      "end": 25.04,
+      "text": "SO HOW DOES",
+      "highlight": "DOES"
+    },
+    {
+      "start": 25.04,
+      "end": 25.7,
+      "text": "A BILLION DOLLAR",
+      "highlight": "BILLION"
+    },
+    {
+      "start": 25.7,
+      "end": 26.54,
+      "text": "TELEVISION SHOW MAKE",
+      "highlight": "TELEVISION"
+    },
+    {
+      "start": 26.54,
+      "end": 27.0,
+      "text": "ITS MONEY?",
+      "highlight": "MONEY"
+    },
+    {
+      "start": 27.42,
+      "end": 28.14,
+      "text": "PRODUCT PLACEMENT.",
+      "highlight": "PLACEMENT"
+    },
+    {
+      "start": 28.14,
+      "end": 29.74,
+      "text": "EVERYTHING INSIDE TRUMAN'S",
+      "highlight": "EVERYTHING"
+    },
+    {
+      "start": 29.74,
+      "end": 30.14,
+      "text": "WORLD IS FOR",
+      "highlight": "WORLD"
+    },
+    {
+      "start": 30.14,
+      "end": 30.62,
+      "text": "SALE IN THE",
+      "highlight": "SALE"
+    },
+    {
+      "start": 30.62,
+      "end": 31.54,
+      "text": "OFFICIAL SHOW CATALOG.",
+      "highlight": "OFFICIAL"
+    },
+    {
+      "start": 32.18,
+      "end": 32.86,
+      "text": "MERRILL ISN'T JUST",
+      "highlight": "MERRILL"
+    },
+    {
+      "start": 32.86,
+      "end": 33.52,
+      "text": "TRUMAN'S WIFE.",
+      "highlight": "TRUMANS"
+    },
+    {
+      "start": 33.8,
+      "end": 34.26,
+      "text": "SHE'S A PAID",
+      "highlight": "SHES"
+    },
+    {
+      "start": 34.26,
+      "end": 35.56,
+      "text": "ACTOR WORKING ON COMMISSION.",
+      "highlight": "COMMISSION"
+    },
+    {
+      "start": 36.1,
+      "end": 36.74,
+      "text": "EVERY TIME SHE",
+      "highlight": "EVERY"
+    },
+    {
+      "start": 36.74,
+      "end": 37.12,
+      "text": "HOLDS UP A",
+      "highlight": "HOLDS"
+    },
+    {
+      "start": 37.12,
+      "end": 37.7,
+      "text": "PRODUCT OF THE",
+      "highlight": "PRODUCT"
+    },
+    {
+      "start": 37.7,
+      "end": 38.22,
+      "text": "HIDDEN CAMERAS,",
+      "highlight": "CAMERAS"
+    },
+    {
+      "start": 38.52,
+      "end": 39.36,
+      "text": "SHE'S LITERALLY RUNNING",
+      "highlight": "LITERALLY"
+    },
+    {
+      "start": 39.36,
+      "end": 39.94,
+      "text": "AN AD TO",
+      "highlight": "AD"
+    },
+    {
+      "start": 39.94,
+      "end": 40.7,
+      "text": "PAY FOR THE BROADCAST.",
+      "highlight": "BROADCAST"
+    }
+  ],
+  "total_cards": 49
+}

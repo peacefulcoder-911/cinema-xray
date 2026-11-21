@@ -461,6 +461,14 @@ The approved script addresses: **{self.topic}** in **{self.movie}**.
             if p.stat().st_size > 1000000:
                 candidate_sources.append(p)
 
+        # Score candidates by relevance to movie and slug
+        movie_tokens = set(re.sub(r"[^\w\s]", "", self.movie.lower()).split() + self.slug.split("-"))
+        def score_candidate(path: Path) -> int:
+            name_lower = path.name.lower()
+            return sum(3 for t in movie_tokens if len(t) > 2 and t in name_lower)
+
+        candidate_sources.sort(key=score_candidate, reverse=True)
+
         if candidate_sources:
             chosen = candidate_sources[0]
             print(f"   Found verified source footage: {chosen.name} ({chosen.stat().st_size / 1e6:.1f} MB)")
@@ -930,16 +938,11 @@ export const RemotionRoot: React.FC = () => {{
             raise FileNotFoundError(f"1080p master missing: {self.master_1080p_file}")
 
         # Execute Apple Silicon VideoToolbox HEVC 8K super resolution
-        upscaled_path = upgrade_to_super_resolution(
-            input_video_path=self.master_1080p_file,
-            output_dir=self.output_dir,
-            target_res="8k",
-            profile="vertical"
+        upscaled_path, meta = upgrade_to_super_resolution(
+            input_video=str(self.master_1080p_file),
+            output_video=str(self.master_8k_file),
+            target_tier="8K"
         )
-
-        # Ensure consistent naming
-        if upscaled_path != self.master_8k_file and os.path.exists(upscaled_path):
-            shutil.move(upscaled_path, self.master_8k_file)
 
         print(f"✅ 8K Super-Resolution Master ready: {self.master_8k_file}")
         dur = time.time() - t0
@@ -1101,11 +1104,13 @@ export const RemotionRoot: React.FC = () => {{
         try:
             db = TopicDatabase()
             record_id = db.add_completed_topic(
-                movie_title=self.movie,
-                topic_title=self.topic,
-                video_type="SHORT_45_SEC",
-                output_path=str(self.master_8k_file if self.master_8k_file.exists() else self.master_1080p_file),
-                notes=f"Produced via MovieBreakdownOrchestrator ({self.slug})"
+                topic_slug=self.slug,
+                movie_name=self.movie,
+                film_cluster="CINEMA_DECODED",
+                title=f"{self.movie} — {self.topic}",
+                hook=self.topic,
+                core_thesis=f"Analysis of {self.topic} in {self.movie}",
+                category_lens="MOVIE_BREAKDOWN",
             )
             print(f"✅ Topic registered in TopicDatabase: ID #{record_id}")
         except Exception as e:

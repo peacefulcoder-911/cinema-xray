@@ -1,0 +1,103 @@
+{
+  "movie": "The Truman Show",
+  "topic": "Why Truman's Wife Acts Like a TV Commercial",
+  "slug": "truman-wife-tv-commercial",
+  "script_sha256": "c0633c48a1ab6613ef55009ccb176f7fdd05ea585a6ea78993c2330ff07b252b",
+  "created_at": "2026-11-21T06:02:56Z",
+  "updated_at": "2026-11-21T06:07:33Z",
+  "completed_stages": [
+    "STAGE_01_RESEARCH",
+    "STAGE_02_AUDIO",
+    "STAGE_03_SUBTITLES",
+    "STAGE_04_STORYBOARD",
+    "STAGE_05_ASSETS",
+    "STAGE_06_REMOTION",
+    "STAGE_07_RENDER_1080P",
+    "STAGE_08_UPSCALE_8K",
+    "STAGE_09_THUMBNAIL",
+    "STAGE_10_QC",
+    "STAGE_11_REGISTRATION"
+  ],
+  "stage_timings": {
+    "STAGE_01_RESEARCH": 0.0,
+    "STAGE_02_AUDIO": 5.36,
+    "STAGE_03_SUBTITLES": 22.42,
+    "STAGE_04_STORYBOARD": 0.0,
+    "STAGE_05_ASSETS": 0.03,
+    "STAGE_06_REMOTION": 0.0,
+    "STAGE_07_RENDER_1080P": 60.31,
+    "STAGE_08_UPSCALE_8K": 123.28,
+    "STAGE_09_THUMBNAIL": 0.23,
+    "STAGE_10_QC": 3.04,
+    "STAGE_11_REGISTRATION": 0.01
+  },
+  "paths": {
+    "project_dir": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial",
+    "script_file": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/script/approved_script.txt",
+    "master_audio": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/assets/narration/master_narration.wav",
+    "subtitles_ass": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/subtitles.ass",
+    "subtitles_json": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/subtitles.json",
+    "scene_plan": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/scene_plan.json",
+    "master_1080p": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/output/cinema_xray_truman-wife-tv-commercial_1080p.mp4",
+    "master_8k": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/output/cinema_xray_truman-wife-tv-commercial_8k.mp4",
+    "thumbnail": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/output/thumbnail_truman-wife-tv-commercial.jpg"
+  },
+  "qc_metrics": {
+    "movie": "The Truman Show",
+    "topic": "Why Truman's Wife Acts Like a TV Commercial",
+    "duration_sec": 42.0,
+    "dimensions": "1080x1920",
+    "codec": "h264",
+    "aspect_ratio": "9:16 Vertical",
+    "audio_max_volume_db": -5.2,
+    "audio_mean_volume_db": -22.1,
+    "clipping_detected": false,
+    "forbidden_sfx_detected": false,
+    "framing_compliance": "70% Active Cinematic Viewport (1080x1344 @ Y=288)",
+    "subtitle_compliance": "Arc Reactor Cyan HUD (MarginV 360, Futura 74pt)",
+    "status": "PASSED",
+    "qc_frames": [
+      {
+        "name": "qc_01_hook",
+        "timestamp": 0.5,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/output/qc_frames/qc_01_hook.png"
+      },
+      {
+        "name": "qc_02_premise",
+        "timestamp": 5.0,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/output/qc_frames/qc_02_premise.png"
+      },
+      {
+        "name": "qc_03_detail_1",
+        "timestamp": 12.0,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/output/qc_frames/qc_03_detail_1.png"
+      },
+      {
+        "name": "qc_04_midpoint",
+        "timestamp": 20.0,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/output/qc_frames/qc_04_midpoint.png"
+      },
+      {
+        "name": "qc_05_evidence",
+        "timestamp": 28.0,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/output/qc_frames/qc_05_evidence.png"
+      },
+      {
+        "name": "qc_06_detail_2",
+        "timestamp": 36.0,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/output/qc_frames/qc_06_detail_2.png"
+      },
+      {
+        "name": "qc_07_climax",
+        "timestamp": 41.8,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/output/qc_frames/qc_07_climax.png"
+      },
+      {
+        "name": "qc_08_payoff",
+        "timestamp": 41.0,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-truman-wife-tv-commercial/output/qc_frames/qc_08_payoff.png"
+      }
+    ]
+  },
+  "audio_duration": 41.377958
+}

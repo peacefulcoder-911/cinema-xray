@@ -1,0 +1,137 @@
+{
+  "movie": "The Truman Show",
+  "topic": "Why Truman's Wife Acts Like a TV Commercial",
+  "total_duration": 41.98,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "title": "Beat 1: NOTICE",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 0.0,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "NOTICE",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_02",
+      "title": "Beat 2: TRUMAN",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 3.5,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "callout": "TRUMAN",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_03",
+      "title": "Beat 3: SHOW",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 7.0,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "SHOW",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_04",
+      "title": "Beat 4: TRUMAN\u2019S",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 10.5,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "callout": "TRUMAN\u2019S",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_05",
+      "title": "Beat 5: MERYL",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 14.0,
+      "camera_movement": "SLOW_ZOOM_OUT",
+      "callout": "MERYL",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_06",
+      "title": "Beat 6: MOCOCOA",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 17.5,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "MOCOCOA",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_07",
+      "title": "Beat 7: PRODUCT",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 21.0,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "callout": "PRODUCT",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_08",
+      "title": "Beat 8: EVERYTHING",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 24.5,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "EVERYTHING",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_09",
+      "title": "Beat 9: EVERY",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 28.0,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "callout": "EVERY",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_10",
+      "title": "Beat 10: NOTICE",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 31.5,
+      "camera_movement": "SLOW_ZOOM_OUT",
+      "callout": "NOTICE",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_11",
+      "title": "Beat 11: TRUMAN",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 35.0,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "TRUMAN",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_12",
+      "title": "Beat 12: SHOW",
+      "duration_sec": 3.18,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 38.5,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "callout": "SHOW",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_13",
+      "title": "Beat 13: TRUMAN\u2019S",
+      "duration_sec": 3.78,
+      "source_file": "assets/footage/truman-wife-tv-commercial_source.mp4",
+      "source_start": 42.0,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "TRUMAN\u2019S",
+      "framing": "70% active cinematic viewport"
+    }
+  ]
+}

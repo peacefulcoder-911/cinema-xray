@@ -1,0 +1,64 @@
+[Script Info]
+Title: Cinema Decoded Arc Reactor Cyan HUD Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ArcReactorCyanHUD,Futura,74,&H00FFFFFF,&H000000FF,&H000A0A0A,&H80000000,-1,0,0,0,100,100,3,0,1,8,3,2,60,60,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.56,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}NOTICE{\c&H00FFFFFF&} HOW IN
+Dialogue: 0,0:00:00.56,0:00:01.12,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}TRUMAN{\c&H00FFFFFF&} SHOW,
+Dialogue: 0,0:00:01.34,0:00:01.78,ArcReactorCyanHUD,,0,0,0,,TRUMAN'S WIFE,
+Dialogue: 0,0:00:01.84,0:00:02.66,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}MERRILL{\c&H00FFFFFF&} KEEPS ACTING
+Dialogue: 0,0:00:02.66,0:00:03.16,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}LIKE{\c&H00FFFFFF&} SHE'S IN
+Dialogue: 0,0:00:03.16,0:00:03.94,ArcReactorCyanHUD,,0,0,0,,A TV {\c&H00FFFF00&}COMMERCIAL{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:04.38,0:00:04.96,ArcReactorCyanHUD,,0,0,0,,IN THE {\c&H00FFFF00&}MIDDLE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:04.96,0:00:06.00,ArcReactorCyanHUD,,0,0,0,,OF SERIOUS {\c&H00FFFF00&}CONVERSATIONS{\c&H00FFFFFF&},
+Dialogue: 0,0:00:06.28,0:00:06.94,ArcReactorCyanHUD,,0,0,0,,SHE {\c&H00FFFF00&}RANDOMLY{\c&H00FFFFFF&} HOLDS
+Dialogue: 0,0:00:06.94,0:00:07.46,ArcReactorCyanHUD,,0,0,0,,UP A {\c&H00FFFF00&}KITCHEN{\c&H00FFFFFF&}
+Dialogue: 0,0:00:07.46,0:00:07.90,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}KNIFE{\c&H00FFFFFF&} OR A
+Dialogue: 0,0:00:07.90,0:00:08.52,ArcReactorCyanHUD,,0,0,0,,JAR OF {\c&H00FFFF00&}COCOA{\c&H00FFFFFF&},
+Dialogue: 0,0:00:09.16,0:00:09.62,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}SMILES{\c&H00FFFFFF&} AT AN
+Dialogue: 0,0:00:09.62,0:00:10.62,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}INVISIBLE{\c&H00FFFFFF&} CAMERA AND
+Dialogue: 0,0:00:10.62,0:00:11.88,ArcReactorCyanHUD,,0,0,0,,RECITES {\c&H00FFFF00&}MARKETING{\c&H00FFFFFF&} SLOGANS LIKE,
+Dialogue: 0,0:00:12.34,0:00:12.72,ArcReactorCyanHUD,,0,0,0,,WHY DON'T YOU
+Dialogue: 0,0:00:12.72,0:00:13.18,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}LET{\c&H00FFFFFF&} ME FIX
+Dialogue: 0,0:00:13.18,0:00:13.62,ArcReactorCyanHUD,,0,0,0,,YOU {\c&H00FFFF00&}SOME{\c&H00FFFFFF&} OF
+Dialogue: 0,0:00:13.62,0:00:14.66,ArcReactorCyanHUD,,0,0,0,,THIS NEW {\c&H00FFFF00&}MAKOKO{\c&H00FFFFFF&} DRINK?
+Dialogue: 0,0:00:15.20,0:00:15.86,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}TRUMAN{\c&H00FFFFFF&} THINKS SHE'S
+Dialogue: 0,0:00:15.86,0:00:16.50,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}LOSING{\c&H00FFFFFF&} HER MIND,
+Dialogue: 0,0:00:16.82,0:00:17.26,ArcReactorCyanHUD,,0,0,0,,BUT THERE'S A
+Dialogue: 0,0:00:17.26,0:00:18.24,ArcReactorCyanHUD,,0,0,0,,DARK {\c&H00FFFF00&}REASON{\c&H00FFFFFF&} FOR THIS.
+Dialogue: 0,0:00:18.70,0:00:19.28,ArcReactorCyanHUD,,0,0,0,,THE {\c&H00FFFF00&}TRUMAN{\c&H00FFFFFF&} SHOW
+Dialogue: 0,0:00:19.28,0:00:20.30,ArcReactorCyanHUD,,0,0,0,,AIRS 24 {\c&H00FFFF00&}HOURS{\c&H00FFFFFF&}
+Dialogue: 0,0:00:20.30,0:00:20.60,ArcReactorCyanHUD,,0,0,0,,A {\c&H00FFFF00&}DAY{\c&H00FFFFFF&},
+Dialogue: 0,0:00:21.00,0:00:22.20,ArcReactorCyanHUD,,0,0,0,,COMPLETELY {\c&H00FFFF00&}UNINTERRUPTED{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:22.42,0:00:23.02,ArcReactorCyanHUD,,0,0,0,,THAT {\c&H00FFFF00&}MEANS{\c&H00FFFFFF&} THERE
+Dialogue: 0,0:00:23.02,0:00:24.20,ArcReactorCyanHUD,,0,0,0,,ARE ZERO {\c&H00FFFF00&}COMMERCIAL{\c&H00FFFFFF&} BREAKS.
+Dialogue: 0,0:00:24.64,0:00:25.04,ArcReactorCyanHUD,,0,0,0,,SO HOW {\c&H00FFFF00&}DOES{\c&H00FFFFFF&}
+Dialogue: 0,0:00:25.04,0:00:25.70,ArcReactorCyanHUD,,0,0,0,,A {\c&H00FFFF00&}BILLION{\c&H00FFFFFF&} DOLLAR
+Dialogue: 0,0:00:25.70,0:00:26.54,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}TELEVISION{\c&H00FFFFFF&} SHOW MAKE
+Dialogue: 0,0:00:26.54,0:00:27.00,ArcReactorCyanHUD,,0,0,0,,ITS {\c&H00FFFF00&}MONEY{\c&H00FFFFFF&}?
+Dialogue: 0,0:00:27.42,0:00:28.14,ArcReactorCyanHUD,,0,0,0,,PRODUCT {\c&H00FFFF00&}PLACEMENT{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:28.14,0:00:29.74,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}EVERYTHING{\c&H00FFFFFF&} INSIDE TRUMAN'S
+Dialogue: 0,0:00:29.74,0:00:30.14,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}WORLD{\c&H00FFFFFF&} IS FOR
+Dialogue: 0,0:00:30.14,0:00:30.62,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}SALE{\c&H00FFFFFF&} IN THE
+Dialogue: 0,0:00:30.62,0:00:31.54,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}OFFICIAL{\c&H00FFFFFF&} SHOW CATALOG.
+Dialogue: 0,0:00:32.18,0:00:32.86,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}MERRILL{\c&H00FFFFFF&} ISN'T JUST
+Dialogue: 0,0:00:32.86,0:00:33.52,ArcReactorCyanHUD,,0,0,0,,TRUMAN'S WIFE.
+Dialogue: 0,0:00:33.80,0:00:34.26,ArcReactorCyanHUD,,0,0,0,,SHE'S A PAID
+Dialogue: 0,0:00:34.26,0:00:35.56,ArcReactorCyanHUD,,0,0,0,,ACTOR WORKING ON {\c&H00FFFF00&}COMMISSION{\c&H00FFFFFF&}.
+Dialogue: 0,0:00:36.10,0:00:36.74,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}EVERY{\c&H00FFFFFF&} TIME SHE
+Dialogue: 0,0:00:36.74,0:00:37.12,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}HOLDS{\c&H00FFFFFF&} UP A
+Dialogue: 0,0:00:37.12,0:00:37.70,ArcReactorCyanHUD,,0,0,0,,{\c&H00FFFF00&}PRODUCT{\c&H00FFFFFF&} OF THE
+Dialogue: 0,0:00:37.70,0:00:38.22,ArcReactorCyanHUD,,0,0,0,,HIDDEN {\c&H00FFFF00&}CAMERAS{\c&H00FFFFFF&},
+Dialogue: 0,0:00:38.52,0:00:39.36,ArcReactorCyanHUD,,0,0,0,,SHE'S {\c&H00FFFF00&}LITERALLY{\c&H00FFFFFF&} RUNNING
+Dialogue: 0,0:00:39.36,0:00:39.94,ArcReactorCyanHUD,,0,0,0,,AN {\c&H00FFFF00&}AD{\c&H00FFFFFF&} TO
+Dialogue: 0,0:00:39.94,0:00:40.70,ArcReactorCyanHUD,,0,0,0,,PAY FOR THE {\c&H00FFFF00&}BROADCAST{\c&H00FFFFFF&}.
