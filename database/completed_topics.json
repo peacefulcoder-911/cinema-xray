@@ -1,8 +1,24 @@
 {
   "database_version": "1.0",
-  "total_completed": 31,
-  "last_updated": "2026-11-21T11:37:33.129228",
+  "total_completed": 32,
+  "last_updated": "2026-11-21T14:14:13.109695",
   "topics": [
+    {
+      "id": 37,
+      "topic_slug": "fight-club-narrator-no-name",
+      "movie_name": "Fight Club",
+      "film_cluster": "CINEMA_DECODED",
+      "title": "Fight Club \u2014 The Real Reason the Narrator Never Has a Name",
+      "hook": "The Real Reason the Narrator Never Has a Name",
+      "core_thesis": "Analysis of The Real Reason the Narrator Never Has a Name in Fight Club",
+      "category_lens": "MOVIE_BREAKDOWN",
+      "youtube_video_id": null,
+      "youtube_url": null,
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
+      "status": "COMPLETED",
+      "created_at": "2026-11-21 08:44:13"
+    },
     {
       "id": 36,
       "topic_slug": "truman-wife-tv-commercial",

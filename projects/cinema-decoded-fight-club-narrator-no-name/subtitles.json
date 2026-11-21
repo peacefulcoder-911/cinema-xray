@@ -1,0 +1,317 @@
+{
+  "cards": [
+    {
+      "start": 0.0,
+      "end": 0.54,
+      "text": "NOTICE HOW IN",
+      "highlight": "NOTICE"
+    },
+    {
+      "start": 0.54,
+      "end": 0.96,
+      "text": "FIGHT CLUB,",
+      "highlight": "FIGHT"
+    },
+    {
+      "start": 1.14,
+      "end": 1.98,
+      "text": "EDWARD NORTON'S CHARACTER",
+      "highlight": "CHARACTER"
+    },
+    {
+      "start": 1.98,
+      "end": 3.16,
+      "text": "NEVER ACTUALLY HAS",
+      "highlight": "ACTUALLY"
+    },
+    {
+      "start": 3.16,
+      "end": 3.52,
+      "text": "A NAME?",
+      "highlight": "NAME"
+    },
+    {
+      "start": 4.06,
+      "end": 5.12,
+      "text": "THROUGHOUT THE ENTIRE MOVIE,",
+      "highlight": "THROUGHOUT"
+    },
+    {
+      "start": 5.36,
+      "end": 6.0,
+      "text": "NOBODY EVER CALLS",
+      "highlight": "NOBODY"
+    },
+    {
+      "start": 6.0,
+      "end": 6.4,
+      "text": "HIM BY HIS",
+      "highlight": "HIM"
+    },
+    {
+      "start": 6.4,
+      "end": 6.8,
+      "text": "REAL NAME.",
+      "highlight": "REAL"
+    },
+    {
+      "start": 7.28,
+      "end": 7.74,
+      "text": "IN THE SCRIPT,",
+      "highlight": "SCRIPT"
+    },
+    {
+      "start": 7.92,
+      "end": 8.58,
+      "text": "HE'S SIMPLY CREDITED",
+      "highlight": "CREDITED"
+    },
+    {
+      "start": 8.58,
+      "end": 9.54,
+      "text": "AS THE NARRATOR.",
+      "highlight": "NARRATOR"
+    },
+    {
+      "start": 10.28,
+      "end": 10.9,
+      "text": "NOW, A LOT",
+      "highlight": "NOW"
+    },
+    {
+      "start": 10.9,
+      "end": 11.42,
+      "text": "OF PEOPLE THINK",
+      "highlight": "PEOPLE"
+    },
+    {
+      "start": 11.42,
+      "end": 11.88,
+      "text": "HIS NAME IS",
+      "highlight": "NAME"
+    },
+    {
+      "start": 11.88,
+      "end": 12.58,
+      "text": "JACK BECAUSE HE",
+      "highlight": "BECAUSE"
+    },
+    {
+      "start": 12.58,
+      "end": 13.58,
+      "text": "KEEPS SAYING LINES LIKE,",
+      "highlight": "SAYING"
+    },
+    {
+      "start": 14.04,
+      "end": 14.68,
+      "text": "I AM JACK'S",
+      "highlight": "JACKS"
+    },
+    {
+      "start": 14.68,
+      "end": 15.26,
+      "text": "SMIRKING REVENGE.",
+      "highlight": "SMIRKING"
+    },
+    {
+      "start": 15.9,
+      "end": 16.52,
+      "text": "I AM JACK'S",
+      "highlight": "JACKS"
+    },
+    {
+      "start": 16.52,
+      "end": 16.96,
+      "text": "COLD SWEAT.",
+      "highlight": "SWEAT"
+    },
+    {
+      "start": 17.52,
+      "end": 18.1,
+      "text": "BUT JACK ISN'T",
+      "highlight": "JACK"
+    },
+    {
+      "start": 18.1,
+      "end": 18.78,
+      "text": "HIS NAME AT ALL.",
+      "highlight": "NAME"
+    },
+    {
+      "start": 19.02,
+      "end": 19.52,
+      "text": "HE'S JUST READING",
+      "highlight": "READING"
+    },
+    {
+      "start": 19.52,
+      "end": 20.54,
+      "text": "OLD MAGAZINE ARTICLES",
+      "highlight": "MAGAZINE"
+    },
+    {
+      "start": 20.54,
+      "end": 21.18,
+      "text": "WRITTEN FROM THE",
+      "highlight": "WRITTEN"
+    },
+    {
+      "start": 21.18,
+      "end": 22.36,
+      "text": "PERSPECTIVE OF HUMAN ORGANS.",
+      "highlight": "PERSPECTIVE"
+    },
+    {
+      "start": 22.82,
+      "end": 23.3,
+      "text": "SO WHY DID",
+      "highlight": "WHY"
+    },
+    {
+      "start": 23.3,
+      "end": 24.16,
+      "text": "DAVID FINCHER REFUSE",
+      "highlight": "FINCHER"
+    },
+    {
+      "start": 24.16,
+      "end": 24.6,
+      "text": "TO GIVE HIM",
+      "highlight": "GIVE"
+    },
+    {
+      "start": 24.6,
+      "end": 24.86,
+      "text": "A NAME?",
+      "highlight": "NAME"
+    },
+    {
+      "start": 25.32,
+      "end": 26.16,
+      "text": "BECAUSE HIS CHARACTER",
+      "highlight": "CHARACTER"
+    },
+    {
+      "start": 26.16,
+      "end": 27.24,
+      "text": "HAS COMPLETELY ERASED",
+      "highlight": "COMPLETELY"
+    },
+    {
+      "start": 27.24,
+      "end": 28.04,
+      "text": "HIS OWN IDENTITY.",
+      "highlight": "IDENTITY"
+    },
+    {
+      "start": 28.42,
+      "end": 29.14,
+      "text": "HE'S AN ANONYMOUS",
+      "highlight": "ANONYMOUS"
+    },
+    {
+      "start": 29.14,
+      "end": 30.08,
+      "text": "CORPORATE DRONE WHO",
+      "highlight": "CORPORATE"
+    },
+    {
+      "start": 30.08,
+      "end": 30.86,
+      "text": "DEFINED HIS ENTIRE",
+      "highlight": "DEFINED"
+    },
+    {
+      "start": 30.86,
+      "end": 32.78,
+      "text": "EXISTENCE THROUGH IKEA CATALOGS,",
+      "highlight": "EXISTENCE"
+    },
+    {
+      "start": 33.06,
+      "end": 33.72,
+      "text": "COFFEE TABLES,",
+      "highlight": "COFFEE"
+    },
+    {
+      "start": 33.98,
+      "end": 35.14,
+      "text": "AND CONSUMER BRANDS.",
+      "highlight": "CONSUMER"
+    },
+    {
+      "start": 35.56,
+      "end": 36.28,
+      "text": "HE FELT SO",
+      "highlight": "FELT"
+    },
+    {
+      "start": 36.28,
+      "end": 37.5,
+      "text": "COMPLETELY INVISIBLE THAT",
+      "highlight": "COMPLETELY"
+    },
+    {
+      "start": 37.5,
+      "end": 38.34,
+      "text": "HIS MIND LITERALLY",
+      "highlight": "LITERALLY"
+    },
+    {
+      "start": 38.34,
+      "end": 39.08,
+      "text": "SPLIT IN TWO",
+      "highlight": "SPLIT"
+    },
+    {
+      "start": 39.08,
+      "end": 39.6,
+      "text": "TO SURVIVE.",
+      "highlight": "SURVIVE"
+    },
+    {
+      "start": 40.18,
+      "end": 41.02,
+      "text": "THE NARRATOR DOESN'T",
+      "highlight": "NARRATOR"
+    },
+    {
+      "start": 41.02,
+      "end": 41.42,
+      "text": "HAVE A NAME",
+      "highlight": "HAVE"
+    },
+    {
+      "start": 41.42,
+      "end": 41.94,
+      "text": "BECAUSE HE GAVE",
+      "highlight": "BECAUSE"
+    },
+    {
+      "start": 41.94,
+      "end": 43.52,
+      "text": "ALL HIS CONFIDENCE, COURAGE,",
+      "highlight": "CONFIDENCE"
+    },
+    {
+      "start": 43.76,
+      "end": 44.3,
+      "text": "AND FREEDOM TO",
+      "highlight": "FREEDOM"
+    },
+    {
+      "start": 44.3,
+      "end": 44.88,
+      "text": "SOMEONE ELSE,",
+      "highlight": "SOMEONE"
+    },
+    {
+      "start": 45.26,
+      "end": 45.94,
+      "text": "TYLER DURDEN.",
+      "highlight": "DURDEN"
+    }
+  ],
+  "total_cards": 52
+}

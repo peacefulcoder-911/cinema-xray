@@ -1,0 +1,147 @@
+{
+  "movie": "Fight Club",
+  "topic": "The Real Reason the Narrator Never Has a Name",
+  "total_duration": 46.95,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "title": "Beat 1: NOTICE",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 0.0,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "NOTICE",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_02",
+      "title": "Beat 2: FIGHT",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 3.5,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "callout": "FIGHT",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_03",
+      "title": "Beat 3: CLUB",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 7.0,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "CLUB",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_04",
+      "title": "Beat 4: EDWARD",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 10.5,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "callout": "EDWARD",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_05",
+      "title": "Beat 5: NORTON\u2019S",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 14.0,
+      "camera_movement": "SLOW_ZOOM_OUT",
+      "callout": "NORTON\u2019S",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_06",
+      "title": "Beat 6: THROUGHOUT",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 17.5,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "THROUGHOUT",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_07",
+      "title": "Beat 7: NARRATOR",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 21.0,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "callout": "NARRATOR",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_08",
+      "title": "Beat 8: JACK",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 24.5,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "JACK",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_09",
+      "title": "Beat 9: JACK\u2019S",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 28.0,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "callout": "JACK\u2019S",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_10",
+      "title": "Beat 10: HE\u2019S",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 31.5,
+      "camera_movement": "SLOW_ZOOM_OUT",
+      "callout": "HE\u2019S",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_11",
+      "title": "Beat 11: DAVID",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 35.0,
+      "camera_movement": "SLOW_PUSH_IN",
+      "callout": "DAVID",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_12",
+      "title": "Beat 12: FINCHER",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 38.5,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "callout": "FINCHER",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_13",
+      "title": "Beat 13: BECAUSE",
+      "duration_sec": 3.31,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 42.0,
+      "camera_movement": "FAST_ZOOM",
+      "callout": "BECAUSE",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_14",
+      "title": "Beat 14: IKEA",
+      "duration_sec": 3.91,
+      "source_file": "assets/footage/fight-club-narrator-no-name_source.mp4",
+      "source_start": 45.5,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "callout": "IKEA",
+      "framing": "70% active cinematic viewport"
+    }
+  ]
+}
