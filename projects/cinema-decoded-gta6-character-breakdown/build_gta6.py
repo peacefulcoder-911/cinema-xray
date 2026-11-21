@@ -289,7 +289,7 @@ def build_gta6_short():
 
     # STAGE 6: Extract 8 QC Verification Frames
     timer.start("6. Extracting 8 QC Verification Keyframes")
-    sample_points = [2.0, 5.0, 9.0, 14.0, 20.0, 26.0, 33.0, 39.0]
+    sample_points = [2.0, 6.0, 9.0, 15.0, 25.0, 35.0, 45.0, 56.0]
     qc_frame_paths = []
     for idx, t in enumerate(sample_points, 1):
         qpath = str(QC_DIR / f"qc_frame_{idx:02d}_{int(t)}s.jpg")

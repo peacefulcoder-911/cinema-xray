@@ -291,7 +291,7 @@ def build_sunrise_short():
 
     # STAGE 6: Extract 8 QC Verification Frames
     timer.start("6. Extracting 8 QC Verification Keyframes")
-    sample_points = [2.0, 5.0, 9.0, 14.0, 20.0, 27.0, 34.0, 41.0]
+    sample_points = [2.0, 8.0, 13.0, 23.0, 31.0, 41.0, 50.0, 60.0]
     qc_frame_paths = []
     for idx, t in enumerate(sample_points, 1):
         qpath = str(QC_DIR / f"qc_frame_{idx:02d}_{int(t)}s.jpg")
