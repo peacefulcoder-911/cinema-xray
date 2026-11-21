@@ -1,0 +1,23 @@
+{
+  "status": "SCHEDULED",
+  "publish_at_iso": "2026-11-21T07:00:00Z",
+  "local_time_desc": "12:30 PM IST (Saturday, Nov 21, 2026)",
+  "video_id": "PEBLrRW11kM",
+  "youtube_url": "https://youtu.be/PEBLrRW11kM",
+  "title": "Why Truman's Wife Acts Like a TV Commercial \ud83e\udd2f #shorts",
+  "video_file": "projects/cinema-decoded-truman-wife-tv-commercial/output/cinema_xray_truman-wife-tv-commercial_8k.mp4",
+  "thumbnail_file": "projects/cinema-decoded-truman-wife-tv-commercial/output/thumbnail_truman-wife-tv-commercial.jpg",
+  "response": {
+    "id": "PEBLrRW11kM",
+    "video_id": "PEBLrRW11kM",
+    "url": "https://youtu.be/PEBLrRW11kM",
+    "status": "private",
+    "channel": {
+      "title": "Cinema X-Ray",
+      "id": "UCglv3tAGqrOIoY03wCTVxgg",
+      "subscribers": "1350",
+      "url": "https://www.youtube.com/channel/UCglv3tAGqrOIoY03wCTVxgg"
+    },
+    "thumbnail_set": true
+  }
+}
