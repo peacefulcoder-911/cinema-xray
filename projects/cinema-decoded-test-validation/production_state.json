@@ -1,0 +1,220 @@
+{
+  "project_name": "cinema-decoded-test-validation",
+  "current_state": "COMPLETED",
+  "updated_at": "2026-11-22T04:15:45.678155+00:00",
+  "metadata": {},
+  "errors": [],
+  "history": [
+    {
+      "from_state": "INIT",
+      "to_state": "IDEA_SELECTED",
+      "timestamp": "2026-11-22T04:15:39.556518+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "IDEA_SELECTED",
+      "to_state": "TOPIC_RESERVED",
+      "timestamp": "2026-11-22T04:15:39.558804+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": "Topic reserved atomically."
+    },
+    {
+      "from_state": "TOPIC_RESERVED",
+      "to_state": "RESEARCH_STARTED",
+      "timestamp": "2026-11-22T04:15:39.559080+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "RESEARCH_STARTED",
+      "to_state": "RESEARCH_DOSSIER_COMPLETE",
+      "timestamp": "2026-11-22T04:15:39.559454+00:00",
+      "artifacts": [
+        "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-test-validation/research/research_dossier.json"
+      ],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "RESEARCH_DOSSIER_COMPLETE",
+      "to_state": "RESEARCH_VERIFIED",
+      "timestamp": "2026-11-22T04:15:39.559679+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "RESEARCH_VERIFIED",
+      "to_state": "SCRIPT_STARTED",
+      "timestamp": "2026-11-22T04:15:39.559870+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "SCRIPT_STARTED",
+      "to_state": "SCRIPT_DRAFTED",
+      "timestamp": "2026-11-22T04:15:39.560199+00:00",
+      "artifacts": [
+        "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-test-validation/script/approved_script.txt"
+      ],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "SCRIPT_DRAFTED",
+      "to_state": "SCRIPT_EVALUATED",
+      "timestamp": "2026-11-22T04:15:39.560435+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "SCRIPT_EVALUATED",
+      "to_state": "SCRIPT_APPROVED",
+      "timestamp": "2026-11-22T04:15:39.560620+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "SCRIPT_APPROVED",
+      "to_state": "SCENE_PLAN_STARTED",
+      "timestamp": "2026-11-22T04:15:39.560809+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "SCENE_PLAN_STARTED",
+      "to_state": "SCENE_PLAN_COMPLETE",
+      "timestamp": "2026-11-22T04:15:39.561084+00:00",
+      "artifacts": [
+        "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-test-validation/scene_plan.json"
+      ],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "SCENE_PLAN_COMPLETE",
+      "to_state": "SCENE_PLAN_VERIFIED",
+      "timestamp": "2026-11-22T04:15:39.561308+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "SCENE_PLAN_VERIFIED",
+      "to_state": "ASSETS_SOURCED",
+      "timestamp": "2026-11-22T04:15:39.561578+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "ASSETS_SOURCED",
+      "to_state": "ASSETS_VERIFIED",
+      "timestamp": "2026-11-22T04:15:39.756673+00:00",
+      "artifacts": [],
+      "duration_sec": 0.2,
+      "notes": ""
+    },
+    {
+      "from_state": "ASSETS_VERIFIED",
+      "to_state": "AUDIO_GENERATED",
+      "timestamp": "2026-11-22T04:15:39.757187+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "AUDIO_GENERATED",
+      "to_state": "AUDIO_VERIFIED",
+      "timestamp": "2026-11-22T04:15:40.025115+00:00",
+      "artifacts": [
+        "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-test-validation/assets/narration/master_narration.wav"
+      ],
+      "duration_sec": 0.27,
+      "notes": ""
+    },
+    {
+      "from_state": "AUDIO_VERIFIED",
+      "to_state": "SUBTITLES_GENERATED",
+      "timestamp": "2026-11-22T04:15:40.025794+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "SUBTITLES_GENERATED",
+      "to_state": "SUBTITLES_VERIFIED",
+      "timestamp": "2026-11-22T04:15:40.026406+00:00",
+      "artifacts": [
+        "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-test-validation/subtitles.ass"
+      ],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "SUBTITLES_VERIFIED",
+      "to_state": "COMPOSITION_READY",
+      "timestamp": "2026-11-22T04:15:40.026710+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "COMPOSITION_READY",
+      "to_state": "VIDEO_RENDERED",
+      "timestamp": "2026-11-22T04:15:43.456633+00:00",
+      "artifacts": [
+        "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-test-validation/output/cinema_xray_inception-real-totem-wedding-ring_1080p.mp4",
+        "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-test-validation/output/thumbnail_inception-real-totem-wedding-ring.jpg"
+      ],
+      "duration_sec": 3.43,
+      "notes": ""
+    },
+    {
+      "from_state": "VIDEO_RENDERED",
+      "to_state": "VIDEO_QC_PASSED",
+      "timestamp": "2026-11-22T04:15:45.674955+00:00",
+      "artifacts": [
+        "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-test-validation/output/qc_report.json"
+      ],
+      "duration_sec": 2.22,
+      "notes": ""
+    },
+    {
+      "from_state": "VIDEO_QC_PASSED",
+      "to_state": "METADATA_GENERATED",
+      "timestamp": "2026-11-22T04:15:45.676328+00:00",
+      "artifacts": [
+        "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-test-validation/metadata.json"
+      ],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "METADATA_GENERATED",
+      "to_state": "VIDEO_UPLOADED",
+      "timestamp": "2026-11-22T04:15:45.677582+00:00",
+      "artifacts": [
+        "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-test-validation/upload_record.json"
+      ],
+      "duration_sec": 0.0,
+      "notes": ""
+    },
+    {
+      "from_state": "VIDEO_UPLOADED",
+      "to_state": "COMPLETED",
+      "timestamp": "2026-11-22T04:15:45.678146+00:00",
+      "artifacts": [],
+      "duration_sec": 0.0,
+      "notes": "Full end-to-end production certified."
+    }
+  ]
+}

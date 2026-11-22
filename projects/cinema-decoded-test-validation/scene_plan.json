@@ -1,0 +1,71 @@
+{
+  "movie": "Inception",
+  "topic": "Why The Spinning Top Was Never Dom Cobb's Real Totem",
+  "total_duration": 32.0,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "title": "Beat 1: THE TOTEM LIE",
+      "duration_sec": 4.0,
+      "source_start": 0.0,
+      "camera_movement": "SLOW_PUSH_IN",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_02",
+      "title": "Beat 2: MAL'S RULE",
+      "duration_sec": 4.0,
+      "source_start": 4.0,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_03",
+      "title": "Beat 3: LOOK AT THE HAND",
+      "duration_sec": 4.0,
+      "source_start": 8.0,
+      "camera_movement": "FAST_ZOOM",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_04",
+      "title": "Beat 4: REAL WORLD BARE",
+      "duration_sec": 4.0,
+      "source_start": 12.0,
+      "camera_movement": "SLOW_PAN_RIGHT",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_05",
+      "title": "Beat 5: DREAM RING REVEAL",
+      "duration_sec": 4.0,
+      "source_start": 16.0,
+      "camera_movement": "STATIC_HOLD",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_06",
+      "title": "Beat 6: AIRPORT ARRIVAL",
+      "duration_sec": 4.0,
+      "source_start": 20.0,
+      "camera_movement": "SLOW_PUSH_IN",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_07",
+      "title": "Beat 7: TRULY AWAKE",
+      "duration_sec": 4.0,
+      "source_start": 24.0,
+      "camera_movement": "SLOW_PAN_LEFT",
+      "framing": "70% active cinematic viewport"
+    },
+    {
+      "id": "scene_08",
+      "title": "Beat 8: NOLAN'S MISDIRECTION",
+      "duration_sec": 4.0,
+      "source_start": 28.0,
+      "camera_movement": "FAST_ZOOM",
+      "framing": "70% active cinematic viewport"
+    }
+  ]
+}

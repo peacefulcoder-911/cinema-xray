@@ -1,0 +1,24 @@
+{
+  "status": "UPLOADED",
+  "timestamp": "2026-11-22T04:09:17.989165+00:00",
+  "video_id": "mock_eeb6de97e92",
+  "youtube_url": "https://youtu.be/mock_eeb6de97e92",
+  "title": "The Dark Psychology of Multiverse Incursion Disaster in Avengers: Doomsday #shorts",
+  "privacy_status": "private",
+  "video_file": "projects/cinema-decoded-avengers-doomsday-incursion/output/cinema_xray_avengers-doomsday-incursion_8k.mp4",
+  "thumbnail_file": "projects/cinema-decoded-avengers-doomsday-incursion/output/thumbnail_avengers-doomsday-incursion.jpg",
+  "response": {
+    "id": "mock_eeb6de97e92",
+    "video_id": "mock_eeb6de97e92",
+    "url": "https://youtu.be/mock_eeb6de97e92",
+    "status": "private",
+    "channel": {
+      "title": "Cinema X-Ray (Test Environment)",
+      "id": "UC_TEST_CINEMA_XRAY",
+      "subscribers": "1000",
+      "url": "https://www.youtube.com/channel/UC_TEST_CINEMA_XRAY"
+    },
+    "thumbnail_set": true,
+    "is_mock": true
+  }
+}

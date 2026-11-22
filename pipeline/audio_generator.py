@@ -227,21 +227,33 @@ Style: Flat affect, minimal pitch variation, steady and grounded delivery. Zero 
     return
 
 
-def _apply_loudness_normalization(input_wav: str, output_wav: str, target_peak_db: float = -1.0) -> None:
+def _apply_loudness_normalization(input_wav: str, output_wav: str, target_peak_db: float = -1.5) -> None:
     """
     Standard Cinema Decoded audio mastering:
-    Uses static linear peak gain normalization (target peak -1.0 dB to -1.5 dB).
-    Avoids dynamic AGC compressor loudnorm which boosts silence floors and causes
-    unwanted 'whooshing' or 'breathing' background noise during speech pauses.
-    Outputs clean 48kHz 16-bit mono PCM WAV.
+    1. Applies broadcast sweetening EQ (75Hz HPF, 320Hz notch cut, 9kHz air boost).
+    2. Measures post-EQ peak volume via volumedetect.
+    3. Applies linear gain to target peak -1.5 dBFS (strictly below -1.0 dBFS true peak).
+    4. Outputs clean 48kHz 16-bit mono PCM WAV with zero digital clipping.
     """
     parent_dir = os.path.dirname(output_wav)
     if parent_dir:
         os.makedirs(parent_dir, exist_ok=True)
 
-    # 1. Measure current max_volume via FFmpeg volumedetect
+    temp_eq = str(Path(output_wav).parent / f"temp_eq_{Path(output_wav).stem}.wav")
+    # Step 1: Apply broadcast vocal sweetening EQ
+    cmd_eq = [
+        "ffmpeg", "-y", "-v", "quiet",
+        "-i", input_wav,
+        "-af", "highpass=f=75,equalizer=f=320:t=q:w=1.2:g=-2.5,equalizer=f=9000:t=h:g=2.0",
+        "-ar", "48000",
+        "-c:a", "pcm_s16le",
+        temp_eq
+    ]
+    subprocess.run(cmd_eq, check=True)
+
+    # Step 2: Measure post-EQ peak volume via FFmpeg volumedetect
     cmd_measure = [
-        "ffmpeg", "-i", input_wav,
+        "ffmpeg", "-i", temp_eq,
         "-af", "volumedetect",
         "-f", "null", "-"
     ]
@@ -264,16 +276,18 @@ def _apply_loudness_normalization(input_wav: str, output_wav: str, target_peak_d
         gain_db = target_peak_db - max_vol
         gain_db = max(-12.0, min(12.0, gain_db))
 
-    print(f"[Audio Mastering] Measured max volume: {max_vol} dB -> Applying linear gain: {gain_db:+.1f} dB (Zero AGC pumping, broadcast vocal EQ)")
+    print(f"[Audio Mastering] Measured post-EQ max volume: {max_vol} dB -> Applying linear gain: {gain_db:+.1f} dB (Zero AGC pumping)")
     cmd = [
         "ffmpeg", "-y", "-v", "quiet",
-        "-i", input_wav,
-        "-af", f"highpass=f=75,equalizer=f=320:t=q:w=1.2:g=-2.5,equalizer=f=9000:t=h:g=2.0,volume={gain_db:.2f}dB",
+        "-i", temp_eq,
+        "-af", f"volume={gain_db:.2f}dB",
         "-ar", "48000",
         "-c:a", "pcm_s16le",
         output_wav
     ]
     subprocess.run(cmd, check=True)
+    if os.path.exists(temp_eq):
+        os.remove(temp_eq)
 
 
 def verify_audio_file(audio_path: str, video_format: str = "SHORT_45_SEC") -> float:

@@ -1,0 +1,24 @@
+{
+  "status": "UPLOADED",
+  "timestamp": "2026-11-22T04:15:45.677357+00:00",
+  "video_id": "mock_687bf6d1c3d",
+  "youtube_url": "https://youtu.be/mock_687bf6d1c3d",
+  "title": "The Dark Psychology of Spinning Top Was Never Dom Cobb's Real Totem in Inception #shorts",
+  "privacy_status": "private",
+  "video_file": "projects/cinema-decoded-test-validation/output/cinema_xray_inception-real-totem-wedding-ring_1080p.mp4",
+  "thumbnail_file": "projects/cinema-decoded-test-validation/output/thumbnail_inception-real-totem-wedding-ring.jpg",
+  "response": {
+    "id": "mock_687bf6d1c3d",
+    "video_id": "mock_687bf6d1c3d",
+    "url": "https://youtu.be/mock_687bf6d1c3d",
+    "status": "private",
+    "channel": {
+      "title": "Cinema X-Ray (Test Environment)",
+      "id": "UC_TEST_CINEMA_XRAY",
+      "subscribers": "1000",
+      "url": "https://www.youtube.com/channel/UC_TEST_CINEMA_XRAY"
+    },
+    "thumbnail_set": true,
+    "is_mock": true
+  }
+}

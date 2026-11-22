@@ -13,7 +13,7 @@ import json
 import sqlite3
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
-from datetime import datetime
+from datetime import datetime, timedelta
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DB_DIR = REPO_ROOT / "database"
@@ -52,9 +52,144 @@ class TopicDatabase:
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             );
             """)
+            conn.execute("""
+            CREATE TABLE IF NOT EXISTS topic_reservations (
+                topic_slug TEXT PRIMARY KEY,
+                movie_name TEXT NOT NULL,
+                title TEXT NOT NULL,
+                worker_id TEXT NOT NULL,
+                reserved_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                expires_at TIMESTAMP NOT NULL
+            );
+            """)
             conn.execute("CREATE INDEX IF NOT EXISTS idx_topics_movie ON completed_topics(movie_name);")
             conn.execute("CREATE INDEX IF NOT EXISTS idx_topics_slug ON completed_topics(topic_slug);")
+            conn.execute("CREATE INDEX IF NOT EXISTS idx_reservations_expires ON topic_reservations(expires_at);")
             conn.commit()
+
+    def reserve_topic(
+        self,
+        topic_slug: str,
+        movie_name: str,
+        title: str,
+        worker_id: str = "worker_default",
+        timeout_minutes: int = 120
+    ) -> bool:
+        """
+        Atomically reserve a topic for a production worker.
+        Returns True if reservation was acquired, False if already completed or actively reserved.
+        """
+        clean_slug = topic_slug.strip().lower()
+        now = datetime.utcnow()
+        expires = now + timedelta(minutes=timeout_minutes)
+
+        with sqlite3.connect(str(self.db_path)) as conn:
+            cur = conn.cursor()
+            # 1. Prune expired reservations
+            cur.execute("DELETE FROM topic_reservations WHERE expires_at < ?;", (now.isoformat(),))
+
+            # 2. Check if already completed
+            cur.execute("SELECT id FROM completed_topics WHERE topic_slug = ?;", (clean_slug,))
+            if cur.fetchone():
+                return False
+
+            # 3. Check if currently reserved by an unexpired worker
+            cur.execute("SELECT worker_id FROM topic_reservations WHERE topic_slug = ?;", (clean_slug,))
+            existing = cur.fetchone()
+            if existing and existing[0] != worker_id:
+                return False
+
+            # 4. Insert or refresh reservation
+            cur.execute("""
+            INSERT INTO topic_reservations (topic_slug, movie_name, title, worker_id, reserved_at, expires_at)
+            VALUES (?, ?, ?, ?, ?, ?)
+            ON CONFLICT(topic_slug) DO UPDATE SET
+                worker_id = excluded.worker_id,
+                reserved_at = excluded.reserved_at,
+                expires_at = excluded.expires_at;
+            """, (clean_slug, movie_name, title, worker_id, now.isoformat(), expires.isoformat()))
+            conn.commit()
+            return True
+
+    def release_reservation(self, topic_slug: str, worker_id: Optional[str] = None):
+        """Release a topic reservation upon failure or intentional cancellation."""
+        clean_slug = topic_slug.strip().lower()
+        with sqlite3.connect(str(self.db_path)) as conn:
+            cur = conn.cursor()
+            if worker_id:
+                cur.execute("DELETE FROM topic_reservations WHERE topic_slug = ? AND worker_id = ?;", (clean_slug, worker_id))
+            else:
+                cur.execute("DELETE FROM topic_reservations WHERE topic_slug = ?;", (clean_slug,))
+            conn.commit()
+
+    def is_topic_reserved(self, topic_slug: str) -> bool:
+        """Check if a topic slug is currently reserved and unexpired."""
+        clean_slug = topic_slug.strip().lower()
+        now = datetime.utcnow().isoformat()
+        with sqlite3.connect(str(self.db_path)) as conn:
+            cur = conn.cursor()
+            cur.execute("SELECT worker_id FROM topic_reservations WHERE topic_slug = ? AND expires_at > ?;", (clean_slug, now))
+            return cur.fetchone() is not None
+
+    def get_active_reservations(self) -> List[Dict[str, Any]]:
+        """Retrieve all currently active, unexpired topic reservations."""
+        now = datetime.utcnow().isoformat()
+        with sqlite3.connect(str(self.db_path)) as conn:
+            conn.row_factory = sqlite3.Row
+            cur = conn.cursor()
+            cur.execute("SELECT * FROM topic_reservations WHERE expires_at > ?;", (now,))
+            return [dict(r) for r in cur.fetchall()]
+
+    def select_daily_batch(self, count: int = 2) -> List[Dict[str, Any]]:
+        """
+        Selects N unproduced, unreserved, high-curiosity topics from the scenes catalog,
+        ensuring film diversity (no same-film collisions).
+        """
+        catalog_file = REPO_ROOT / "database" / "cinema_scenes_catalog.json"
+        if not catalog_file.exists():
+            return []
+
+        try:
+            catalog_data = json.loads(catalog_file.read_text(encoding="utf-8"))
+            scenes = catalog_data.get("scenes", [])
+        except Exception:
+            return []
+
+        completed_records = self.get_completed_topics()
+        completed_slugs = {r["topic_slug"].lower() for r in completed_records}
+        completed_movies = {r["movie_name"].lower() for r in completed_records[:count * 2]}  # recent movies
+        reserved_slugs = {r["topic_slug"].lower() for r in self.get_active_reservations()}
+
+        selected = []
+        selected_movies = set()
+
+        for s in scenes:
+            slug = s.get("topic_slug", "").lower()
+            movie = s.get("movie", "")
+            movie_clean = re.sub(r"\s*\(\d{4}\)", "", movie).strip().lower()
+
+            if not slug or slug in completed_slugs or slug in reserved_slugs:
+                continue
+
+            if movie_clean in selected_movies:
+                continue
+
+            # Prioritize movies not recently completed
+            selected.append({
+                "topic_slug": slug,
+                "movie_name": re.sub(r"\s*\(\d{4}\)", "", movie).strip(),
+                "title": s.get("topic", ""),
+                "core_thesis": s.get("core_thesis", ""),
+                "director": s.get("director", ""),
+                "theme": s.get("theme", ""),
+                "scene_description": s.get("scene_description", "")
+            })
+            selected_movies.add(movie_clean)
+
+            if len(selected) >= count:
+                break
+
+        return selected
 
     def seed_initial_history(self):
         """Seed the database with all historic productions if currently empty."""
