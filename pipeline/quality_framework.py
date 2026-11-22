@@ -16,7 +16,7 @@ from enum import Enum
 from pathlib import Path
 from typing import Dict, Any, List, Optional, Tuple, Union
 from dataclasses import dataclass, field, asdict
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 class QualityGateId(str, Enum):
@@ -54,7 +54,7 @@ class GateResult:
     score: Optional[float] = None
     message: str = ""
     metrics: Dict[str, Any] = field(default_factory=dict)
-    timestamp: str = field(default_factory=lambda: datetime.utcnow().isoformat())
+    timestamp: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
 
 
 class QualityGateError(Exception):
@@ -742,7 +742,7 @@ class QualityFramework:
 
         all_passed = all(r.passed for r in self.results.values() if r.critical)
         summary = {
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": datetime.now(timezone.utc).isoformat(),
             "overall_status": "APPROVED_FOR_BROADCAST" if all_passed else "QUALITY_GATE_FAILED",
             "total_gates_checked": len(self.results),
             "critical_failures": sum(1 for r in self.results.values() if r.critical and not r.passed),

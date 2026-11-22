@@ -13,7 +13,7 @@ import json
 import sqlite3
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DB_DIR = REPO_ROOT / "database"
@@ -80,7 +80,7 @@ class TopicDatabase:
         Returns True if reservation was acquired, False if already completed or actively reserved.
         """
         clean_slug = topic_slug.strip().lower()
-        now = datetime.utcnow()
+        now = datetime.now(timezone.utc)
         expires = now + timedelta(minutes=timeout_minutes)
 
         with sqlite3.connect(str(self.db_path)) as conn:
@@ -125,7 +125,7 @@ class TopicDatabase:
     def is_topic_reserved(self, topic_slug: str) -> bool:
         """Check if a topic slug is currently reserved and unexpired."""
         clean_slug = topic_slug.strip().lower()
-        now = datetime.utcnow().isoformat()
+        now = datetime.now(timezone.utc).isoformat()
         with sqlite3.connect(str(self.db_path)) as conn:
             cur = conn.cursor()
             cur.execute("SELECT worker_id FROM topic_reservations WHERE topic_slug = ? AND expires_at > ?;", (clean_slug, now))
@@ -133,7 +133,7 @@ class TopicDatabase:
 
     def get_active_reservations(self) -> List[Dict[str, Any]]:
         """Retrieve all currently active, unexpired topic reservations."""
-        now = datetime.utcnow().isoformat()
+        now = datetime.now(timezone.utc).isoformat()
         with sqlite3.connect(str(self.db_path)) as conn:
             conn.row_factory = sqlite3.Row
             cur = conn.cursor()
