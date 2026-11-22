@@ -1,0 +1,23 @@
+{
+  "status": "SCHEDULED",
+  "publish_at_iso": "2026-11-22T07:00:00Z",
+  "local_time_desc": "12:30 PM IST (Sunday, Nov 22, 2026)",
+  "video_id": "5pm7UT-NsZY",
+  "youtube_url": "https://youtu.be/5pm7UT-NsZY",
+  "title": "The Real Reason Fight Club's Narrator Has No Name \ud83e\udd2f #shorts",
+  "video_file": "projects/cinema-decoded-fight-club-narrator-no-name/output/cinema_xray_fight-club-narrator-no-name_8k.mp4",
+  "thumbnail_file": "projects/cinema-decoded-fight-club-narrator-no-name/output/thumbnail_fight-club-narrator-no-name.jpg",
+  "response": {
+    "id": "5pm7UT-NsZY",
+    "video_id": "5pm7UT-NsZY",
+    "url": "https://youtu.be/5pm7UT-NsZY",
+    "status": "private",
+    "channel": {
+      "title": "Cinema X-Ray",
+      "id": "UCglv3tAGqrOIoY03wCTVxgg",
+      "subscribers": "1350",
+      "url": "https://www.youtube.com/channel/UCglv3tAGqrOIoY03wCTVxgg"
+    },
+    "thumbnail_set": true
+  }
+}
