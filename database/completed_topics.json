@@ -1,8 +1,24 @@
 {
   "database_version": "1.0",
-  "total_completed": 32,
-  "last_updated": "2026-11-22T08:40:31.735610",
+  "total_completed": 33,
+  "last_updated": "2026-11-22T08:51:53.205635",
   "topics": [
+    {
+      "id": 40,
+      "topic_slug": "avengers-doomsday-incursion",
+      "movie_name": "Avengers: Doomsday",
+      "film_cluster": "CINEMA_DECODED",
+      "title": "Avengers: Doomsday \u2014 The Multiverse Incursion Disaster",
+      "hook": "The Multiverse Incursion Disaster",
+      "core_thesis": "Analysis of The Multiverse Incursion Disaster in Avengers: Doomsday",
+      "category_lens": "MOVIE_BREAKDOWN",
+      "youtube_video_id": null,
+      "youtube_url": null,
+      "scheduled_slot": "ANY",
+      "scheduled_time_iso": null,
+      "status": "COMPLETED",
+      "created_at": "2026-11-22 03:21:53"
+    },
     {
       "id": 37,
       "topic_slug": "fight-club-narrator-no-name",

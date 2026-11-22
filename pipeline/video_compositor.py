@@ -206,63 +206,25 @@ def assemble_final_video(
     vf_chain.append(f"ass={ass_subtitle_path}")
     vf_filter = ",".join(vf_chain)
 
-    # 4. Synthesize subtle cinematic tension score & mix with voiceover + diegetic movie clip audio
-    mixed_audio = os.path.join(temp_dir, "mixed_audio.wav")
+    # 4. Prepare pristine master narration audio with smooth outro fade
+    final_audio = os.path.join(temp_dir, "final_audio.wav")
     pad_dur = max(0.0, round(target_master_dur - audio_dur, 2))
-    
-    if diegetic_audio_path and os.path.exists(diegetic_audio_path) and os.path.getsize(diegetic_audio_path) > 1000:
-        print("[Audio Mastering] Integrating Diegetic Movie Audio with Dynamic Sidechain Ducking...")
-        # 4 inputs: 0=sine 52Hz drone, 1=pink noise, 2=vocal audio, 3=diegetic movie audio
-        mix_cmd = [
-            "ffmpeg", "-y",
-            "-f", "lavfi", "-i", f"sine=f=52:d={target_master_dur},volume=0.06,lowpass=f=110",
-            "-f", "lavfi", "-i", f"anoisesrc=d={target_master_dur}:c=pink:r=48000:a=0.012,lowpass=f=350,volume=0.08",
-            "-i", audio_path,
-            "-i", diegetic_audio_path,
-            "-filter_complex",
-            # Prepare vocal with zero-cutoff padding
-            f"[2:a]apad=pad_dur={pad_dur},volume=1.0[vocal];"
-            # Filter diegetic movie audio: remove low rumble (<110Hz) & harsh highs (>4kHz), scale volume
-            f"[3:a]apad=pad_dur={target_master_dur},highpass=f=110,lowpass=f=4000,volume=0.50[diefilt];"
-            # Dynamic Sidechain compression: duck diegetic audio whenever vocal is present
-            f"[diefilt][vocal]sidechaincompress=threshold=0.08:ratio=4.5:attack=15:release=320[ducked_diegetic];"
-            # Combine drone + pink noise
-            f"[0:a][1:a]amix=inputs=2:duration=first:weights=0.5 0.5:normalize=0[sub_bed];"
-            # Mix sub-bass bed with ducked diegetic sound
-            f"[sub_bed][ducked_diegetic]amix=inputs=2:duration=first:weights=0.4 0.7:normalize=0[full_bg];"
-            # Final mix with vocal, smooth outro fade, and broadcast EBU R128 mastering
-            f"[full_bg][vocal]amix=inputs=2:duration=first:weights=0.35 1.0:normalize=0,"
-            f"afade=t=out:st={round(target_master_dur - 0.35, 2)}:d=0.35,"
-            f"loudnorm=I=-14:LRA=7:tp=-1.0[outa]",
-            "-map", "[outa]",
-            "-c:a", "pcm_s16le",
-            mixed_audio
-        ]
-    else:
-        # Standard ambient tension mix without diegetic layer
-        mix_cmd = [
-            "ffmpeg", "-y",
-            "-f", "lavfi", "-i", f"sine=f=52:d={target_master_dur},volume=0.06,lowpass=f=110",
-            "-f", "lavfi", "-i", f"anoisesrc=d={target_master_dur}:c=pink:r=48000:a=0.012,lowpass=f=350,volume=0.08",
-            "-i", audio_path,
-            "-filter_complex",
-            f"[0:a][1:a]amix=inputs=2:duration=first:weights=0.5 0.5:normalize=0[amb];"
-            f"[2:a]apad=pad_dur={pad_dur},volume=1.0[vocal];"
-            f"[amb][vocal]amix=inputs=2:duration=first:weights=0.35 1.0:normalize=0,"
-            f"afade=t=out:st={round(target_master_dur - 0.35, 2)}:d=0.35,"
-            f"loudnorm=I=-14:LRA=7:tp=-1.0[outa]",
-            "-map", "[outa]",
-            "-c:a", "pcm_s16le",
-            mixed_audio
-        ]
-    subprocess.run(mix_cmd, check=True, stdout=subprocess.DEVNULL)
+    print(f"[Audio Mastering] Using pristine master narration ({audio_dur:.2f}s)...")
+    cmd_audio = [
+        "ffmpeg", "-y",
+        "-i", audio_path,
+        "-af", f"apad=pad_dur={pad_dur},afade=t=out:st={round(target_master_dur - 0.35, 2)}:d=0.35",
+        "-c:a", "pcm_s16le",
+        final_audio
+    ]
+    subprocess.run(cmd_audio, check=True, stdout=subprocess.DEVNULL)
 
     # 5. Burn ASS subtitles and output final 1080x1920 MP4
     print(f"Burning in Center Bold Subtitles and exporting 1080p Master ({target_master_dur:.2f}s)... ")
     final_cmd = [
         "ffmpeg", "-y",
         "-i", raw_video,
-        "-i", mixed_audio,
+        "-i", final_audio,
         "-vf", vf_filter,
         "-c:v", "libx264",
         "-preset", "medium",
@@ -273,6 +235,8 @@ def assemble_final_video(
         output_mp4
     ]
     subprocess.run(final_cmd, check=True)
+    print(f"🎉 1080p Cinema X-Ray Video: {output_mp4}")
+    return output_mp4
     print(f"🎉 1080p Cinema X-Ray Video: {output_mp4}")
     return output_mp4
 

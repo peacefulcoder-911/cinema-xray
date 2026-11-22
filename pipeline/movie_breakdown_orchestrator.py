@@ -479,11 +479,12 @@ The approved script addresses: **{self.topic}** in **{self.movie}**.
             # Create synthetic reference footage for local dev/testing
             print("   ⚠️ No existing footage found in library. Creating clean test reference clip...")
             total_dur = self.state.data.get("audio_duration", 45.0) + 5.0
+            clean_movie = self.movie.upper().replace(":", "\\:").replace("'", "").replace("%", "")
             cmd = [
                 "ffmpeg", "-y", "-v", "quiet",
                 "-f", "lavfi",
                 "-i", f"color=c=0x11111e:s=1920x1080:d={total_dur:.1f}",
-                "-vf", f"drawtext=fontfile='{FONT_PATH}':text='{self.movie.upper()}':fontcolor=white@0.8:fontsize=50:x=(w-text_w)/2:y=(h-text_h)/2",
+                "-vf", f"drawtext=fontfile='{FONT_PATH}':text='{clean_movie}':fontcolor=white@0.8:fontsize=50:x=(w-text_w)/2:y=(h-text_h)/2",
                 "-c:v", "libx264", "-pix_fmt", "yuv420p",
                 str(target_source_path)
             ]
@@ -902,66 +903,14 @@ export const RemotionRoot: React.FC = () => {{
             subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL)
             rendered_clips.append(str(out_clip))
 
-        # Extract diegetic movie audio slices from source_video if audio stream exists
-        diegetic_concat_wav = None
-        has_audio = False
-        try:
-            probe_cmd = [
-                "ffprobe", "-v", "error", "-select_streams", "a:0",
-                "-show_entries", "stream=codec_name", "-of", "default=noprint_wrappers=1",
-                str(source_video)
-            ]
-            probe_res = subprocess.run(probe_cmd, capture_output=True, text=True)
-            if "codec_name=" in probe_res.stdout:
-                has_audio = True
-        except Exception:
-            has_audio = False
-
-        if has_audio:
-            print("🔊 Extracting diegetic movie audio slices from source footage...")
-            diegetic_dir = self.clips_dir / "diegetic"
-            diegetic_dir.mkdir(parents=True, exist_ok=True)
-            diegetic_list_file = diegetic_dir / "diegetic_list.txt"
-            concat_lines = []
-
-            for s in scenes:
-                scene_id = s["id"]
-                dur = s["duration_sec"]
-                start = s.get("source_start", 0.0)
-                d_clip = diegetic_dir / f"{scene_id}_diegetic.wav"
-
-                extract_cmd = [
-                    "ffmpeg", "-y",
-                    "-ss", f"{start:.3f}",
-                    "-i", str(source_video),
-                    "-t", f"{dur:.3f}",
-                    "-vn", "-ar", "48000", "-ac", "2",
-                    str(d_clip)
-                ]
-                subprocess.run(extract_cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-                concat_lines.append(f"file '{d_clip.resolve()}'")
-
-            diegetic_list_file.write_text("\n".join(concat_lines), encoding="utf-8")
-            diegetic_concat_wav = self.clips_dir / "diegetic_concatenated.wav"
-            cat_cmd = [
-                "ffmpeg", "-y",
-                "-f", "concat", "-safe", "0",
-                "-i", str(diegetic_list_file),
-                "-c", "copy",
-                str(diegetic_concat_wav)
-            ]
-            subprocess.run(cat_cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-            print(f"✅ Diegetic movie audio concatenated: {diegetic_concat_wav}")
-
-        # Assemble final video with voiceover, tension pad & ASS subtitles
+        # Assemble final video with pristine master voiceover & ASS subtitles
         temp_dir = str(self.output_dir / "temp_assembly")
         assemble_final_video(
             scene_clips=rendered_clips,
             audio_path=str(self.master_audio_file),
             ass_subtitle_path=str(self.subtitles_ass_file),
             output_mp4=str(self.master_1080p_file),
-            temp_dir=temp_dir,
-            diegetic_audio_path=str(diegetic_concat_wav) if diegetic_concat_wav and diegetic_concat_wav.exists() else None
+            temp_dir=temp_dir
         )
 
         if os.path.exists(temp_dir):
@@ -1026,14 +975,15 @@ export const RemotionRoot: React.FC = () => {{
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL)
 
         # Style thumbnail with high contrast text badge
-        badge_text = self.topic.upper().replace(":", "\\:").replace("'", "")
+        clean_movie = self.movie.upper().replace(":", "\\:").replace("'", "").replace("%", "")
+        badge_text = self.topic.upper().replace(":", "\\:").replace("'", "").replace("%", "")
         vf = (
             f"scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,"
             f"eq=contrast=1.2:saturation=1.25:brightness=-0.04,"
             f"drawbox=x=0:y=650:w=1080:h=320:color=black@0.85:t=fill,"
             f"drawbox=x=0:y=648:w=1080:h=3:color='#ffd166'@0.9:t=fill,"
             f"drawbox=x=0:y=970:w=1080:h=3:color='#ffd166'@0.9:t=fill,"
-            f"drawtext=fontfile='{FONT_PATH}':text='{self.movie.upper()}':fontcolor='#00ffff':fontsize=48:x=(w-text_w)/2:y=700:shadowcolor=black@0.9:shadowx=3:shadowy=3,"
+            f"drawtext=fontfile='{FONT_PATH}':text='{clean_movie}':fontcolor='#00ffff':fontsize=48:x=(w-text_w)/2:y=700:shadowcolor=black@0.9:shadowx=3:shadowy=3,"
             f"drawtext=fontfile='{FONT_PATH}':text='{badge_text[:28]}':fontcolor='#ffffff':fontsize=62:x=(w-text_w)/2:y=780:shadowcolor=black@0.9:shadowx=4:shadowy=4,"
             f"drawtext=fontfile='{FONT_PATH}':text='EXPLAINED':fontcolor='#ffd166':fontsize=54:x=(w-text_w)/2:y=870:shadowcolor=black@0.9:shadowx=3:shadowy=3"
         )

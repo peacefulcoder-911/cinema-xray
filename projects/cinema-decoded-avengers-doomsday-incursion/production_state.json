@@ -1,0 +1,103 @@
+{
+  "movie": "Avengers: Doomsday",
+  "topic": "The Multiverse Incursion Disaster",
+  "slug": "avengers-doomsday-incursion",
+  "script_sha256": "a83d87ab0bfbf5bc8deeef5031341cf00c92a4885bc98a8521fd6c1ddabfb4a5",
+  "created_at": "2026-11-22T03:18:13Z",
+  "updated_at": "2026-11-22T03:21:53Z",
+  "completed_stages": [
+    "STAGE_01_RESEARCH",
+    "STAGE_02_AUDIO",
+    "STAGE_03_SUBTITLES",
+    "STAGE_04_STORYBOARD",
+    "STAGE_05_ASSETS",
+    "STAGE_06_REMOTION",
+    "STAGE_07_RENDER_1080P",
+    "STAGE_08_UPSCALE_8K",
+    "STAGE_09_THUMBNAIL",
+    "STAGE_10_QC",
+    "STAGE_11_REGISTRATION"
+  ],
+  "stage_timings": {
+    "STAGE_01_RESEARCH": 0.0,
+    "STAGE_02_AUDIO": 3.33,
+    "STAGE_03_SUBTITLES": 4.21,
+    "STAGE_04_STORYBOARD": 0.0,
+    "STAGE_05_ASSETS": 0.01,
+    "STAGE_06_REMOTION": 0.0,
+    "STAGE_07_RENDER_1080P": 50.33,
+    "STAGE_08_UPSCALE_8K": 105.87,
+    "STAGE_09_THUMBNAIL": 0.31,
+    "STAGE_10_QC": 2.27,
+    "STAGE_11_REGISTRATION": 0.01
+  },
+  "paths": {
+    "project_dir": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion",
+    "script_file": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/script/approved_script.txt",
+    "master_audio": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/assets/narration/master_narration.wav",
+    "subtitles_ass": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/subtitles.ass",
+    "subtitles_json": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/subtitles.json",
+    "scene_plan": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/scene_plan.json",
+    "master_1080p": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/output/cinema_xray_avengers-doomsday-incursion_1080p.mp4",
+    "master_8k": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/output/cinema_xray_avengers-doomsday-incursion_8k.mp4",
+    "thumbnail": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/output/thumbnail_avengers-doomsday-incursion.jpg"
+  },
+  "qc_metrics": {
+    "movie": "Avengers: Doomsday",
+    "topic": "The Multiverse Incursion Disaster",
+    "duration_sec": 40.733333,
+    "dimensions": "1080x1920",
+    "codec": "h264",
+    "aspect_ratio": "9:16 Vertical",
+    "audio_max_volume_db": -0.4,
+    "audio_mean_volume_db": -21.9,
+    "clipping_detected": false,
+    "forbidden_sfx_detected": false,
+    "framing_compliance": "70% Active Cinematic Viewport (1080x1344 @ Y=288)",
+    "subtitle_compliance": "Arc Reactor Cyan HUD (MarginV 360, Futura 74pt)",
+    "status": "PASSED",
+    "qc_frames": [
+      {
+        "name": "qc_01_hook",
+        "timestamp": 0.5,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/output/qc_frames/qc_01_hook.png"
+      },
+      {
+        "name": "qc_02_premise",
+        "timestamp": 5.0,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/output/qc_frames/qc_02_premise.png"
+      },
+      {
+        "name": "qc_03_detail_1",
+        "timestamp": 12.0,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/output/qc_frames/qc_03_detail_1.png"
+      },
+      {
+        "name": "qc_04_midpoint",
+        "timestamp": 20.0,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/output/qc_frames/qc_04_midpoint.png"
+      },
+      {
+        "name": "qc_05_evidence",
+        "timestamp": 28.0,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/output/qc_frames/qc_05_evidence.png"
+      },
+      {
+        "name": "qc_06_detail_2",
+        "timestamp": 36.0,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/output/qc_frames/qc_06_detail_2.png"
+      },
+      {
+        "name": "qc_07_climax",
+        "timestamp": 40.533333,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/output/qc_frames/qc_07_climax.png"
+      },
+      {
+        "name": "qc_08_payoff",
+        "timestamp": 39.733333,
+        "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-avengers-doomsday-incursion/output/qc_frames/qc_08_payoff.png"
+      }
+    ]
+  },
+  "audio_duration": 40.124083
+}
