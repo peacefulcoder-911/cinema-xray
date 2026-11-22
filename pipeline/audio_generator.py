@@ -20,7 +20,7 @@ from google.genai import types
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-ELEVENLABS_VOICE_ID = os.environ.get("ELEVENLABS_VOICE_ID", "VCgLBmBjldJmfphyB8sZ")  # Liam - Viral Short-Form Storyteller
+ELEVENLABS_VOICE_ID = os.environ.get("ELEVENLABS_VOICE_ID", "nPczCjzI2devNBz1zQrb")  # Brian - Deep Resonant Baritone
 ELEVENLABS_MODEL_ID = "eleven_multilingual_v2"
 
 
@@ -47,13 +47,14 @@ def _get_api_client():
 
 
 def _synthesize_elevenlabs(script_text: str, temp_wav_path: str) -> bool:
-    """Synthesizes studio voiceover using ElevenLabs Liam voice."""
+    """Synthesizes studio voiceover using ElevenLabs Brian voice."""
     _load_env()
     api_key = os.environ.get("ELEVENLABS_API_KEY")
     if not api_key:
         return False
 
-    url = f"https://api.elevenlabs.io/v1/text-to-speech/{ELEVENLABS_VOICE_ID}"
+    voice_id = os.environ.get("ELEVENLABS_VOICE_ID", ELEVENLABS_VOICE_ID)
+    url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
     clean_text = " ".join(script_text.strip().split())
     headers = {
         "xi-api-key": api_key,
@@ -63,15 +64,15 @@ def _synthesize_elevenlabs(script_text: str, temp_wav_path: str) -> bool:
         "text": clean_text,
         "model_id": ELEVENLABS_MODEL_ID,
         "voice_settings": {
-            "stability": 0.50,
-            "similarity_boost": 0.75,
-            "style": 0.35,
+            "stability": 0.35,
+            "similarity_boost": 0.78,
+            "style": 0.48,
             "use_speaker_boost": True
         }
     }
 
     try:
-        print(f"[ElevenLabs TTS] Connecting to Liam ({ELEVENLABS_VOICE_ID})...")
+        print(f"[ElevenLabs TTS] Connecting to Brian ({voice_id})...")
         res = requests.post(url, json=payload, headers=headers, timeout=60)
         if res.status_code == 200:
             os.makedirs(os.path.dirname(temp_wav_path), exist_ok=True)
@@ -89,7 +90,7 @@ def _synthesize_elevenlabs(script_text: str, temp_wav_path: str) -> bool:
             subprocess.run(cmd, check=True)
             if os.path.exists(temp_mp3):
                 os.remove(temp_mp3)
-            print(f"✅ Synthesized successfully via ElevenLabs (Liam - {ELEVENLABS_VOICE_ID})")
+            print(f"✅ Synthesized successfully via ElevenLabs (Brian - {voice_id})")
             return True
         else:
             print(f"[ElevenLabs TTS] API note: {res.status_code} - {res.text[:200]}")
@@ -263,11 +264,11 @@ def _apply_loudness_normalization(input_wav: str, output_wav: str, target_peak_d
         gain_db = target_peak_db - max_vol
         gain_db = max(-12.0, min(12.0, gain_db))
 
-    print(f"[Audio Mastering] Measured max volume: {max_vol} dB -> Applying linear gain: {gain_db:+.1f} dB (Zero AGC pumping)")
+    print(f"[Audio Mastering] Measured max volume: {max_vol} dB -> Applying linear gain: {gain_db:+.1f} dB (Zero AGC pumping, broadcast vocal EQ)")
     cmd = [
         "ffmpeg", "-y", "-v", "quiet",
         "-i", input_wav,
-        "-af", f"volume={gain_db:.2f}dB",
+        "-af", f"highpass=f=75,equalizer=f=320:t=q:w=1.2:g=-2.5,equalizer=f=9000:t=h:g=2.0,volume={gain_db:.2f}dB",
         "-ar", "48000",
         "-c:a", "pcm_s16le",
         output_wav

@@ -160,16 +160,17 @@ def assemble_final_video(
     audio_path: str,
     ass_subtitle_path: str,
     output_mp4: str,
-    temp_dir: str
+    temp_dir: str,
+    diegetic_audio_path: str = None
 ):
     """
-    Concatenates video clips, mixes audio with ambient tension score, and burns subtitles.
+    Concatenates video clips, mixes audio with broadcast dynamic ducking,
+    atmospheric tension drone, and optional diegetic movie sound, then burns subtitles.
     FAIL-SAFE ARCHITECTURE:
     1. Probes voiceover duration and sets target master duration with +0.6s breathing room.
-    2. Detects if video clips are shorter than audio, and automatically applies tpad frame-hold
-       so video never ends prematurely before narration finishes.
+    2. Detects if video clips are shorter than audio, and automatically applies tpad frame-hold.
     3. Fades out audio smoothly over the last 0.35s to prevent abrupt pops.
-    4. Guarantees 100% audio and dialogue completion.
+    4. Sidechain ducks diegetic movie audio and ambient score whenever voice speaks.
     """
     os.makedirs(temp_dir, exist_ok=True)
     os.makedirs(os.path.dirname(output_mp4), exist_ok=True)
@@ -205,22 +206,55 @@ def assemble_final_video(
     vf_chain.append(f"ass={ass_subtitle_path}")
     vf_filter = ",".join(vf_chain)
 
-    # 4. Synthesize subtle cinematic tension score & mix with voiceover
+    # 4. Synthesize subtle cinematic tension score & mix with voiceover + diegetic movie clip audio
     mixed_audio = os.path.join(temp_dir, "mixed_audio.wav")
-    mix_cmd = [
-        "ffmpeg", "-y",
-        "-f", "lavfi", "-i", f"sine=f=55:d={target_master_dur},volume=0.07,lowpass=f=120",
-        "-f", "lavfi", "-i", f"anoisesrc=d={target_master_dur}:c=pink:r=24000:a=0.02,lowpass=f=400,volume=0.10",
-        "-i", audio_path,
-        "-filter_complex",
-        f"[0:a][1:a]amix=inputs=2:duration=first[amb];"
-        f"[2:a]apad=pad_dur={round(target_master_dur - audio_dur, 2)},volume=1.25[vocal];"
-        f"[amb][vocal]amix=inputs=2:duration=first:dropout_transition=2,"
-        f"afade=t=out:st={round(target_master_dur - 0.35, 2)}:d=0.35[outa]",
-        "-map", "[outa]",
-        "-c:a", "pcm_s16le",
-        mixed_audio
-    ]
+    pad_dur = max(0.0, round(target_master_dur - audio_dur, 2))
+    
+    if diegetic_audio_path and os.path.exists(diegetic_audio_path) and os.path.getsize(diegetic_audio_path) > 1000:
+        print("[Audio Mastering] Integrating Diegetic Movie Audio with Dynamic Sidechain Ducking...")
+        # 4 inputs: 0=sine 52Hz drone, 1=pink noise, 2=vocal audio, 3=diegetic movie audio
+        mix_cmd = [
+            "ffmpeg", "-y",
+            "-f", "lavfi", "-i", f"sine=f=52:d={target_master_dur},volume=0.06,lowpass=f=110",
+            "-f", "lavfi", "-i", f"anoisesrc=d={target_master_dur}:c=pink:r=48000:a=0.012,lowpass=f=350,volume=0.08",
+            "-i", audio_path,
+            "-i", diegetic_audio_path,
+            "-filter_complex",
+            # Prepare vocal with zero-cutoff padding
+            f"[2:a]apad=pad_dur={pad_dur},volume=1.0[vocal];"
+            # Filter diegetic movie audio: remove low rumble (<110Hz) & harsh highs (>4kHz), scale volume
+            f"[3:a]apad=pad_dur={target_master_dur},highpass=f=110,lowpass=f=4000,volume=0.50[diefilt];"
+            # Dynamic Sidechain compression: duck diegetic audio whenever vocal is present
+            f"[diefilt][vocal]sidechaincompress=threshold=0.08:ratio=4.5:attack=15:release=320[ducked_diegetic];"
+            # Combine drone + pink noise
+            f"[0:a][1:a]amix=inputs=2:duration=first:weights=0.5 0.5:normalize=0[sub_bed];"
+            # Mix sub-bass bed with ducked diegetic sound
+            f"[sub_bed][ducked_diegetic]amix=inputs=2:duration=first:weights=0.4 0.7:normalize=0[full_bg];"
+            # Final mix with vocal, smooth outro fade, and broadcast EBU R128 mastering
+            f"[full_bg][vocal]amix=inputs=2:duration=first:weights=0.35 1.0:normalize=0,"
+            f"afade=t=out:st={round(target_master_dur - 0.35, 2)}:d=0.35,"
+            f"loudnorm=I=-14:LRA=7:tp=-1.0[outa]",
+            "-map", "[outa]",
+            "-c:a", "pcm_s16le",
+            mixed_audio
+        ]
+    else:
+        # Standard ambient tension mix without diegetic layer
+        mix_cmd = [
+            "ffmpeg", "-y",
+            "-f", "lavfi", "-i", f"sine=f=52:d={target_master_dur},volume=0.06,lowpass=f=110",
+            "-f", "lavfi", "-i", f"anoisesrc=d={target_master_dur}:c=pink:r=48000:a=0.012,lowpass=f=350,volume=0.08",
+            "-i", audio_path,
+            "-filter_complex",
+            f"[0:a][1:a]amix=inputs=2:duration=first:weights=0.5 0.5:normalize=0[amb];"
+            f"[2:a]apad=pad_dur={pad_dur},volume=1.0[vocal];"
+            f"[amb][vocal]amix=inputs=2:duration=first:weights=0.35 1.0:normalize=0,"
+            f"afade=t=out:st={round(target_master_dur - 0.35, 2)}:d=0.35,"
+            f"loudnorm=I=-14:LRA=7:tp=-1.0[outa]",
+            "-map", "[outa]",
+            "-c:a", "pcm_s16le",
+            mixed_audio
+        ]
     subprocess.run(mix_cmd, check=True, stdout=subprocess.DEVNULL)
 
     # 5. Burn ASS subtitles and output final 1080x1920 MP4

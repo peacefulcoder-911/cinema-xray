@@ -902,6 +902,57 @@ export const RemotionRoot: React.FC = () => {{
             subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL)
             rendered_clips.append(str(out_clip))
 
+        # Extract diegetic movie audio slices from source_video if audio stream exists
+        diegetic_concat_wav = None
+        has_audio = False
+        try:
+            probe_cmd = [
+                "ffprobe", "-v", "error", "-select_streams", "a:0",
+                "-show_entries", "stream=codec_name", "-of", "default=noprint_wrappers=1",
+                str(source_video)
+            ]
+            probe_res = subprocess.run(probe_cmd, capture_output=True, text=True)
+            if "codec_name=" in probe_res.stdout:
+                has_audio = True
+        except Exception:
+            has_audio = False
+
+        if has_audio:
+            print("🔊 Extracting diegetic movie audio slices from source footage...")
+            diegetic_dir = self.clips_dir / "diegetic"
+            diegetic_dir.mkdir(parents=True, exist_ok=True)
+            diegetic_list_file = diegetic_dir / "diegetic_list.txt"
+            concat_lines = []
+
+            for s in scenes:
+                scene_id = s["id"]
+                dur = s["duration_sec"]
+                start = s.get("source_start", 0.0)
+                d_clip = diegetic_dir / f"{scene_id}_diegetic.wav"
+
+                extract_cmd = [
+                    "ffmpeg", "-y",
+                    "-ss", f"{start:.3f}",
+                    "-i", str(source_video),
+                    "-t", f"{dur:.3f}",
+                    "-vn", "-ar", "48000", "-ac", "2",
+                    str(d_clip)
+                ]
+                subprocess.run(extract_cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                concat_lines.append(f"file '{d_clip.resolve()}'")
+
+            diegetic_list_file.write_text("\n".join(concat_lines), encoding="utf-8")
+            diegetic_concat_wav = self.clips_dir / "diegetic_concatenated.wav"
+            cat_cmd = [
+                "ffmpeg", "-y",
+                "-f", "concat", "-safe", "0",
+                "-i", str(diegetic_list_file),
+                "-c", "copy",
+                str(diegetic_concat_wav)
+            ]
+            subprocess.run(cat_cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            print(f"✅ Diegetic movie audio concatenated: {diegetic_concat_wav}")
+
         # Assemble final video with voiceover, tension pad & ASS subtitles
         temp_dir = str(self.output_dir / "temp_assembly")
         assemble_final_video(
@@ -909,7 +960,8 @@ export const RemotionRoot: React.FC = () => {{
             audio_path=str(self.master_audio_file),
             ass_subtitle_path=str(self.subtitles_ass_file),
             output_mp4=str(self.master_1080p_file),
-            temp_dir=temp_dir
+            temp_dir=temp_dir,
+            diegetic_audio_path=str(diegetic_concat_wav) if diegetic_concat_wav and diegetic_concat_wav.exists() else None
         )
 
         if os.path.exists(temp_dir):

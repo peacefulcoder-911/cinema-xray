@@ -25,11 +25,11 @@
 ---
 
 ## 3. TECHNICAL SPECIFICATIONS & QC AUDIT
-- **Total Master Duration:** 46.97 seconds
+- **Total Master Duration:** 51.87 seconds
 - **Frame Rate:** 30.000 FPS (Constant)
 - **Active Framing:** 1080x1344 (70% screen height @ Y=288)
-- **Audio Peak:** -5.10 dBFS (Broadcast compliant, zero digital clipping)
-- **Audio Mean:** -21.40 dBFS
+- **Audio Peak:** -0.70 dBFS (Broadcast compliant, zero digital clipping)
+- **Audio Mean:** -14.20 dBFS
 - **Sound Design Restrictions:** 100% COMPLIANT (Zero whoosh, swoosh, swish, riser, sweep, or cymbal SFX)
 - **Acoustic Cadence:** Single-shot continuous Liam narration (Zero artificial pause gaps)
 - **Verification Keyframes:** 8 extracted keyframes verified in [`qc_frames/`](file:///Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-fight-club-narrator-no-name/output/qc_frames)
@@ -38,17 +38,17 @@
 
 ## 4. STAGE TIMINGS & PERFORMANCE
 - **STAGE_01_RESEARCH:** 0.00s (0.00 min)
-- **STAGE_02_AUDIO:** 4.12s (0.07 min)
-- **STAGE_03_SUBTITLES:** 5.91s (0.10 min)
+- **STAGE_02_AUDIO:** 3.95s (0.07 min)
+- **STAGE_03_SUBTITLES:** 5.98s (0.10 min)
 - **STAGE_04_STORYBOARD:** 0.00s (0.00 min)
-- **STAGE_05_ASSETS:** 0.02s (0.00 min)
+- **STAGE_05_ASSETS:** 0.00s (0.00 min)
 - **STAGE_06_REMOTION:** 0.00s (0.00 min)
-- **STAGE_07_RENDER_1080P:** 63.03s (1.05 min)
-- **STAGE_08_UPSCALE_8K:** 119.49s (1.99 min)
-- **STAGE_09_THUMBNAIL:** 0.25s (0.00 min)
-- **STAGE_10_QC:** 2.43s (0.04 min)
+- **STAGE_07_RENDER_1080P:** 74.64s (1.24 min)
+- **STAGE_08_UPSCALE_8K:** 144.37s (2.41 min)
+- **STAGE_09_THUMBNAIL:** 0.24s (0.00 min)
+- **STAGE_10_QC:** 2.48s (0.04 min)
 - **STAGE_11_REGISTRATION:** 0.01s (0.00 min)
-- **TOTAL PIPELINE RUNTIME:** 195.26s (3.25 min)
+- **TOTAL PIPELINE RUNTIME:** 231.67s (3.86 min)
 
 ---
 

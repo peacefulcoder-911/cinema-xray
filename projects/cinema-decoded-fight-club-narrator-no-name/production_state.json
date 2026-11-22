@@ -4,7 +4,7 @@
   "slug": "fight-club-narrator-no-name",
   "script_sha256": "17c95ddeeb8864319b6f224a7ce4400808ce1371fe1636139d81fa4a5f953b80",
   "created_at": "2026-11-21T08:40:57Z",
-  "updated_at": "2026-11-21T08:44:13Z",
+  "updated_at": "2026-11-22T03:10:31Z",
   "completed_stages": [
     "STAGE_01_RESEARCH",
     "STAGE_02_AUDIO",
@@ -20,15 +20,15 @@
   ],
   "stage_timings": {
     "STAGE_01_RESEARCH": 0.0,
-    "STAGE_02_AUDIO": 4.12,
-    "STAGE_03_SUBTITLES": 5.91,
+    "STAGE_02_AUDIO": 3.95,
+    "STAGE_03_SUBTITLES": 5.98,
     "STAGE_04_STORYBOARD": 0.0,
-    "STAGE_05_ASSETS": 0.02,
+    "STAGE_05_ASSETS": 0.0,
     "STAGE_06_REMOTION": 0.0,
-    "STAGE_07_RENDER_1080P": 63.03,
-    "STAGE_08_UPSCALE_8K": 119.49,
-    "STAGE_09_THUMBNAIL": 0.25,
-    "STAGE_10_QC": 2.43,
+    "STAGE_07_RENDER_1080P": 74.64,
+    "STAGE_08_UPSCALE_8K": 144.37,
+    "STAGE_09_THUMBNAIL": 0.24,
+    "STAGE_10_QC": 2.48,
     "STAGE_11_REGISTRATION": 0.01
   },
   "paths": {
@@ -45,12 +45,12 @@
   "qc_metrics": {
     "movie": "Fight Club",
     "topic": "The Real Reason the Narrator Never Has a Name",
-    "duration_sec": 46.966667,
+    "duration_sec": 51.87,
     "dimensions": "1080x1920",
     "codec": "h264",
     "aspect_ratio": "9:16 Vertical",
-    "audio_max_volume_db": -5.1,
-    "audio_mean_volume_db": -21.4,
+    "audio_max_volume_db": -0.7,
+    "audio_mean_volume_db": -14.2,
     "clipping_detected": false,
     "forbidden_sfx_detected": false,
     "framing_compliance": "70% Active Cinematic Viewport (1080x1344 @ Y=288)",
@@ -94,12 +94,12 @@
       },
       {
         "name": "qc_08_payoff",
-        "timestamp": 45.966667,
+        "timestamp": 50.87,
         "path": "/Users/vinaybt/Downloads/cinema-xray/projects/cinema-decoded-fight-club-narrator-no-name/output/qc_frames/qc_08_payoff.png"
       }
     ]
   },
-  "audio_duration": 46.347042,
+  "audio_duration": 51.269667,
   "youtube_video_id": "5pm7UT-NsZY",
   "youtube_url": "https://youtu.be/5pm7UT-NsZY",
   "scheduled_slot": "2026-11-22T07:00:00Z"
